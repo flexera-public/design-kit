@@ -5,8 +5,9 @@ version 0.11.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `grunt` for building, `grunt serve` for preview and `grunt deploy` to deploy to Surge.
 
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
