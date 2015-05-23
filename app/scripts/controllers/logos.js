@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name skrillexApp.controller:MainCtrl
+ * @name skrillexApp.controller:LogosCtrl
  * @description
- * # MainCtrl
+ * # LogosCtrl
  * Controller of the skrillexApp
  */
 angular.module('skrillexApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('LogosCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

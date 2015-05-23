@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name skrillexApp.controller:AboutCtrl
+ * @name skrillexApp.controller:ColorsCtrl
  * @description
- * # AboutCtrl
+ * # ColorsCtrl
  * Controller of the skrillexApp
  */
 angular.module('skrillexApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('ColorsCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
