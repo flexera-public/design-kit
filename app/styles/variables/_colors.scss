@@ -57,7 +57,7 @@ $body: #F4F5F7;
 
 // 1.5 - Border Colors
 $grey-border: #D1D6DC;
-$light-grey-border: lighten($grey-border,6%);
+$grey-border-light: lighten($grey-border,6%);
 
 // 1.6 - Icon Colors
 $grey-icon: #8596A5;
@@ -75,9 +75,7 @@ $inline-highlight: #E2E5E9;
 $messaging-background: #FFF7E5;
 $messaging-text: #939182;
 
-// 1.9 - Header Flat Colour
+// 1.9 - Header Colors
 $header-flat: #0069CC;
-
-// 1.10 Header
 $header-gradient-start: #076cca;
 $header-gradient-end: #065bac;
