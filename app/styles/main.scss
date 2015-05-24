@@ -293,4 +293,19 @@ section {
     background-color: $sith-icon;
     border-color: darken($sith-icon, 5);
   }
+  &.swatch-hover-highlight {
+    background-color: $hover-highlight;
+    border-color: darken($hover-highlight, 5);
+    color: $heading;
+  }
+  &.swatch-select-highlight {
+    background-color: $select-highlight;
+    border-color: darken($select-highlight, 5);
+    color: $heading;
+  }
+  &.swatch-inline-highlight {
+    background-color: $inline-highlight;
+    border-color: darken($inline-highlight, 5);
+    color: $heading;
+  }
 }
