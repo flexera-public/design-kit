@@ -337,4 +337,16 @@ section {
     background-color: $messaging-text;
     border-color: darken($messaging-text, 5);
   }
+  &.swatch-header-flat {
+    background-color: $header-flat;
+    border-color: darken($header-flat, 5);
+  }
+  &.swatch-header-gradient-start {
+    background-color: $header-gradient-start;
+    border-color: darken($header-gradient-start, 5);
+  }
+  &.swatch-header-gradient-end {
+    background-color: $header-gradient-end;
+    border-color: darken($header-gradient-end, 5);
+  }
 }
