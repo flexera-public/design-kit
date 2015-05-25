@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/colors.html',
         controller: 'ColorsCtrl'
       })
+      .when('/typography', {
+        templateUrl: 'views/typography.html',
+        controller: 'TypographyCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

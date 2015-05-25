@@ -96,8 +96,13 @@ body { padding-top: 70px; }
 .topbar-nav {
   @extend .nav;
   @extend .navbar-nav;
+  @extend .navbar-right;
   @extend .hidden-lg;
   @extend .hidden-md;
+}
+
+.navbar-brand {
+  padding: 18px 15px;
 }
 
 // Sidebar
@@ -348,5 +353,27 @@ section {
   &.swatch-header-gradient-end {
     background-color: $header-gradient-end;
     border-color: darken($header-gradient-end, 5);
+  }
+}
+
+.type-container {
+  font-size: rem(48);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 1.4rem;
+  margin-bottom: 2.4rem;
+  color: $heading;
+  &.has-helvetica {
+    font-family: $helvetica;
+  }
+  &.has-bariol {
+    font-family: $bariol;
+  }
+  span {
+    color: $text;
+    font-family: $helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
   }
 }
