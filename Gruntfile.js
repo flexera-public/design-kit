@@ -428,7 +428,7 @@ module.exports = function (grunt) {
           // The path to compiled project
           project: 'dist/',
           // The domain to deploy to
-          domain: 'thoughtless-friends.surge.sh'
+          domain: 'fancy-scale.surge.sh'
         }
       }
     }
