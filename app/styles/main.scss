@@ -52,7 +52,7 @@ $em-base:                 10px;
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/print";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/glyphicons";
 
-// Core CSS
+// Core
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/type";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/code";
@@ -73,11 +73,11 @@ $em-base:                 10px;
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/panels";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/close";
 
-// Utility classes
+// Utility
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
-// Main Styles
+// Global
 html,body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -93,16 +93,21 @@ body { padding-top: 70px; }
 }
 
 // Topbar
+.topbar {
+  @extend .navbar;
+  @extend .navbar-default;
+  @extend .navbar-fixed-top;
+  .navbar-brand {
+    padding: 18px 15px;
+  }
+}
+
 .topbar-nav {
   @extend .nav;
   @extend .navbar-nav;
   @extend .navbar-right;
   @extend .hidden-lg;
   @extend .hidden-md;
-}
-
-.navbar-brand {
-  padding: 18px 15px;
 }
 
 // Sidebar
@@ -123,6 +128,7 @@ body { padding-top: 70px; }
   }
 }
 
+// Layout
 section {
   article {
   }
@@ -132,13 +138,13 @@ section {
     margin-top: 1px;
   }
   .logo-container {
-    width: 100%;
-    height: 250px;
-    border-radius: 1px;
-    position: relative;
     background-color: $left-background-dark;
-    text-align: center;
+    border-radius: 1px;
+    height: 250px;
     margin-bottom: 2.4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
     @media screen and (max-width: $screen-sm) {
       height: 160px;
     }
@@ -156,14 +162,14 @@ section {
     }
   }
   .mark-container {
-    width: 100%;
-    height: 250px;
-    border-radius: 1px;
-    position: relative;
     background-color: #fff;
+    border-radius: 1px;
     border: 1px solid $grey-border;
-    text-align: center;
+    height: 250px;
     margin-bottom: 2.4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
     @media screen and (max-width: $screen-sm) {
       height: 160px;
     }
@@ -175,18 +181,50 @@ section {
       width: 30%;
     }
   }
+  .type-container {
+    background-color: #fff;
+    border: 1px solid $grey-border;
+    border-radius: 1px;
+    color: $heading;
+    font-size: rem(32);
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 1.4rem;
+    margin-bottom: 2.4rem;
+    padding: 20px 15px;
+    position: relative;
+    &.has-helvetica {
+      font-family: $helvetica;
+    }
+    &.has-bariol {
+      font-family: $bariol;
+    }
+    h2 {
+      color: $text;
+      font-family: $helvetica;
+      font-size: 12px;
+      font-weight: 700;
+      display: block;
+      margin: 4px 0 4px;
+    }
+    .type-font {
+      font-size: rem(48);
+      font-weight: 700;
+    }
+  }
 }
 
+// Color Swatch
 .swatch {
+  border-radius: 1px;
   border: 1px solid #eceded;
   color: #fff;
-  border-radius: 1px;
   font-size: 12px;
   font-weight: 700;
   height: 168px;
+  margin-bottom: 2.4rem;
   padding: 15px;
   position: relative;
-  margin-bottom: 2.4rem;
   .swatch-footer {
     opacity: 0.5;
     bottom: 15px;
@@ -356,24 +394,3 @@ section {
   }
 }
 
-.type-container {
-  font-size: rem(48);
-  font-weight: 400;
-  line-height: 1.1;
-  margin-top: 1.4rem;
-  margin-bottom: 2.4rem;
-  color: $heading;
-  &.has-helvetica {
-    font-family: $helvetica;
-  }
-  &.has-bariol {
-    font-family: $bariol;
-  }
-  span {
-    color: $text;
-    font-family: $helvetica;
-    font-size: 12px;
-    font-weight: 700;
-    display: block;
-  }
-}
