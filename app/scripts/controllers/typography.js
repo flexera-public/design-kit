@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name skrillexApp.controller:TypographyCtrl
+ * @name designkitApp.controller:TypographyCtrl
  * @description
  * # TypographyCtrl
- * Controller of the skrillexApp
+ * Controller of the designkitApp
  */
-angular.module('skrillexApp')
+angular.module('designkitApp')
   .controller('TypographyCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

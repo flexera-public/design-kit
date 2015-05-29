@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name skrillexApp.controller:LogosCtrl
+ * @name designkitApp.controller:LogosCtrl
  * @description
  * # LogosCtrl
- * Controller of the skrillexApp
+ * Controller of the designkitApp
  */
-angular.module('skrillexApp')
+angular.module('designkitApp')
   .controller('LogosCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

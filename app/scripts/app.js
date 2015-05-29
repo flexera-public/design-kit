@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name skrillexApp
+ * @name designkitApp
  * @description
- * # skrillexApp
+ * # designkitApp
  *
  * Main module of the application.
  */
 angular
-  .module('skrillexApp', [
+  .module('designkitApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
