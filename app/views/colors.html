@@ -1,4 +1,4 @@
-<section>
+<section class="hide">
   <article>
     <h1>Brand Colors</h1>
     <div class="row">
@@ -287,6 +287,20 @@
         <div class="swatch swatch-header-gradient-end">
           Header Gradient End
           <span class="swatch-footer">#065BAC</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section ng-controller="ColorsCtrl">
+  <article ng-repeat="(key, value) in colors | groupBy: 'section'">
+    <h1>{{ key }}</h1>
+    <div class="row">
+      <div class="col-md-2" ng-repeat="color in value">
+        <div class="swatch {{ color.item.selector }}">
+          {{ color.item.name }}
+          <span class="swatch-footer">{{ color.item.hex }}</span>
         </div>
       </div>
     </div>
