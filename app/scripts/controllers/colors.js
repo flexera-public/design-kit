@@ -225,6 +225,105 @@ angular.module('designkitApp')
           hex: '#F4F5F7',
           selector: 'swatch-body',
         }
+      },
+      {
+        id: 25,
+        section: 'Border Colors',
+        item: {
+          name: 'Grey Border',
+          hex: '#D1D6DC',
+          selector: 'swatch-grey-border',
+        }
+      },
+      {
+        id: 26,
+        section: 'Border Colors',
+        item: {
+          name: 'Grey Border (Light)',
+          hex: '#E2E5E9',
+          selector: 'swatch-grey-border-light',
+        }
+      },
+      {
+        id: 27,
+        section: 'Icon Colors',
+        item: {
+          name: 'Grey Icon',
+          hex: '#8596A5',
+          selector: 'swatch-grey-icon',
+        }
+      },
+      {
+        id: 28,
+        section: 'Icon Colors',
+        item: {
+          name: 'Grey Icon (Highlight)',
+          hex: '#A2AFBA',
+          selector: 'swatch-grey-icon-highlight',
+        }
+      },
+      {
+        id: 29,
+        section: 'Icon Colors',
+        item: {
+          name: 'Blue Icon',
+          hex: '#2390F7',
+          selector: 'swatch-blue-icon',
+        }
+      },
+      {
+        id: 30,
+        section: 'Icon Colors',
+        item: {
+          name: 'Blue Icon (Highlight)',
+          hex: '#54A9F9',
+          selector: 'swatch-blue-icon-highlight',
+        }
+      },
+      {
+        id: 30,
+        section: 'Icon Colors',
+        item: {
+          name: 'Green Icon',
+          hex: '#80C11A',
+          selector: 'swatch-green-icon',
+        }
+      },
+      {
+        id: 31,
+        section: 'Icon Colors',
+        item: {
+          name: 'Sith Icon',
+          hex: '#30373C',
+          selector: 'swatch-sith-icon',
+        }
+      },
+      {
+        id: 32,
+        section: 'Highlight Colors',
+        item: {
+          name: 'Hover Highlight',
+          hex: '#FAFAFA',
+          selector: 'swatch-hover-highlight',
+        }
+      },
+      {
+        id: 33,
+        section: 'Highlight Colors',
+        item: {
+          name: 'Select Highlight',
+          hex: '#FAFAFA',
+          selector: 'swatch-select-highlight',
+        }
+      },
+      {
+        id: 34,
+        section: 'Highlight Colors',
+        item: {
+          name: 'Inline Highlight',
+          hex: '#FAFAFA',
+          selector: 'swatch-inline-highlight',
+        }
       }
     ];
   });
