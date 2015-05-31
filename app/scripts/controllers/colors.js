@@ -43,7 +43,16 @@ angular.module('designkitApp')
         item: {
           name: 'Royal Purple',
           hex: '#7355A6',
-          selector: 'swatch-fire-engine',
+          selector: 'swatch-royal-purple',
+        },
+      },
+      {
+        id: 4,
+        section: 'Brand Colors',
+        item: {
+          name: 'Buckthorn Orange',
+          hex: '#F7A626',
+          selector: 'swatch-buckthorn',
         }
       }
     ];
