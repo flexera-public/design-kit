@@ -324,6 +324,51 @@ angular.module('designkitApp')
           hex: '#FAFAFA',
           selector: 'swatch-inline-highlight',
         }
+      },
+      {
+        id: 35,
+        section: 'Messaging Colors',
+        item: {
+          name: 'Messaging Background',
+          hex: '#FFF7E5',
+          selector: 'swatch-messaging-background',
+        }
+      },
+      {
+        id: 36,
+        section: 'Messaging Colors',
+        item: {
+          name: 'Messaging Text',
+          hex: '#939182',
+          selector: 'swatch-messaging-text',
+        }
+      },
+      {
+        id: 37,
+        section: 'Header Colors',
+        item: {
+          name: 'Header Flat',
+          hex: '#0069CC',
+          selector: 'swatch-header-flat',
+        }
+      },
+      {
+        id: 38,
+        section: 'Header Colors',
+        item: {
+          name: 'Header Gradient Start',
+          hex: '#076CCA',
+          selector: 'swatch-header-gradient-start',
+        }
+      },
+      {
+        id: 39,
+        section: 'Header Colors',
+        item: {
+          name: 'Header Gradient End',
+          hex: '#065BAC',
+          selector: 'swatch-header-gradient-end',
+        }
       }
     ];
   });
