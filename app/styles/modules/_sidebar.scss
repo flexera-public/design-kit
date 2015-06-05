@@ -1,0 +1,16 @@
+.sidebar-nav {
+  @extend .nav;
+  @extend .nav-pills;
+  @extend .nav-stacked;
+  @extend .hidden-sm;
+  @extend .hidden-xs;
+  font-size: 1.3rem;
+  font-weight: bold;
+  li > a {
+    padding: 5px 0;
+    &:hover,
+    &:focus {
+      background-color: #fff;
+    }
+  }
+}

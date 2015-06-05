@@ -1,0 +1,84 @@
+section {
+  article {
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 30px;
+    margin-top: 1px;
+  }
+  .logo-container {
+    background-color: $left-background-dark;
+    border-radius: 1px;
+    height: 250px;
+    margin-bottom: 2.4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    @media screen and (max-width: $screen-sm) {
+      height: 160px;
+    }
+    img {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 72%;
+    }
+    &.has-main-logo {
+      img {
+        width: 50%;
+      }
+    }
+  }
+  .mark-container {
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid $grey-border;
+    height: 250px;
+    margin-bottom: 2.4rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    @media screen and (max-width: $screen-sm) {
+      height: 160px;
+    }
+    img {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30%;
+    }
+  }
+  .type-container {
+    background-color: #fff;
+    border: 1px solid $grey-border;
+    border-radius: 1px;
+    color: $heading;
+    font-size: rem(32);
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 1.4rem;
+    margin-bottom: 2.4rem;
+    padding: 20px 15px;
+    position: relative;
+    &.has-helvetica {
+      font-family: $helvetica;
+    }
+    &.has-bariol {
+      font-family: $bariol;
+    }
+    h2 {
+      color: $text;
+      font-family: $helvetica;
+      font-size: 12px;
+      font-weight: 700;
+      display: block;
+      margin: 4px 0 4px;
+    }
+    .type-font {
+      font-size: rem(48);
+      font-weight: 700;
+    }
+  }
+}
