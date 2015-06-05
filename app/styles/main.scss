@@ -1,5 +1,6 @@
 // Basic variables
 @import "variables/colors";
+
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 $gray-base:              #000;
@@ -392,6 +393,12 @@ section {
     background-color: $header-gradient-end;
     border-color: darken($header-gradient-end, 5);
   }
+}
+
+// Buttons
+@import "variables/buttons";
+.style_code {
+  padding: 20px 0 30px;
 }
 
 // Download Button

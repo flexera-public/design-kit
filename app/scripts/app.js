@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/typography.html',
         controller: 'TypographyCtrl'
       })
+       .when('/buttons', {
+        templateUrl: 'views/buttons.html',
+        controller: 'ButtonsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
