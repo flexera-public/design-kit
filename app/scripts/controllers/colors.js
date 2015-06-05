@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('ColorsCtrl', function ($scope,  $routeParams) {
+  .controller('ColorsCtrl', function ($scope, $rootScope, $routeParams) {
     $scope.colors = [
       {
         id: 1,
@@ -371,6 +371,9 @@ angular.module('designkitApp')
         }
       }
     ];
+
     $scope.colorId = $routeParams.colorId;
+
+    $rootScope.bodyClass = 'color-layout';
 
   });
