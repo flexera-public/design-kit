@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/colors.html',
         controller: 'ColorsCtrl'
       })
+      .when('/colors/:colorId', {
+        templateUrl: 'views/show_color.html',
+        controller: 'ColorsCtrl'
+      })
       .when('/typography', {
         templateUrl: 'views/typography.html',
         controller: 'TypographyCtrl'
