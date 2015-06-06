@@ -15,5 +15,7 @@ angular.module('designkitApp')
       'Karma'
     ];
 
-    $rootScope.bodyClass = 'logos-layout';
+    $scope.sectionClass = 'section-logos';
+    $rootScope.bodyClass = 'layout-logos';
+
   });

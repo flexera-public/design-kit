@@ -186,3 +186,31 @@
     display: block;
   }
 }
+
+// Todo: don't make it this hard
+.swatch-body-0a83f6 {
+  .topbar {
+    background-color: rgba(#000, 0.4);
+  }
+  background-color: #0A83F6;
+}
+.swatch-body-0a83f6 {
+  background-color: #0a83f6;
+}
+.swatch-body-80c11a {
+  background-color: #80c11a;
+}
+.swatch-body-c32525 {
+  background-color: #c32525;
+}
+
+.show-color {
+  padding: 2rem 0 0 0;
+  h1 {
+    font-size: 9rem;
+    line-height: 1;
+  }
+  h1, a {
+    color: #fff;
+  }
+}

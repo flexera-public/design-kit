@@ -14,5 +14,8 @@ angular.module('designkitApp')
       'AngularJS',
       'Karma'
     ];
-    $rootScope.bodyClass = 'typeography-layout';
+
+    $scope.sectionClass = 'section-typeography';
+    $rootScope.bodyClass = 'layout-typeography';
+
   });

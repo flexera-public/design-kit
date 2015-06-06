@@ -34,13 +34,23 @@ $bariol: "bariol", Helvetica Neue, Helvetica, Arial, sans-serif;
 $font-family-sans-serif: $helvetica;
 $font-family-monospace: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $font-family-base: $font-family-sans-serif;
-$font-size-base: 14px;
+$font-size-base: 13px;
+$font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
+$font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h5:            $font-size-base;
+$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
 $line-height-base: 1.615;
 $headings-color: $heading;
 $headings-font-family:    $bariol;
 $headings-font-weight:    400;
 $headings-line-height:    1.1;
 $em-base:                 10px;
+$nav-pills-active-link-hover-bg:            transparent;
+$nav-pills-active-link-hover-color:         transparent;
 
 // Core variables and mixins
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
@@ -84,3 +94,20 @@ $em-base:                 10px;
 @import "modules/layout";
 @import "modules/swatches";
 @import "modules/download";
+// @import "modules/animation";
+
+// Animation
+.ng-enter {
+  transition: opacity 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+  opacity: 0;
+}
+.ng-enter-active {
+  opacity: 1;
+}
+.ng-leave {
+  transition: opacity 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+  opacity: 1;
+}
+.ng-leave-active {
+  opacity: 0;
+}
