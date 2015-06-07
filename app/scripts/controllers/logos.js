@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('LogosCtrl', function ($scope, $rootScope) {
+  .controller('LogosCtrl', function ($scope, $rootScope, $routeParams) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -17,5 +17,6 @@ angular.module('designkitApp')
 
     $scope.sectionClass = 'section-logos';
     $rootScope.bodyClass = 'layout-logos';
-
+    $rootScope.colorId = $routeParams.colorId;
+ 
   });

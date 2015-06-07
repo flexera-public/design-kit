@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('TypographyCtrl', function ($scope, $rootScope) {
+  .controller('TypographyCtrl', function ($scope, $rootScope, $routeParams) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -17,5 +17,6 @@ angular.module('designkitApp')
 
     $scope.sectionClass = 'section-typeography';
     $rootScope.bodyClass = 'layout-typeography';
+    $rootScope.colorId = $routeParams.colorId;
 
   });
