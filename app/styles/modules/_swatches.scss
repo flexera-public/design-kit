@@ -8,7 +8,7 @@
   margin-bottom: 2.4rem;
   padding: 15px;
   position: relative;
-  .swatch-footer {
+  .swatch-hex {
     opacity: 0.5;
     bottom: 15px;
     left: 15px;
@@ -214,6 +214,12 @@
 }
 .swatch-body-f7a626 {
   background-color: $orange;
+  .topbar {
+    background-color: rgba(#000, 0.4);
+  }
+}
+.swatch-body-54bbcc {
+  background-color: $viking;
   .topbar {
     background-color: rgba(#000, 0.4);
   }

@@ -5,8 +5,8 @@
       <div class="col-md-2" ng-repeat="color in value">
         <a ng-href="#/colors/{{ color.item.hex }}" class="swatch-link">
           <div class="swatch {{ color.item.selector }}">
-            {{ color.item.name }}
-            <span class="swatch-footer">{{ color.item.hex }}</span>
+            <span class="swatch-name">{{ color.item.name }}</span>
+            <span class="swatch-hex">#{{ color.item.hex }}</span>
           </div>
         </a>
       </div>
