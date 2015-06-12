@@ -176,14 +176,15 @@
     border-color: darken($header-gradient-end, 5);
   }
 }
-.swatch-link {
-  @include transition(all 500ms ease-in-out);
-  box-shadow: 0 1px 2px #eee;
-  &:hover,
-  &:focus {
-    text-decoration: none;
-    box-shadow: 0 2px 4px #bbb;
-    display: block;
+
+.swatch-permalink {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0.5;
+  @include transition(opacity 250ms ease-in-out);
+  &:hover {
+    opacity: 0.8;
   }
 }
 

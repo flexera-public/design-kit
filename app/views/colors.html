@@ -3,12 +3,13 @@
     <h1>{{ key }}</h1>
     <div class="row">
       <div class="col-md-2" ng-repeat="color in value">
-        <a ng-href="#/colors/{{ color.item.hex }}" class="swatch-link">
-          <div class="swatch {{ color.item.selector }}">
-            <span class="swatch-name">{{ color.item.name }}</span>
-            <span class="swatch-hex">#{{ color.item.hex }}</span>
-          </div>
-        </a>
+        <div class="swatch {{ color.item.selector }}">
+          <span class="swatch-name">{{ color.item.name }}</span>
+          <span class="swatch-hex">#{{ color.item.hex }}</span>
+          <span class="swatch-permalink">
+            <a ng-href="#/colors/{{ color.item.hex }}"><img src="/images/icon-link.svg"></a>
+          </span>
+        </div>
       </div>
     </div>
   </article>
