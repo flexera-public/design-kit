@@ -8,6 +8,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/animate-css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -15,7 +16,7 @@
     <!-- endbuild -->
   </head>
 
-  <body class="{{ $root.bodyClass }}" ng-app="designkitApp">
+  <body class="{{ $root.bodyClass }} swatch-body-{{ $root.colorId | lowercase }}" ng-app="designkitApp" ng-controller="MainCtrl">
 
     <div class="header">
       <div class="topbar" role="navigation">
@@ -27,11 +28,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/"><img src="images/dk-logo.svg" alt=""></a>
+            <a class="navbar-brand" ng-href="#/"><img src="images/dk-logo.svg" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
             <ul class="topbar-nav">
-              <li><a href="#/logos">Logos</a></li>
+              <li><a ng-href="#/logos">Logos</a></li>
               <li><a ng-href="#/colors">Colors</a></li>
               <li><a ng-href="#/typography">Typography</a></li>
             </ul>
@@ -44,13 +45,13 @@
       <div class="row">
         <div class="col-md-2">
           <ul class="sidebar-nav">
-            <li><a href="#/">Logos</a></li>
-            <li><a href="#/colors">Colours</a></li>
-            <li><a href="#/typography">Typography</a></li>
+            <li><a ng-href="#/">Logos</a></li>
+            <li><a ng-href="#/colors">Colours</a></li>
+            <li><a ng-href="#/typography">Typography</a></li>
           </ul>
         </div>
         <div class="col-md-10">
-          <ng-view></ng-view>
+          <div class="section {{ sectionClass }}" ng-view></div>
         </div>
       </div>
     </div>
