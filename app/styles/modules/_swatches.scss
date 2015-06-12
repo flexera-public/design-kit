@@ -187,44 +187,6 @@
   }
 }
 
-// Todo: don't make it this hard
-.swatch-body-0a83f6 {
-  background-color: $blue;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-.swatch-body-80c11a {
-  background-color: $green;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-.swatch-body-c32525 {
-  background-color: $red;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-.swatch-body-7355a6 {
-  background-color: $purple;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-.swatch-body-f7a626 {
-  background-color: $orange;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-.swatch-body-54bbcc {
-  background-color: $viking;
-  .topbar {
-    background-color: rgba(#000, 0.4);
-  }
-}
-
 .show-color {
   bottom: 0;
   left: 0;
@@ -248,5 +210,372 @@
   a {
     color: rgba(#fff, 0.8);
     padding: 10px;
+  }
+}
+
+// Todo: don't make it this so hard
+.swatch-body-0a83f6 {
+  background-color: $blue;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-80c11a {
+  background-color: $green;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c32525 {
+  background-color: $red;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-7355a6 {
+  background-color: $purple;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-f7a626 {
+  background-color: $orange;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-4fbbcd {
+  background-color: $viking;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c25a87 {
+  background-color: $mulberry;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-b4cb55 {
+  background-color: $celery;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-d05a5a {
+  background-color: $indian;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-5dd08b {
+  background-color: $silver-tree;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-3c8cc7 {
+  background-color: $sean;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-5fb000 {
+  background-color: $green-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0871d4 {
+  background-color: $blue-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c32525 {
+  background-color: $red-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-e7e7e7 {
+  background-color: $grey-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-0a83f6 {
+  background-color: $link;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0769c6 {
+  background-color: $link-hover;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-76899a {
+  background-color: $text;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-57626c {
+  background-color: $heading;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-353b41 {
+  background-color: $left-background-dark;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-dadee3 {
+  background-color: $left-background-light;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-f4f5f7 {
+  background-color: $body;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-d1d6dc {
+  background-color: $grey-border;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-e2e5e9 {
+  background-color: $grey-border-light;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-8596a5 {
+  background-color: $grey-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-a2afba {
+  background-color: $grey-icon-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-2390f7 {
+  background-color: $blue-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-54a9f9 {
+  background-color: $blue-icon-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-80c11a {
+  background-color: $green-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-30373c {
+  background-color: $sith-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-fafafa {
+  background-color: $hover-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-e2e5e9 {
+  background-color: $inline-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-fff7e5 {
+  background-color: $messaging-background;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-939182 {
+  background-color: $messaging-text;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0069cc {
+  background-color: $header-flat;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-076cca {
+  background-color: $header-gradient-start;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-065bac {
+  background-color: $header-gradient-end;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
   }
 }

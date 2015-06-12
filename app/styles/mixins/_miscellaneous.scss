@@ -1,0 +1,7 @@
+@mixin topbar-dark {
+  background-color: rgba(#000, 0.4);
+}
+
+@mixin sidebar-exit {
+  opacity: 0;
+}

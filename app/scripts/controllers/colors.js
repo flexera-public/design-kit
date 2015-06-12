@@ -60,7 +60,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Viking',
-          hex: '54BBCC',
+          hex: '4FBBCD',
           selector: 'swatch-viking',
         }
       },
@@ -78,7 +78,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Mulberry',
-          hex: 'C25A87',
+          hex: 'C45887',
           selector: 'swatch-mulberry',
         },
       },
@@ -96,7 +96,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Celery',
-          hex: 'B4CA5D',
+          hex: 'B4CB55',
           selector: 'swatch-celery',
         }
       },
@@ -105,7 +105,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Indian',
-          hex: 'CE5B5C',
+          hex: 'D05A5A',
           selector: 'swatch-indian',
         }
       },
@@ -114,7 +114,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Silver Tree',
-          hex: '62CF8D',
+          hex: '5DD08B',
           selector: 'swatch-silver-tree',
         }
       },
@@ -123,7 +123,7 @@ angular.module('designkitApp')
         section: 'Graph Colors',
         item: {
           name: 'Sean',
-          hex: '408DC5',
+          hex: '3C8CC7',
           selector: 'swatch-sean',
         }
       },
