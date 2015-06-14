@@ -7,11 +7,7 @@
           <span class="swatch-name">{{ color.item.name }}</span>
           <span class="swatch-hex">#{{ color.item.hex }}</span>
           <span class="swatch-permalink">
-            <a ng-href="#/colors/{{ color.item.hex }}">
-              <svg viewBox="0 0 16 8">
-                <use xlink:href="images/icon-link.svg#icon-link"></use>
-              </svg>
-            </a>
+            <a ng-href="#/colors/{{ color.item.hex }}"><img src="images/icon-link.svg"></a>
           </span>
         </div>
       </div>
