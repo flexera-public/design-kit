@@ -179,9 +179,12 @@
 
 .swatch-permalink {
   position: absolute;
-  bottom: 15px;
+  bottom: 18px;
   right: 15px;
   opacity: 0.5;
+  display: block;
+  width: 16px;
+  height: 16px;
   @include transition(opacity 250ms ease-in-out);
   &:hover {
     opacity: 0.8;
