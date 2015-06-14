@@ -10,6 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
 @import "mixins/bourbon/bourbon";
 @import "mixins/miscellaneous";
+@import "variables/fonts";
 
 // Reset and dependencies
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
