@@ -8,18 +8,16 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/animate-css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="designkitApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-    <!-- Add your site or application content here -->
+  <body class="{{ $root.bodyClass }} swatch-body-{{ $root.colorId | lowercase }}" ng-app="designkitApp" ng-controller="MainCtrl">
+
     <div class="header">
       <div class="topbar" role="navigation">
         <div class="container">
@@ -30,17 +28,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/"><img src="images/dk-logo.svg" alt=""></a>
+            <a class="navbar-brand" ng-href="#/"><img src="images/dk-logo.svg" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
             <ul class="topbar-nav">
               <li><a href="#/">Logos</a></li>
               <li><a href="#/colors">Colors</a></li>
               <li><a href="#/typography">Typography</a></li>
-              <li><a href="#/icons">Icons</a></li>
-              <li><a href="#/buttons">Buttons</a></li>
-              <li><a href="#/forms">Forms</a></li>
-              <li><a href="#/tabs">Tabs</a></li>
+              <li><a href="#/patterns">Patterns</a></li>
+              <li><a href="#/ui-elements">UI Elements</a></li>
               <li><a href="#/tables">Tables</a></li>
               <li><a href="#/animations">Animations</a></li>
             </ul>
@@ -63,7 +59,7 @@
           </ul>
         </div>
         <div class="col-md-10">
-          <ng-view></ng-view>
+          <div class="section {{ sectionClass }}" ng-view></div>
         </div>
       </div>
     </div>
@@ -106,6 +102,7 @@
         <script src="scripts/controllers/logos.js"></script>
         <script src="scripts/controllers/colors.js"></script>
         <script src="scripts/controllers/typography.js"></script>
+        <script src="scripts/controllers/main.js"></script>
         <!-- endbuild -->
 </body>
 </html>

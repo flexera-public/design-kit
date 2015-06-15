@@ -1,0 +1,16 @@
+.topbar {
+  @extend .navbar;
+  @extend .navbar-default;
+  @extend .navbar-fixed-top;
+  .navbar-brand {
+    padding: 18px 15px;
+  }
+}
+
+.topbar-nav {
+  @extend .nav;
+  @extend .navbar-nav;
+  @extend .navbar-right;
+  @extend .hidden-lg;
+  @extend .hidden-md;
+}

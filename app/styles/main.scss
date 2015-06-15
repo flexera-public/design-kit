@@ -1,57 +1,21 @@
-// Basic variables
-@import "variables/colors";
-
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
-$gray-base:              #000;
-$gray-darker:            lighten($gray-base, 13.5%); // #222
-$gray-dark:              lighten($gray-base, 20%);   // #333
-$gray:                   lighten($gray-base, 33.5%); // #555
-$gray-light:             lighten($gray-base, 46.7%); // #777
-$gray-lighter:           lighten($gray-base, 93.5%); // #eee
-$brand-primary:          $header-flat;
-$body-bg:               #fff;
-$text-color:            $text;
-$link-color:            $link;
-$link-hover-color:      $link-hover;
-$link-hover-decoration: underline;
-$navbar-default-link-color:        #fff;
-$navbar-default-color:             #fff;
-$navbar-default-bg:                $header-flat;
-$navbar-default-border:            transparent;
-$navbar-default-link-color:                #fff;
-$navbar-default-link-hover-color:          #fff;
-$navbar-default-link-hover-bg:             darken($navbar-default-bg, 6.5%);
-$navbar-default-link-active-color:         #fff;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
-$navbar-default-link-disabled-color:       rgba(#fff, 0.6);
-$navbar-default-link-disabled-bg:          transparent;
-$headings-color:          $heading;
-$navbar-default-toggle-hover-bg:           darken($navbar-default-bg, 6.5%);
-$navbar-default-toggle-icon-bar-bg:        #fff;
-$navbar-default-toggle-border-color:       transparent;
-$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$bariol: "bariol", Helvetica Neue, Helvetica, Arial, sans-serif;
-$font-family-sans-serif: $helvetica;
-$font-family-monospace: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-$font-family-base: $font-family-sans-serif;
-$font-size-base: 14px;
-$line-height-base: 1.615;
-$headings-color: $heading;
-$headings-font-family:    $bariol;
-$headings-font-weight:    400;
-$headings-line-height:    1.1;
-$em-base:                 10px;
+// Basic variables
+@import "variables/colors";
+@import "variables/bootstrap";
 
 // Core variables and mixins
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
 @import "mixins/bourbon/bourbon";
+@import "mixins/miscellaneous";
+@import "variables/fonts";
 
 // Reset and dependencies
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/print";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/glyphicons";
+@import "animate-css/animate";
 
 // Core
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
@@ -78,325 +42,19 @@ $em-base:                 10px;
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
-// Global
-html,body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
-body { padding-top: 70px; }
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-// Topbar
-.topbar {
-  @extend .navbar;
-  @extend .navbar-default;
-  @extend .navbar-fixed-top;
-  .navbar-brand {
-    padding: 18px 15px;
-  }
-}
-
-.topbar-nav {
-  @extend .nav;
-  @extend .navbar-nav;
-  @extend .navbar-right;
-  @extend .hidden-lg;
-  @extend .hidden-md;
-}
-
-// Sidebar
-.sidebar-nav {
-  @extend .nav;
-  @extend .nav-pills;
-  @extend .nav-stacked;
-  @extend .hidden-sm;
-  @extend .hidden-xs;
-  font-size: 1.3rem;
-  font-weight: bold;
-  li > a {
-    padding: 5px 0;
-    &:hover,
-    &:focus {
-      background-color: #fff;
-    }
-  }
-}
-
-// Layout
-section {
-  article {
-  }
-  h1 {
-    font-size: 2rem;
-    line-height: 30px;
-    margin-top: 1px;
-  }
-  .logo-container {
-    background-color: $left-background-dark;
-    border-radius: 1px;
-    height: 250px;
-    margin-bottom: 2.4rem;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    @media screen and (max-width: $screen-sm) {
-      height: 160px;
-    }
-    img {
-      margin: 0 auto;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 72%;
-    }
-    &.has-main-logo {
-      img {
-        width: 50%;
-      }
-    }
-  }
-  .mark-container {
-    background-color: #fff;
-    border-radius: 1px;
-    border: 1px solid $grey-border;
-    height: 250px;
-    margin-bottom: 2.4rem;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    @media screen and (max-width: $screen-sm) {
-      height: 160px;
-    }
-    img {
-      margin: 0 auto;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 30%;
-    }
-  }
-  .type-container {
-    background-color: #fff;
-    border: 1px solid $grey-border;
-    border-radius: 1px;
-    color: $heading;
-    font-size: rem(32);
-    font-weight: 400;
-    line-height: 1.1;
-    margin-top: 1.4rem;
-    margin-bottom: 2.4rem;
-    padding: 20px 15px;
-    position: relative;
-    &.has-helvetica {
-      font-family: $helvetica;
-    }
-    &.has-bariol {
-      font-family: $bariol;
-    }
-    h2 {
-      color: $text;
-      font-family: $helvetica;
-      font-size: 12px;
-      font-weight: 700;
-      display: block;
-      margin: 4px 0 4px;
-    }
-    .type-font {
-      font-size: rem(48);
-      font-weight: 700;
-    }
-  }
-}
-
-// Color Swatch
-.swatch {
-  border-radius: 1px;
-  border: 1px solid #eceded;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  height: 168px;
-  margin-bottom: 2.4rem;
-  padding: 15px;
-  position: relative;
-  .swatch-footer {
-    opacity: 0.5;
-    bottom: 15px;
-    left: 15px;
-    position: absolute;
-  }
-  &.swatch-cool-blue {
-    background-color: $blue;
-    border-color: darken($blue, 5);
-  }
-  &.swatch-lima {
-    background-color: $green;
-    border-color: darken($green, 5);
-  }
-  &.swatch-fire-engine {
-    background-color: $red;
-    border-color: darken($red, 5);
-  }
-  &.swatch-royal-purple {
-    background-color: $royal-purple;
-    border-color: darken($royal-purple, 5);
-  }
-  &.swatch-buckthorn {
-    background-color: $buckthorn;
-    border-color: darken($buckthorn, 5);
-  }
-  &.swatch-viking {
-    background-color: $viking;
-    border-color: darken($viking, 5);
-  }
-  &.swatch-mulberry {
-    background-color: $mulberry;
-    border-color: darken($mulberry, 5);
-  }
-  &.swatch-celery {
-    background-color: $celery;
-    border-color: darken($celery, 5);
-  }
-  &.swatch-indian {
-    background-color: $indian;
-    border-color: darken($indian, 5);
-  }
-  &.swatch-silver-tree {
-    background-color: $silver-tree;
-    border-color: darken($silver-tree, 5);
-  }
-  &.swatch-sean {
-    background-color: $sean;
-    border-color: darken($sean, 5);
-  }
-  &.swatch-green-button {
-    background-color: $green-button;
-    border-color: darken($green-button, 5);
-  }
-  &.swatch-blue-button {
-    background-color: $blue-button;
-    border-color: darken($blue-button, 5);
-  }
-  &.swatch-red-button {
-    background-color: $red-button;
-    border-color: darken($red-button, 5);
-  }
-  &.swatch-grey-button {
-    background-color: $grey-button;
-    border-color: darken($grey-button, 5);
-    color: $heading;
-  }
-  &.swatch-link {
-    background-color: $link;
-    border-color: darken($link, 5);
-  }
-  &.swatch-link-hover {
-    background-color: $link-hover;
-    border-color: darken($link-hover, 5);
-  }
-  &.swatch-text {
-    background-color: $text;
-    border-color: darken($text, 5);
-  }
-  &.swatch-heading {
-    background-color: $heading;
-    border-color: darken($heading, 5);
-  }
-  &.swatch-left-dark {
-    background-color: $left-background-dark;
-    border-color: darken($left-background-dark, 5);
-  }
-  &.swatch-left-light {
-    background-color: $left-background-light;
-    border-color: darken($left-background-light, 5);
-    color: $heading;
-  }
-  &.swatch-body {
-    background-color: $body;
-    border-color: darken($body, 5);
-    color: $heading;
-  }
-  &.swatch-grey-border {
-    background-color: $grey-border;
-    border-color: darken($grey-border, 5);
-    color: $heading;
-  }
-  &.swatch-grey-border-light {
-    background-color: $grey-border-light;
-    border-color: darken($grey-border-light, 5);
-    color: $heading;
-  }
-  &.swatch-grey-icon {
-    background-color: $grey-icon;
-    border-color: darken($grey-icon, 5);
-  }
-  &.swatch-grey-icon-highlight {
-    background-color: $grey-icon-highlight;
-    border-color: darken($grey-icon-highlight, 5);
-  }
-  &.swatch-blue-icon {
-    background-color: $blue-icon;
-    border-color: darken($blue-icon, 5);
-  }
-  &.swatch-blue-icon-highlight {
-    background-color: $blue-icon-highlight;
-    border-color: darken($blue-icon-highlight, 5);
-  }
-  &.swatch-green-icon {
-    background-color: $green-icon;
-    border-color: darken($green-icon, 5);
-  }
-  &.swatch-sith-icon {
-    background-color: $sith-icon;
-    border-color: darken($sith-icon, 5);
-  }
-  &.swatch-hover-highlight {
-    background-color: $hover-highlight;
-    border-color: darken($hover-highlight, 5);
-    color: $heading;
-  }
-  &.swatch-select-highlight {
-    background-color: $select-highlight;
-    border-color: darken($select-highlight, 5);
-    color: $heading;
-  }
-  &.swatch-inline-highlight {
-    background-color: $inline-highlight;
-    border-color: darken($inline-highlight, 5);
-    color: $heading;
-  }
-  &.swatch-messaging-background {
-    background-color: $messaging-background;
-    border-color: darken($messaging-background, 5);
-    color: $messaging-text;
-  }
-  &.swatch-messaging-text {
-    background-color: $messaging-text;
-    border-color: darken($messaging-text, 5);
-  }
-  &.swatch-header-flat {
-    background-color: $header-flat;
-    border-color: darken($header-flat, 5);
-  }
-  &.swatch-header-gradient-start {
-    background-color: $header-gradient-start;
-    border-color: darken($header-gradient-start, 5);
-  }
-  &.swatch-header-gradient-end {
-    background-color: $header-gradient-end;
-    border-color: darken($header-gradient-end, 5);
-  }
-}
+// Design
+@import "modules/global";
+@import "modules/topbar";
+@import "modules/sidebar";
+@import "modules/layout";
+@import "modules/swatches";
+@import "modules/download";
+@import "modules/animation";
 
 // Buttons
 @import "variables/buttons";
+
+
 .style_code {
   padding: 20px 0 30px;
 }

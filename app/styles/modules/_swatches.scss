@@ -1,0 +1,589 @@
+.swatch {
+  border-radius: 1px;
+  border: 1px solid #eceded;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 168px;
+  margin-bottom: 2.4rem;
+  padding: 15px;
+  position: relative;
+  .swatch-hex {
+    opacity: 0.5;
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+  }
+  &.swatch-cool-blue {
+    background-color: $blue;
+    border-color: darken($blue, 5);
+  }
+  &.swatch-lima {
+    background-color: $green;
+    border-color: darken($green, 5);
+  }
+  &.swatch-fire-engine {
+    background-color: $red;
+    border-color: darken($red, 5);
+  }
+  &.swatch-royal-purple {
+    background-color: $royal-purple;
+    border-color: darken($royal-purple, 5);
+  }
+  &.swatch-buckthorn {
+    background-color: $buckthorn;
+    border-color: darken($buckthorn, 5);
+  }
+  &.swatch-viking {
+    background-color: $viking;
+    border-color: darken($viking, 5);
+  }
+  &.swatch-mulberry {
+    background-color: $mulberry;
+    border-color: darken($mulberry, 5);
+  }
+  &.swatch-celery {
+    background-color: $celery;
+    border-color: darken($celery, 5);
+  }
+  &.swatch-indian {
+    background-color: $indian;
+    border-color: darken($indian, 5);
+  }
+  &.swatch-silver-tree {
+    background-color: $silver-tree;
+    border-color: darken($silver-tree, 5);
+  }
+  &.swatch-sean {
+    background-color: $sean;
+    border-color: darken($sean, 5);
+  }
+  &.swatch-green-button {
+    background-color: $green-button;
+    border-color: darken($green-button, 5);
+  }
+  &.swatch-blue-button {
+    background-color: $blue-button;
+    border-color: darken($blue-button, 5);
+  }
+  &.swatch-red-button {
+    background-color: $red-button;
+    border-color: darken($red-button, 5);
+  }
+  &.swatch-grey-button {
+    background-color: $grey-button;
+    border-color: darken($grey-button, 5);
+    color: $heading;
+  }
+  &.swatch-link {
+    background-color: $link;
+    border-color: darken($link, 5);
+  }
+  &.swatch-link-hover {
+    background-color: $link-hover;
+    border-color: darken($link-hover, 5);
+  }
+  &.swatch-text {
+    background-color: $text;
+    border-color: darken($text, 5);
+  }
+  &.swatch-heading {
+    background-color: $heading;
+    border-color: darken($heading, 5);
+  }
+  &.swatch-left-dark {
+    background-color: $left-background-dark;
+    border-color: darken($left-background-dark, 5);
+  }
+  &.swatch-left-light {
+    background-color: $left-background-light;
+    border-color: darken($left-background-light, 5);
+    color: $heading;
+  }
+  &.swatch-body {
+    background-color: $body;
+    border-color: darken($body, 5);
+    color: $heading;
+  }
+  &.swatch-grey-border {
+    background-color: $grey-border;
+    border-color: darken($grey-border, 5);
+    color: $heading;
+  }
+  &.swatch-grey-border-light {
+    background-color: $grey-border-light;
+    border-color: darken($grey-border-light, 5);
+    color: $heading;
+  }
+  &.swatch-grey-icon {
+    background-color: $grey-icon;
+    border-color: darken($grey-icon, 5);
+  }
+  &.swatch-grey-icon-highlight {
+    background-color: $grey-icon-highlight;
+    border-color: darken($grey-icon-highlight, 5);
+  }
+  &.swatch-blue-icon {
+    background-color: $blue-icon;
+    border-color: darken($blue-icon, 5);
+  }
+  &.swatch-blue-icon-highlight {
+    background-color: $blue-icon-highlight;
+    border-color: darken($blue-icon-highlight, 5);
+  }
+  &.swatch-green-icon {
+    background-color: $green-icon;
+    border-color: darken($green-icon, 5);
+  }
+  &.swatch-sith-icon {
+    background-color: $sith-icon;
+    border-color: darken($sith-icon, 5);
+  }
+  &.swatch-hover-highlight {
+    background-color: $hover-highlight;
+    border-color: darken($hover-highlight, 5);
+    color: $heading;
+  }
+  &.swatch-select-highlight {
+    background-color: $select-highlight;
+    border-color: darken($select-highlight, 5);
+    color: $heading;
+  }
+  &.swatch-inline-highlight {
+    background-color: $inline-highlight;
+    border-color: darken($inline-highlight, 5);
+    color: $heading;
+  }
+  &.swatch-messaging-background {
+    background-color: $messaging-background;
+    border-color: darken($messaging-background, 5);
+    color: $messaging-text;
+  }
+  &.swatch-messaging-text {
+    background-color: $messaging-text;
+    border-color: darken($messaging-text, 5);
+  }
+  &.swatch-header-flat {
+    background-color: $header-flat;
+    border-color: darken($header-flat, 5);
+  }
+  &.swatch-header-gradient-start {
+    background-color: $header-gradient-start;
+    border-color: darken($header-gradient-start, 5);
+  }
+  &.swatch-header-gradient-end {
+    background-color: $header-gradient-end;
+    border-color: darken($header-gradient-end, 5);
+  }
+}
+
+.swatch-permalink {
+  position: absolute;
+  bottom: 18px;
+  right: 15px;
+  opacity: 0.5;
+  display: block;
+  width: 16px;
+  height: 16px;
+  @include transition(opacity 250ms ease-in-out);
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.show-color {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  .show-color-inner {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    @extend .container;
+  }
+  h1 {
+    font-size: 9rem;
+    color: #fff;
+    line-height: 1;
+    @media screen and (max-width: $screen-phone) {
+      font-size: 8rem;
+    }
+  }
+  a {
+    color: rgba(#fff, 0.8);
+    padding: 10px;
+  }
+}
+
+// Todo: don't make it this so hard
+.swatch-body-0a83f6 {
+  background-color: $blue;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-80c11a {
+  background-color: $green;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c32525 {
+  background-color: $red;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-7355a6 {
+  background-color: $purple;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-f7a626 {
+  background-color: $orange;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-4fbbcd {
+  background-color: $viking;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c25a87 {
+  background-color: $mulberry;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-b4cb55 {
+  background-color: $celery;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-d05a5a {
+  background-color: $indian;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-5dd08b {
+  background-color: $silver-tree;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-3c8cc7 {
+  background-color: $sean;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-5fb000 {
+  background-color: $green-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0871d4 {
+  background-color: $blue-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-c32525 {
+  background-color: $red-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-e7e7e7 {
+  background-color: $grey-button;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-0a83f6 {
+  background-color: $link;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0769c6 {
+  background-color: $link-hover;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-76899a {
+  background-color: $text;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-57626c {
+  background-color: $heading;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-353b41 {
+  background-color: $left-background-dark;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-dadee3 {
+  background-color: $left-background-light;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-f4f5f7 {
+  background-color: $body;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-d1d6dc {
+  background-color: $grey-border;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-e2e5e9 {
+  background-color: $grey-border-light;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-8596a5 {
+  background-color: $grey-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-a2afba {
+  background-color: $grey-icon-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-2390f7 {
+  background-color: $blue-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-54a9f9 {
+  background-color: $blue-icon-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-80c11a {
+  background-color: $green-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-30373c {
+  background-color: $sith-icon;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-fafafa {
+  background-color: $hover-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-e2e5e9 {
+  background-color: $inline-highlight;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-fff7e5 {
+  background-color: $messaging-background;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+  .show-color {
+    h1,
+    a { color: rgba(#000, 0.6); }
+  }
+}
+.swatch-body-939182 {
+  background-color: $messaging-text;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-0069cc {
+  background-color: $header-flat;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-076cca {
+  background-color: $header-gradient-start;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
+.swatch-body-065bac {
+  background-color: $header-gradient-end;
+  .topbar {
+    @include topbar-dark;
+  }
+  .sidebar-nav {
+    @include sidebar-exit;
+  }
+}
