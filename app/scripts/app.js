@@ -44,6 +44,10 @@ angular
         templateUrl: 'views/ui-elements.html',
         controller: 'UIelementsCtrl'
       })
+      .when('/icons', {
+        templateUrl: 'views/icons.html',
+        controller: 'IconsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
