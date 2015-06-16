@@ -47,6 +47,9 @@ angular
       .when('/icons', {
         templateUrl: 'views/icons.html',
         controller: 'IconsCtrl'
+      .when('/widgets', {
+        templateUrl: 'views/widgets.html',
+        controller: 'WidgetsCtrl'
       })
       .otherwise({
         redirectTo: '/'
