@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>RightScale Design Kitty</title>
+    <title>RightScale Design Kit</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -16,7 +16,7 @@
     <!-- endbuild -->
   </head>
 
-  <body class="{{ $root.bodyClass }} swatch-body-{{ $root.colorId | lowercase }}" ng-app="designkitApp" ng-controller="MainCtrl">
+  <body class="{{ $root.bodyClass }} {{ $root.swatchClass }}{{ $root.colorId | lowercase }}" ng-app="designkitApp" ng-controller="MainCtrl">
 
     <div class="header">
       <div class="topbar" role="navigation">

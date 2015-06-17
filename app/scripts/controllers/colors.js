@@ -374,6 +374,7 @@ angular.module('designkitApp')
 
     $scope.sectionClass = 'section-colors';
     $rootScope.bodyClass = 'layout-color';
+    $rootScope.swatchClass = 'swatch-body-';
     $rootScope.colorId = $routeParams.colorId;
 
   });
