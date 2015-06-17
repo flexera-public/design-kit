@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="icon-timepicker-colon" sketch:type="MSArtboardGroup" transform="translate(-62.000000, -59.000000)" fill="#D8D8D8">
+        <g id="icon-timepicker-colon" sketch:type="MSArtboardGroup" transform="translate(-62.000000, -59.000000)" fill="#FFF">
             <g sketch:type="MSLayerGroup" transform="translate(62.000000, 59.000000)" id="Shape">
                 <path d="M2,4 C3.105,4 4,3.105 4,2 C4,0.895 3.105,0 2,0 C0.895,0 0,0.895 0,2 C0,3.105 0.895,4 2,4 L2,4 Z M2,10 C3.105,10 4,9.105 4,8 C4,6.895 3.105,6 2,6 C0.895,6 0,6.895 0,8 C0,9.105 0.895,10 2,10 L2,10 Z" sketch:type="MSShapeGroup"></path>
             </g>
