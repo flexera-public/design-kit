@@ -9,9 +9,22 @@
  */
 angular.module('designkitApp')
   .controller('IconsCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.icons = [
+      {
+        id: 1,
+        item: {
+          name: 'Trash',
+          selector: 'icon-trash',
+          src: '',
+        }
+      },
+      {
+        id: 2,
+        item: {
+          name: 'Trigger',
+          selector: 'icon-trigger',
+          src: '',
+        }
+      }
     ];
   });
