@@ -32,13 +32,6 @@ angular.module('designkitApp')
         }
       },
       {
-        id: 4,
-        item: {
-          name: 'Close Blue',
-          src: 'images/icon/icon-close-blue.svg',
-        }
-      },
-      {
         id: 5,
         item: {
           name: 'Close',
@@ -64,13 +57,6 @@ angular.module('designkitApp')
         item: {
           name: 'Export',
           src: 'images/icon/icon-export.svg',
-        }
-      },
-      {
-        id: 9,
-        item: {
-          name: 'External Blue',
-          src: 'images/icon/icon-external-blue.svg',
         }
       },
       {

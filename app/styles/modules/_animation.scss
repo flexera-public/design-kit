@@ -8,3 +8,7 @@
     animation: zoomIn 250ms;
   }
 }
+
+@mixin transition-bounce($timing: .3s) {
+  @include transition (all $timing cubic-bezier(.3, 0, 0, 1.3));
+}
