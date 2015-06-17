@@ -377,8 +377,7 @@ angular.module('designkitApp')
           name: 'Not Found',
           hex: 'not_found',
           selector: 'swatch-header-gradient-end',
-        },
-        not_a_real_color: true
+        }
       }
     ];
 
@@ -389,7 +388,7 @@ angular.module('designkitApp')
     $rootScope.bodyClass = 'layout-color';
     $rootScope.swatchClass = 'swatch-body-';
 
-    if ($scope.selectedColor && !$scope.selectedColor.not_a_real_color)
+    if ($routeParams.colorId == "not_found")
       $rootScope.colorId = $routeParams.colorId;
     else
       $rootScope.colorId = '000000'
