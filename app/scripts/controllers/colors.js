@@ -389,8 +389,8 @@ angular.module('designkitApp')
     $rootScope.swatchClass = 'swatch-body-';
 
     if ($routeParams.colorId == "not_found")
-      $rootScope.colorId = $routeParams.colorId;
-    else
       $rootScope.colorId = '000000'
+    else
+      $rootScope.colorId = $routeParams.colorId;
 
   });
