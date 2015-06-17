@@ -14,7 +14,6 @@ angular.module('designkitApp')
         id: 1,
         item: {
           name: 'Trash',
-          selector: 'icon-trash',
           src: '',
         }
       },
@@ -22,7 +21,13 @@ angular.module('designkitApp')
         id: 2,
         item: {
           name: 'Trigger',
-          selector: 'icon-trigger',
+          src: '',
+        }
+      },
+      {
+        id: 3,
+        item: {
+          name: 'External',
           src: '',
         }
       }

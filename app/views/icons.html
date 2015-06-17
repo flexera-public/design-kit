@@ -1,14 +1,15 @@
 <section ng-controller="IconsCtrl">
-  <article ng-repeat="icon in icons">
-    <h1>{{ key }}</h1>
-    <div class="row">
-      <div class="col-md-2" ng-repeat="color in value">
-        <div class="swatch {{ color.item.selector }}">
-          <span class="swatch-name">{{ color.item.name }}</span>
-          <span class="swatch-hex">#{{ color.item.hex }}</span>
-          <span class="swatch-permalink">
-            <a ng-href="#/colors/{{ color.item.hex }}"><img src="images/icon-link.svg"></a>
-          </span>
+  <article>
+    <h1>Icons</h1>
+    <div class="clearfix">
+      <input ng-model="searchText">
+    </div>
+    <div class="row store-icon">
+      <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
+        <div class="store-icon-item">
+          <span>Icon</span>
+          <span class="item-name">{{ icon.item.name }}</span>
+          <span class="item-src"><a ng-href="{{ icon.item.src }}">Download</a></span>
         </div>
       </div>
     </div>
