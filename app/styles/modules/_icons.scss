@@ -3,24 +3,14 @@
   .store-icon-item {
     display: block;
     border: 1px solid $grey-border-light;
+    padding: 20px;
     border-radius: 2px;
     width: 100%;
     height: 100%;
     text-align: center;
     outline: none;
     margin-bottom: 2rem;
-    a {
-      display: block;
-      padding: 2rem;
-      &:hover {
-        .item-image {
-          @include transition-bounce;
-          @include transform(scale(2));
-        }
-      }
-    }
   }
   .item-image {
-    @include transition-bounce;
   }
 }
