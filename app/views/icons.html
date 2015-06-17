@@ -7,9 +7,9 @@
     <div class="row store-icons">
       <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
         <div class="store-icon-item">
-          <img class="item-image" src="{{ icon.item.src }}">
-          <div class="item-name">{{ icon.item.name }}</div>
-          <div class="item-src"><a ng-href="{{ icon.item.src }}">Download</a></div>
+          <a ng-href="{{ icon.item.src }}" download>
+            <img class="item-image" ng-src="{{ icon.item.src }}">
+          </a>
         </div>
       </div>
     </div>
