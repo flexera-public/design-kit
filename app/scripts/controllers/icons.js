@@ -27,8 +27,8 @@ angular.module('designkitApp')
       {
         id: 3,
         item: {
-          name: 'External',
-          src: '',
+          name: 'External Blue',
+          src: '/images/icon/icon-external-blue.svg',
         }
       }
     ];
