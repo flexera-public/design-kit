@@ -1,1 +1,17 @@
-<p>This is the icons view.</p>
+<section ng-controller="IconsCtrl">
+  <article>
+    <h1>Icons</h1>
+    <div class="clearfix">
+      <input ng-model="searchText" class="store-search" placeholder="Filter by name">
+    </div>
+    <div class="row store-icons">
+      <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
+        <div class="store-icon-item">
+          <a ng-href="{{ icon.item.src }}" download>
+            <img class="item-image" ng-src="{{ icon.item.src }}">
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
