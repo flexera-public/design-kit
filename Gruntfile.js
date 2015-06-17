@@ -423,7 +423,7 @@ module.exports = function (grunt) {
 
     // Surge
     surge: {
-      'Skrillex': {
+      'designkit': {
         options: {
           // The path to compiled project
           project: 'dist/',
