@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('ColorsCtrl', function ($scope, $rootScope, $routeParams) {
+  .controller('ColorsCtrl', function ($scope, $rootScope, $routeParams, $location) {
     $scope.colors = [
       {
         id: 1,
@@ -369,12 +369,29 @@ angular.module('designkitApp')
           hex: '065BAC',
           selector: 'swatch-header-gradient-end',
         }
+      },
+      {
+        id: 40,
+        section: 'Header Colors',
+        item: {
+          name: 'Not Found',
+          hex: 'not_found',
+          selector: 'swatch-header-gradient-end',
+        },
+        not_a_real_color: true
       }
     ];
+
+    $scope.selectedColor = _.find($scope.colors, {item: {hex: $routeParams.colorId}})
+    if ($routeParams.colorId && $scope.selectedColor === undefined) $location.url('/colors/not_found')
 
     $scope.sectionClass = 'section-colors';
     $rootScope.bodyClass = 'layout-color';
     $rootScope.swatchClass = 'swatch-body-';
-    $rootScope.colorId = $routeParams.colorId;
+
+    if ($scope.selectedColor && !$scope.selectedColor.not_a_real_color)
+      $rootScope.colorId = $routeParams.colorId;
+    else
+      $rootScope.colorId = '000000'
 
   });
