@@ -62,8 +62,8 @@ angular.module('designkitApp')
       {
         id: 10,
         item: {
-          name: 'External White',
-          src: 'images/icon/icon-external-white.svg',
+          name: 'External',
+          src: 'images/icon/icon-external.svg',
         }
       },
       {
@@ -104,64 +104,29 @@ angular.module('designkitApp')
       {
         id: 16,
         item: {
-          name: 'Product Trigger',
-          src: 'images/icon/icon-product-trigger.svg',
-        }
-      },
-      {
-        id: 17,
-        item: {
           name: 'Refresh',
           src: 'images/icon/icon-refresh.svg',
         }
       },
       {
-        id: 18,
+        id: 17,
         item: {
           name: 'Search',
           src: 'images/icon/icon-search.svg',
         }
       },
       {
-        id: 19,
+        id: 18,
         item: {
           name: 'Share',
           src: 'images/icon/icon-share.svg',
         }
       },
       {
-        id: 21,
-        item: {
-          name: 'Timepicker Colon',
-          src: 'images/icon/icon-timepicker-colon.svg',
-        }
-      },
-      {
-        id: 22,
+        id: 20,
         item: {
           name: 'Trash',
           src: 'images/icon/icon-trash.svg',
-        }
-      },
-      {
-        id: 23,
-        item: {
-          name: 'Search Blue',
-          src: 'images/icon/icon-search-blue.svg',
-        }
-      },
-      {
-        id: 24,
-        item: {
-          name: 'Search White',
-          src: 'images/icon/icon-search-white.svg',
-        }
-      },
-      {
-        id: 25,
-        item: {
-          name: 'User Logout',
-          src: 'images/icon/icon-user-logout.svg',
         }
       }
     ];
