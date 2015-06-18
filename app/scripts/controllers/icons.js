@@ -14,119 +14,119 @@ angular.module('designkitApp')
         id: 1,
         item: {
           name: 'Arrow',
-          src: 'images/icon/icon-arrow.svg',
+          src: 'images/ignore/icon-arrow.svg',
         }
       },
       {
         id: 2,
         item: {
           name: 'Calendar',
-          src: 'images/icon/icon-calendar.svg',
+          src: 'images/ignore/icon-calendar.svg',
         }
       },
       {
         id: 3,
         item: {
           name: 'Caret',
-          src: 'images/icon/icon-caret.svg',
+          src: 'images/ignore/icon-caret.svg',
         }
       },
       {
         id: 5,
         item: {
           name: 'Close',
-          src: 'images/icon/icon-close.svg',
+          src: 'images/ignore/icon-close.svg',
         }
       },
       {
         id: 6,
         item: {
           name: 'Download',
-          src: 'images/icon/icon-download.svg',
+          src: 'images/ignore/icon-download.svg',
         }
       },
       {
         id: 7,
         item: {
           name: 'Expand',
-          src: 'images/icon/icon-expand.svg',
+          src: 'images/ignore/icon-expand.svg',
         }
       },
       {
         id: 8,
         item: {
           name: 'Export',
-          src: 'images/icon/icon-export.svg',
+          src: 'images/ignore/icon-export.svg',
         }
       },
       {
         id: 10,
         item: {
           name: 'External',
-          src: 'images/icon/icon-external.svg',
+          src: 'images/ignore/icon-external.svg',
         }
       },
       {
         id: 11,
         item: {
           name: 'Info',
-          src: 'images/icon/icon-info.svg',
+          src: 'images/ignore/icon-info.svg',
         }
       },
       {
         id: 12,
         item: {
           name: 'Link',
-          src: 'images/icon/icon-link.svg',
+          src: 'images/ignore/icon-link.svg',
         }
       },
       {
         id: 13,
         item: {
           name: 'Markdown',
-          src: 'images/icon/icon-markdown.svg',
+          src: 'images/ignore/icon-markdown.svg',
         }
       },
       {
         id: 14,
         item: {
           name: 'Pen',
-          src: 'images/icon/icon-pen.svg',
+          src: 'images/ignore/icon-pen.svg',
         }
       },
       {
         id: 15,
         item: {
           name: 'Plus Open',
-          src: 'images/icon/icon-plus-open.svg',
+          src: 'images/ignore/icon-plus-open.svg',
         }
       },
       {
         id: 16,
         item: {
           name: 'Refresh',
-          src: 'images/icon/icon-refresh.svg',
+          src: 'images/ignore/icon-refresh.svg',
         }
       },
       {
         id: 17,
         item: {
           name: 'Search',
-          src: 'images/icon/icon-search.svg',
+          src: 'images/ignore/icon-search.svg',
         }
       },
       {
         id: 18,
         item: {
           name: 'Share',
-          src: 'images/icon/icon-share.svg',
+          src: 'images/ignore/icon-share.svg',
         }
       },
       {
         id: 20,
         item: {
           name: 'Trash',
-          src: 'images/icon/icon-trash.svg',
+          src: 'images/ignore/icon-trash.svg',
         }
       }
     ];
