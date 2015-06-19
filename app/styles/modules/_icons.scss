@@ -14,6 +14,10 @@
       padding: 2rem;
       display: block;
       @include transition-bounce;
+      img {
+        width: 16px;
+        max-height: 16px;
+      }
       &:hover {
         img {
           @include transform(scale(2.4));
@@ -23,6 +27,5 @@
     }
   }
   .item-image {
-
   }
 }

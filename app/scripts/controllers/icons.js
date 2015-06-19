@@ -144,6 +144,13 @@ angular.module('designkitApp')
         }
       },
       {
+        id: 23,
+        item: {
+          name: 'Docs',
+          src: 'images/icon/icon-docs.svg',
+        }
+      },
+      {
         id: 24,
         item: {
           name: 'User Logout',

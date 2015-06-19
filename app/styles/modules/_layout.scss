@@ -82,3 +82,9 @@ section {
     }
   }
 }
+
+// For splitting out the exmaples of elements
+.example-box {
+  padding: 3rem;
+  @include box-style;
+}
