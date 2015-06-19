@@ -381,16 +381,18 @@ angular.module('designkitApp')
       }
     ];
 
-    $scope.selectedColor = _.find($scope.colors, {item: {hex: $routeParams.colorId}})
-    if ($routeParams.colorId && $scope.selectedColor === undefined) $location.url('/colors/not_found')
+    $scope.selectedColor = _.find($scope.colors, {item: {hex: $routeParams.colorId}});
+    if ($routeParams.colorId && $scope.selectedColor === undefined) { $location.url('/colors/not_found'); }
 
     $scope.sectionClass = 'section-colors';
     $rootScope.bodyClass = 'layout-color';
     $rootScope.swatchClass = 'swatch-body-';
 
-    if ($routeParams.colorId ==='not_found')
-      $rootScope.colorId = '000000'
-    else
+    if ($routeParams.colorId ==='not_found') {
+      $rootScope.colorId = '000000';
+    }
+    else {
       $rootScope.colorId = $routeParams.colorId;
+    }
 
   });
