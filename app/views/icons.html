@@ -8,7 +8,7 @@
       <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
         <div class="store-icon-item">
           <a ng-href="{{ icon.item.src }}" download>
-            <img class="item-image" ng-src="{{ icon.item.src }}">
+            <object class="item-image" type="image/svg+xml" data="{{ icon.item.src }}">
           </a>
         </div>
       </div>
