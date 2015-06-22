@@ -14,7 +14,7 @@
       display: block;
       @include transition-bounce;
       object {
-        width: 16px;
+        width: 12px;
         max-height: 16px;
       }
       &:hover {
@@ -24,7 +24,5 @@
         }
       }
     }
-  }
-  .item-image {
   }
 }
