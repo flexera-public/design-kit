@@ -1,0 +1,46 @@
+$giga: 4.8rem;
+
+$alpha: 3rem;
+$beta: 2.4rem;
+$gamma: 1.6rem;
+$delta: 1.4rem;
+$epsilon: 1.3rem;
+$zeta: 1.1rem;
+
+.type-container .example-type {
+  h1 {
+    font-size: $alpha;
+  }
+  h2 {
+    font-size: $beta;
+  }
+  h3 {
+    font-size: $gamma;
+  }
+  h4 {
+    font-size: $delta;
+  }
+  h5 {
+    font-size: $epsilon;
+  }
+  h6 {
+    font-size: $zeta;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $bariol;
+    font-weight: normal;
+    position: relative;
+    margin: 0 0 2rem 0;
+    span {
+      position: absolute;
+      left: 60px;
+    }
+  }
+}
+
+
+p {
+  font-size: $epsilon;
+  line-height: 1.4;
+  margin-bottom: $zeta;
+}

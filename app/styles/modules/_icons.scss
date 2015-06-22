@@ -13,8 +13,12 @@
       padding: 2rem;
       display: block;
       @include transition-bounce;
+      object {
+        width: 12px;
+        max-height: 16px;
+      }
       &:hover {
-        img {
+        object {
           @include transform(scale(2.4));
           @include transition-bounce;
         }
