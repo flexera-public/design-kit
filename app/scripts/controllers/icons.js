@@ -153,6 +153,13 @@ angular.module('designkitApp')
       {
         id: 24,
         item: {
+          name: 'Search White',
+          src: 'images/icon/icon-search-white.svg',
+        }
+      },
+      {
+        id: 25,
+        item: {
           name: 'User Logout',
           src: 'images/icon/icon-user-logout.svg',
         }
