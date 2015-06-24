@@ -1,3 +1,5 @@
+// Download Button
+
 .logo-download {
   bottom: 18px;
   left: 18px;
@@ -13,22 +15,10 @@
     height: 24px;
     width: 24px;
     display: block;
+    padding: 4px 5px;
     @include transition(opacity 200ms $ease-in-out-quad);
     &:hover {
       opacity: 0.6;
-      text-decoration: none;
-    }
-    &:focus {
-      text-decoration: none;
-    }
-    &:after {
-      content: '';
-      position: absolute;
-      left: 6px;
-      top: 4px;
-      background: url(../images/icon-download.svg) no-repeat 0 0;
-      height: 16px;
-      width: 12px;
     }
   }
 }
