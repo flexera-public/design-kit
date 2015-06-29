@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border-bottom: 1px solid $grey-border;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  color: $heading;
+  font-size: $zeta;
+  line-height: 1.4rem;
+  padding: 1.2rem 2rem;
+  text-align: left;
+  white-space: nowrap;
+  &:focus {
+    outline: none;
+  }
+}
+td {
+  border-top: 1px solid $grey-border-light;
+  line-height: 1.8rem;
+  padding: 1.5rem 2rem;
+  text-align: left;
+  word-break: break-word;
+}
+th,
+td {
+  vertical-align: top;
+  &.align_center {
+    text-align: center;
+  }
+  &.align_right {
+    text-align: right;
+  }
+}
+.empty_table_cell {
+  font-style: italic;
+  opacity: .6;
+}
+.overflow_table {
+  overflow-x: scroll;
+}
