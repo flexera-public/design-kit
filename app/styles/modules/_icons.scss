@@ -1,3 +1,38 @@
+.color-filter {
+  border-bottom: 1px solid $grey-border-light;
+  list-style: none;
+  padding: 30px 0;
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    a {
+      background-color: white;
+      background-size: 10px;
+      background-position: 15px 50%;
+      background-repeat: no-repeat;
+      border: 1px solid $grey-border-light;
+      color: $text;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 20px 10px 30px;
+      &.true {
+        border: 1px solid $green;
+        background-image: url('/images/assets/icon-check-blue.svg');
+        &:hover {
+          background-image: url('/images/assets/icon-close-blue.svg');
+        }
+      }
+      &.false {
+        background-image: url('/images/ignore/icon-plus-open.svg');
+        opacity: 0.4;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
 .store-icons {
   margin-top: 2rem;
   .store-icon-item {
@@ -9,6 +44,10 @@
     text-align: center;
     outline: none;
     margin-bottom: 2rem;
+    .FFFFFF {
+      background-color: $blue;
+      display: block;
+    }
     a {
       padding: 2rem;
       display: block;
@@ -18,7 +57,8 @@
         max-height: 16px;
       }
       &:hover {
-        object {
+        box-shadow: 0 0 0px 2px $green;
+        svg {
           @include transform(scale(2.4));
           @include transition-bounce;
         }
