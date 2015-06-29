@@ -9,6 +9,16 @@
  */
 angular.module('designkitApp')
   .controller('IconsCtrl', function ($scope) {
+    $scope.colors = [{
+      name: 'Cool Blue',
+      hex: '0A83F6',
+      selected: true
+    }, {
+      name: 'Lima Green',
+      hex: '80C11A',
+      selected: true
+    }];
+
     $scope.icons = [
       {
         id: 1,

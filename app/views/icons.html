@@ -1,15 +1,20 @@
 <section ng-controller="IconsCtrl">
   <article>
     <h1>Icons</h1>
+    <ul>
+      <li ng-repeat="color in colors">
+        <a ng-click="color.selected = !color.selected" class="{{ color.selected }}">{{ color.name }}</a>
+      </li>
+    </ul>
     <div class="clearfix">
       <input ng-model="searchText" class="store-search" placeholder="Filter by name">
     </div>
     <div class="row store-icons">
       <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
-        <div class="store-icon-item">
-          <a ng-href="{{ icon.item.src }}" download>
-            <object class="item-image" type="image/svg+xml" data="{{ icon.item.src }}">
-          </a>
+        <div ng-repeat="color in colors | filter:{selected: true} ">
+          <div class="store-icon-item">
+            <downloadable-icon src="{{ icon.item.src }}" color="{{ color.hex }}"></downloadable-icon>
+          </div>
         </div>
       </div>
     </div>
