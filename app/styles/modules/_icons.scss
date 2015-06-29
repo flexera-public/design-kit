@@ -18,13 +18,13 @@
       padding: 10px 20px 10px 30px;
       &.true {
         border: 1px solid $green;
-        background-image: url('/images/assets/icon-check-blue.svg');
+        background-image: url('../images/assets/icon-check-blue.svg');
         &:hover {
-          background-image: url('/images/assets/icon-close-blue.svg');
+          background-image: url('../images/assets/icon-close-blue.svg');
         }
       }
       &.false {
-        background-image: url('/images/ignore/icon-plus-open.svg');
+        background-image: url('../images/ignore/icon-plus-open.svg');
         opacity: 0.4;
         &:hover {
           opacity: 1;
