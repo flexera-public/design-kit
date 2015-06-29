@@ -9,6 +9,40 @@
  */
 angular.module('designkitApp')
   .controller('IconsCtrl', function ($scope) {
+    $scope.colors = [{
+      name: 'Grey',
+      hex: '8596A5',
+      selected: true
+    },
+    // {
+    //   name: 'Grey Highlight',
+    //   hex: 'A2AFBA',
+    //   selected: true
+    // },
+    {
+      name: 'Blue',
+      hex: '2390F7',
+      selected: true
+    }, {
+      name: 'Blue Highlight',
+      hex: '54A9F9',
+      selected: true
+    }
+    , {
+      name: 'Green',
+      hex: '80C11A',
+      selected: true
+    }
+    , {
+      name: 'Sith',
+      hex: '30373C',
+      selected: true
+    }, {
+      name: 'White',
+      hex: 'FFFFFF',
+      selected: true
+    }];
+
     $scope.icons = [
       {
         id: 1,
@@ -134,6 +168,13 @@ angular.module('designkitApp')
         item: {
           name: 'Docs',
           src: 'images/ignore/icon-docs.svg',
+        }
+      },
+      {
+        id: 19,
+        item: {
+          name: 'Checked',
+          src: 'images/ignore/icon-check.svg',
         }
       }
     ];
