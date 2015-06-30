@@ -54,7 +54,7 @@
       @include transition-bounce;
       svg {
         width: 12px;
-        max-height: 16px;
+        height: 16px;
       }
       &:hover {
         box-shadow: 0 0 0px 2px $green;
