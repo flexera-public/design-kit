@@ -1,18 +1,6 @@
 'use strict';
 
 /**
- * @ngdoc service
- * @name designkitApp.service:SvgCache
- * @description A plain old JavaScript object for caching SVG data responses, so that the
- * {@link designkitApp.directive:downloadableIcon} directive doesn't re-download every
- * time. (Because colors default to all selected, this will download each icon once for
- * each color initially.)
- */
-angular.module('designkitApp').service('SvgCache', function() {
-  return {};
-});
-
-/**
  * @ngdoc downloadableIcon
  * @name designkitApp.directive:downloadableIcon
  * @restrict E
@@ -23,13 +11,7 @@ angular.module('designkitApp').service('SvgCache', function() {
  * element. This then sets the `fill` attribute of all `path` elements to the color given,
  * and adds a data URI to download the icon in that color.
  */
-angular.module('designkitApp').directive('downloadableIcon', function(SvgCache) {
-  function setAttributes(anchor, link, color) {
-    anchor.find('path').attr('fill', '#' + color);
-    anchor.attr('href', 'data:image/svg+xml;utf8,' + encodeURIComponent(anchor.html()));
-    anchor.attr('download', _.last(link.split('/')));
-  }
-
+angular.module('designkitApp').directive('downloadableIcon', function($http) {
   return {
     restrict: 'E',
     scope: {
@@ -41,17 +23,12 @@ angular.module('designkitApp').directive('downloadableIcon', function(SvgCache) 
       var anchor = element.find('a');
 
       if (!anchor.find('svg')[0]) {
-        if (SvgCache[scope.src]) {
-          anchor.html(SvgCache[scope.src]);
-
-          setAttributes(anchor, scope.src, scope.color);
-        } else {
-          anchor.load(scope.src, function(svg) {
-            SvgCache[scope.src] = svg;
-
-            setAttributes(anchor, scope.src, scope.color);
-          });
-        }
+        $http({method: 'GET', url: scope.src, cache: true}).success(function(svg) {
+          anchor.html(svg);
+          anchor.find('path').attr('fill', '#' + scope.color);
+          anchor.attr('href', 'data:image/svg+xml;utf8,' + encodeURIComponent(anchor.html()));
+          anchor.attr('download', _.last(scope.src.split('/')));
+        });
       }
     }
   };
