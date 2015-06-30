@@ -16,14 +16,14 @@
       font-weight: bold;
       text-decoration: none;
       padding: 10px 20px 10px 30px;
-      &.true {
+      &.selected {
         border: 1px solid $green;
         background-image: url('../images/assets/icon-check-blue.svg');
         &:hover {
           background-image: url('../images/assets/icon-close-blue.svg');
         }
       }
-      &.false {
+      &:not(.selected) {
         background-image: url('../images/ignore/icon-plus-open.svg');
         opacity: 0.4;
         &:hover {
@@ -44,7 +44,7 @@
     text-align: center;
     outline: none;
     margin-bottom: 2rem;
-    .FFFFFF {
+    .blue-background {
       background-color: $blue;
       display: block;
     }
