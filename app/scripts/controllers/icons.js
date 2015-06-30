@@ -40,6 +40,7 @@ angular.module('designkitApp')
     }, {
       name: 'White',
       hex: 'FFFFFF',
+      class: 'blue-background',
       selected: true
     }];
 

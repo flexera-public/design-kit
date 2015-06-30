@@ -6,14 +6,14 @@
     </div>
     <ul class="color-filter">
       <li ng-repeat="color in colors">
-        <a ng-click="color.selected = !color.selected" class="{{ color.selected }}">{{ color.name }}</a>
+        <a ng-click="color.selected = !color.selected" ng-class="{selected: color.selected}">{{ color.name }}</a>
       </li>
     </ul>
     <div class="row store-icons">
-      <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
-        <div ng-repeat="color in colors | filter:{selected: true} ">
+      <div ng-repeat="color in colors | filter:{selected: true} ">
+        <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
           <div class="store-icon-item">
-            <downloadable-icon src="{{ icon.item.src }}" class="{{ color.hex }}" color="{{ color.hex }}"></downloadable-icon>
+            <downloadable-icon src="{{ icon.item.src }}" class="{{ color.class }}" color="{{ color.hex }}"></downloadable-icon>
           </div>
         </div>
       </div>
