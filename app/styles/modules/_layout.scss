@@ -90,4 +90,7 @@ section {
 .example-box {
   padding: 3rem;
   @include box-style;
+  &.example-box-table {
+    background: $body;
+  }
 }

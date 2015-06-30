@@ -38,6 +38,47 @@
   }
 }
 
+.radio {
+  position: relative;
+  input[type="radio"] {
+    display: none;
+    &:checked+label {
+      &:before {
+        background-image: url('images/icon-sprite-forms.svg');
+        background-position: 2px -98px;
+        background-repeat: none;
+        border-color: $green;
+      }
+    }
+  }
+  label {
+    color: $text;
+    font-size: rem(13);
+    padding-left: 0;
+    &:before {
+      background-color: #fff;
+      background-image: none;
+      border: 2px solid #A2AFBA;
+      border-radius: 7px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+      content: "";
+      height: 14px;
+      left: 0;
+      margin-top: -7px;
+      position: absolute;
+      top: 50%;
+      width: 14px;
+    }
+  }
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    label {
+      cursor: not-allowed;
+    }
+  }
+}
+
 /* ! 1.4 - Checkboxes */
 /**
  * @ngdoc style

@@ -177,6 +177,27 @@ angular.module('designkitApp')
           name: 'Checked',
           src: 'images/ignore/icon-check.svg',
         }
+      },
+      {
+        id: 20,
+        item: {
+          name: 'Sort - Unsorted',
+          src: 'images/ignore/icon-sort-unsorted.svg',
+        }
+      },
+      {
+        id: 21,
+        item: {
+          name: 'Sort - Up',
+          src: 'images/ignore/icon-sort-up.svg',
+        }
+      },
+      {
+        id: 22,
+        item: {
+          name: 'Sort - Down',
+          src: 'images/ignore/icon-sort-down.svg',
+        }
       }
     ];
   });

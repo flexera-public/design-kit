@@ -3,24 +3,42 @@ table {
   width: 100%;
 }
 th {
-  border-bottom: 1px solid $grey-border;
-  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  background: url("/images/assets/icon-sort-unsorted.svg") transparent no-repeat scroll;
+  background-position: right 10px center;
+  background-size: auto 10px;
+  border-bottom: 2px solid $grey-border;
+  border-left: 1px solid $grey-border-light;
   color: $heading;
   font-size: $zeta;
-  line-height: 1.4rem;
-  padding: 1.2rem 2rem;
+  line-height: 2;
+  padding: 12px 24px 12px 12px;
   text-align: left;
   white-space: nowrap;
+  &:first-child {
+    border-left: 0px solid transparent;
+    background: none;
+    padding: 12px;
+  }
   &:focus {
     outline: none;
   }
+  a {
+    display: block;
+  }
 }
-td {
+tr td {
   border-top: 1px solid $grey-border-light;
-  line-height: 1.8rem;
-  padding: 1.5rem 2rem;
+  border-left: 1px solid $grey-border-light;
+  &:first-child {
+    border-left: 0px solid transparent;
+  }
+  line-height: 18px;
+  padding: 15px 12px;
   text-align: left;
   word-break: break-word;
+  .nowrap {
+    white-space: nowrap;
+  }
 }
 th,
 td {
@@ -32,10 +50,73 @@ td {
     text-align: right;
   }
 }
+tr {
+  background: lighten($body, 3%);
+  &:nth-child(2n+2),
+  &:first-child {
+    background: white;
+  }
+}
 .empty_table_cell {
   font-style: italic;
   opacity: .6;
 }
 .overflow_table {
   overflow-x: scroll;
+}
+
+section.example-table {
+  display: table;
+  .table-header,
+  .table-row {
+    display: table-row;
+  }
+  .table-header-cell,
+  .table-row-cell {
+    display: table-cell;
+  }
+}
+.table-wrapper {
+  background: $body;
+  border: 1px solid $grey-border;
+  border-bottom: 1px solid darken($grey-border,3%);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  table {
+    background: white;
+    margin-top: 5px;
+    border-top: 1px solid $grey-border;
+  }
+  .table-image {
+    text-align: center;
+  }
+  td {
+
+  }
+}
+.table-filter {
+  background: white;
+  border-bottom: 1px solid $grey-border;
+  @include display(flex);
+}
+.table-filter-search {
+  @include flex(1 1 auto);
+  input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-right: 1px solid $grey-border-light;
+    background: transparent url("/images/assets/icon-search-blue.svg") no-repeat scroll 10px center;
+    padding: 10px 10px 10px 30px;
+  }
+}
+.table-filter-options {
+  padding: 10px 0px 10px 10px;
+  @include flex(0 1 auto);
+  .table-filter-number {
+    font-size: $zeta;
+    font-weight: bold;
+  }
+  .table-filter-dropdown {
+    padding: 10px;
+  }
 }
