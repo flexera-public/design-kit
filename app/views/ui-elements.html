@@ -100,45 +100,56 @@
   <div class="row">
     <div class="col-md-12">
       <h2>Tables</h2>
-      <div class="example-box">
-        <table class="example-table">
-          <tr>
-            <th>Check</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Image</th>
-          </tr>
-          <tr>
-            <td><input type="checkbox"></td>
-            <td>Fringilla</td>
-            <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.</td>
-            <td><img src="images/icon-download.svg" alt="Download"></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox"></td>
-            <td>Cras</td>
-            <td>Donec sed odio dui.</td>
-            <td><img src="images/icon-download.svg" alt="Download"></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox"></td>
-            <td>Ridiculus Nullam</td>
-            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue.</td>
-            <td><img src="images/icon-download.svg" alt="Download"></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox"></td>
-            <td>Inceptos Lorem</td>
-            <td>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
-            <td><img src="images/icon-download.svg" alt="Download"></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox"></td>
-            <td>Euismod Purus</td>
-            <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
-            <td><img src="images/icon-download.svg" alt="Download"></td>
-          </tr>
-        </table>
+      <div class="example-box example-box-table">
+        <div class="table-wrapper">
+          <header class="table-filter">
+            <div class="table-filter-search">
+              <input type="search" placeholder="Filter results"></input>
+            </div>
+            <div class="table-filter-options">
+              <span class="table-filter-number">Showing <i>X</i> of <i>Y</i></span>
+              <span class="table-filter-dropdown"><a href="#"><img src="images/assets/icon-cog.svg" alt=""></a></span>
+            </div>
+          </header>
+          <table class="example-table">
+            <tr>
+              <th><input type="checkbox"></th>
+              <th><a href="#">Title</a></th>
+              <th><a href="#">Description</a></th>
+              <th class="table-image"><a href="#">State</a></th>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><a href="#" class="nowrap">Fringilla</a></td>
+              <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.</td>
+              <td class="table-image"><img src="images/assets/icon-server-green.svg" alt="Alternate Title"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><a href="#" class="nowrap">Cras</a></td>
+              <td>Donec sed odio dui.</td>
+              <td class="table-image"><img src="images/assets/icon-server-orange.svg" alt="Alternate Title"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><a href="#" class="nowrap">Ridiculus Nullam</a></td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue.</td>
+              <td class="table-image"><img src="images/assets/icon-server-red.svg" alt="Alternate Title"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><a href="#" class="nowrap">Inceptos Lorem</a></td>
+              <td>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
+              <td class="table-image"><img src="images/assets/icon-server-warning.svg" alt="Alternate Title"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><a href="#" class="nowrap">Maecenas_sed_diam_eget_risus_varius_blandit_sit_amet_non_magna</a></td>
+              <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
+              <td class="table-image"><img src="images/assets/icon-server-green.svg" alt="Alternate Title"></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>
