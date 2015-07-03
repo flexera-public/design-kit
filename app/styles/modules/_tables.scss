@@ -3,10 +3,6 @@ table {
   width: 100%;
 }
 th {
-  background: url("/images/assets/icon-sort-unsorted.svg") transparent no-repeat scroll;
-  background-position: right 10px center;
-  background-size: auto 10px;
-  border-bottom: 2px solid $grey-border;
   border-left: 1px solid $grey-border-light;
   color: $heading;
   font-size: $zeta;
@@ -56,6 +52,10 @@ tr {
   &:first-child {
     background: white;
   }
+  .icon-sort-unsorted {
+    float: right;
+    width: 12px;
+  }
 }
 .empty_table_cell {
   font-style: italic;
@@ -82,9 +82,9 @@ section.example-table {
   border-bottom: 1px solid darken($grey-border,3%);
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
   table {
     background: white;
-    margin-top: 5px;
     border-top: 1px solid $grey-border;
   }
   .table-image {
@@ -97,6 +97,7 @@ section.example-table {
 .table-filter {
   background: white;
   border-bottom: 1px solid $grey-border;
+  margin-bottom: 5px;
   @include display(flex);
 }
 .table-filter-search {
