@@ -155,3 +155,35 @@
     color: $heading;
   }
 }
+
+.form-input {
+  label {
+
+  }
+  select {
+    text-transform: none;
+    color: #76899A;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.415;
+    background: url('../images/ignore/icon-caret.svg') no-repeat right center transparent;
+      background-size: 28px 6px;
+    border: 1px solid #D1D6DC;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding: 0.8rem;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    height: 36px;
+    width: 100%;
+    &:focus {
+      border: 1px solid #a6afbb;
+      border-top: 1px solid #a0aab7;
+      outline: none;
+    }
+  }
+}
