@@ -10,6 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "mixins/bourbon/bourbon";
 @import "mixins/miscellaneous";
 @import "variables/fonts";
+@import "variables/buttons";
 
 // Reset and dependencies
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/normalize";
@@ -24,7 +25,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/tables";
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/forms";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/buttons";
 
 // Components
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/component-animations";
@@ -55,9 +55,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "modules/search";
 @import "modules/forms";
 @import "modules/tables";
-
-// Buttons
-@import "variables/buttons";
+@import "modules/buttons";
 
 
 .style_code {

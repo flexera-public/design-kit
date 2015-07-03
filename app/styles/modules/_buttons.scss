@@ -1,224 +1,44 @@
-@charset "UTF-8";
-
-/*
-
-1. Main Buttons
-├── 1.0 Standard
-├── 1.1 Primary
-├── 1.2 Secondary
-├── 1.3 Destructive
-├── 1.4 Icons
-└── 1.5 Loading
-
-2. Button group
-└── 2.0 Structure
-
-3. Dropdown buttons
-└── 3.0 Structure
-
-/*----------------------------------------------------------------------------
-  1. Main Buttons
-----------------------------------------------------------------------------*/
-
-/* ! 1.0 - Standard */
-
-.button,
-a.button /* Grey */ {
-  border: 1px solid darken($grey-button,10%);
-  border-bottom: 1px solid darken($grey-button,20%);
-  border-radius: 2px;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,1), 0 1px 1px rgba(0,0,0,0.06);
-  color: $text;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: bold;
-  line-height: 1;
-  padding: 1rem 1.5rem;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,1);
-  -webkit-font-smoothing: antialiased;
-  @include linear-gradient(lighten($grey-button,8%), $grey-button);
-  &.blank {
-    border: 1px solid transparent;
-    background: none;
-    box-shadow: none;
-    &:hover {
-      border: 1px solid darken($grey-button,10%);
-      border-bottom: 1px solid darken($grey-button,20%);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 1px rgba(0,0,0,0.06);
-      @include linear-gradient(saturate($grey-button,30%), saturate(darken($grey-button,5%),30%));
-    }
-  }
-  &.small {
-    padding: .7rem .8rem;
-  }
-  &.large {
-    padding: 1.3rem 2rem;
-  }
-}
-.button:hover,
-.button.zeroclipboard-is-hover {
-  @include linear-gradient(lighten($grey-button,6%), darken($grey-button,2%));
-}
-.button.selected {
-  border-bottom: 1px solid #d4d7db;
-  border-left: 1px solid #b8b9bc;
-  border-right: 1px solid #b8b9bc;
-  border-top: 1px solid #b8b9bc;
-  box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
-  @include linear-gradient(#dddfe2, #e8ebee);
-}
-.button.hidden-add,
-.button.hidden-remove {
-  visibility: visible;
-}
-.button.hidden-add {
-  @include transition (opacity .1s ease-in-out);
-}
-.button.hidden-remove {
-  @include transition (opacity .4s ease-in-out);
-}
-.button.hidden {
-  display: block;
-  opacity: 0;
-  visibility: hidden;
-}
-
-/* ! 1.1 - Primary */
-
-.button.primary /* Green */ {
-  border: 1px solid darken($green-button,2%);
-  border-top: 1px solid $green-button;
-  border-bottom: 1px solid darken($green-button,8%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 1px 1px rgba(0,0,0,0.15);
-  color: #fff;
-  @include linear-gradient(lighten($green-button,8%), $green-button);
-  @include black-text-shadow;
-}
-.button.primary:hover {
-  @include linear-gradient(saturate(lighten($green-button,6%),5%), saturate(darken($green-button,2%),5%));
-}
-
-/* ! 1.2 - Secondary */
-
-.button.secondary /* Blue */ {
-  border: 1px solid $blue-button;
-  border-bottom: 1px solid darken($blue-button,15%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 1px 1px rgba(0,0,0,0.15);
-  color: #fff;
-  @include linear-gradient(lighten($blue-button,8%), $blue-button);
-  @include black-text-shadow;
-}
-.button.secondary:hover {
-  @include linear-gradient(saturate(lighten($blue-button,5%),15%), saturate(darken($blue-button,5%),15%));
-}
-
-/* ! 1.3 - Destructive */
-
-.button.destructive /* Red */ {
-  border: 1px solid $red-button;
-  border-bottom: 1px solid darken($red-button,25%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 1px 1px rgba(0,0,0,0.25);
-  color: #fff;
-  @include linear-gradient($red-button, darken($red-button,10%));
-  @include black-text-shadow;
-}
-.button.destructive:hover {
-  @include linear-gradient(saturate($red-button,15%), saturate(darken($red-button,10%),15%));
-}
-
-.button:active,
-.button.zeroclipboard-is-active {
-  border: 1px solid darken($grey-button,20%);
-  box-shadow: inset 0 2px 3px rgba(0,0,0,0.25);
-  &.secondary {
-    border: 1px solid darken($blue-button,15%);
+.button {
+  @include button($default-button);
+  text-shadow: 0 1px 0 rgba(255,255,255,.75); // override
+  border-color: #b4bcc6;
+  border-bottom-color: #9da8b4;
+  box-shadow: inset 0 1px 0 #fff,0 1px 1px rgba(0,0,0,.15);
+  &:hover {
+    border-color: #8693a3;
   }
   &.primary {
-    border: 1px solid darken($green-button,15%);
+    @include button($primary-button);
+  }
+  &.secondary {
+    @include button($secondary-button);
   }
   &.destructive {
-    border: 1px solid darken($red-button,25%);
+    @include button($destructive-button);
+  }
+  &.small {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+  &[disabled] {
+    color: $text;
+    cursor: not-allowed;
+    opacity: 0.5;
+    &:hover {
+      color: $text;
+      background: linear-gradient(lighten($grey-button,3%), $grey-button);
+    }
   }
 }
-.button[disabled],
-.button.primary[disabled],
-.button.secondary[disabled],
-.button.destructive[disabled] {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
-.button.back{
-  background: url('/images/assets/button_back.svg') no-repeat left center transparent;
-  margin: 0 0 0 em(-3);
-  padding: 0 0 0 em(20);
-}
-.button .edit,
-a.button .edit {
-
-  background: url(image_path('buttons/edit.svg')) no-repeat left center transparent;
-}
-button:focus {
-  outline: none;
-}
-
-/* ! 1.4 - Icons */
-
-.button .icon {
-  float: left;
-  height: em(13);
-  width: em(13);
-  &.w_text {
-    margin-right: 4px;
-  }
-  &.w_text.right {
-    margin-left: 4px;
-    margin-right: 0;
-  }
-  &.right {
-    float: right;
-  }
-  &.delete {
-    background: none,url(image_path('buttons/trash_grey.svg')) no-repeat center center transparent;
-  }
-  &.link {
-    background: none,url(image_path('buttons/link_grey.svg')) no-repeat center center transparent;
-  }
-  &.copy {
-    background: none,url(image_path('buttons/copy.svg')) no-repeat center center transparent;
-  }
-  &.white_caret {
-    background: none,url(image_path('buttons/white_caret.svg')) no-repeat center center transparent;
-  }
-  &.edit {
-    background: url(image_path('buttons/edit.svg')) no-repeat center center transparent;
-  }
-}
-
-/* ! 1.5 - Loading */
-
-.button_loading {
-  background: url('images/assets/small_spinner.gif') no-repeat left center transparent;
-  color: $heading;
-  display: inline-block;
-  font-weight: bold;
-  line-height: 3.5rem;
-  padding-left: 2.5rem;
-}
-
-/*----------------------------------------------------------------------------
-  2. Button group
-----------------------------------------------------------------------------*/
-
-/* ! 2.0 - Structure */
-
 .button_group {
+  padding-left: 0;
   @include clearfix;
   .button {
     display: inline-block;
   }
   li {
     float: left;
+    list-style: none;
     &:not(:first-child):not(:last-child) .button {
       border-radius: 0;
       margin-left: -1px;
@@ -241,137 +61,29 @@ button:focus {
   margin-right: em(13);
 }
 
-/*----------------------------------------------------------------------------
-  3. Dropdown buttons
-----------------------------------------------------------------------------*/
-
-/* ! 3.0 - Structure */
-
-.dropdown {
-  position: relative;
-}
-.button_dropdown {
-  @include box-style; /* added at top to allow overwrite radius */
-  margin-top: 11px;
-  min-width: 100%;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  z-index: 10;
-  @include transform(scale(0));
-  @include transform-origin(center top);
-  @include transition(all .2s cubic-bezier(0.175, 0.885, 0.305, 1.115));
-  &.pos_left {
-    left: 0;
-    right: inherit;
+.icon {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  background-size: 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+  &.w_text {
+    margin-right: 4px;
   }
-  li {
-    border-bottom: 1px solid $light-grey-border;
-    width: 100%;
-    &:last-child {
-      border-bottom: 0;
-    }
-    a {
-      display: block;
-      padding: em(8) em(13);
-      white-space: nowrap;
-    }
+  &.w_text.right {
+    margin-left: 4px;
+    margin-right: 0;
+  }
+  &.edit {
+    background-image: url('/images/icon/edit.svg');
+  }
+  &.delete {
+    background-image: url('/images/icon/delete.svg');
   }
 }
-.dropdown.open .button_dropdown {
-  opacity: 1;
-  @include transform(scale(1));
-}
-.dropdown.open:after, .dropdown.open:before {
-  bottom: -12px;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  z-index: 11;
-}
-.dropdown.open:after {
-  border-color: rgba(244, 245, 247, 0);
-  border-bottom-color: #fff;
-  border-width: 6px;
-  margin-left: -6px;
-}
-.dropdown.open:before {
-  border-color: rgba(209, 214, 220, 0);
-  border-bottom-color: $grey-border;
-  border-width: 7px;
-  margin-left: -7px;
-}
-
-/*----------------------------------------------------------------------------
-  4. Inline dropdown
-----------------------------------------------------------------------------*/
-
-/* ! 4.0 - Structure */
-
-.inline_dropdown_wrap {
-  position: relative;
-  .inline_trigger {
-    background: $grey-icon;
-    border-radius: 2px;
-    display: block;
-    height: 12px;
-    position: relative;
-    width: 12px;
-    z-index: 101;
-    &:hover {
-      background: $blue-icon;
-    }
-    &:after {
-      background: url(image_path('tables/expand_white.svg')) no-repeat center center;
-      background-size: 8px;
-      content: "";
-      height: 8px;
-      left: 1px;
-      margin-top: -4px;
-      position: absolute;
-      top: 50%;
-      width: 10px;
-      @include transition-bounce;
-      @include transform(rotate3d(0,0,1,0deg));
-      @include transform-origin(center center);
-    }
-  }
-  &.open .inline_trigger{
-    background: $blue-icon;
-    border-radius: 2px 2px 0 0;
-    &:after {
-      @include transform(rotate3d(0,0,1,-180deg));
-    }
-  }
-  .inline_dropdown_list {
-    @include box-style;
-    border-radius: 2px 0 2px 2px;
-    display: none;
-    position: absolute;
-    right: 0;
-    top: calc(100% - 2px);
-    z-index: 100;
-  }
-  &.open .inline_dropdown_list {
-    display: block;
-  }
-  .inline_list_item {
-    padding-left: 1.6rem;
-    &.selected {
-      background: url('images/assets/sorting_tick.svg') no-repeat .5rem center transparent;
-    }
-    .inline_list_anchor {
-      border-bottom: 1px solid $light-grey-border;
-      display: block;
-      padding: .8rem 1rem .8rem 0;
-    }
-    &:last-of-type .inline_list_anchor {
-      border-bottom: none;
-    }
+.small {
+  .icon {
+    background-size: 10px;
   }
 }
