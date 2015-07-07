@@ -7,7 +7,7 @@ th {
   color: $heading;
   font-size: $zeta;
   line-height: 2;
-  padding: 12px 24px 12px 12px;
+  padding: 12px 30px 12px 12px;
   text-align: left;
   white-space: nowrap;
   &:first-child {
@@ -20,6 +20,10 @@ th {
   }
   a {
     display: block;
+    float: left;
+  }
+  &.sortable-column {
+    background: transparent url('/images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
   }
 }
 tr td {
@@ -54,7 +58,9 @@ tr {
   }
   .icon-sort-unsorted {
     float: right;
-    width: 12px;
+    position: relative;
+    top: 6px;
+    width: 8px;
   }
 }
 .empty_table_cell {
