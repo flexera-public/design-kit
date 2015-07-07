@@ -146,35 +146,11 @@
               <th><a href="#">Description</a></th>
               <th class="table-image"><a href="#">State<img class="icon-sort-unsorted" src="/images/assets/icon-sort-unsorted.svg" alt=""></a></th>
             </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="#" class="nowrap">Fringilla</a></td>
-              <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.</td>
-              <td class="table-image"><img src="images/assets/icon-server-green.svg" alt="Alternate Title"></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="#" class="nowrap">Cras</a></td>
-              <td>Donec sed odio dui.</td>
-              <td class="table-image"><img src="images/assets/icon-server-orange.svg" alt="Alternate Title"></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="#" class="nowrap">Ridiculus Nullam</a></td>
-              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue.</td>
-              <td class="table-image"><img src="images/assets/icon-server-red.svg" alt="Alternate Title"></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="#" class="nowrap">Inceptos Lorem</a></td>
-              <td>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
-              <td class="table-image"><img src="images/assets/icon-server-warning.svg" alt="Alternate Title"></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox"></td>
-              <td><a href="#" class="nowrap">Maecenas_sed_diam_eget_risus_varius_blandit_sit_amet_non_magna</a></td>
-              <td>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</td>
-              <td class="table-image"><img src="images/assets/icon-server-green.svg" alt="Alternate Title"></td>
+            <tr ng-repeat="row in tableRows" ng-class="{ 'selected-row': row.isSelected }">
+              <td><input type="checkbox" ng-model="row.isSelected"></td>
+              <td><a href="#" class="nowrap">{{row.title}}</a></td>
+              <td>{{row.description}}</td>
+              <td class="table-image"><img src={{row.state}} alt="Alternate Title"></td>
             </tr>
           </table>
         </div>
