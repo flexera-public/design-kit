@@ -45,22 +45,9 @@
             <input type="checkbox" id="checkbox" />
             <label for="checkbox" class="checkbox_label">Label</label>
           </div>
-          <div class="checkbox_wrap">
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox" class="checkbox_label">Label</label>
-          </div>
-          <div class="checkbox_wrap">
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox" class="checkbox_label">Label</label>
-          </div>
-          <div class="checkbox_wrap">
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox" class="checkbox_label">Label</label>
-          </div>
-          <br />
-          <div class="checkbox_wrap checkbox_indeterminate">
-            <input type="checkbox" id="indeterminate" />
-            <label for="indeterminate" class="checkbox_label">Indeterminate</label>
+          <div class="checkbox_wrap checkbox_disabled">
+            <input type="checkbox" id="disabled" disabled />
+            <label for="disabled" class="checkbox_label">Disabled</label>
           </div>
         </div>
     </div>
@@ -70,13 +57,24 @@
       <h2>Radio Buttons</h2>
         <div class="example-box">
           <div class="radio">
-            <label><input type="radio" name="optradio">Standard option</label>
+            <input type="radio" id="radio01" name="radio" />
+            <label for="radio01"><span></span>Lorem Cras Tristique Tortor</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="optradio" checked>Pre-selected option</label>
+            <input type="radio" id="radio02" name="radio" />
+            <label for="radio02"><span></span>Sem Ultricies Amet Risus Nibh</label>
           </div>
-          <div class="radio disabled">
-            <label clas><input type="radio" name="optradio" disabled>Disabled option</label>
+          <div class="radio">
+            <input type="radio" id="radio03" name="radio" />
+            <label for="radio03"><span></span>Ligula Condimentum Pharetra</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="radio04" name="radio" />
+            <label for="radio04"><span></span>Nullam Lorem Tortor</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="radio05" name="radio" />
+            <label for="radio05"><span></span>Porta Ullamcorper Condimentum</label>
           </div>
         </div>
     </div>
