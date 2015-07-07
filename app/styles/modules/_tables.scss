@@ -62,6 +62,14 @@ tr {
     top: 6px;
     width: 8px;
   }
+  &.selected-row {
+    background: rgba($link, 0.05);
+    td {
+      &:first-child {
+        box-shadow: 3px 0 0 0 $link inset;
+      }
+    }
+  }
 }
 .empty_table_cell {
   font-style: italic;

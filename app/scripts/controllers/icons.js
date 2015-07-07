@@ -12,7 +12,7 @@ angular.module('designkitApp')
     $scope.colors = [{
       name: 'Grey',
       hex: '8596A5',
-      selected: true
+      selected: false
     },
     // {
     //   name: 'Grey Highlight',
@@ -26,22 +26,22 @@ angular.module('designkitApp')
     }, {
       name: 'Blue Highlight',
       hex: '54A9F9',
-      selected: true
+      selected: false
     }
     , {
       name: 'Green',
       hex: '80C11A',
-      selected: true
+      selected: false
     }
     , {
       name: 'Sith',
       hex: '30373C',
-      selected: true
+      selected: false
     }, {
       name: 'White',
       hex: 'FFFFFF',
       class: 'blue-background',
-      selected: true
+      selected: false
     }];
 
     $scope.icons = [
