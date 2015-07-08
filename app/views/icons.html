@@ -1,20 +1,23 @@
 <section ng-controller="IconsCtrl">
   <article>
     <h1>Icons</h1>
-    <div class="clearfix">
-      <input ng-model="searchText" class="store-search" placeholder="Filter by name">
+    <div class="clearfix color-filter">
+      <ul class="color-filter-radio">
+        <li ng-repeat="color in colors">
+          <label ng-class="{selected: colors.selected === color}">
+            <input type="radio" name="color" ng-model="colors.selected" ng-value="color">
+            {{ color.name }}
+          </label>
+        </li>
+      </ul>
+      <div class="color-filter-search">
+        <input ng-model="searchText" class="store-search" placeholder="Filter by name">
+      </div>
     </div>
-    <ul class="color-filter">
-      <li ng-repeat="color in colors">
-        <a ng-click="color.selected = !color.selected" ng-class="{selected: color.selected}">{{ color.name }}</a>
-      </li>
-    </ul>
     <div class="row store-icons">
-      <div ng-repeat="color in colors | filter:{selected: true} ">
-        <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
-          <div class="store-icon-item">
-            <downloadable-icon src="{{ icon.item.src }}" class="{{ color.class }}" color="{{ color.hex }}"></downloadable-icon>
-          </div>
+      <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
+        <div class="store-icon-item {{ colors.selected.class }}">
+          <downloadable-icon src="{{ icon.item.src }}" name="{{ icon.item.name }}" class="" color="{{ colors.selected.hex }}"></downloadable-icon>
         </div>
       </div>
     </div>

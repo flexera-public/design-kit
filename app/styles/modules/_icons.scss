@@ -1,11 +1,16 @@
+
 .color-filter {
   border-bottom: 1px solid $grey-border-light;
+  @include display(flex);
+  @include justify-content(space-between);
+}
+.color-filter-radio {
   list-style: none;
-  padding: 30px 0;
+  padding: 0;
   li {
     display: inline-block;
     margin-right: 10px;
-    a {
+    label {
       background-color: white;
       background-size: 10px;
       background-position: 15px 50%;
@@ -15,7 +20,10 @@
       cursor: pointer;
       font-weight: bold;
       text-decoration: none;
-      padding: 10px 20px 10px 30px;
+      padding: 8px 20px 8px 30px;
+      input {
+        display: none;
+      }
       &.selected {
         border: 1px solid $green;
         background-image: url('../images/assets/icon-check-blue.svg');
@@ -33,7 +41,11 @@
     }
   }
 }
-
+.color-filter-search {
+  // float: right;
+  outline: red;
+  @include flex(2 1 auto);
+}
 .store-icons {
   margin-top: 2rem;
   .store-icon-item {
@@ -45,25 +57,62 @@
     text-align: center;
     outline: none;
     margin-bottom: 2rem;
-    .blue-background {
+    padding: 0.5rem;
+    &.blue-background {
       background-color: $blue;
+      border: 1px solid darken($blue, 3%);
       display: block;
+      .store-icon-name {
+        color: white;
+      }
     }
-    a {
+    .store-preview-icon {
       padding: 2rem;
       display: block;
       @include transition-bounce;
       svg {
-        width: 12px;
-        height: 16px;
+        width: 24px;
+        height: 32px;
         vertical-align: middle;
       }
-      &:hover {
-        box-shadow: 0 0 0px 2px $green;
+    }
+    .store-icon-text {
+      display: block;
+      height: 25px;
+    }
+    .store-icon-name {
+      display: block;
+    }
+    .store-download-link {
+      display: none;
+      @include justify-content(space-between);
+      .store-download {
+        background: $default-button url('/images/assets/icon-download-link.svg') no-repeat 10px center / auto 10px;
+        border-radius: 3px;
+        color: $text;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px 10px 5px 25px;
+        &:hover {
+          background: $primary-button url('/images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0 0 0px 2px $green;
+      .store-preview-icon {
         svg {
-          @include transform(scale(2.4));
+          @include transform(scale(1.8));
           @include transition-bounce;
         }
+      }
+      .store-icon-name {
+        display: none;
+      }
+      .store-download-link {
+        @include display(flex);
       }
     }
   }

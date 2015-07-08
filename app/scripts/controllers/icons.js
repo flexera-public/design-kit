@@ -11,38 +11,26 @@ angular.module('designkitApp')
   .controller('IconsCtrl', function ($scope) {
     $scope.colors = [{
       name: 'Grey',
-      hex: '8596A5',
-      selected: false
-    },
-    // {
-    //   name: 'Grey Highlight',
-    //   hex: 'A2AFBA',
-    //   selected: true
-    // },
-    {
-      name: 'Blue',
-      hex: '2390F7',
-      selected: true
+      hex: '8596A5'
     }, {
-      name: 'Blue Highlight',
-      hex: '54A9F9',
-      selected: false
-    }
-    , {
+      name: 'Blue',
+      hex: '2390F7'
+    }, {
+      name: 'Blue Hover',
+      hex: '54A9F9'
+    } , {
       name: 'Green',
-      hex: '80C11A',
-      selected: false
-    }
-    , {
+      hex: '80C11A'
+    } , {
       name: 'Sith',
-      hex: '30373C',
-      selected: false
+      hex: '30373C'
     }, {
       name: 'White',
       hex: 'FFFFFF',
-      class: 'blue-background',
-      selected: false
+      class: 'blue-background'
     }];
+
+    $scope.colors.selected = $scope.colors[0];
 
     $scope.icons = [
       {
