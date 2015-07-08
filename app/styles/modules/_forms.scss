@@ -153,8 +153,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.3rem;
     line-height: 1.415;
-    background: url('../images/ignore/icon-caret.svg') no-repeat right center transparent;
-      background-size: 28px 6px;
+    background: transparent url('../images/ignore/icon-caret.svg') no-repeat right 0.8rem center / 12px 6px;
     border: 1px solid #D1D6DC;
     cursor: pointer;
     -webkit-appearance: none;

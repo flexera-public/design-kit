@@ -86,9 +86,10 @@ section {
   }
 }
 
-// For splitting out the exmaples of elements
+// For splitting out the examples of elements
 .example-box {
-  padding: 3rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
   @include box-style;
   &.example-box-table {
     background: $body;
