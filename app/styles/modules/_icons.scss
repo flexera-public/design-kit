@@ -5,7 +5,7 @@
   li {
     display: inline-block;
     margin-right: 10px;
-    a {
+    label {
       background-color: white;
       background-size: 10px;
       background-position: 15px 50%;
@@ -16,6 +16,9 @@
       font-weight: bold;
       text-decoration: none;
       padding: 10px 20px 10px 30px;
+      input {
+        display: none;
+      }
       &.selected {
         border: 1px solid $green;
         background-image: url('../images/assets/icon-check-blue.svg');

@@ -22,7 +22,7 @@ angular.module('designkitApp').directive('downloadableIcon', function($http) {
     link: function(scope, element) {
       var anchor = element.find('a');
 
-      if (!anchor.find('svg')[0]) {
+      function fillElement() {
         $http({method: 'GET', url: scope.src, cache: true}).success(function(svg) {
           anchor.html(svg);
           anchor.find('path').attr('fill', '#' + scope.color);
@@ -30,6 +30,10 @@ angular.module('designkitApp').directive('downloadableIcon', function($http) {
           anchor.attr('download', _.last(scope.src.split('/')));
         });
       }
+
+      scope.$watch('color', fillElement);
+
+      if (!anchor.find('svg')[0]) { fillElement(); }
     }
   };
 });
