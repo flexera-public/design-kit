@@ -20,7 +20,7 @@ angular.module('designkitApp').directive('downloadableIcon', function($http) {
       name: '@',
       color: '@'
     },
-    template: '<h3>{{ name }} <a>SVG</a> / <a>PNG</a></h3><div></div>',
+    template: '<div class="store-preview-icon"></div><span class="store-icon-text"><span class="store-icon-name">{{ name }}</span><span class="store-download-link"><a class="store-download svg">SVG</a><a class="store-download png">PNG</a></span></span>',
     link: function(scope, element) {
       var anchors = element.find('a'),
           imageWrapper = element.find('div');

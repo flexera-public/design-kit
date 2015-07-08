@@ -16,7 +16,7 @@ angular.module('designkitApp')
       name: 'Blue',
       hex: '2390F7'
     }, {
-      name: 'Blue Highlight',
+      name: 'Blue Hover',
       hex: '54A9F9'
     } , {
       name: 'Green',
