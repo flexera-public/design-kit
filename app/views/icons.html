@@ -17,7 +17,7 @@
     <div class="row store-icons">
       <div class="col-md-2" ng-repeat="icon in icons | filter:searchText">
         <div class="store-icon-item {{ colors.selected.class }}">
-          <downloadable-icon src="{{ icon.item.src }}" name="{{ icon.item.name }}" class="" color="{{ colors.selected.hex }}"></downloadable-icon>
+          <downloadable-icon src="{{ icon.item.src }}" name="{{ icon.item.name }}" color="{{ colors.selected.hex }}" color-name="{{ colors.selected.name }}"></downloadable-icon>
         </div>
       </div>
     </div>
