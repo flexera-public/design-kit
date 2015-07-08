@@ -43,3 +43,9 @@ p {
   line-height: 1.4;
   margin-bottom: $zeta;
 }
+
+.box-title {
+  border-bottom: 1px solid $grey-border;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
