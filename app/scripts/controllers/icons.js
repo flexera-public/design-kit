@@ -34,10 +34,31 @@ angular.module('designkitApp')
 
     $scope.icons = [
       {
-        id: 1,
+        id: 1.1,
         item: {
-          name: 'Arrow',
-          src: 'images/ignore/icon-arrow.svg',
+          name: 'Arrow - Right',
+          src: 'images/ignore/icon-arrow-right.svg',
+        }
+      },
+      {
+        id: 1.2,
+        item: {
+          name: 'Arrow - Left',
+          src: 'images/ignore/icon-arrow-left.svg',
+        }
+      },
+      {
+        id: 1.3,
+        item: {
+          name: 'Arrow - Up',
+          src: 'images/ignore/icon-arrow-up.svg',
+        }
+      },
+      {
+        id: 1.4,
+        item: {
+          name: 'Arrow - Down',
+          src: 'images/ignore/icon-arrow-down.svg',
         }
       },
       {
@@ -162,7 +183,7 @@ angular.module('designkitApp')
       {
         id: 19,
         item: {
-          name: 'Checked',
+          name: 'Check',
           src: 'images/ignore/icon-check.svg',
         }
       },
@@ -186,6 +207,125 @@ angular.module('designkitApp')
           name: 'Sort - Down',
           src: 'images/ignore/icon-sort-down.svg',
         }
-      }
+      },
+      {
+        id: 23,
+        item: {
+          name: 'API',
+          src: 'images/ignore/icon-api.svg',
+        }
+      },
+      {
+        id: 24,
+        item: {
+          name: 'Attachment',
+          src: 'images/ignore/icon-attachment.svg',
+        }
+      },
+      {
+        id: 25,
+        item: {
+          name: 'Back',
+          src: 'images/ignore/icon-back-button.svg'
+        }
+      },
+      {
+        id: 26,
+        item: {
+          name: 'Check',
+          src: 'images/ignore/icon-checkmark-circled.svg'
+        }
+      },
+      {
+        id: 27,
+        item: {
+          name: 'Cloud',
+          src: 'images/ignore/icon-cloud.svg'
+        }
+      },
+      {
+        id: 28,
+        item: {
+          name: 'Email',
+          src: 'images/ignore/icon-email.svg'
+        }
+      },
+      {
+        id: 29,
+        item: {
+          name: 'Phone',
+          src: 'images/ignore/icon-phone.svg'
+        }
+      },
+      {
+        id: 30,
+        item: {
+          name: 'Copy',
+          src: 'images/ignore/icon-copy.svg'
+        }
+      },
+      {
+        id: 31,
+        item: {
+          name: 'Error',
+          src: 'images/ignore/icon-error.svg'
+        }
+      },
+      {
+        id: 32,
+        item: {
+          name: 'Filter',
+          src: 'images/ignore/icon-filter.svg'
+        }
+      },
+      {
+        id: 33,
+        item: {
+          name: 'Hide',
+          src: 'images/ignore/icon-hide.svg'
+        }
+      },
+      {
+        id: 34,
+        item: {
+          name: 'Home',
+          src: 'images/ignore/icon-home.svg'
+        }
+      },
+      {
+        id: 35,
+        item: {
+          name: 'Help Info',
+          src: 'images/ignore/icon-info-help.svg'
+        }
+      },
+      {
+        id: 36,
+        item: {
+          name: 'Beta',
+          src: 'images/ignore/icon-beta.svg'
+        }
+      },
+      {
+        id: 37,
+        item: {
+          name: 'Save',
+          src: 'images/ignore/icon-saved.svg'
+        }
+      },
+      {
+        id: 38,
+        item: {
+          name: 'Read Only',
+          src: 'images/ignore/icon-read-only.svg'
+        }
+      },
+      {
+        id: 39,
+        item: {
+          name: 'Secure',
+          src: 'images/ignore/icon-secure.svg'
+        }
+      },
     ];
   });
