@@ -1,5 +1,7 @@
 .form-input {
-  margin: 1em 0;
+  // display: inline-block;
+  margin: 1rem 0 1rem 0;
+  // width: 30rem;
   label {
     color: $heading;
     display: block;
@@ -143,7 +145,7 @@
   }
 }
 
-.form-input {
+.example-select {
   label {
 
   }

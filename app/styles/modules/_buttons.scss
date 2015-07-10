@@ -1,5 +1,6 @@
-.button-list {
-  padding-left: 0;
+.button-list,
+.button-group {
+  padding: 0 0 2rem 0;
 }
 
 .button {
@@ -37,8 +38,26 @@
       background: linear-gradient(lighten($grey-button,3%), $grey-button);
     }
   }
+  &.icon {
+    padding-left: 3rem;
+    background-repeat: no-repeat, repeat;
+    background-size: 1.1rem, cover;
+    background-position: 0.8rem center;
+    &.download {
+      background-image: url('/images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      &:hover {
+        background-image: url('/images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
+      }
+    }
+    &.edit {
+      background-image: url('/images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      &:hover {
+        background-image: url('/images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
+      }
+    }
+  }
 }
-.button_group {
+.button-group {
   padding-left: 0;
   @include clearfix;
   .button {
@@ -47,17 +66,15 @@
   li {
     float: left;
     list-style: none;
-    &:not(:first-child):not(:last-child) .button {
-      border-radius: 0;
-      margin-left: -1px;
-    }
-    &:first-child:not(:last-child) .button {
+    border-radius: 0;
+    margin-left: -1px;
+    &:first-child {
       border-radius: 2px 0 0 2px;
       margin-left: 0;
     }
-    &:last-child:not(:first-child) .button {
+    &:last-child {
       border-radius: 0 2px 2px 0;
-      margin-left: -1px;
+
     }
   }
 }
@@ -67,31 +84,4 @@
 .button_bar.left .button_group {
   margin-left: 0;
   margin-right: em(13);
-}
-
-.icon {
-  display: inline-block;
-  height: 13px;
-  width: 13px;
-  background-size: 13px;
-  background-repeat: no-repeat;
-  background-position: center;
-  &.w_text {
-    margin-right: 4px;
-  }
-  &.w_text.right {
-    margin-left: 4px;
-    margin-right: 0;
-  }
-  &.edit {
-    background-image: url('/images/icon/edit.svg');
-  }
-  &.delete {
-    background-image: url('/images/icon/delete.svg');
-  }
-}
-.small {
-  .icon {
-    background-size: 10px;
-  }
 }

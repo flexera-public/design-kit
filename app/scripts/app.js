@@ -40,7 +40,15 @@ angular
         templateUrl: 'views/buttons.html',
         controller: 'ButtonsCtrl'
       })
-       .when('/ui-elements', {
+      .when('/tables', {
+        templateUrl: 'views/tables.html',
+        controller: 'TablesCtrl'
+      })
+      .when('/forms', {
+        templateUrl: 'views/forms.html',
+        controller: 'FormsCtrl'
+      })
+      .when('/ui-elements', {
         templateUrl: 'views/ui-elements.html',
         controller: 'UIelementsCtrl'
       })
