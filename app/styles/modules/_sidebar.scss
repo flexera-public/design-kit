@@ -8,11 +8,18 @@
   opacity: 1;
   font-size: 1.3rem;
   font-weight: bold;
-  li > a {
-    padding: 5px 0;
-    &:hover,
-    &:focus {
-      background-color: transparent;
+  li {
+    padding-left: 10px;
+    &.active {
+      box-shadow: -3px 0 0 0 $link-hover;
+    }
+    > a {
+      padding: 5px 0;
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        outline: 0;
+      }
     }
   }
 }
