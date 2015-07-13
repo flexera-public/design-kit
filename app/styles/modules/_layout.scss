@@ -94,3 +94,11 @@ section {
     background: $body;
   }
 }
+
+.sidebar {
+ @extend .col-md-2;
+}
+
+.content {
+   @extend .col-md-10;
+}

@@ -1,22 +1,22 @@
 'use strict';
 
-describe('Controller: IconsCtrl', function () {
+describe('Controller: LandingCtrl', function () {
 
   // load the controller's module
   beforeEach(module('designkitApp'));
 
-  var IconsCtrl,
+  var LandingCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    IconsCtrl = $controller('IconsCtrl', {
+    LandingCtrl = $controller('LandingCtrl', {
       $scope: scope
     });
   }));
 
-  it('should attach a list of icons to the scope', function () {
-    expect(scope.icons.length).toBe(42);
+  it('should attach a list of awesomeThings to the scope', function () {
+    expect(scope.awesomeThings.length).toBe(3);
   });
 });

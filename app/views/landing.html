@@ -1,0 +1,17 @@
+<section>
+  <div class="row">
+    <div class="card-columns" ng-repeat="card in cards">
+      <div class="card">
+        <a ng-href="#/{{ card.title | lowercase }}">
+          <div class="card-image">
+            <img src="images/assets/{{ card.bg }}" alt="{{ card.title }}">
+          </div>
+          <div class="card-details">
+            <h1>{{ card.title }}</h1>
+            <p>{{ card.details }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
