@@ -25,5 +25,6 @@
 .mark-container {
   .logo-download a {
     background-color: rgba(0, 0, 0, 0.3);
+    > img { margin-top: -2px; }
   }
 }
