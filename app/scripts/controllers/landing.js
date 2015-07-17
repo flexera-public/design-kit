@@ -12,38 +12,31 @@ angular.module('designkitApp')
     $scope.cards = [{
       id: '1',
       title: 'Logos',
-      details: 'Main logo, product logos and product marks',
-      bg: 'landing-logo.svg'
+      details: 'Main logo, product logos and product marks'
     }, {
       id: '2',
       title: 'Colors',
-      details: 'Branding, primary and accent colors',
-      bg: 'landing-colors.svg'
+      details: 'Branding, primary and accent colors'
     }, {
       id: '3',
       title: 'Typography',
-      details: 'Base typeography and hierarchy',
-      bg: 'landing-type.svg'
+      details: 'Base typeography and hierarchy'
     }, {
       id: '4',
       title: 'Icons',
-      details: 'Principal system icons',
-      bg: 'landing-icon.svg'
+      details: 'Principal system icons'
     }, {
       id: '5',
       title: 'Tables',
-      details: 'Basic table UI',
-      bg: 'landing-tables.svg'
+      details: 'Basic table UI'
     }, {
       id: '6',
       title: 'Buttons',
-      details: 'Default UI for buttons and button groups',
-      bg: 'landing-button.svg'
+      details: 'Default UI for buttons and button groups'
     }, {
       id: '7',
       title: 'Forms',
-      details: 'Basic form UI',
-      bg: 'landing-form.svg'
+      details: 'Basic form UI'
     }];
 
     $scope.sectionClass = 'section-landing';
