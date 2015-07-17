@@ -31,15 +31,7 @@
             <a class="navbar-brand" ng-href="#/"><img src="images/dk-logo.svg" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-            <ul class="topbar-nav">
-              <li ng-class="{active: isActive('/logos')}"><a ng-href="#/logos">Logos</a></li>
-              <li ng-class="{active: isActive('/colors')}"><a ng-href="#/colors">Colors</a></li>
-              <li ng-class="{active: isActive('/typography')}"><a ng-href="#/typography">Typography</a></li>
-              <li ng-class="{active: isActive('/icons')}"><a ng-href="#/icons">Icons</a></li>
-              <li ng-class="{active: isActive('/tables')}"><a ng-href="#/tables">Tables</a></li>
-              <li ng-class="{active: isActive('/buttons')}"><a ng-href="#/buttons">Buttons</a></li>
-              <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms</a></li>
-            </ul>
+            <ng-include src="'/partials/topbar-nav.html'"></ng-include>
           </div>
         </div>
       </div>
@@ -47,16 +39,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="sidebar">
-          <ul class="sidebar-nav">
-            <li ng-class="{active: isActive('/logos')}"><a ng-href="#/logos">Logos</a></li>
-            <li ng-class="{active: isActive('/colors')}"><a ng-href="#/colors">Colors</a></li>
-            <li ng-class="{active: isActive('/typography')}"><a ng-href="#/typography">Typography</a></li>
-            <li ng-class="{active: isActive('/icons')}"><a ng-href="#/icons">Icons</a></li>
-            <li ng-class="{active: isActive('/tables')}"><a ng-href="#/tables">Tables</a></li>
-            <li ng-class="{active: isActive('/buttons')}"><a ng-href="#/buttons">Buttons</a></li>
-            <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms</a></li>
-          </ul>
+        <div class="sidebar ng-cloak">
+          <ng-include src="'/partials/sidebar-nav.html'"></ng-include>
         </div>
         <div class="content">
           <div class="section {{ sectionClass }}" ng-view></div>
