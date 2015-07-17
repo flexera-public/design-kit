@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="37px" viewBox="0 0 52 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>product-icon-ca</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Application-Branding-Guide" sketch:type="MSArtboardGroup" transform="translate(-96.000000, -901.000000)">
+            <g id="product-icon-ca" sketch:type="MSLayerGroup" transform="translate(96.000000, 900.000000)">
+                <path d="M45.7,17.9 L45.7,17 C45.7,8.5 38.6,1 30.1,1 C23.9,1 18.8,5.1 16.3,10.3 C15.1,9.4 13.6,8.8 11.9,8.8 C8,8.9 4.8,12 4.8,16 C4.8,16.7 4.9,17.5 5.1,18.1 C2,19.9 0,23.3 0,27.1 C0,32.8 4.3,37.9 10,38 L10,38 L10.1,38 L10.1,38 L41.5,38 L42.1,38 C47.8,38 52,33 52,27.4 C52,23.1 49.4,19.5 45.7,17.9 L45.7,17.9 Z" id="Shape" fill="#80C11A" sketch:type="MSShapeGroup"></path>
+                <path d="M38,12 C36.3,12 35,13.3 35,15 C35,15.3 35.1,15.7 35.2,16 L29.6,24.1 C29.4,24 29.2,24 29,24 C28.7,24 28.4,24.1 28.1,24.1 L22.9,19.6 C22.9,19.4 23,19.2 23,18.9 C23,17.2 21.7,15.9 20,15.9 C18.3,15.9 17,17.2 17,18.9 C17,19.2 17.1,19.5 17.1,19.8 L11.6,26 L11,26 C9.3,26 8,27.3 8,29 C8,30.7 9.3,32 11,32 C12.7,32 14,30.7 14,29 C14,28.7 13.9,28.4 13.9,28.1 L19.4,21.9 C19.5,22 19.8,22 20,22 C20.3,22 20.6,21.9 20.9,21.9 L26.1,26.4 C26.1,26.6 26,26.8 26,27.1 C26,28.8 27.3,30.1 29,30.1 C30.7,30.1 32,28.8 32,27.1 C32,26.8 31.9,26.4 31.8,26.1 L37.4,18 C37.6,18 37.7,18.1 37.9,18.1 C39.6,18.1 40.9,16.8 40.9,15.1 C40.9,13.4 39.7,12 38,12 L38,12 Z M19,18 L21,18 L21,20 L19,20 L19,18 L19,18 Z M12,30 L10,30 L10,28 L12,28 L12,30 L12,30 Z M30,28 L28,28 L28,26 L30,26 L30,28 L30,28 Z M39,16 L37,16 L37,14 L39,14 L39,16 L39,16 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
