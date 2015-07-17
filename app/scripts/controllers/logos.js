@@ -18,5 +18,5 @@ angular.module('designkitApp')
     $scope.sectionClass = 'section-logos';
     $rootScope.bodyClass = 'layout-logos';
     $rootScope.colorId = $routeParams.colorId;
- 
+
   });
