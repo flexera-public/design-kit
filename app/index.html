@@ -32,13 +32,13 @@
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
             <ul class="topbar-nav">
-              <li ng-class="{active: isActive('/')}"><a ng-href="#/">Logos</a></li>
+              <li ng-class="{active: isActive('/logos')}"><a ng-href="#/logos">Logos</a></li>
               <li ng-class="{active: isActive('/colors')}"><a ng-href="#/colors">Colors</a></li>
               <li ng-class="{active: isActive('/typography')}"><a ng-href="#/typography">Typography</a></li>
               <li ng-class="{active: isActive('/icons')}"><a ng-href="#/icons">Icons</a></li>
               <li ng-class="{active: isActive('/tables')}"><a ng-href="#/tables">Tables</a></li>
               <li ng-class="{active: isActive('/buttons')}"><a ng-href="#/buttons">Buttons</a></li>
-              <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms &amp; Inputs</a></li>
+              <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms</a></li>
             </ul>
           </div>
         </div>
@@ -47,18 +47,18 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
+        <div class="sidebar">
           <ul class="sidebar-nav">
-            <li ng-class="{active: isActive('/')}"><a ng-href="#/">Logos</a></li>
+            <li ng-class="{active: isActive('/logos')}"><a ng-href="#/logos">Logos</a></li>
             <li ng-class="{active: isActive('/colors')}"><a ng-href="#/colors">Colors</a></li>
             <li ng-class="{active: isActive('/typography')}"><a ng-href="#/typography">Typography</a></li>
             <li ng-class="{active: isActive('/icons')}"><a ng-href="#/icons">Icons</a></li>
             <li ng-class="{active: isActive('/tables')}"><a ng-href="#/tables">Tables</a></li>
             <li ng-class="{active: isActive('/buttons')}"><a ng-href="#/buttons">Buttons</a></li>
-            <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms &amp; Inputs</a></li>
+            <li ng-class="{active: isActive('/forms')}"><a ng-href="#/forms">Forms</a></li>
           </ul>
         </div>
-        <div class="col-md-10">
+        <div class="content">
           <div class="section {{ sectionClass }}" ng-view></div>
         </div>
       </div>
@@ -112,6 +112,7 @@
         <script src="scripts/controllers/widgets.js"></script>
         <script src="scripts/directives/downloadable_icon.js"></script>
         <script src="scripts/table-checked.js"></script>
+        <script src="scripts/controllers/landing.js"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('IconsCtrl', function ($scope) {
+  .controller('IconsCtrl', function ($scope, $rootScope) {
     $scope.colors = [{
       name: 'Grey',
       hex: '8596A5'
@@ -328,4 +328,7 @@ angular.module('designkitApp')
         }
       },
     ];
+
+    $scope.sectionClass = 'section-icons';
+    $rootScope.bodyClass = 'layout-icons';
   });
