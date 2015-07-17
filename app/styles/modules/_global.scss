@@ -4,3 +4,11 @@ html,body {
 }
 
 body { padding-top: 70px; }
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover{
+  outline:0 none !important;
+}
