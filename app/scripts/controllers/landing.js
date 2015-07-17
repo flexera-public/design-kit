@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('LandingCtrl', function ($scope, $rootScope) {
+  .controller('LandingCtrl', function ($scope, $rootScope, $timeout) {
     $scope.cards = [{
       id: '1',
       title: 'Logos',
@@ -41,5 +41,11 @@ angular.module('designkitApp')
 
     $scope.sectionClass = 'section-landing';
     $rootScope.bodyClass = 'layout-landing';
+
+    // Landing page delay
+    $timeout(function () {
+        $scope.sectionClass = 'animate-loaded';
+    }, 100);
+
 
   });
