@@ -102,3 +102,48 @@ section {
 .content {
    @extend .col-md-10;
 }
+
+.footer {
+  text-align: center;
+  border-top: 1px solid rgba($grey-border, 0.5);
+  margin-top: 2em;
+  position: relative;
+  height: 6em;
+  @include transition(all 150ms linear);
+  svg {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    path {
+      fill: rgba($grey-border, 0.5);
+    }
+  }
+  a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    span {
+      display: none;
+    }
+  }
+  &:hover {
+    background: $link;
+    @include transition(all 150ms linear);
+    a {
+      color: rgba(white, 0.9);
+      span {
+        display: inline-block;
+      }
+    }
+    svg {
+      margin-right: 5px;
+      path {
+        fill: rgba(white, 0.9);
+      }
+    }
+  }
+}

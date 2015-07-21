@@ -1,21 +1,47 @@
 <section>
-  <div class="clearfix">
-    <div class="hero animate-in">
-      <h1>Design Kit</h1>
-      <p>An internal guide and toolkit for designing RightScale apps.</p>
-      <a href="#/logos" class="hero-btn">Explore</a>
+ <div class="clearfix">
+  <div class="hero animate-in">
+   <div class="sublime">
+      <span class="ascii">
+        <p class="sean">----------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p class="mulberry">****************************************************************************************************************************************************************</p>
+        <br>
+
+        <p class="main-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;_&nbsp;__&nbsp;</p>
+        <p class="main-logo">&nbsp;&nbsp;____/&nbsp;/__&nbsp;&nbsp;_____(_)___&nbsp;_____&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;/__(_)&nbsp;/_</p>
+        <p class="main-logo">&nbsp;/&nbsp;__&nbsp;&nbsp;/&nbsp;_&nbsp;\/&nbsp;___/&nbsp;/&nbsp;__&nbsp;`/&nbsp;__&nbsp;\&nbsp;&nbsp;&nbsp;/&nbsp;//_/&nbsp;/&nbsp;__/</p>
+        <p class="main-logo">/&nbsp;/_/&nbsp;/&nbsp;&nbsp;__(__&nbsp;&nbsp;)&nbsp;/&nbsp;/_/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;&nbsp;/&nbsp;,<&nbsp;/&nbsp;/&nbsp;/_&nbsp;&nbsp;</p>
+        <p class="main-logo">\__,_/\___/____/_/\__,&nbsp;/_/&nbsp;/_/&nbsp;&nbsp;/_/|_/_/\__/&nbsp;&nbsp;</p>
+        <p class="main-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/____/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <br>
+        <p class="mulberry">****************************************************************************************************************************************************************</p>
+        <p class="sean">----------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <br>
+        <p>An internal guide and toolkit for designing RightScale apps</p>
+        <br>
+        <script>
+          $( document ).ready(function() {
+            $("#explore-btn").focus();
+          });
+        </script>
+        <p><button type="button" id="explore-btn" autofocus onclick="location.href='#/logos'"><span class="blink">{</span> Press Enter to Explore <span class="blink">}</span></button></a></p>
+        <br>
+        <p class="sean">----------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+      </span>
     </div>
+   <!-- <a href="#/logos" class="hero-btn">Explore</a> -->
   </div>
-  <div class="row animate-in delay1">
-    <div class="card-columns" ng-repeat="card in cards">
-      <div class="card">
-        <a ng-href="#/{{ card.title | lowercase }}">
-          <div class="card-details">
-            <h1>{{ card.title }}</h1>
-            <p>{{ card.details }}</p>
-          </div>
-        </a>
-      </div>
-    </div>
+ </div>
+ <div class="row animate-in delay1">
+  <div class="card-columns" ng-repeat="card in cards">
+   <div class="card">
+    <a ng-href="#/{{ card.title | lowercase }}">
+     <div class="card-details">
+      <h1>{{ card.title }}</h1>
+      <p>{{ card.details }}</p>
+     </div>
+    </a>
+   </div>
   </div>
+ </div>
 </section>
