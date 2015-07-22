@@ -34,11 +34,14 @@
 
 
 .animate-in.delay1 {
-  -webkit-transition-delay: .1s;
-  -moz-transition-delay: .1s;
-  -o-transition-delay: .1s;
-  -ms-transition-delay: .1s;
-  transition-delay: .1s;
+  @include transition-delay(0.1s);
+}
+
+.animate-in.delay-cloud {
+  @include transition-delay(0.8s);
+}
+.animate-in.delay-cloud-text {
+  @include transition-delay(2s);
 }
 
 .animate-loaded .animate-in {
