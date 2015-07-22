@@ -1,6 +1,18 @@
+@keyframes dash {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
 .layout-landing {
-  padding-top: rem(100);
-  background: #fff;
+  padding-top: rem(60);
+  background: rgba($body, 0.5);
   .topbar {
     box-shadow: 0 0 70px 7px rgba(#fff, 0.7);
   }
@@ -14,9 +26,26 @@
     @extend .col-md-4;
   }
   .hero {
-    padding: 2rem;
-    padding-left: 0;
-    padding-bottom: 8.2rem;
+    border-bottom: 3px solid $grey-border;
+    margin-bottom: 5rem;
+    text-align: center;
+    position: relative;
+    height: 370px;
+    .cloud-svg {
+      position: absolute;
+      width: 40%;
+      left: 30%;
+      top: 20px;
+      .cloud-path {
+        stroke-dasharray: 0.8;
+        stroke: $grey-border;
+        animation: dash 1s linear infinite;
+      }
+    }
+    .cloud-text {
+      position: relative;
+      top: 15rem;
+    }
     h1 {
       font-size: 6rem;
       line-height: 1;
@@ -28,6 +57,8 @@
     .hero-btn {
       border: 1px solid $link;
       border-radius: 2px;
+      display: inline-block;
+      // margin-top: 2rem;
       padding: 6px 12px;
       font-size: 16px;
       &:hover {
