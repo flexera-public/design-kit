@@ -23,7 +23,7 @@ th {
     float: left;
   }
   &.sortable-column {
-    background: transparent url('/images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
+    background: transparent url('../images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
   }
 }
 tr td {
@@ -120,7 +120,7 @@ section.example-table {
     width: 100%;
     border: 0px solid transparent;
     border-right: 1px solid $grey-border-light;
-    background: transparent url("/images/assets/icon-search-blue.svg") no-repeat scroll 10px center;
+    background: transparent url("../images/assets/icon-search-blue.svg") no-repeat scroll 10px center;
     padding: 10px 10px 10px 30px;
   }
 }
