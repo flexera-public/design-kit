@@ -4,9 +4,21 @@
   }
 }
 
-@keyframes dash {
+@-webkit-keyframes dash {
   to {
     stroke-dashoffset: 10;
+  }
+}
+
+@keyframes box-underline {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }
 
@@ -26,7 +38,17 @@
     @extend .col-md-4;
   }
   .hero {
-    border-bottom: 3px solid $grey-border;
+    &:after {
+      animation: box-underline 1s linear;
+      content: "";
+      display: block;
+      margin: auto;
+      height: 3px;
+      background: $grey-border-light;
+      position: relative;
+      top: 220px;
+      border-radius: 3px;
+    }
     margin-bottom: 5rem;
     text-align: center;
     position: relative;
