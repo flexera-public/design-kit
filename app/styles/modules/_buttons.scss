@@ -44,15 +44,17 @@
     background-size: 1.1rem, cover;
     background-position: 0.8rem center;
     &.download {
-      background-image: url('/images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      background-image: url('../images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      background-position-x: 11px;
       &:hover {
-        background-image: url('/images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
+        background-image: url('../images/assets/icon-download-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
       }
     }
     &.edit {
-      background-image: url('/images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      background-image: url('../images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), $grey-button);
+      background-position-x: 11px;
       &:hover {
-        background-image: url('/images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
+        background-image: url('../images/assets/icon-pen-text.svg'), linear-gradient(lighten($grey-button,6%), darken($grey-button, 6%));
       }
     }
   }
