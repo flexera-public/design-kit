@@ -58,3 +58,40 @@
   -ms-transform: none;
   transform: none;
 }
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@keyframes box-underline {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes box-underline {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
