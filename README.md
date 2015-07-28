@@ -1,4 +1,4 @@
-# Design Kit v0.0.0
+# Design Kit v1.0
 
 A visual branding guide for RightScale products.
 
@@ -51,3 +51,7 @@ git co master
 git pull
 git subtree push --prefix dist origin gh-pages
 ```
+
+## Github Page
+
+[http://rightscale.github.io/design-kit](http://rightscale.github.io/design-kit)
