@@ -7,23 +7,29 @@ th {
   color: $heading;
   font-size: $zeta;
   line-height: 2;
-  padding: 12px 30px 12px 12px;
   text-align: left;
   white-space: nowrap;
   &:first-child {
     border-left: 0px solid transparent;
     background: none;
-    padding: 12px;
   }
   &:focus {
     outline: none;
   }
   a {
+    cursor: pointer;
+    padding: 12px 30px 12px 12px;
     display: block;
-    float: left;
+    text-decoration: none;
   }
   &.sortable-column {
     background: transparent url('../images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
+    &:hover {
+      background: rgba($link, 0.05) url('../images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
+    }
+  }
+  .sortable-checkbox {
+    padding: 16px 12px;
   }
 }
 tr td {
@@ -63,7 +69,7 @@ tr {
     width: 8px;
   }
   &.selected-row {
-    background: rgba($link, 0.05);
+    background: rgba($text, 0.05);
     td {
       &:first-child {
         box-shadow: 3px 0 0 0 $link inset;
@@ -118,10 +124,14 @@ section.example-table {
   @include flex(1 1 auto);
   input {
     width: 100%;
-    border: 0px solid transparent;
+    border: 1px solid transparent;
     border-right: 1px solid $grey-border-light;
     background: transparent url("../images/assets/icon-search-blue.svg") no-repeat scroll 10px center;
     padding: 10px 10px 10px 30px;
+    &:focus {
+      border: 1px solid darken($grey-border,15%);
+      border-top: 1px solid darken($grey-border,17%);
+    }
   }
 }
 .table-filter-options {
