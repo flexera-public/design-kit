@@ -11,7 +11,7 @@ angular.module('designkitApp')
   .controller('IconsCtrl', function ($scope, $rootScope) {
     $scope.colors = [{
       name: 'Grey',
-      hex: '8596A5'
+      hex: '57626C'
     }, {
       name: 'Blue',
       hex: '2390F7'
