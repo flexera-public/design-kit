@@ -20,7 +20,7 @@ angular.module('designkitApp')
     }, {
       id: '3',
       title: 'Typography',
-      details: 'Base typeography and hierarchy'
+      details: 'Base typography and hierarchy'
     }, {
       id: '4',
       title: 'Icons',
