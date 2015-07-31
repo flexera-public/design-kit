@@ -1,3 +1,7 @@
+.container.main-content {
+  // Push footer to bottom of page using the glorious calc function
+  min-height: calc(100vh - 142px);
+}
 section {
   article {
   }
@@ -101,4 +105,37 @@ section {
 
 .content {
    @extend .col-md-10;
+}
+
+
+.footer {
+  padding-top: 2rem;
+  .container {
+    text-align: center;
+  }
+  .contribute {
+    border-top: 1px solid $grey-border-light;
+    padding: 1.5rem;
+    width: 100%;
+    display: block;
+    a {
+      color: $grey-border;
+      margin: 0 2rem;
+      &:hover {
+        color: $link-hover;
+        svg path {
+          fill: $link-hover;
+        }
+      }
+    }
+    svg {
+      height: 14px;
+      width: 14px;
+      position: relative;
+      top: 2px;
+      path {
+        fill: $grey-border;
+      }
+    }
+  }
 }
