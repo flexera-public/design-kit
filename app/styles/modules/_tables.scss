@@ -28,7 +28,7 @@ th {
       background: rgba($link, 0.05) url('../images/assets/icon-sort-unsorted.svg') no-repeat scroll calc(100% - 12px) 50% / 9px auto;
     }
   }
-  .sortable-checkbox {
+  &.sortable-checkbox {
     padding: 16px 12px;
   }
 }
