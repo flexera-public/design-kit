@@ -108,9 +108,10 @@ section {
 }
 
 .footer {
+  margin-top: 2rem;
   padding: 2rem 0;
+  color: rgba($text, 0.7);
   border-top: 1px solid $grey-border-light;
-  color: $grey-border;
   .footer-legal {
     @extend .pull-left;
   }
@@ -119,7 +120,7 @@ section {
     display: block;
     text-align: right;
     a {
-      color: $grey-border;
+      color: rgba($text, 0.7);
       margin: 0 2rem;
       &:hover {
         color: $link-hover;
@@ -137,7 +138,7 @@ section {
       position: relative;
       top: 2px;
       path {
-        fill: $grey-border;
+        fill: #9FACB8;
       }
     }
   }
