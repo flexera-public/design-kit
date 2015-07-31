@@ -7,10 +7,17 @@
   }
 }
 
-.topbar-nav {
+.topbar-nav ul {
   @extend .nav;
   @extend .navbar-nav;
   @extend .navbar-right;
   @extend .hidden-lg;
   @extend .hidden-md;
+  .contribute {
+    @extend .hidden-sm;
+    border-top: 1px solid rgba(255,255,255,0.6);
+    &:hover {
+      border-top: none;
+    }
+  }
 }
