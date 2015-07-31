@@ -31,7 +31,7 @@
             <a class="navbar-brand" ng-href="#/"><img src="images/dk-logo.svg" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-            <ng-include src="'views/topbar-nav.html'"></ng-include>
+            <ng-include src="'views/nav.html'" class="topbar-nav"></ng-include>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
     <div class="container">
       <div class="row">
         <div class="sidebar ng-cloak">
-          <ng-include src="'views/sidebar-nav.html'"></ng-include>
+          <ng-include src="'views/nav.html'" class="sidebar-nav"></ng-include>
         </div>
         <div class="content">
           <div class="section {{ sectionClass }}" ng-view></div>

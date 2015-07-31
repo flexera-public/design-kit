@@ -1,4 +1,4 @@
-.sidebar-nav {
+.sidebar-nav ul {
   @extend .nav;
   @extend .nav-pills;
   @extend .nav-stacked;
@@ -12,6 +12,11 @@
     padding-left: 10px;
     &.active {
       box-shadow: -3px 0 0 0 $link-hover;
+    }
+    &.contribute {
+      margin-top: 1.5rem;
+      padding-left: 25px;
+      background: url('../images/ignore/icon-external-blue.svg') no-repeat 10px center / auto 10px;
     }
     > a {
       padding: 5px 0;
