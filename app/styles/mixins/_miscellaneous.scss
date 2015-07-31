@@ -3,7 +3,9 @@
 }
 
 @mixin sidebar-exit {
-  opacity: 0;
+  ul {
+    visibility: hidden;
+  }
 }
 
 @mixin box-style {
