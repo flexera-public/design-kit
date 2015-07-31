@@ -107,17 +107,17 @@ section {
    @extend .col-md-10;
 }
 
-
 .footer {
-  padding-top: 2rem;
-  .container {
-    text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid $grey-border-light;
+  color: $grey-border;
+  .footer-legal {
+    @extend .pull-left;
   }
-  .contribute {
-    border-top: 1px solid $grey-border-light;
-    padding: 1.5rem;
-    width: 100%;
+  .footer-contribute {
+    @extend .pull-right;
     display: block;
+    text-align: right;
     a {
       color: $grey-border;
       margin: 0 2rem;
@@ -126,6 +126,9 @@ section {
         svg path {
           fill: $link-hover;
         }
+      }
+      &:last-of-type {
+        margin-right: 0;
       }
     }
     svg {
