@@ -110,6 +110,17 @@
       }
     }
   }
+  &.checkbox_indeterminate .checkbox_label:before {
+    background: url('../images/assets/checkbox_indeterminate.svg') no-repeat center center #fff;
+    border: 2px solid $green-icon;
+  }
+  // IE indeterminate fix
+  &.checkbox_indeterminate {
+    input[type=checkbox]:checked + .checkbox_label:before {
+      background: url('../images/assets/checkbox_indeterminate.svg') no-repeat center center #fff;
+      border: 2px solid $green-icon;
+    }
+  }
 }
 .checkbox_list_item {
   float: left;

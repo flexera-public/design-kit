@@ -37,18 +37,25 @@
             </div>
             <div class="table-filter-options">
               <span class="table-filter-number">Showing <i>{{(tableRows | filter: search).length}}</i> of <i>{{tableRows.length}}</i></span>
-              <span class="table-filter-dropdown"><a href="#"><img src="images/assets/icon-cog.svg" alt=""></a></span>
+              <span class="table-filter-dropdown"><a href=""><img src="images/assets/icon-cog.svg" alt=""></a></span>
             </div>
           </header>
           <table class="example-table">
             <tr>
-              <th><input class="sortable-checkbox" type="checkbox" select-all="tableRows" selection-attribute="isSelected"></th>
+              <th class="sortable-checkbox">
+                <select-all collection="tableRows" attribute="isSelected"></select-all>
+              </th>
               <th class="sortable-column"><a ng-click="sort = (sort == 'title' ? '-title' : 'title')">Title</a></th>
-              <th><a href="#">Description</a></th>
+              <th><a ng-click="">Description</a></th>
               <th class="sortable-column" class="table-image"><a  ng-click="sort = (sort == 'state' ? '-state' : 'state')">State</a></th>
             </tr>
             <tr ng-repeat="row in tableRows | filter: search | orderBy: sort" ng-class="{ 'selected-row': row.isSelected }">
-              <td><input type="checkbox" ng-model="row.isSelected"></td>
+              <td>
+                <div class="checkbox_wrap">
+                  <input type="checkbox" id="table-checkbox-{{$index}}" ng-model="row.isSelected" />
+                  <label for="table-checkbox-{{$index}}" class="checkbox_label"><span class="sr-only">Selected</span></label>
+                </div>
+              </td>
               <td><a href="#" class="nowrap">{{row.title}}</a></td>
               <td>{{row.description}}</td>
               <td class="table-image"><img ng-src={{row.state}} alt="Alternate Title"></td>
