@@ -327,6 +327,27 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-secure.svg'
         }
       },
+      {
+        id: 40,
+        item: {
+          name: 'Caret 2',
+          src: 'images/ignore/icon-caret-2.svg'
+        }
+      },
+      {
+        id: 41,
+        item: {
+          name: 'Log Out',
+          src: 'images/ignore/icon-logout.svg'
+        }
+      },
+      {
+        id: 42,
+        item: {
+          name: 'Gear',
+          src: 'images/ignore/icon-gear.svg'
+        }
+      },
     ];
 
     $scope.sectionClass = 'section-icons';
