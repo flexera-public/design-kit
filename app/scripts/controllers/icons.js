@@ -355,6 +355,13 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-folder.svg'
         }
       },
+      {
+        id: 44,
+        item: {
+          name: 'Key',
+          src: 'images/ignore/icon-key.svg'
+        }
+      },
     ];
 
     $scope.sectionClass = 'section-icons';
