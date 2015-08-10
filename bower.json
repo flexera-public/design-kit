@@ -1,6 +1,6 @@
 {
   "name": "designkit",
-  "version": "0.0.0",
+  "version": "1.1.5",
   "dependencies": {
     "angular": "^1.4.1",
     "bootstrap-sass-official": "^3.3.5",
