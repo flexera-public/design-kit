@@ -362,6 +362,48 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-key.svg'
         }
       },
+      {
+        id: 45,
+        item: {
+          name: 'Book',
+          src: 'images/ignore/icon-book.svg'
+        }
+      },
+      {
+        id: 46,
+        item: {
+          name: 'Brush',
+          src: 'images/ignore/icon-brush.svg'
+        }
+      },
+      {
+        id: 47,
+        item: {
+          name: 'Cloud 2',
+          src: 'images/ignore/icon-cloud-2.svg'
+        }
+      },
+      {
+        id: 48,
+        item: {
+          name: 'User',
+          src: 'images/ignore/icon-user.svg'
+        }
+      },
+      {
+        id: 49,
+        item: {
+          name: 'List View',
+          src: 'images/ignore/icon-list-view.svg'
+        }
+      },
+      {
+        id: 50,
+        item: {
+          name: 'Card View',
+          src: 'images/ignore/icon-card-view.svg'
+        }
+      },
     ];
 
     $scope.sectionClass = 'section-icons';
