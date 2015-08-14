@@ -10,17 +10,17 @@
 angular.module('designkitApp')
   .controller('PatternsCtrl', function ($scope, $rootScope) {
     $scope.patterns = [{
-      name: 'App structure',
+      name: 'Navigation',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
       example: '',
       reference: ''
     }, {
-      name: 'Header',
+      name: 'Validation',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
       example: '',
       reference: ''
     }, {
-      name: 'Navs',
+      name: 'Growlers',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
       example: '',
       reference: ''

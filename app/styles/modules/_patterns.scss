@@ -1,8 +1,21 @@
 .layout-patterns {
   article {
-    margin-bottom: 30px;
+    margin-bottom: 4rem;
+
+    img {
+      width: 100%;
+    }
+
     &:last-of-type {
       margin-bottom: 0;
     }
+
+    &.pattern-app-structure {
+      margin-bottom: 4rem;
+      img {
+        margin-bottom: 1rem;
+      }
+    }
   }
+
 }
