@@ -404,6 +404,13 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-card-view.svg'
         }
       },
+      {
+        id: 51,
+        item: {
+          name: 'Card View',
+          src: 'images/ignore/icon-ticket.svg'
+        }
+      },
     ];
 
     $scope.sectionClass = 'section-icons';
