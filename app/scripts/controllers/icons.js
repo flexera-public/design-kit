@@ -407,7 +407,7 @@ angular.module('designkitApp')
       {
         id: 51,
         item: {
-          name: 'Card View',
+          name: 'Ticket',
           src: 'images/ignore/icon-ticket.svg'
         }
       },
