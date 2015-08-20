@@ -1,1 +1,16 @@
-<svg width="12" height="8" viewBox="0 0 12 8" xmlns="http://www.w3.org/2000/svg"><title>icon-caret</title><path d="M.11.926l.066.08 5.1 5.868c.173.2.43.322.72.322s.548-.128.72-.322l5.096-5.857.086-.098c.064-.095.1-.207.1-.327C12 .267 11.723 0 11.377 0H.62C.277 0 0 .266 0 .593c0 .124.04.24.11.334z" fill="#57626C"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-caret</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-caret" sketch:type="MSArtboardGroup" transform="translate(-58.000000, -60.000000)" fill="#57626C">
+            <g sketch:type="MSLayerGroup" transform="translate(58.000000, 60.000000)" id="Group">
+                <g sketch:type="MSShapeGroup">
+                    <path d="M0.10875,0.92625 L0.17625,1.005 L5.27625,6.87375 C5.44875,7.0725 5.7075,7.19625 5.99625,7.19625 C6.285,7.19625 6.54375,7.06875 6.71625,6.87375 L11.8125,1.01625 L11.89875,0.91875 C11.9625,0.825 12,0.7125 12,0.5925 C12,0.26625 11.7225,0 11.3775,0 L11.3775,0 L0.6225,0 C0.2775,0 0,0.26625 0,0.5925 C0,0.71625 0.04125,0.8325 0.10875,0.92625 L0.10875,0.92625 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
