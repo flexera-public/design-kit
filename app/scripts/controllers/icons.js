@@ -411,6 +411,13 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-ticket.svg'
         }
       },
+      {
+        id: 52,
+        item: {
+          name: 'Feedback',
+          src: 'images/ignore/icon-feedback.svg'
+        }
+      },
     ];
 
     $scope.sectionClass = 'section-icons';
