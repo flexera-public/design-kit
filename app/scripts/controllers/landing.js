@@ -26,6 +26,10 @@ angular.module('designkitApp')
       title: 'Icons',
       details: 'Principal system icons'
     }, {
+      id: '8',
+      title: 'Sprites',
+      details: 'Images used throughout the UI'
+    }, {
       id: '5',
       title: 'Tables',
       details: 'Basic table UI'

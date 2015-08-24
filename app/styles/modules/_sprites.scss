@@ -1,0 +1,39 @@
+section.sprites {
+  .row {
+    margin-bottom: 20px;
+    padding: 10px;
+    @include box-style;
+  }
+  .group-name {
+    border-bottom: 1px solid $grey-border;
+  }
+  .group-description {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .sprite {
+    padding-bottom: 10px;
+    @include display(flex);
+    @include flex-direction(row);
+    img {
+      max-width: 16px;
+      height: 16px;
+      margin-top: 2px;
+      @include flex(1 0 auto);
+    }
+    .text {
+      padding-left: 10px;
+      @include flex(1 1 auto);
+    }
+    h4.sprite-name {
+      // line-height: 32px;
+      margin: 0 0 10px;
+    }
+    p {
+      &:empty {
+        display: none;
+      }
+    }
+    h4 {}
+  }
+}
