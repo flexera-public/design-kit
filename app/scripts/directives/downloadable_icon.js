@@ -45,7 +45,7 @@ angular.module('designkitApp').directive('downloadableIcon', function($http) {
           imageWrapper.find('path').attr('fill', '#' + scope.color);
 
           svgDimensions = _.map(imageWrapper.find('svg')[0].getAttribute('viewBox').split(' '), parseFloat);
-          canvasHeight = (svgDimensions[3] - svgDimensions[1]) * pngWidth / (svgDimensions[2] - svgDimensions[0]);
+          canvasHeight = svgDimensions[3] * pngWidth / svgDimensions[2];
           canvas.width = pngWidth;
           canvas.height = canvasHeight;
 

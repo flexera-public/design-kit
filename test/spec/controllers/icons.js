@@ -17,6 +17,6 @@ describe('Controller: IconsCtrl', function () {
   }));
 
   it('should attach a list of icons to the scope', function () {
-    expect(scope.icons.length).toBe(47);
+    expect(scope.icons.length).toBe(55);
   });
 });
