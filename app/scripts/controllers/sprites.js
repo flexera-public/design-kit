@@ -50,24 +50,24 @@ angular.module('designkitApp')
             description: 'Indicates that one or more alerts are currently triggered.'
           },
           {
-            name: 'Circle Orange',
+            name: 'Alert Circle Orange',
             src: 'images/sprites/info/circle-orange.svg',
             description: 'Currently unused. May be needed for additional alert status.'
           },
           {
-            name: 'Circle Blue',
+            name: 'Alert Circle Blue',
             src: 'images/sprites/info/circle-blue.svg',
-            description: 'Currently unused. May be needed for additional alert status.'  
+            description: 'Currently unused. May be needed for additional alert status.'
           },
           {
-            name: 'Square Green',
+            name: 'Alert Square Green',
             src: 'images/sprites/info/square-green.svg',
-            description: 'Currently unused. May be needed for additional alert status.'  
+            description: 'Currently unused. May be needed for additional alert status.'
           },
           {
-            name: 'Square Orange',
+            name: 'Alert Square Orange',
             src: 'images/sprites/info/square-orange.svg',
-            description: 'Indicates that a server or instance is in the stopped or provisioned state.'  
+            description: 'Indicates that a server or instance is in the stopped or provisioned state.'
           },
           {
             name: 'Offline',
@@ -90,9 +90,9 @@ angular.module('designkitApp')
             description: 'A Server is in the decommissioning state.'
           },
           {
-            name: 'Arrow Down',
+            name: 'Instance Arrow Down Orange',
             src: 'images/sprites/info/arrow-down-orange.svg',
-            description: 'Currently unused. May be needed for additional instance status.' 
+            description: 'Currently unused. May be needed for additional instance status.'
           },
           {
             name: 'Warning',
