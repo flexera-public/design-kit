@@ -37,6 +37,10 @@ angular.module('designkitApp')
       id: '7',
       title: 'Forms',
       details: 'Basic form UI'
+    }, {
+      id: '8',
+      title: 'Patterns',
+      details: 'Application layouts and paterns'
     }];
 
     $scope.sectionClass = 'section-landing';

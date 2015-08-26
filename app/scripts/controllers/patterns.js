@@ -10,20 +10,10 @@
 angular.module('designkitApp')
   .controller('PatternsCtrl', function ($scope, $rootScope) {
     $scope.patterns = [{
-      name: 'Navigation',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
-      example: '',
-      reference: ''
-    }, {
-      name: 'Validation',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
-      example: '',
-      reference: ''
-    }, {
-      name: 'Growlers',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur, quis cupiditate, corrupti deleniti labore eos commodi et quae. Reprehenderit obcaecati possimus vero quam illum! Quae maiores earum expedita unde.',
-      example: '',
-      reference: ''
+      name: 'Title area',
+      description: 'Contains the page/section title, breadcrumbs and secondary navigation. The titlebar can also contain some primary such as "Create".',
+      example: 'images/ignore/pattern-titlearea.png',
+      reference: 'Self-Service, Cloud Analytics, Cloud Management'
     }];
 
     $scope.sectionClass = 'section-patterns';
