@@ -16,6 +16,7 @@ angular.module('designkitApp')
         item: {
           name: 'Cool Blue',
           hex: '0A83F6',
+          rgb: '10, 131, 246',
           selector: 'swatch-cool-blue',
         }
       },
@@ -25,6 +26,7 @@ angular.module('designkitApp')
         item: {
           name: 'Lima Green',
           hex: '80C11A',
+          rgb: '128, 193, 26',
           selector: 'swatch-lima',
         }
       },
@@ -34,6 +36,7 @@ angular.module('designkitApp')
         item: {
           name: 'Fire Engine Red',
           hex: 'C32525',
+          rgb: '195, 37, 37',
           selector: 'swatch-fire-engine',
         }
       },
@@ -43,6 +46,7 @@ angular.module('designkitApp')
         item: {
           name: 'Royal Purple',
           hex: '7355A6',
+          rgb: '115, 85, 166',
           selector: 'swatch-royal-purple',
         },
       },
@@ -52,6 +56,7 @@ angular.module('designkitApp')
         item: {
           name: 'Buckthorn Orange',
           hex: 'F7A626',
+          rgb: '247, 166, 38',
           selector: 'swatch-buckthorn',
         }
       },
@@ -61,6 +66,7 @@ angular.module('designkitApp')
         item: {
           name: 'Viking',
           hex: '4FBBCD',
+          rgb: '79, 187, 205',
           selector: 'swatch-viking',
         }
       },
@@ -70,6 +76,7 @@ angular.module('designkitApp')
         item: {
           name: 'Royal Purple',
           hex: '7355A6',
+          rgb: '114, 85, 165',
           selector: 'swatch-royal-purple',
         },
       },
@@ -79,6 +86,7 @@ angular.module('designkitApp')
         item: {
           name: 'Mulberry',
           hex: 'C45887',
+          rgb: '196, 88, 135',
           selector: 'swatch-mulberry',
         },
       },
@@ -88,6 +96,7 @@ angular.module('designkitApp')
         item: {
           name: 'Buckthorn Orange',
           hex: 'F7A626',
+          rgb: '247, 166, 38',
           selector: 'swatch-buckthorn',
         }
       },
@@ -97,6 +106,7 @@ angular.module('designkitApp')
         item: {
           name: 'Celery',
           hex: 'B4CB55',
+          rgb: '180, 203, 85',
           selector: 'swatch-celery',
         }
       },
@@ -106,6 +116,7 @@ angular.module('designkitApp')
         item: {
           name: 'Indian',
           hex: 'D05A5A',
+          rgb: '208, 90, 90',
           selector: 'swatch-indian',
         }
       },
@@ -115,6 +126,7 @@ angular.module('designkitApp')
         item: {
           name: 'Silver Tree',
           hex: '5DD08B',
+          rgb: '93, 208, 139',
           selector: 'swatch-silver-tree',
         }
       },
@@ -124,6 +136,7 @@ angular.module('designkitApp')
         item: {
           name: 'Sean',
           hex: '3C8CC7',
+          rgb: '60, 140, 199',
           selector: 'swatch-sean',
         }
       },
@@ -133,6 +146,7 @@ angular.module('designkitApp')
         item: {
           name: 'Green Button',
           hex: '5FB000',
+          rgb: '95, 176, 0',
           selector: 'swatch-green-button',
         }
       },
@@ -142,6 +156,7 @@ angular.module('designkitApp')
         item: {
           name: 'Blue Button',
           hex: '0871D4',
+          rgb: '8, 113, 212',
           selector: 'swatch-blue-button',
         }
       },
@@ -151,6 +166,7 @@ angular.module('designkitApp')
         item: {
           name: 'Red Button',
           hex: 'C32525',
+          rgb: '195, 37, 37',
           selector: 'swatch-red-button',
         }
       },
@@ -160,6 +176,7 @@ angular.module('designkitApp')
         item: {
           name: 'Grey Button',
           hex: 'E7E7E7',
+          rgb: '231, 231, 231',
           selector: 'swatch-grey-button',
         }
       },
@@ -169,6 +186,7 @@ angular.module('designkitApp')
         item: {
           name: 'Link',
           hex: '0A83F6',
+          rgb: '10, 131, 246',
           selector: 'swatch-link',
         }
       },
@@ -178,6 +196,7 @@ angular.module('designkitApp')
         item: {
           name: 'Link Hover',
           hex: '0769C6',
+          rgb: '7, 105, 198',
           selector: 'swatch-link-hover',
         }
       },
@@ -187,6 +206,7 @@ angular.module('designkitApp')
         item: {
           name: 'Text',
           hex: '76899A',
+          rgb: '118, 137, 154',
           selector: 'swatch-text',
         }
       },
@@ -196,6 +216,7 @@ angular.module('designkitApp')
         item: {
           name: 'Heading',
           hex: '57626C',
+          rgb: '87, 98, 108',
           selector: 'swatch-heading',
         }
       },
@@ -205,6 +226,7 @@ angular.module('designkitApp')
         item: {
           name: 'Left Background (Sith)',
           hex: '353B41',
+          rgb: '53, 59, 65',
           selector: 'swatch-left-dark',
         }
       },
@@ -214,6 +236,7 @@ angular.module('designkitApp')
         item: {
           name: 'Left Background (Light)',
           hex: 'DADEE3',
+          rgb: '218, 222, 227',
           selector: 'swatch-left-light',
         }
       },
@@ -223,6 +246,7 @@ angular.module('designkitApp')
         item: {
           name: 'Body',
           hex: 'F4F5F7',
+          rgb: '244, 245, 247',
           selector: 'swatch-body',
         }
       },
@@ -232,6 +256,7 @@ angular.module('designkitApp')
         item: {
           name: 'Grey Border',
           hex: 'D1D6DC',
+          rgb: '209, 214, 220',
           selector: 'swatch-grey-border',
         }
       },
@@ -241,6 +266,7 @@ angular.module('designkitApp')
         item: {
           name: 'Grey Border (Light)',
           hex: 'E2E5E9',
+          rgb: '226, 229, 233',
           selector: 'swatch-grey-border-light',
         }
       },
@@ -250,6 +276,7 @@ angular.module('designkitApp')
         item: {
           name: 'Grey Icon',
           hex: '8596A5',
+          rgb: '133, 150, 165',
           selector: 'swatch-grey-icon',
         }
       },
@@ -259,6 +286,7 @@ angular.module('designkitApp')
         item: {
           name: 'Grey Icon (Highlight)',
           hex: 'A2AFBA',
+          rgb: '162, 175, 186',
           selector: 'swatch-grey-icon-highlight',
         }
       },
@@ -268,6 +296,7 @@ angular.module('designkitApp')
         item: {
           name: 'Blue Icon',
           hex: '2390F7',
+          rgb: '35, 144, 247',
           selector: 'swatch-blue-icon',
         }
       },
@@ -277,6 +306,7 @@ angular.module('designkitApp')
         item: {
           name: 'Blue Icon (Highlight)',
           hex: '54A9F9',
+          rgb: '84, 169, 249',
           selector: 'swatch-blue-icon-highlight',
         }
       },
@@ -286,6 +316,7 @@ angular.module('designkitApp')
         item: {
           name: 'Green Icon',
           hex: '80C11A',
+          rgb: '128, 193, 26',
           selector: 'swatch-green-icon',
         }
       },
@@ -295,6 +326,7 @@ angular.module('designkitApp')
         item: {
           name: 'Sith Icon',
           hex: '30373C',
+          rgb: '48, 55, 60',
           selector: 'swatch-sith-icon',
         }
       },
@@ -304,6 +336,7 @@ angular.module('designkitApp')
         item: {
           name: 'Hover Highlight',
           hex: 'FAFAFA',
+          rgb: '250, 250, 250',
           selector: 'swatch-hover-highlight',
         }
       },
@@ -313,6 +346,7 @@ angular.module('designkitApp')
         item: {
           name: 'Select Highlight',
           hex: 'FAFAFA',
+          rgb: '250, 250, 250',
           selector: 'swatch-select-highlight',
         }
       },
@@ -321,7 +355,8 @@ angular.module('designkitApp')
         section: 'Highlight Colors',
         item: {
           name: 'Inline Highlight',
-          hex: 'FAFAFA',
+          hex: 'E2E5E9',
+          rgb: '226, 229, 233',
           selector: 'swatch-inline-highlight',
         }
       },
@@ -331,6 +366,7 @@ angular.module('designkitApp')
         item: {
           name: 'Messaging Background',
           hex: 'FFF7E5',
+          rgb: '255, 247, 229',
           selector: 'swatch-messaging-background',
         }
       },
@@ -340,6 +376,7 @@ angular.module('designkitApp')
         item: {
           name: 'Messaging Text',
           hex: '939182',
+          rgb: '147, 145, 130',
           selector: 'swatch-messaging-text',
         }
       },
@@ -349,6 +386,7 @@ angular.module('designkitApp')
         item: {
           name: 'Header Flat',
           hex: '0069CC',
+          rgb: '0, 105, 204',
           selector: 'swatch-header-flat',
         }
       },
@@ -358,6 +396,7 @@ angular.module('designkitApp')
         item: {
           name: 'Header Gradient Start',
           hex: '076CCA',
+          rgb: '7, 108, 202',
           selector: 'swatch-header-gradient-start',
         }
       },
@@ -367,15 +406,7 @@ angular.module('designkitApp')
         item: {
           name: 'Header Gradient End',
           hex: '065BAC',
-          selector: 'swatch-header-gradient-end',
-        }
-      },
-      {
-        id: 40,
-        section: 'Header Colors',
-        item: {
-          name: 'Not Found',
-          hex: 'not_found',
+          rgb: '6, 91, 172',
           selector: 'swatch-header-gradient-end',
         }
       }
