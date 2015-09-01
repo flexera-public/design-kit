@@ -8,9 +8,21 @@
   margin-bottom: 2.4rem;
   padding: 15px;
   position: relative;
+  .swatch-name {
+    color: #fff;
+    &:hover {
+      color: rgba(#fff, 0.5);
+    }
+  }
   .swatch-hex {
     opacity: 0.5;
     bottom: 15px;
+    left: 15px;
+    position: absolute;
+  }
+  .swatch-rgb {
+    opacity: 0.5;
+    bottom: 34px;
     left: 15px;
     position: absolute;
   }
@@ -74,6 +86,12 @@
     background-color: $grey-button;
     border-color: darken($grey-button, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-link {
     background-color: $link;
@@ -99,21 +117,45 @@
     background-color: $left-background-light;
     border-color: darken($left-background-light, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-body {
     background-color: $body;
     border-color: darken($body, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-grey-border {
     background-color: $grey-border;
     border-color: darken($grey-border, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-grey-border-light {
     background-color: $grey-border-light;
     border-color: darken($grey-border-light, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-grey-icon {
     background-color: $grey-icon;
@@ -143,21 +185,45 @@
     background-color: $hover-highlight;
     border-color: darken($hover-highlight, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-select-highlight {
     background-color: $select-highlight;
     border-color: darken($select-highlight, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-inline-highlight {
     background-color: $inline-highlight;
     border-color: darken($inline-highlight, 5);
     color: $heading;
+    a {
+      color: $heading;
+      &:hover {
+        color: rgba($heading, 0.5);
+      }
+    }
   }
   &.swatch-messaging-background {
     background-color: $messaging-background;
     border-color: darken($messaging-background, 5);
     color: $messaging-text;
+    a {
+      color: $messaging-text;
+      &:hover {
+        color: rgba($messaging-text, 0.5);
+      }
+    }
   }
   &.swatch-messaging-text {
     background-color: $messaging-text;
@@ -174,20 +240,6 @@
   &.swatch-header-gradient-end {
     background-color: $header-gradient-end;
     border-color: darken($header-gradient-end, 5);
-  }
-}
-
-.swatch-permalink {
-  position: absolute;
-  bottom: 18px;
-  right: 15px;
-  opacity: 0.5;
-  display: block;
-  width: 16px;
-  height: 16px;
-  @include transition(opacity 250ms ease-in-out);
-  &:hover {
-    opacity: 0.8;
   }
 }
 
