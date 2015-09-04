@@ -4,6 +4,9 @@
 
     img {
       width: 100%;
+      &.border-light {
+        border: 1px solid $grey-border-light;
+      }
     }
 
     &:last-of-type {
