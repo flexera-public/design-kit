@@ -12,7 +12,8 @@
     "angular-touch": "^1.4.1",
     "angular-filter": "~0.5.4",
     "animate-css": "~3.3.0",
-    "lodash": "~3.9.3"
+    "lodash": "~3.9.3",
+    "tooltip": "./bower_components/bootstrap/js/tooltip.js"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.1"

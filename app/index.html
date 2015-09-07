@@ -17,7 +17,7 @@
   </head>
 
   <body class="{{ $root.bodyClass }} {{ $root.swatchClass }}{{ $root.colorId | lowercase }}" ng-app="designkitApp" ng-controller="MainCtrl">
-    
+
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M9K3Q5"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -27,7 +27,7 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-M9K3Q5');</script>
     <!-- End Google Tag Manager -->
-    
+
     <div class="header">
       <div class="topbar" role="navigation">
         <div class="container">
@@ -73,6 +73,7 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-filter/dist/angular-filter.min.js"></script>
     <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/tooltip/index.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -91,6 +92,7 @@
         <script src="scripts/directives/downloadable_icon.js"></script>
         <script src="scripts/directives/select_all.js"></script>
         <script src="scripts/table-checked.js"></script>
+        <script src="scripts/init-tooltip.js"></script>
         <script src="scripts/controllers/landing.js"></script>
         <script src="scripts/controllers/sprites.js"></script>
         <!-- endbuild -->

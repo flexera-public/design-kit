@@ -3,13 +3,14 @@
     <h3 class="group-name">{{ spriteGroup.group.name }}</h3>
     <p class="group-description">{{ spriteGroup.group.description }}</p>
     <div class="sprite-list {{ group }}">
-      <div class="sprite col-md-4" ng-repeat="sprite in spriteGroup.sprites">
-        <img src="{{ sprite.src }}" alt="{{ sprite.name }}">
-        <span class="text">
-          <h4 class="sprite-name">{{ sprite.name }}</h4>
-          <p class="sprite-description">{{ sprite.description }}</p>
-        </span>
-      </div>
+        <div class="sprite" ng-repeat="sprite in spriteGroup.sprites">
+          <img src="{{ sprite.src }}" alt="{{ sprite.name }}" class="sprite-image">
+          <span class="text">
+            <h4 class="sprite-name">{{ sprite.name }}</h4>
+            <p class="sprite-description">{{ sprite.description }}</p>
+            <a href="{{ sprite.src }}" class="sprite-download"><img src="images/assets/icon-download-text.svg" alt="Download"><span>Download</span></a>
+          </span>
+        </div>
     </div>
   </div>
 </section>

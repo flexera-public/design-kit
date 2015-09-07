@@ -2,6 +2,7 @@ section.sprites {
   .row {
     margin-bottom: 20px;
     padding: 10px;
+
     @include box-style;
   }
   .group-name {
@@ -11,29 +12,57 @@ section.sprites {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
-  .sprite {
-    padding-bottom: 10px;
+  .sprite-list {
     @include display(flex);
     @include flex-direction(row);
-    img {
-      max-width: 16px;
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+  }
+  .sprite {
+    margin: 5px 0 20px;
+    width: 30%;
+
+    @include display(flex);
+    @include flex-direction(row);
+    .sprite-image {
       height: 16px;
-      margin-top: 2px;
+      margin-top: 1px;
+      max-width: 16px;
+
       @include flex(1 0 auto);
     }
     .text {
       padding-left: 10px;
+
       @include flex(1 1 auto);
     }
     h4.sprite-name {
-      // line-height: 32px;
       margin: 0 0 10px;
+    }
+    .sprite-download {
+      border: 1px solid $grey-border;
+      display: inline-block;
+      opacity: .4;
+      padding: 5px;
+
+      @include transition-bounce;
+      span {
+        color: $text;
+        padding-left: 5px;
+
+        @include transform(scale(0));
+      }
+      &:hover {
+        opacity: 1;
+        span {
+          @include transform(scale(1.8));
+        }
+      }
     }
     p {
       &:empty {
         display: none;
       }
     }
-    h4 {}
   }
 }
