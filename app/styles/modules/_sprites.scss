@@ -20,24 +20,25 @@ section.sprites {
   }
   .sprite {
     margin: 5px 0 20px;
-    width: 30%;
+    width: 45%;
 
     @include display(flex);
     @include flex-direction(row);
     .sprite-image {
-      height: 16px;
+      height: 32px;
       margin-top: 1px;
-      max-width: 16px;
+      max-width: 32px;
 
       @include flex(1 0 auto);
     }
     .text {
-      padding-left: 10px;
+      padding-left: 20px;
 
       @include flex(1 1 auto);
     }
-    h4.sprite-name {
+    h3.sprite-name {
       margin: 0 0 10px;
+      line-height: 36px;
     }
     .sprite-download {
       border: 1px solid $grey-border;

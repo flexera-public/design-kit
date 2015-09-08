@@ -6,9 +6,8 @@
         <div class="sprite" ng-repeat="sprite in spriteGroup.sprites">
           <img ng-src="{{sprite.src}}" alt="{{ sprite.name }}" class="sprite-image">
           <span class="text">
-            <h4 class="sprite-name">{{ sprite.name }}</h4>
-            <p class="sprite-description">{{ sprite.description }}</p>
-            <a href="{{ sprite.src }}" class="sprite-download"><img src="images/assets/icon-download-text.svg" alt="Download"><span>Download</span></a>
+            <h3 class="sprite-name">{{ sprite.name }}</h3>
+            <p class="sprite-description">{{ sprite.description }} <a href="{{ sprite.src }}">Download SVG</a></p>
           </span>
         </div>
     </div>
