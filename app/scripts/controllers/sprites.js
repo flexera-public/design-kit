@@ -8,13 +8,13 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('SpritesCtrl', function ($scope) {
+  .controller('SpritesCtrl', function ($scope, $rootScope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-
+    $rootScope.bodyClass = 'layout-sprites';
     $scope.spriteGroups = [
       {
         group: {
