@@ -55,17 +55,6 @@ section {
     }
   }
   .type-container {
-    background-color: #fff;
-    border: 1px solid $grey-border;
-    border-radius: 1px;
-    color: $heading;
-    font-size: rem(32);
-    font-weight: 400;
-    line-height: 1.1;
-    margin-top: 1.4rem;
-    margin-bottom: 2.4rem;
-    padding: 20px 15px;
-    position: relative;
     &.has-helvetica {
       font-family: $helvetica;
     }
@@ -85,7 +74,7 @@ section {
       font-weight: 700;
       margin-bottom: 2rem;
       padding-bottom: 2rem;
-      border-bottom: 1px solid lighten($grey-border, 10%);
+      border-bottom: 1px solid $grey-border;
     }
   }
 }
