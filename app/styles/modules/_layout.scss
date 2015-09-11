@@ -60,6 +60,9 @@ section {
     }
     &.has-bariol {
       font-family: $bariol;
+      .bariol-light {
+        font-weight: 300;
+      }
     }
     h2 {
       color: $text;
