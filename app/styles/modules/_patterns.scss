@@ -20,13 +20,14 @@
       }
     }
 
-    p.small {
-      opacity: 0.65;
+    .pattern-reference {
+      font-size: 90%;
     }
 
-    .pattern-referenc-label {
+    .pattern-reference-label {
       background-color: #E2E5E9;
       border-radius: 3px;
+      opacity: 1;
       padding: 2px 4px;
     }
 
