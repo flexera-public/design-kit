@@ -1,19 +1,16 @@
 <section class="sprites" ng-controller="SpritesCtrl">
 
- <div class="clearfix product-filter">
-      <ul class="color-filter-radio">
+  <div class="clearfix product-filter">
+      <!-- <ul class="color-filter-radio">
         <li ng-repeat="product in productNames">
          <label ng-class="{selected: productNames.selected === product}">
-         <!-- <label ng-class="selected"> -->
             <input type="radio" name="color" ng-model="productNames.selected" ng-value="product">
             {{ product.name }}
          </label>
         </li>
-      </ul>
-     
-    </div>
-
-
+      </ul> -->
+        <input ng-model="searchText" class="store-search" placeholder="Filter by name">
+  </div>
   <div class="row" ng-repeat="spriteGroup in spriteGroups">
     <h1 class="group-name">{{ spriteGroup.group.name }}</h1>
     <p class="group-description">{{ spriteGroup.group.description }}</p>
@@ -24,7 +21,10 @@
           <span class="text">
             <h4 class="sprite-name">{{ sprite.name }}</h4>
             <p class="sprite-description">{{ sprite.description }}</p>
-            <p><a href="{{ sprite.src }}">Download {{ spriteGroup.group.file_type }}</a></p>
+            <p><a href="{{ sprite.src }}" class="store-download {{ spriteGroup.group.file_type }}">Download {{ spriteGroup.group.file_type }}</a></p>
+
+           
+
           </span>
         </div>
     </div>

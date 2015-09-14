@@ -6,16 +6,18 @@ section.sprites {
     @include box-style;
   }
   .product-filter {
-    margin-left:-15px
+    margin:0 -15px 15px -15px;
+
   }
   .group-name {
     border-bottom: 1px solid $grey-border;
-    margin: 0 0 2rem;
-    padding-bottom: 1rem;
+    margin: 0;
+    padding-bottom: 0rem;
   }
   .group-description {
     margin-bottom: 10px;
     padding-bottom: 10px;
+    margin-top:5px;
   }
   .sprite-list {
     @include display(flex);
@@ -25,11 +27,26 @@ section.sprites {
     padding:0 3rem;
   }
   .sprite {
-    margin: 5px 0 20px;
+    margin: 5px 0;
     width: 45%;
 
     @include display(flex);
     @include flex-direction(row);
+
+    .store-download {
+        background: $default-button url('../images/assets/icon-download-link.svg') no-repeat 10px center / auto 10px;
+        border-radius: 3px;
+        color: $text;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 5px 10px 5px 25px;
+        &:hover {
+          background: $primary-button url('../images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;
+          color: white;
+          text-decoration: none;
+      }
+    }
+
     .sprite-image {
       height: 32px;
       margin-top: 8px;

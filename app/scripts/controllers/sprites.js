@@ -34,7 +34,7 @@ angular.module('designkitApp')
       {
         group: {
           name: 'Actions',
-          description: '',
+          description: 'Basic action buttons',
           file_type:'SVG'
         },
         sprites: [
@@ -136,7 +136,7 @@ angular.module('designkitApp')
       {
         group: {
           name: 'Product Logos',
-          description: '',
+          description: 'Logos of supported cloud providers',
           file_type:'SVG'
         },
         sprites: [
