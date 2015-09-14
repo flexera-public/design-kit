@@ -40,7 +40,7 @@ angular.module('designkitApp')
     }, {
       id: '8',
       title: 'Patterns',
-      details: 'Application layouts and paterns'
+      details: 'Application layouts and patterns'
     }];
 
     $scope.sectionClass = 'section-landing';
