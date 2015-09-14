@@ -15,11 +15,27 @@ angular.module('designkitApp')
       'Karma'
     ];
     $rootScope.bodyClass = 'layout-sprites';
+
+    $scope.productNames = [
+      {
+        name: 'Cloud Analytics'
+      },
+      {
+        name: 'Cloud Management'        
+      },
+      {
+        name: 'Self Service'
+      }
+    ];
+
+    $scope.productNames.selected = null;
+
     $scope.spriteGroups = [
       {
         group: {
           name: 'Actions',
-          description: ''
+          description: '',
+          file_type:'SVG'
         },
         sprites: [
           {
@@ -41,8 +57,108 @@ angular.module('designkitApp')
       },
       {
         group: {
+          name: 'Bookmarks',
+          description: 'The following icons help categorize your bookmarks.  Bookmarks are displayed in the left pane (unless the pane is collapsed).',
+          file_type:'SVG'
+        },
+        sprites: [
+          {
+            name: 'Server',
+            src: 'images/sprites/bookmarks/server_bm.svg'
+          },
+          {
+            name: 'Deployment',
+            src: 'images/sprites/bookmarks/deployments_bm.svg'
+          },
+          {
+            name: 'Instance',
+            src: 'images/sprites/bookmarks/instances_bm.svg'
+          },
+          {
+            name: 'Server Template',
+            src: 'images/sprites/bookmarks/server_templates_bm.svg'
+          },
+          {
+            name: 'Server Array',
+            src: 'images/sprites/bookmarks/server_array_bm.svg'
+          }
+        ]
+      },
+      {
+        group: {
+          name: 'Clouds',
+          description: 'The following icons are for the cloud providers supported by RightScale',
+          file_type:'PNG'
+        },
+        sprites: [
+          {
+            name: 'Amazon',
+            src: 'images/sprites/clouds/amazon.png'
+          },
+          {
+            name: 'Azure',
+            src: 'images/sprites/clouds/azure.png'
+          },
+          {
+            name: 'Cloudstack',
+            src: 'images/sprites/clouds/cloudstack.png'
+          },
+          {
+            name: 'Datapipe',
+            src: 'images/sprites/clouds/datapipe.png'
+          },
+          {
+            name: 'Eucalyptus',
+            src: 'images/sprites/clouds/eucalyptus.png'
+          },
+          {
+            name: 'Google',
+            src: 'images/sprites/clouds/google.png'
+          },
+          {
+            name: 'HP',
+            src: 'images/sprites/clouds/hp.png'
+          },
+          {
+            name: 'Openstack',
+            src: 'images/sprites/clouds/openstack.png'
+          },
+          {
+            name: 'Rackspace',
+            src: 'images/sprites/clouds/rackspace.png'
+          },
+          {
+            name: 'Softlayer',
+            src: 'images/sprites/clouds/softlayer.png'
+          }
+        ]
+      },
+      {
+        group: {
+          name: 'Product Logos',
+          description: '',
+          file_type:'SVG'
+        },
+        sprites: [
+         {
+            name: 'Cloud Analytics',
+            src: 'images/sprites/product_logos/cloud_analytics.svg'
+          },
+          {
+            name: 'Cloud Management',
+            src: 'images/sprites/product_logos/cloud_management.svg'
+          },
+          {
+            name: 'Self Service',
+            src: 'images/sprites/product_logos/self_service.svg'
+          }
+        ]
+      },
+      {
+        group: {
           name: 'Status',
-          description: 'Standard status icons are defined below.  Most icons are static, but a few do change the display in the Dashboard, yet do not take action with respect to any cloud asssets.'
+          description: 'Standard status icons are defined below.  Most icons are static, but a few do change the display in the Dashboard, yet do not take action with respect to any cloud asssets.',
+          file_type:'SVG'
         },
         sprites: [
           {
@@ -104,34 +220,6 @@ angular.module('designkitApp')
             name: 'Warning',
             src: 'images/sprites/info/warning.svg',
             description: 'Indicates that a component is in an error or warning state. Hover over the icon to bring up a tooltip with additional details.'
-          },
-        ]
-      },
-      {
-        group: {
-          name: 'Bookmarks',
-          description: 'The following icons help categorize your bookmarks.  Bookmarks are displayed in the left pane (unless the pane is collapsed).'
-        },
-        sprites: [
-          {
-            name: 'Server',
-            src: 'images/sprites/bookmarks/server_bm.svg'
-          },
-          {
-            name: 'Deployment',
-            src: 'images/sprites/bookmarks/deployments_bm.svg'
-          },
-          {
-            name: 'Instance',
-            src: 'images/sprites/bookmarks/instances_bm.svg'
-          },
-          {
-            name: 'Server Template',
-            src: 'images/sprites/bookmarks/server_templates_bm.svg'
-          },
-          {
-            name: 'Server Array',
-            src: 'images/sprites/bookmarks/server_array_bm.svg'
           }
         ]
       },

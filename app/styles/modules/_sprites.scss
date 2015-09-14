@@ -1,12 +1,17 @@
 section.sprites {
   .row {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 2rem;
 
     @include box-style;
   }
+  .product-filter {
+    margin-left:-15px
+  }
   .group-name {
     border-bottom: 1px solid $grey-border;
+    margin: 0 0 2rem;
+    padding-bottom: 1rem;
   }
   .group-description {
     margin-bottom: 10px;
@@ -17,6 +22,7 @@ section.sprites {
     @include flex-direction(row);
     @include flex-wrap(wrap);
     @include justify-content(space-between);
+    padding:0 3rem;
   }
   .sprite {
     margin: 5px 0 20px;
@@ -26,7 +32,7 @@ section.sprites {
     @include flex-direction(row);
     .sprite-image {
       height: 32px;
-      margin-top: 1px;
+      margin-top: 8px;
       max-width: 32px;
 
       @include flex(1 0 auto);
@@ -36,7 +42,7 @@ section.sprites {
 
       @include flex(1 1 auto);
     }
-    h3.sprite-name {
+    h4.sprite-name {
       margin: 0 0 10px;
       line-height: 36px;
     }
@@ -67,3 +73,5 @@ section.sprites {
     }
   }
 }
+
+
