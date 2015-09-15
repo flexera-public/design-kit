@@ -45,13 +45,12 @@ $silver-tree: #5DD08B;
 $sean: #3C8CC7;
 
 // 1.2 - Button Colors
-$green-button: darken($green, 3%);
+$green-button: #5fb000;
 $blue-button: #0871d4;
 $red-button: #C32525;
-$grey-button: #e2e3e5;
+$grey-button: #E7E7E7;
 
 // 1.2.1 - Button Color Variables
-$default-button : $grey-button;
 $primary-button : $green-button;
 $secondary-button : $blue-button;
 $destructive-button : $red-button;
@@ -73,7 +72,7 @@ $grey-border: #D1D6DC;
 $grey-border-light: lighten($grey-border,6%);
 
 // 1.6 - Icon Colors
-$grey-icon: #8596A5;
+$grey-icon: #57626C;
 $grey-icon-highlight: #A2AFBA;
 $blue-icon: #2390F7;
 $blue-icon-highlight: #54A9F9;
