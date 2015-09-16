@@ -1,13 +1,13 @@
 <section class="sprites" ng-controller="SpritesCtrl">
   <div class="clearfix product-filter">
-        <input ng-model="searchText" class="store-search" placeholder="Filter by name">
+        <input ng-model="searchSprites" class="store-search" placeholder="Filter by name">
   </div>
   <div class="row" ng-repeat="spriteGroup in spriteGroups">
     <h1 class="group-name">{{ spriteGroup.group.name }}</h1>
     <p class="group-description">{{ spriteGroup.group.description }}</p>
 
     <div class="sprite-list {{ group }}">
-        <div class="sprite" ng-repeat="sprite in spriteGroup.sprites">
+        <div class="sprite" ng-repeat="sprite in spriteGroup.sprites | filter:searchSprites">
           <img ng-src="{{sprite.src}}" alt="{{ sprite.name }}" class="sprite-image">
           <span class="text">
             <h4 class="sprite-name">{{ sprite.name }}</h4>
