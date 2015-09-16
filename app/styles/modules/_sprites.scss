@@ -12,7 +12,7 @@ section.sprites {
   .group-name {
     border-bottom: 1px solid $grey-border;
     margin: 0;
-    padding-bottom: 0rem;
+    padding-bottom: 1.6rem;
   }
   .group-description {
     margin-bottom: 10px;
@@ -60,7 +60,7 @@ section.sprites {
       @include flex(1 1 auto);
     }
     h4.sprite-name {
-      margin: 0 0 10px;
+      margin: 0 0 0px;
       line-height: 36px;
     }
     .sprite-download {
