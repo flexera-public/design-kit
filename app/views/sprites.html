@@ -7,7 +7,9 @@
     <p class="group-description">{{ spriteGroup.group.description }}</p>
     <div class="sprite-list {{ group }}">
         <div class="sprite" ng-repeat="sprite in filtered = (spriteGroup.sprites | filter:searchSprites)" >
-          <img ng-src="{{sprite.src}}" alt="{{ sprite.name }}" class="sprite-image">
+          <span class="sprite-image">
+            <img ng-src="{{sprite.src}}" alt="{{ sprite.name }}">
+          </span>
           <span class="text">
             <h4 class="sprite-name">{{ sprite.name }}</h4>
             <p class="sprite-description">{{ sprite.description }}</p>
