@@ -51,6 +51,10 @@ section.sprites {
       max-width: 24px;
 
       @include flex(1 0 auto);
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
     }
     .text {
       padding-left: 12px;
