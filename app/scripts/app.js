@@ -64,6 +64,11 @@ angular
         templateUrl: 'views/widgets.html',
         controller: 'WidgetsCtrl'
       })
+      .when('/sprites', {
+        templateUrl: 'views/sprites.html',
+        controller: 'SpritesCtrl',
+        controllerAs: 'sprites'
+      })
       .otherwise({
         redirectTo: '/'
       });
