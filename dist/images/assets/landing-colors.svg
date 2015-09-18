@@ -1,1 +1,12 @@
-<svg width="72" height="87" viewBox="0 0 72 87" xmlns="http://www.w3.org/2000/svg"><title>drop</title><path d="M61.456 25.543L36 .087 10.544 25.543c-14.06 14.06-14.06 36.853 0 50.912 14.06 14.06 36.854 14.06 50.912 0 14.06-14.06 14.06-36.85 0-50.912zM16.2 70.798C5.266 59.863 5.266 42.136 16.2 31.2L36 11.4l19.8 19.8c10.935 10.936 10.935 28.663 0 39.598-10.936 10.935-28.664 10.933-39.6 0z" fill="#FFF" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="87px" viewBox="0 0 72 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>drop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="drop" sketch:type="MSLayerGroup" transform="translate(-1.000000, 0.000000)" fill="#FFFFFF">
+            <path d="M62.456,25.543 L37,0.087 L11.544,25.543 C-2.516,39.604 -2.516,62.396 11.544,76.455 C25.604,90.514 48.398,90.515 62.456,76.455 C76.516,62.396 76.516,39.604 62.456,25.543 L62.456,25.543 Z M17.201,70.798 C6.265,59.863 6.265,42.136 17.201,31.2 L37,11.401 L56.799,31.2 C67.735,42.136 67.735,59.863 56.799,70.798 C45.864,81.733 28.136,81.731 17.201,70.798 L17.201,70.798 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

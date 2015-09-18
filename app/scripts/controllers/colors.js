@@ -275,8 +275,8 @@ angular.module('designkitApp')
         section: 'Icon Colors',
         item: {
           name: 'Grey Icon',
-          hex: '8596A5',
-          rgb: '133, 150, 165',
+          hex: '57626C',
+          rgb: '87, 98, 108',
           selector: 'swatch-grey-icon',
         }
       },
