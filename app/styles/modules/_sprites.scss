@@ -6,8 +6,7 @@ section.sprites {
     @include box-style;
   }
   .product-filter {
-    margin:0 -15px 15px -15px;
-
+    margin: 0 -15px 15px -15px;
   }
   .group-name {
     border-bottom: 1px solid $grey-border;
@@ -16,52 +15,51 @@ section.sprites {
   }
   .group-description {
     margin-bottom: 10px;
+    margin-top: 5px;
     padding-bottom: 10px;
-    margin-top:5px;
   }
   .sprite-list {
+    padding: 0 1rem;
+
     @include display(flex);
     @include flex-direction(row);
     @include flex-wrap(wrap);
     @include justify-content(space-between);
-    padding:0 3rem;
   }
   .sprite {
-    margin: 5px 0;
-    width: 45%;
+    margin: 5px 0 40px;
+    width: 30%;
 
     @include display(flex);
     @include flex-direction(row);
-
     .store-download {
-        background: $default-button url('../images/assets/icon-download-link.svg') no-repeat 10px center / auto 10px;
-        border-radius: 3px;
-        color: $text;
-        font-size: 10px;
-        font-weight: bold;
-        padding: 5px 10px 5px 25px;
-        &:hover {
-          background: $primary-button url('../images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;
-          color: white;
-          text-decoration: none;
+      background: $default-button url('../images/assets/icon-download-link.svg') no-repeat 10px center / auto 10px;
+      border-radius: 3px;
+      color: $text;
+      font-size: 10px;
+      font-weight: bold;
+      padding: 5px 10px 5px 25px;
+      &:hover {
+        background: $primary-button url('../images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;
+        color: white;
+        text-decoration: none;
       }
     }
-
     .sprite-image {
-      height: 32px;
-      margin-top: 8px;
-      max-width: 32px;
+      height: 24px;
+      margin-top: 6px;
+      max-width: 24px;
 
       @include flex(1 0 auto);
     }
     .text {
-      padding-left: 20px;
+      padding-left: 12px;
 
       @include flex(1 1 auto);
     }
     h4.sprite-name {
-      margin: 0 0 0px;
       line-height: 36px;
+      margin: 0 0 8px;
     }
     .sprite-download {
       border: 1px solid $grey-border;
@@ -90,5 +88,3 @@ section.sprites {
     }
   }
 }
-
-
