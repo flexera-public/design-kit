@@ -24,11 +24,7 @@ angular.module('designkitApp')
     }, {
       id: '4',
       title: 'Icons',
-      details: 'Principal system icons'
-    }, {
-      id: '8',
-      title: 'Sprites',
-      details: 'Images used throughout the UI'
+      details: 'Principal system icons',
     }, {
       id: '5',
       title: 'Tables',
