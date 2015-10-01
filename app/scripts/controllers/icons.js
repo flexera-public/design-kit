@@ -418,6 +418,20 @@ angular.module('designkitApp')
           src: 'images/ignore/icon-feedback.svg'
         }
       },
+      {
+        id: 53,
+        item: {
+          name: 'Folded Map',
+          src: 'images/ignore/icon-folded-map.svg'
+        }
+      },
+      {
+        id: 54,
+        item: {
+          name: 'Circle Caret',
+          src: 'images/ignore/icon-caret-circle.svg'
+        }
+      }
     ];
 
     $scope.sectionClass = 'section-icons';
