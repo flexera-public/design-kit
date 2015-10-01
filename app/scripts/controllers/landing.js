@@ -25,20 +25,16 @@ angular.module('designkitApp')
       id: '4',
       title: 'Icons',
       details: 'Principal system icons'
-    }, {
+    },{
       id: '5',
-      title: 'Sprites',
-      details: 'Images used throughout the UI'
-    }, {
-      id: '6',
       title: 'Tables',
       details: 'Basic table UI'
     }, {
-      id: '7',
+      id: '6',
       title: 'Buttons',
       details: 'Default UI for buttons and button groups'
     }, {
-      id: '8',
+      id: '7',
       title: 'Forms',
       details: 'Basic form UI'
     }, {
@@ -54,6 +50,4 @@ angular.module('designkitApp')
     $timeout(function () {
         $scope.sectionClass = 'animate-loaded';
     }, 100);
-
-
   });

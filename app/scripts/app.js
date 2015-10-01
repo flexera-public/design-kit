@@ -60,6 +60,18 @@ angular
         templateUrl: 'views/icons.html',
         controller: 'IconsCtrl'
       })
+      .when('/icons/elemental', {
+        templateUrl: 'views/icons/elemental.html',
+        controller: 'ElementalIconsCtrl'
+      })
+      .when('/icons/representative', {
+        templateUrl: 'views/icons/representative.html',
+        controller: 'RepresentativeIconsCtrl'
+      })
+      .when('/icons/actionable', {
+        templateUrl: 'views/icons/actionable.html',
+        controller: 'ActionablelIconsCtrl'
+      })
       .when('/widgets', {
         templateUrl: 'views/widgets.html',
         controller: 'WidgetsCtrl'
