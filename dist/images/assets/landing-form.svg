@@ -1,1 +1,12 @@
-<svg width="80" height="96" viewBox="0 0 80 96" xmlns="http://www.w3.org/2000/svg"><title>paper</title><path d="M68 0H12C5.37 0 0 5.37 0 12v72c0 6.63 5.37 12 12 12h56c6.63 0 12-5.37 12-12V12c0-6.63-5.37-12-12-12zm4 84c0 2.21-1.79 4-4 4H12c-2.21 0-4-1.79-4-4V12c0-2.21 1.79-4 4-4h56c2.21 0 4 1.79 4 4v72zM56 68H24c-2.21 0-4 1.79-4 4s1.79 4 4 4h32c2.21 0 4-1.79 4-4s-1.79-4-4-4zm0-16H24c-2.21 0-4 1.79-4 4s1.79 4 4 4h32c2.21 0 4-1.79 4-4s-1.79-4-4-4zm0-16H24c-2.21 0-4 1.79-4 4s1.79 4 4 4h32c2.21 0 4-1.79 4-4s-1.79-4-4-4zm-32-8h16c2.21 0 4-1.79 4-4s-1.79-4-4-4H24c-2.21 0-4 1.79-4 4s1.79 4 4 4z" fill="#FFF" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="96px" viewBox="0 0 80 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>paper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="paper" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M68,0 L12,0 C5.37,0 0,5.37 0,12 L0,84 C0,90.63 5.37,96 12,96 L68,96 C74.63,96 80,90.63 80,84 L80,12 C80,5.37 74.63,0 68,0 L68,0 Z M72,84 C72,86.21 70.21,88 68,88 L12,88 C9.79,88 8,86.21 8,84 L8,12 C8,9.79 9.79,8 12,8 L68,8 C70.21,8 72,9.79 72,12 L72,84 L72,84 Z M56,68 L24,68 C21.791,68 20,69.791 20,72 C20,74.209 21.791,76 24,76 L56,76 C58.209,76 60,74.209 60,72 C60,69.791 58.209,68 56,68 L56,68 Z M56,52 L24,52 C21.791,52 20,53.791 20,56 C20,58.209 21.791,60 24,60 L56,60 C58.209,60 60,58.209 60,56 C60,53.791 58.209,52 56,52 L56,52 Z M56,36 L24,36 C21.791,36 20,37.791 20,40 C20,42.209 21.791,44 24,44 L56,44 C58.209,44 60,42.209 60,40 C60,37.791 58.209,36 56,36 L56,36 Z M24,28 L40,28 C42.209,28 44,26.209 44,24 C44,21.791 42.209,20 40,20 L24,20 C21.791,20 20,21.791 20,24 C20,26.209 21.791,28 24,28 L24,28 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

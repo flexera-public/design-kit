@@ -21,7 +21,7 @@ angular.module('designkitApp')
         name: 'Cloud Analytics'
       },
       {
-        name: 'Cloud Management'        
+        name: 'Cloud Management'
       },
       {
         name: 'Self Service'
@@ -35,7 +35,7 @@ angular.module('designkitApp')
         group: {
           name: 'Actions',
           description: 'Basic action buttons',
-          file_type:'SVG'
+          fileType:'SVG'
         },
         sprites: [
           {
@@ -59,7 +59,7 @@ angular.module('designkitApp')
         group: {
           name: 'Bookmarks',
           description: 'The following icons help categorize your bookmarks.  Bookmarks are displayed in the left pane (unless the pane is collapsed).',
-          file_type:'SVG'
+          fileType:'SVG'
         },
         sprites: [
           {
@@ -88,7 +88,7 @@ angular.module('designkitApp')
         group: {
           name: 'Clouds',
           description: 'The following icons are for the cloud providers supported by RightScale',
-          file_type:'PNG'
+          fileType:'PNG'
         },
         sprites: [
           {
@@ -137,7 +137,7 @@ angular.module('designkitApp')
         group: {
           name: 'Product Logos',
           description: 'Logos of supported cloud providers',
-          file_type:'SVG'
+          fileType:'SVG'
         },
         sprites: [
          {
@@ -158,7 +158,7 @@ angular.module('designkitApp')
         group: {
           name: 'Status',
           description: 'Standard status icons are defined below.  Most icons are static, but a few do change the display in the Dashboard, yet do not take action with respect to any cloud asssets.',
-          file_type:'SVG'
+          fileType:'SVG'
         },
         sprites: [
           {

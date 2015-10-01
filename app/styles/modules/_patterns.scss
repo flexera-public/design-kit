@@ -1,0 +1,36 @@
+.layout-patterns {
+  article {
+    margin-bottom: 4rem;
+
+    img {
+      width: 100%;
+      &.border-light {
+        border: 1px solid $grey-border-light;
+      }
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &.pattern-app-layout {
+      margin-bottom: 4rem;
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .pattern-reference {
+      font-size: 90%;
+    }
+
+    .pattern-reference-label {
+      background-color: #E2E5E9;
+      border-radius: 3px;
+      opacity: 1;
+      padding: 2px 4px;
+    }
+
+  }
+
+}

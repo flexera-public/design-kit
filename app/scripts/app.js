@@ -76,6 +76,10 @@ angular
         templateUrl: 'views/widgets.html',
         controller: 'WidgetsCtrl'
       })
+      .when('/patterns', {
+        templateUrl: 'views/patterns.html',
+        controller: 'PatternsCtrl'
+      })
       .when('/sprites', {
         templateUrl: 'views/sprites.html',
         controller: 'SpritesCtrl',
