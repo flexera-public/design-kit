@@ -24,8 +24,8 @@ angular.module('designkitApp')
     }, {
       id: '4',
       title: 'Icons',
-      details: 'Principal system icons',
-    }, {
+      details: 'Principal system icons'
+    },{
       id: '5',
       title: 'Tables',
       details: 'Basic table UI'
@@ -50,6 +50,4 @@ angular.module('designkitApp')
     $timeout(function () {
         $scope.sectionClass = 'animate-loaded';
     }, 100);
-
-
   });
