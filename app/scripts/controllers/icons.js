@@ -431,6 +431,13 @@ angular.module('designkitApp')
           name: 'Circle Caret',
           src: 'images/ignore/icon-caret-circle.svg'
         }
+      },
+      {
+        id: 55,
+        item: {
+          name: 'Shield',
+          src: 'images/ignore/icon-shield.svg'
+        }
       }
     ];
 
