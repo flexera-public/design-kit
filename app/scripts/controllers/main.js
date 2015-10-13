@@ -24,7 +24,7 @@ angular.module('designkitApp')
         }, 100);
         
       } else {
-        setTimeout(function() {$('.sub-nav-list').removeClass('expand');}, 200);
+        setTimeout(function() {$('.sub-nav-list').removeClass('expand');}, 300);
         $('.sub-nav-list > li ').removeClass('expand');
         $scope.showSubmenu = false;
         
