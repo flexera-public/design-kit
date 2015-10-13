@@ -84,7 +84,21 @@ angular.module('designkitApp')
           src: 'images/sprites/clouds/rackspace.png'
         }, {
           name: 'Softlayer',
-          src: 'images/sprites/clouds/softlayer.png'
+          src: 'images/sprites/clouds/softlayer.png',
+        }]
+      }, {
+        group: {
+          name: 'RightScale Appliances',
+          description: 'These icons are for RightScale products',
+          file_type: 'SVG'
+        },
+        sprites: [{
+          name: 'Private Cloud',
+          src: 'images/sprites/clouds/private-cloud.svg'
+        },
+        {
+          name: 'Universal Cloud Appliance',
+          src: 'images/sprites/clouds/uca.svg'
         }]
       }, {
         group: {
