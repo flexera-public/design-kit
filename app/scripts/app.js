@@ -73,6 +73,11 @@ angular
         controller: 'SpritesCtrl',
         controllerAs: 'sprites'
       })
+      .when('/components', {
+        templateUrl: 'views/components.html',
+        controller: 'ComponentsCtrl',
+        controllerAs: 'components'
+      })
       .otherwise({
         redirectTo: '/'
       });

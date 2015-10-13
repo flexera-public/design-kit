@@ -86,6 +86,14 @@ section {
   margin-bottom: 2rem;
   padding: 2rem;
   @include box-style;
+  .example-box-header {
+    margin: 0 -20px;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid $grey-border-light;
+    h2 {
+      margin: 0;
+    }
+  }
   &.example-box-table {
     background: $body;
   }
