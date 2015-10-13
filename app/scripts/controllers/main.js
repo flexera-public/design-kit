@@ -19,13 +19,13 @@ angular.module('designkitApp')
       if (path.contains('/icons')){
         $scope.showSubmenu = true;
         setTimeout(function() {
-          $('.sub-nav-list').addClass("expand");
-          $('.sub-nav-list > li').addClass("expand");
+          $('.sub-nav-list').addClass('expand');
+          $('.sub-nav-list > li').addClass('expand');
         }, 100);
         
       } else {
-        setTimeout(function() {$('.sub-nav-list').removeClass("expand");}, 200);
-        $('.sub-nav-list > li ').removeClass("expand");
+        setTimeout(function() {$('.sub-nav-list').removeClass('expand');}, 200);
+        $('.sub-nav-list > li ').removeClass('expand');
         $scope.showSubmenu = false;
         
       }
