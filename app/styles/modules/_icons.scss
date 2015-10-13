@@ -11,7 +11,9 @@ h2 {
   @include flex-wrap(wrap);
   .card-columns {
     @include flex(1);
+    flex: 0 0 100%;
     margin: 1rem 1rem 1rem 0;
+    text-align: center;
     @include box-style;
     &:hover {
       background-image: linear-gradient(#fff 65%, rgba($link, 0.09));
@@ -42,6 +44,11 @@ h2 {
       padding: 14px 20px;
       color: $text;
       vertical-align: middle;
+      .icon {
+        width: 3rem;
+        height: auto;
+        margin: 0.5rem 0 1rem 0;
+      }
     }
     h1 {
       color: $link;
