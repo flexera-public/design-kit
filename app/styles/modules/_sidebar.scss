@@ -1,13 +1,14 @@
 .sidebar-nav ul {
+  font-size: 1.3rem;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 100ms cubic-bezier(.420, .000, .580, 1.000);
+
   @extend .nav;
   @extend .nav-pills;
   @extend .nav-stacked;
   @extend .hidden-sm;
   @extend .hidden-xs;
-  transition: opacity 100ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
-  opacity: 1;
-  font-size: 1.3rem;
-  font-weight: bold;
   li {
     padding-left: 10px;
     &.active {
@@ -24,17 +25,19 @@
   }
   .sub-nav-list {
     font-size: 1.2rem;
-    margin: 0 0 4px 0rem;
     height: 0;
+    margin: 0 0 4px 0rem;
+
+    @include transition(height .3s ease-in-out);
     @media screen and (max-width: 1024px) {
       display: none;
     }
-    @include transition-multiple(height, 0.3s, ease-in-out);
     li {
-      @include transition-multiple(margin 0.6s ease-in-out, opacity 0.6s ease-in-out);
-      padding: 2px 0;
-      opacity: 0;
       margin: 0 0 4px 1rem;
+      opacity: 0;
+      padding: 2px 0;
+
+      @include transition(margin .6s ease-in-out, opacity .6s ease-in-out);
       a {
         padding: 0 0 0 10px;
       }
@@ -42,19 +45,22 @@
     &.expand {
       height: 75px;
       li.expand:first-child {
-        @include transition-delay(0.05s);
-        opacity: 1;
         margin: 0 0 4px 2rem;
+        opacity: 1;
+
+        @include transition-delay(.05s);
       }
       li.expand:nth-child(2) {
-        @include transition-delay(0.1s);
-        opacity: 1;
         margin: 0 0 4px 2rem;
+        opacity: 1;
+
+        @include transition-delay(.1s);
       }
       li.expand:nth-child(3) {
-        @include transition-delay(0.15s);
-        opacity: 1;
         margin: 0 0 4px 2rem;
+        opacity: 1;
+
+        @include transition-delay(.15s);
       }
     }
   }

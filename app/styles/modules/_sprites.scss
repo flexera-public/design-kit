@@ -28,8 +28,8 @@ section.sprites {
   }
   .sprite {
     margin: 5px 0 40px;
-    flex: 0 0 33.333%;
 
+    @include flex(0 0 33.333%);
     @include display(flex);
     @include flex-direction(row);
     .store-download {
@@ -52,8 +52,8 @@ section.sprites {
 
       @include flex(1 0 auto);
       img {
-        width: 100%;
         max-width: 100%;
+        width: 100%;
       }
     }
     .text {

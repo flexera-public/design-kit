@@ -2,23 +2,21 @@ h2 {
   font-family: $bariol;
   margin-bottom: 1em;
 }
-
 .flex-container {
   @include display(flex);
   @include flex-direction(row);
   @include align-items(flex-start);
   @include justify-content(flex-start);
   @include flex-wrap(wrap);
-
   .card-columns {
-    @include flex(1);
-    flex: 0 0 100%;
     margin: 1rem;
     text-align: center;
+
+    @include flex(0 0 100%);
     @include box-style;
     &:hover {
-      background-image: linear-gradient(#fff 65%, rgba($link, 0.09));
-      box-shadow: inset 0 -4px 0px 0 rgba($link, 0.07);
+      background-image: linear-gradient(#fff 65%, rgba($link, .09));
+      box-shadow: inset 0 -4px 0 0 rgba($link, .07);
       .card-details {
         background-color: rgba(#fff, 0);
       }
@@ -28,28 +26,27 @@ h2 {
     }
   }
 }
-
 .card {
   height: 100%;
-
   > a {
-    @include align-items(stretch);
     display: block;
-    position: relative;
-    overflow: hidden;
     height: 100%;
+    overflow: hidden;
+    position: relative;
     text-decoration: none;
     transition: all 250ms cubic-bezier(.62, .28, .23, .99);
+
+    @include align-items(stretch);
     .card-details {
-      transition: all 250ms cubic-bezier(.62, .28, .23, .99);
       background-color: rgba(#fff, 1);
-      padding: 14px 20px;
       color: $text;
+      padding: 14px 20px;
+      transition: all 250ms cubic-bezier(.62, .28, .23, .99);
       vertical-align: middle;
       .icon {
-        width: 3rem;
         height: auto;
-        margin: 0.5rem 0 1rem 0;
+        margin: .5rem 0 1rem 0;
+        width: 3rem;
       }
     }
     h1 {
@@ -58,13 +55,12 @@ h2 {
     }
   }
 }
-
 .color-filter {
   border-bottom: 1px solid $grey-border-light;
+
   @include display(flex);
   @include justify-content(space-between);
 }
-
 .color-filter-radio {
   list-style: none;
   padding: 0;
@@ -73,28 +69,28 @@ h2 {
     margin-right: 10px;
     label {
       background-color: white;
-      background-size: 10px;
       background-position: 15px 50%;
       background-repeat: no-repeat;
+      background-size: 10px;
       border: 1px solid $grey-border-light;
       color: $text;
       cursor: pointer;
       font-weight: bold;
-      text-decoration: none;
       padding: 8px 20px 8px 30px;
+      text-decoration: none;
       input {
         display: none;
       }
       &.selected {
-        border: 1px solid $green;
         background-image: url('../images/assets/icon-check-blue.svg');
+        border: 1px solid $green;
         &:hover {
           background-image: url('../images/assets/icon-close-blue.svg');
         }
       }
       &:not(.selected) {
         background-image: url('../images/ignore/icon-plus-open.svg');
-        opacity: 0.4;
+        opacity: .4;
         &:hover {
           opacity: 1;
         }
@@ -102,25 +98,24 @@ h2 {
     }
   }
 }
-
 .color-filter-search {
   // float: right;
   outline: red;
+
   @include flex(2 1 auto);
 }
-
 .store-icons {
   margin-top: 2rem;
   .store-icon-item {
-    display: block;
     border: 1px solid $grey-border-light;
     border-radius: 2px;
-    width: 100%;
+    display: block;
     height: 100%;
-    text-align: center;
-    outline: none;
     margin-bottom: 2rem;
-    padding: 0.5rem;
+    outline: none;
+    padding: .5rem;
+    text-align: center;
+    width: 100%;
     &.blue-background {
       background-color: $blue;
       border: 1px solid darken($blue, 3%);
@@ -130,13 +125,14 @@ h2 {
       }
     }
     .store-preview-icon {
-      padding: 2rem;
       display: block;
+      padding: 2rem;
+
       @include transition-bounce;
       svg {
-        width: 24px;
         height: 32px;
         vertical-align: middle;
+        width: 24px;
       }
     }
     .store-icon-text {
@@ -148,6 +144,7 @@ h2 {
     }
     .store-download-link {
       display: none;
+
       @include justify-content(space-between);
       .store-download {
         background: $default-button url('../images/assets/icon-download-link.svg') no-repeat 10px center / auto 10px;
@@ -164,7 +161,7 @@ h2 {
       }
     }
     &:hover {
-      box-shadow: 0 0 0px 2px $green;
+      box-shadow: 0 0 0 2px $green;
       .store-preview-icon {
         svg {
           @include transform(scale(1.8));
