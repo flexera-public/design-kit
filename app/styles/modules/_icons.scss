@@ -6,13 +6,14 @@ h2 {
 .flex-container {
   @include display(flex);
   @include flex-direction(row);
-  @include align-items(stretch);
-  @include justify-content(space-between);
+  @include align-items(flex-start);
+  @include justify-content(flex-start);
   @include flex-wrap(wrap);
+
   .card-columns {
     @include flex(1);
     flex: 0 0 100%;
-    margin: 1rem 1rem 1rem 0;
+    margin: 1rem;
     text-align: center;
     @include box-style;
     &:hover {
@@ -30,6 +31,7 @@ h2 {
 
 .card {
   height: 100%;
+
   > a {
     @include align-items(stretch);
     display: block;
