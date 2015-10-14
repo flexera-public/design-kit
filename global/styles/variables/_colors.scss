@@ -18,7 +18,8 @@
 ├── 1.6 Icon Colors
 ├── 1.7 Highlight Colors
 ├── 1.8 Messaging Colors
-└── 1.9 Header Colors
+├── 1.9 Header Colors
+└── 1.10 Status Colors
 
 */
 
@@ -92,3 +93,11 @@ $messaging-text: #939182;
 $header-flat: #0069CC;
 $header-gradient-start: #076CCA;
 $header-gradient-end: #065BAC;
+
+// 1.10 - Status Colors
+$status-default: $text;
+$status-primary: $blue;
+$status-success: $green;
+$status-info: $purple;
+$status-warning: $orange;
+$status-danger: $red;
