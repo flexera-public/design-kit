@@ -55,3 +55,9 @@ git subtree push --prefix dist origin gh-pages
 ## Github Page
 
 [http://rightscale.github.io/design-kit](http://rightscale.github.io/design-kit)
+
+## Maintained by
+
+[Allan Corbett](https://github.com/allancorbett)
+[Artur Janas](https://github.com/abtx)
+[Jason Melgoza](https://github.com/jasonmelgoza)
