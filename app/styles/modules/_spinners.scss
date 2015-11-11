@@ -1,0 +1,87 @@
+//
+// Spinner
+// ------------------------------
+
+// Chrome: Good
+// Firefox: Good
+// MS IE: Good
+// MS Edge: OK - some slowness reported
+
+// Spinner color list
+$spinner-colors: (
+  'blue': #0769C6,
+  'dark_top': #76899A,
+  'dark_bottom': #DADEE3
+);
+
+@function spinner-color($name) {
+  @return map-get($spinner-colors, $name);
+};
+
+// Spinner rotate keyframe animation
+@include keyframes(rotate) {
+  0% {
+    @include transform(rotateZ(-360deg));
+  }
+  100% {
+    @include transform(rotateZ(0deg));
+  }
+}
+
+// Spinner base
+.spinner {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  &:after {
+    @include animation(rotate 0.6s linear infinite);
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #555;
+    border-right: 1px solid #ddd;
+    content: '';
+    opacity: .5;
+  }
+}
+
+// Spinner size
+.spinner.spinner-sm {
+  &:after {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+// Spinner themes
+.spinner.spinner-color-blue {
+  &:after {
+    opacity: 1;
+    border-top: 1px solid spinner-color('blue');
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid spinner-color('blue');
+    border-right: 1px solid #fff;
+  }
+}
+
+.spinner.spinner-color-dark {
+  &:after {
+    opacity: 1;
+    border-top: 1px solid spinner-color('dark_top');
+    border-bottom: 1px solid spinner-color('dark_bottom');
+    border-left: 1px solid spinner-color('dark_top');
+    border-right: 1px solid spinner-color('dark_bottom');
+  }
+}
+
+// position
+
+.spinner {
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 15px);
+}
