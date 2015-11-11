@@ -119,8 +119,8 @@ angular.module('designkitApp')
     }, {
       id: 12,
       item: {
-        name: 'Pen',
-        src: 'images/ignore/icon-pen.svg',
+        name: 'Edit',
+        src: 'images/ignore/icon-edit.svg',
       }
     }, {
       id: 13,
@@ -270,7 +270,7 @@ angular.module('designkitApp')
       id: 37,
       item: {
         name: 'Save',
-        src: 'images/ignore/icon-saved.svg'
+        src: 'images/ignore/icon-save.svg'
       }
     }, {
       id: 38,
