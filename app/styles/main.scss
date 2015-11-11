@@ -43,6 +43,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
 // Design
+@import "modules/examples";
 @import "modules/global";
 @import "modules/typography";
 @import "modules/topbar";
@@ -61,7 +62,3 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "modules/patterns";
 @import "modules/landing";
 @import "modules/spinners";
-
-.style_code {
-  padding: 20px 0 30px;
-}
