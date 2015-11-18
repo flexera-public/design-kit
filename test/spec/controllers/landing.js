@@ -17,6 +17,6 @@ describe('Controller: LandingCtrl', function () {
   }));
 
   it('should attach a list of cards to the scope', function () {
-    expect(scope.cards.length).toBe(9);
+    expect(scope.cards.length).toBe(7);
   });
 });

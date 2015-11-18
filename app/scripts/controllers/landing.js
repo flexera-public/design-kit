@@ -31,14 +31,10 @@ angular.module('designkitApp')
       details: 'Basic table UI'
     }, {
       id: '6',
-      title: 'Buttons',
-      details: 'Default UI for buttons and button groups'
+      title: 'Components',
+      details: 'Reusable UI for buttons, forms, labels, etc'
     }, {
       id: '7',
-      title: 'Forms',
-      details: 'Basic form UI'
-    }, {
-      id: '8',
       title: 'Patterns',
       details: 'Application layouts and patterns'
     }];

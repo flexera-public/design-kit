@@ -17,10 +17,6 @@ describe('Controller: PatternsCtrl', function () {
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-<<<<<<< HEAD
     expect(scope.patterns.length).toBe(4);
-=======
-    expect(scope.awesomeThings.length).toBe(3);
->>>>>>> fix conflicts
   });
 });
