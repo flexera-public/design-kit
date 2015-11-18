@@ -1,4 +1,4 @@
-# Design Kit v1.1.5
+# Design Kit v1.2.1
 
 A visual branding guide for RightScale products.
 
@@ -58,6 +58,6 @@ git subtree push --prefix dist origin gh-pages
 
 ## Maintained by
 
-[Allan Corbett](https://github.com/allancorbett)
-[Artur Janas](https://github.com/abtx)
-[Jason Melgoza](https://github.com/jasonmelgoza)
+- [Allan Corbett](https://github.com/allancorbett)
+- [Artur Janas](https://github.com/abtx)
+- [Jason Melgoza](https://github.com/jasonmelgoza)
