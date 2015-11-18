@@ -1,7 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 // Basic variables
-@import "../../global/styles/variables/_colors";
+@import "variables/colors";
 @import "variables/bootstrap";
 
 // Core variables and mixins
@@ -43,6 +43,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
 // Design
+@import "modules/examples";
 @import "modules/global";
 @import "modules/typography";
 @import "modules/topbar";
@@ -55,11 +56,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "modules/sprites";
 @import "modules/search";
 @import "modules/forms";
+@import "modules/labels";
 @import "modules/tables";
 @import "modules/buttons";
 @import "modules/patterns";
 @import "modules/landing";
-
-.style_code {
-  padding: 20px 0 30px;
-}
+@import "modules/spinners";

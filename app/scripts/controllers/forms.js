@@ -8,7 +8,7 @@
  * Controller of the designkitApp
  */
 angular.module('designkitApp')
-  .controller('FormsCtrl', function ($scope, $rootScope, $routeParams) {
+  .controller('FormsCtrl', function ($scope, $rootScope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -17,6 +17,5 @@ angular.module('designkitApp')
 
     $scope.sectionClass = 'section-forms';
     $rootScope.bodyClass = 'layout-forms';
-    $rootScope.colorId = $routeParams.colorId;
 
   });

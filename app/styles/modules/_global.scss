@@ -12,3 +12,7 @@ a:active,
 a:hover{
   outline:0 none !important;
 }
+
+.clearfix {
+  @include clearfix;
+}
