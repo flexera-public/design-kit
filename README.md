@@ -1,4 +1,4 @@
-# Design Kit v1.2.1
+# Design Kit v1.2.2
 
 A visual branding guide for RightScale products.
 
