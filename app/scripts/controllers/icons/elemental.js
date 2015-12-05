@@ -368,6 +368,12 @@ angular.module('designkitApp')
         name: 'Admin',
         src: 'images/ignore/icon-admin.svg'
       }
+    }, {
+      id: 53,
+      item: {
+        name: 'Lock',
+        src: 'images/ignore/icon-lock.svg'
+      }
     }];
 
     $scope.sectionClass = 'section-icons';
