@@ -54,7 +54,7 @@ git subtree push --prefix dist origin gh-pages
 
 ## Github Page
 
-[http://rightscale.github.io/design-kit](http://rightscale.github.io/design-kit)
+[http://design.rightscale.com](http://design.rightscale.com)
 
 ## Maintained by
 
