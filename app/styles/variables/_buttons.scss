@@ -22,8 +22,8 @@
   color: set-button-text-color($color);
   cursor: pointer;
   display: inline-block;
-  font-family: $helvetica;
-  font-weight: bold;
+  font-family: $sans;
+  font-weight: $sans-bold;
   font-size: 13px;
   line-height: 1;
   padding: 10px 15px;

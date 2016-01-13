@@ -1,6 +1,6 @@
 .sidebar-nav ul {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: $sans-bold;
   opacity: 1;
   transition: opacity 100ms cubic-bezier(.420, .000, .580, 1.000);
 

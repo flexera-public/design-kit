@@ -6,14 +6,14 @@
     color: $heading;
     display: block;
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: $sans-bold;
     margin-bottom: .3rem;
     .required {
       color: $red;
     }
     .optional {
       color: lighten($heading, 20%);
-      font-weight: normal;
+      font-weight: $sans-regular;
     }
     &.disabled {
       opacity: 0.5;
@@ -47,7 +47,7 @@
   }
   input[type="radio"] + label {
     color: $text;
-    font-weight: bold;
+    font-weight: $sans-bold;
     &:hover span {
       border-color: $grey-icon;;
     }

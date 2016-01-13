@@ -56,25 +56,25 @@ section {
   }
   .type-container {
     &.has-helvetica {
-      font-family: $helvetica;
+      font-family: $sans;
     }
     &.has-bariol {
-      font-family: $bariol;
+      font-family: $headline;
       .bariol-light {
-        font-weight: 300;
+        font-weight: $headline-light;
       }
     }
     h2 {
       color: $text;
-      font-family: $helvetica;
+      font-family: $sans;
       font-size: 12px;
-      font-weight: 700;
+      font-weight: $sans-bold;
       display: block;
       margin: 4px 0 4px;
     }
     .type-font {
       font-size: $giga;
-      font-weight: 700;
+      font-weight: $sans-bold;
       margin-bottom: 2rem;
       padding-bottom: 2rem;
       border-bottom: 1px solid $grey-border;

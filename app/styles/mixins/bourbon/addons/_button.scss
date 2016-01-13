@@ -121,7 +121,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: bold;
+  font-weight: $sans-bold;
   @include linear-gradient ($base-color, $stop-gradient);
   padding: $padding;
   text-decoration: none;
@@ -194,7 +194,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: bold;
+  font-weight: $sans-bold;
   @include linear-gradient(top, $base-color 0%, $second-stop 50%, $third-stop 50%, $fourth-stop 100%);
   padding: $padding;
   text-align: center;
@@ -266,7 +266,7 @@
   color: $color;
   display: inline-block;
   font-size: $textsize;
-  font-weight: normal;
+  font-weight: $sans-regular;
   line-height: 1;
   @include linear-gradient ($base-color, $stop-gradient);
   padding: $padding;
@@ -344,7 +344,7 @@
   color: $color;
   display: inline-block;
   font-size: inherit;
-  font-weight: bold;
+  font-weight: $sans-bold;
   padding: 7px 18px;
   text-decoration: none;
   background-clip: padding-box;

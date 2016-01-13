@@ -1,5 +1,5 @@
 h2 {
-  font-family: $bariol;
+  font-family: $headline;
   margin-bottom: 1em;
 }
 .flex-container {
@@ -75,7 +75,7 @@ h2 {
       border: 1px solid $grey-border-light;
       color: $text;
       cursor: pointer;
-      font-weight: bold;
+      font-weight: $sans-bold;
       padding: 8px 20px 8px 30px;
       text-decoration: none;
       input {
@@ -151,7 +151,7 @@ h2 {
         border-radius: 3px;
         color: $text;
         font-size: 10px;
-        font-weight: bold;
+        font-weight: $sans-bold;
         padding: 5px 10px 5px 25px;
         &:hover {
           background: $primary-button url('../images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;

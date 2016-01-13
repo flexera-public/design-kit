@@ -30,6 +30,7 @@ $zeta: 1.1rem;
     &:first-child {
       margin: 0 15px 0 0;
     }
+
     &:last-child {
       margin: 0 0 0 15px;
     }
@@ -59,8 +60,8 @@ $zeta: 1.1rem;
     h4,
     h5,
     h6 {
-      font-family: $bariol;
-      font-weight: normal;
+      font-family: $headline;
+      font-weight: $headline-regular;
       margin: 0 0 20px 0;
       position: relative;
       span {
@@ -86,7 +87,7 @@ $zeta: 1.1rem;
   }
   dl {
     dt {
-      font-weight: bold;
+      font-weight: $sans-bold;
     }
     dd {
       padding-bottom: 7px;
