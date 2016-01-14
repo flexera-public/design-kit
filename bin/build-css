@@ -1,0 +1,5 @@
+#!/bin/bash
+node-sass \
+  --output-style compact \
+  --include-path node_modules/bourbon/app/assets/stylesheets \
+  scss/designkit.scss css/designkit.css
