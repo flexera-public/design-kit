@@ -1,7 +1,9 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
+@import "../../global/styles/variables/colors";
+@import "../../global/styles/variables/typography";
+
 // Basic variables
-@import "variables/colors";
 @import "variables/bootstrap";
 
 // Core variables and mixins

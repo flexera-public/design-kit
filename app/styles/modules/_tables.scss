@@ -139,7 +139,7 @@ section.example-table {
   @include flex(0 1 auto);
   .table-filter-number {
     font-size: $zeta;
-    font-weight: bold;
+    font-weight: $sans-bold;
   }
   .table-filter-dropdown {
     padding: 10px;

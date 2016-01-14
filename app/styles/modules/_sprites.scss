@@ -37,7 +37,7 @@ section.sprites {
       border-radius: 3px;
       color: $text;
       font-size: 10px;
-      font-weight: bold;
+      font-weight: $sans-bold;
       padding: 5px 10px 5px 25px;
       &:hover {
         background: $primary-button url('../images/assets/icon-download-link-hover.svg') no-repeat 10px center / auto 10px;
