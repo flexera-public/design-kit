@@ -1,2 +1,2 @@
 #!/bin/bash
-nodemon -e scss -x "npm run build-css"
+nodemon -e scss -x "npm run build-css && npm run build-min"

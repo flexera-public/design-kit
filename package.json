@@ -6,9 +6,6 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rightscale/design-kit.git"
@@ -18,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/rightscale/design-kit/issues"
   },
-  "homepage": "https://github.com/rightscale/design-kit#readme"
+  "homepage": "https://github.com/rightscale/design-kit#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1"
+  },
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "build-min": "./bin/build-min",
+    "watch-css": "./bin/watch-css",
+    "serve": "./bin/http-server"
+  }
 }
