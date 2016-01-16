@@ -1,0 +1,100 @@
+//
+// Designkit-Variables
+// --------------------------------------------------
+
+// To use variables simply add "$'variablename'" to the scss selector. E.g. background: $blue; //
+
+// Typography
+// ------------------------------
+
+// Families
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headline: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Weights
+$sans-light: 300; // For lighter text
+$sans-regular: 400; // Use for general text
+$sans-medium: 500; // Use for bolder text on light backgrounds
+$sans-semibold: 600; // Use for text that is "active" e.g. selected item in list
+$sans-bold: 700; // Use for buttons, tabs and bold text on darker bakcgrounds e.g. navigation
+
+$headline-light: 300;
+$headline-regular: 400;
+$headline-bold: 500;
+
+// Colors
+// ------------------------------
+
+// Brand Colors
+$green: #80C11A;
+$blue: #0A83F6; // 7% lighter than the blue button
+$red: #C32525;
+$purple: #7355A6;
+$orange: #F7A626;
+
+// Graph Colors
+$viking: #4FBBCD;
+$royal-purple: #7355A6;
+$mulberry: #C45887;
+$buckthorn: #F7A626;
+$celery: #B4CB55;
+$indian: #D05A5A;
+$silver-tree: #5DD08B;
+$sean: #3C8CC7;
+
+// Button Colors
+$green-button: darken($green, 3%);
+$blue-button: #0871d4;
+$red-button: #C32525;
+$grey-button: #e2e3e5;
+
+// Button Color Variables
+$default-button : $grey-button;
+$primary-button : $green-button;
+$secondary-button : $blue-button;
+$destructive-button : $red-button;
+
+// Text Colors
+$link: #0A83F6;
+$link-hover: darken(#0A83F6, 10%);
+$text: #76899A;
+$heading: #57626C;
+
+// Section Colors
+$left-background-dark: #353B41;
+$left-background-light: #DADEE3;
+$body: #F4F5F7;
+
+// Border Colors
+$grey-border: #D1D6DC;
+$grey-border-light: lighten($grey-border,6%);
+
+// Icon Colors
+$grey-icon: #57626C;
+$grey-icon-highlight: #A2AFBA;
+$blue-icon: #2390F7;
+$blue-icon-highlight: #54A9F9;
+$green-icon: #80C11A;
+$sith-icon: #30373C;
+
+// Highlight Colors
+$hover-highlight: #FAFAFA;
+$select-highlight: #FAFAFA;
+$inline-highlight: #E2E5E9;
+
+// Messaging Colors
+$messaging-background: #FFF7E5;
+$messaging-text: #939182;
+
+// Header Colors
+$header-flat: #0069CC;
+$header-gradient-start: #076CCA;
+$header-gradient-end: #065BAC;
+
+// Status Colors
+$status-default: $text;
+$status-primary: $blue;
+$status-success: $green;
+$status-info: $purple;
+$status-warning: $orange;
+$status-danger: $red;
