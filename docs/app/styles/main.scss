@@ -5,12 +5,17 @@
 @import "reset";
 
 a {
-  color: #0080FA;
   text-decoration: none;
-  background-color: transparent;
+  color: #0080FA;
   opacity: 1;
+  transition: color .15s ease-in, opacity .15s ease-in;
+  &:link,
+  &:visited {
+    transition: color .15s ease-in;
+  }
   &:hover {
     opacity: .5;
+    transition: color .15s ease-in, opacity .15s ease-in;
   }
 }
 
