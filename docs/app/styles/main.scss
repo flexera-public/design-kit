@@ -1,4 +1,60 @@
 // bower:scss
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 // endbower
 
 @import "reset";
+
+a {
+  color: #0080FA;
+  text-decoration: none;
+  background-color: transparent;
+  opacity: 1;
+  @include transition(opacity .15s ease-in);
+}
+
+a:link, a:visited {
+  @include transition(color .15s ease-in);
+}
+
+a:hover {
+  opacity: .5;
+  @include transition(color .15s ease-in);
+}
+
+.container {
+  width: auto;
+  max-width: 1020px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  @include padding(1rem null 1rem null);
+  margin-bottom: 1.5rem;
+  text-align: left;
+  background-color: #0066CF;
+}
+
+.header-brand {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.header-nav {
+  margin-top: 1rem;
+  font-size: 1rem;
+  @media (min-width: 34em) {
+    float: right;
+    margin-top: .5rem;
+  }
+  a {
+    display: inline-block;
+    color: rgba(255,255,255,0.5);
+    &:not(:last-child) {
+      margin-right: 1.25rem;
+    }
+  }
+}
