@@ -1,7 +1,7 @@
 // bower:scss
-@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 // endbower
 
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import "reset";
 
 a {
@@ -9,25 +9,16 @@ a {
   text-decoration: none;
   background-color: transparent;
   opacity: 1;
-  @include transition(opacity .15s ease-in);
-}
-
-a:link, a:visited {
-  @include transition(color .15s ease-in);
-}
-
-a:hover {
-  opacity: .5;
-  @include transition(color .15s ease-in);
+  &:hover {
+    opacity: .5;
+  }
 }
 
 .container {
   width: auto;
   max-width: 1020px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  @include padding(null 20px null 20px);
+  @include margin(null auto null auto);
 }
 
 .header {
@@ -48,7 +39,7 @@ a:hover {
   font-size: 1rem;
   @media (min-width: 34em) {
     float: right;
-    margin-top: .5rem;
+    margin-top: .4rem;
   }
   a {
     display: inline-block;
