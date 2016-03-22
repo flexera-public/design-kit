@@ -1,8 +1,0 @@
-#!/bin/bash
-node-sass \
-  --output-style expanded \
-  --output css/ \
-  --indent-type space \
-  --indent-width 2 \
-  --include-path node_modules/bourbon/app/assets/stylesheets \
-  scss/_designkit.scss css/designkit.css

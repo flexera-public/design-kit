@@ -1,6 +1,0 @@
-#!/bin/bash
-node-sass \
-  --output-style compressed \
-  --output css/ \
-  --include-path node_modules/bourbon/app/assets/stylesheets \
-  scss/_designkit.scss css/designkit.min.css

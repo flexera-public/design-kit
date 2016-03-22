@@ -1,0 +1,25 @@
+---
+layout: default
+title: Patterns
+description: A common UI pattern library used in RightScale apps
+permalink: /patterns/
+---
+
+<div class="patterns">
+
+  <h1 class="page-heading">{{page.title}}</h1>
+  <p class="f2 ma0">{{page.description}}</p>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

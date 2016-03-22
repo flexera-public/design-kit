@@ -1,0 +1,49 @@
+body {
+  font-family: $helvetica;
+  color: #76899A;
+}
+
+h1, h2, h3,
+h4, h5 {
+  color: #57626C;
+}
+
+.wrapper {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-header {
+  background-color: #0069CC;
+  min-height: 51px;
+}
+
+.site-title {
+  float: left;
+  padding: rem(17) 0 rem(10);
+}
+
+.site-nav {
+  float: right;
+  .page-link {
+    display: inline-block;
+    height: 100%;
+    padding: 0.9rem 0.8rem 0.9rem;
+    color: #fff;
+    &:hover {
+      background-color: rgba(#000, 0.1);
+    }
+  }
+}
+
+.site-footer {
+  font-size: 13px;
+}
+
+.page-heading {
+  margin: 0;
+  font-weight: normal;
+}
