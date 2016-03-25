@@ -1,0 +1,439 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"inlin",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/patterns.js",
+			"settings":
+			{
+				"buffer_size": 2379,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mihirpathare/Documents/gitthings/design-kit",
+		"/Users/mihirpathare/Documents/gitthings/design-kit/app",
+		"/Users/mihirpathare/Documents/gitthings/design-kit/app/images",
+		"/Users/mihirpathare/Documents/gitthings/design-kit/app/images/ignore",
+		"/Users/mihirpathare/Documents/gitthings/design-kit/app/scripts",
+		"/Users/mihirpathare/Documents/gitthings/design-kit/app/scripts/controllers"
+	],
+	"file_history":
+	[
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/imports/like_alias.cat",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/imports/multilevel_import_a.cat",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/imports/defn.cat",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/imports/empty.cat",
+		"/Applications/Adobe InDesign CC 2015/Resources/CEP/extensions/HTMLPosterGenerator/node_modules/osenv/osenv.js",
+		"/Users/mihirpathare/Downloads/avokatmc-pdev-v4-forROL.RB",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/002.rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/002.CAT",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/move.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/model.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/messagecenter.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/math.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/legacy.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/css/jquery-ui-themes.css",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/jquery-ui-1.8.10.custom.min.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/jquery-1.7.1.min.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/init.temp.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/ie.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/globals.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/geometry.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/flyout.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/expr.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/events.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/drag.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/data/document.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/doc.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/css/default.css",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/plugins/debug/debug.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/plugins/debug/styles/debug.css",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/files/select_template/data.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axutils.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/css/axure_rp_page.css",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/axQuery.std.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/axQuery.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/player/axplayer.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/annotation.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/adaptive.js",
+		"/Users/mihirpathare/Documents/Axure User Data/Axure-8-0-Pro/working/2957/previewgen75698/resources/scripts/axure/action.js",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/login-page/index.html",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Name the ID/replace.js",
+		"/Applications/MAMP/Library/lib/perl5/5.20.0/Net/Ping.pm",
+		"/Users/mihirpathare/Downloads/drblue - launch by Admin from Catalog- end user does the create SG.rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/test html output.rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/test_many_outputs.rb",
+		"/Users/mihirpathare/Downloads/fall 2012.txt",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/001.cat",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/CATs/All CAT Resources.CAT",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of template long descriptions in shard 4",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of template short descriptions in shard 4",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of template long descriptions in shard 3",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of template short descriptions in shard 3",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of catalog long descriptions in shard 3",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of catalog short descriptions in shard 3",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of catalog long descriptions in shard 4",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of catalog short descriptions in shard 4",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/length of execution descriptions in Shard 4",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/Description data/execution descriptions in Shard 3",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/long input string.rb",
+		"/Users/mihirpathare/Desktop/linux_env.CAT",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/package.cat.rb",
+		"/Users/mihirpathare/Downloads/test_665_utf_8.cat",
+		"/Users/mihirpathare/Downloads/linux-demo-server_aws-test.rb",
+		"/Users/mihirpathare/Downloads/wordpress 2/wp-includes/js/tinymce/plugins/paste/plugin.js",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/replace.js",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/manifest.json",
+		"/Users/mihirpathare/Documents/taurius1/hackthat2/assets/css/style.css",
+		"/Users/mihirpathare/Documents/taurius1/hackthat2/index.html",
+		"/Applications/MAMP/htdocs/HackThat/wp-config.php",
+		"/Applications/MAMP/htdocs/wp-config.php",
+		"/Applications/MAMP/htdocs/connect.php",
+		"/Applications/MAMP/htdocs/wp-config-sample.php",
+		"/Applications/MAMP/htdocs/HackThat/wp-settings.php",
+		"/Applications/MAMP/htdocs/HackThat/wp-config-sample.php",
+		"/Users/mihirpathare/Downloads/themeforest-6397598-promo-landing-page-template/index.html",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/Prototypes/Catalog/partials/_launch.html",
+		"/Users/mihirpathare/Downloads/NiceSimpleContactForm/index.html",
+		"/Users/mihirpathare/Downloads/NiceSimpleContactForm/contact.php",
+		"/Users/mihirpathare/Documents/taurius1/Website/includes/style.css",
+		"/Users/mihirpathare/Documents/taurius1/Website/home.html",
+		"/Users/mihirpathare/Documents/taurius1/Website/form.php",
+		"/Users/mihirpathare/Documents/taurius1/Website/style.css",
+		"/Applications/MAMP/htdocs/styles/rig-app.css",
+		"/Applications/MAMP/htdocs/scripts/controllers/catalog.js",
+		"/Applications/MAMP/htdocs/partials/_launch.html",
+		"/Applications/MAMP/htdocs/partials/_sidebar.html",
+		"/Applications/MAMP/htdocs/scripts/controllers/projects.js",
+		"/Applications/MAMP/htdocs/scripts/rig-app.js",
+		"/Applications/MAMP/htdocs/CNAME",
+		"/Applications/MAMP/htdocs/styles/main.css",
+		"/Applications/MAMP/htdocs/app/index.html",
+		"/Applications/MAMP/htdocs/README.md",
+		"/Applications/MAMP/htdocs/bower.json",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/ss-rig-master/app/scripts/controllers/catalog.js",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/ss-rig-master/README.md",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/ss-rig-master/bower.json",
+		"/Users/mihirpathare/Downloads/UX_Test_integration-multi.rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/test_operations.rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/UX Research/UX_Test_integration-multi.rb",
+		"/Users/mihirpathare/Desktop/myfile.CAT",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/SMOKE_TEST_QA_Basic_Server (1).rb",
+		"/Users/mihirpathare/Dropbox (RightScale, Inc.)/DrBlue's Stash/SS-CloudApps-Details-Page/DrBlueTestCAT.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"83240",
+			"82431",
+			"telstr",
+			"telstra",
+			"launch",
+			"auto_launch",
+			"running",
+			"ope",
+			"running",
+			"resources",
+			"server",
+			"resou",
+			"resource",
+			"resource you're",
+			"resour",
+			"77350",
+			"poc",
+			"sdr",
+			"80402",
+			"80030",
+			"78879",
+			"57052",
+			"46338",
+			"auspo",
+			"aus",
+			"nav",
+			"back",
+			"header",
+			"asset",
+			"port",
+			"8888",
+			"port",
+			"oracle",
+			"nav",
+			"menu",
+			"z-index",
+			"tool",
+			"input"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/controllers/patterns.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2045,
+								2063
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "design-kit.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
