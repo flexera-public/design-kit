@@ -31,11 +31,21 @@ h4, h5 {
   .page-link {
     display: inline-block;
     height: 100%;
-    padding: 0.9rem 0.8rem 0.9rem;
+    padding: 0.8rem 0.8rem 0.8rem;
     color: #fff;
+    margin-right: -5px;
     &:hover {
       background-color: rgba(#000, 0.1);
     }
+    &.page-link-branding {
+
+    }
+  }
+}
+
+.branding {
+  .page-link-branding {
+    background-color: rgba(#000, 0.1);
   }
 }
 

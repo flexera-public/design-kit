@@ -7,7 +7,7 @@
       <div>
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link f5" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link page-link-{{ my_page.slug }} f5" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
