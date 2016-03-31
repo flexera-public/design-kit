@@ -29,22 +29,31 @@ h4, h5 {
 .site-nav {
   float: right;
   .page-link {
-    display: inline-block;
+    float: left;
+    display: block;
     height: 100%;
     padding: 0.8rem 0.8rem 0.8rem;
     color: #fff;
-    margin-right: -5px;
     &:hover {
       background-color: rgba(#000, 0.1);
-    }
-    &.page-link-branding {
-
     }
   }
 }
 
 .branding {
   .page-link-branding {
+    background-color: rgba(#000, 0.1);
+  }
+}
+
+.modules {
+  .page-link-modules {
+    background-color: rgba(#000, 0.1);
+  }
+}
+
+.patterns {
+  .page-link-patterns {
     background-color: rgba(#000, 0.1);
   }
 }
