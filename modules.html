@@ -22,41 +22,33 @@ slug: modules
       <a href="https://github.com/rightscale-design/designkit-colors" target="_blank">Designkit Colors</a>
     </li>
     <li>
-      <a href="https://github.com/rightscale-design/designkit-utilities" target="_blank">Designkit Utilities</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-animate" target="_blank">Designkit Animate</a>
-    </li>
-    <li>
       <a href="https://github.com/rightscale-design/designkit-links" target="_blank">Designkit Links</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-grid" target="_blank">Designkit Grid</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-card" target="_blank">Designkit Card</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-forms" target="_blank">Designkit Forms</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-buttons" target="_blank">Designkit Buttons</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-icons" target="_blank">Designkit Icons</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-badge" target="_blank">Designkit Badge</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-highlight" target="_blank">Designkit Highlight</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-state" target="_blank">Designkit State</a>
-    </li>
-    <li>
-      <a href="https://github.com/rightscale-design/designkit-spinners" target="_blank">Designkit Spinners</a>
     </li>
   </ul>
 
+  <ul>
+    {% for module in site.modules %}
+      <li>
+        <a href="{{ module.url | prepend: site.baseurl }}">{{ module.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
 </div>
+
+
+designkit-animate - v0.0.4 - Sass module for css animation transitions.
+designkit-badge - v0.0.2 - Sass module for css badges.
+designkit-buttons - v0.0.1 - Sass module for css buttons.
+designkit-card - v0.0.4 - Sass module for card CSS
+designkit-colors - v0.0.8 - Sass module for RightScale colors.
+designkit-forms - v0.0.3 - Sass module for css forms at RightScale.
+designkit-global - v0.0.3 - Sass module for a global CSS reset based on Normalize.
+designkit-grid - v0.0.2 - Sass module for a simple CSS grid
+designkit-highlight - v0.0.3 - Sass module for css highlights.
+designkit-icons - v0.0.8 - Sass module for icon assets used at RightScale.
+designkit-links - v0.0.3 - Sass module for css links at RightScale.
+designkit-spinners - v0.0.7 - Sass module for css spinners at RightScale.
+designkit-state - v0.0.3 - Sass module for css states and labels.
+designkit-typography - v0.0.9 - Sass module for typography at RightScale.
+designkit-utilities - v0.0.1 - Sass module containing utility classes.
