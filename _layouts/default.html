@@ -3,13 +3,15 @@
 
   {% include head.html %}
 
-  <body {% if page.slug %} class="{{ page.slug }}"{% endif %}>
+  <body {% if page.slug %} class="w-100 {{ page.slug }}"{% endif %}>
 
     {% include header.html %}
 
     <div class="page-content pv5">
       <div class="wrapper">
-        {{ content }}
+        <div class="cf">
+          {{ content }}
+        </div>
       </div>
     </div>
 
