@@ -11,12 +11,19 @@ email: your-email@domain.com
 description: An internal guide and toolkit for designing RightScale apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
 
 # Collections
 collections:
+  branding:
+    output: true
+    permalink: /branding/:path/
   modules:
     output: true
     permalink: /modules/:path/
+  patterns:
+    output: true
+    permalink: /patterns/:path/

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: patterns
 title: Patterns
 description: A common UI pattern library used in RightScale apps
 permalink: /patterns/
@@ -8,14 +8,11 @@ slug: patterns
 
 <div>
 
-  <h1 class="page-heading">{{page.title}}</h1>
-  <p class="f3 ma0">{{page.description}}</p>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ul>
+    {% for pattern in site.patterns %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a href="{{ pattern.url | prepend: site.baseurl }}">{{ pattern.title }}</a>
         </h2>
       </li>
     {% endfor %}

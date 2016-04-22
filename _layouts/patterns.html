@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="fl w-25">
+  <ul class="mv1 f6">
+    {% for pattern in site.patterns %}
+      <li>
+        <a href="{{ pattern.url | prepend: site.baseurl }}">{{ pattern.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="fl w-75">
+  <div>
+    <h1 class="page-heading">{{ page.title }}</h1>
+    <p class="f3 ma0">{{ page.description }}</p>
+    <p class="f6 ma0"><a href="{{ page.link }}">{{ page.link }}</a></p>
+    <div>
+      {{ content }}
+    </div>
+  </div>
+</div>

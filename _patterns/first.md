@@ -1,7 +1,7 @@
 ---
-layout: pattern
+layout: patterns
 title:  "First Pattern"
-date:   2016-03-22 07:45:37 -0700
 categories: UI
+slug: patterns
 ---
 This is a pattern.
