@@ -1,8 +1,9 @@
 ---
 layout: branding
-title: Colors
-description: Logos, brand colors and guidelines
+title: RightScale Colors
+description: Brand and Product Colors
 slug: branding
+more: colors
 weight: 2
 ---
 
@@ -127,5 +128,67 @@ weight: 2
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!--more-->
+
+<div class="mt5">
+  <h2 class="f5 sans text normal mt0 mb2 o-60">Product Colors</h2>
+  <div class="cf mb3">
+    <div class="w-25 fl">
+      <div class="relative h4 pa3 mr2 br1 tl" style="background-color: #0C5CA6">
+        <div class="absolute top-1 left-4 f6 b white">Blue</div>
+        <div class="absolute bottom-1 left-4 f6 white o-60">
+          <div>CMYK 100 50 0 10</div>
+          <div>#0C5CA6</div>
+        </div>
+      </div>
+    </div>
+    <div class="w-25 fl">
+      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #58595B">
+        <div class="absolute top-1 left-4 f6 b white">Grey</div>
+        <div class="absolute bottom-1 left-4 f6 white o-60">
+          <div>CMYK 60 50 40 10</div>
+          <div>#58595B</div>
+        </div>
+      </div>
+    </div>
+    <div class="w-25 fl">
+      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #FF9000">
+        <div class="absolute top-1 left-4 f6 b white">Orange</div>
+        <div class="absolute bottom-1 left-4 f6 white o-60">
+          <div>CMYK 0 45 100 0</div>
+          <div>#FF9000</div>
+        </div>
+      </div>
+    </div>
+    <div class="w-25 fl">
+      <div class="relative h4 pa3 ml2 br1 tl" style="background-color: #778598">
+        <div class="absolute top-1 left-4 f6 b white">Blue/Grey</div>
+        <div class="absolute bottom-1 left-4 f6 white o-60">
+          <div>CMYK 50 30 10 0</div>
+          <div>#778598</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt5">
+  <h2 class="f5 sans text normal mt0 mb2 o-60">Product Colors</h2>
+  <div class="cf mb3">
+    {% for color in site.data.colors %}
+      <div class="w-25 fl">
+        <div class="relative h4 pa3 mr3 br1 tl" style="background-color: #{{ color.hex }}">
+          <div class="absolute top-1 left-4 f6 b white">{{ color.name }}</div>
+          <div class="absolute bottom-1 left-4 f6 white o-60">
+            <div>CMYK 0 45 100 0</div>
+            <div>RGB {{ color.rgb }}</div>
+            <div>#{{ color.hex }}</div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>

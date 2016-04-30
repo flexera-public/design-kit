@@ -13,7 +13,7 @@ slug: branding
     {% for post in branding %}
       {{ post.excerpt }}
       <div class="w-100 mt3 f6">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="link">More {{ post.title }} &rarr;</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="link">More {{ post.more }} &rarr;</a>
       </div>
     {% endfor %}
   </div>
