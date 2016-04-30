@@ -8,182 +8,34 @@ weight: 2
 ---
 
 <div class="mt5">
-  <h2 class="f5 sans text normal mt0 mb2 o-60">Brand Colors</h2>
-  <div class="cf mb3">
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mr2 br1 tl" style="background-color: #0C5CA6">
-        <div class="absolute top-1 left-4 f6 b white">Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 100 50 0 10</div>
-          <div>#0C5CA6</div>
+  <h2 class="f5 sans text normal mv0 o-60">Brand Colors</h2>
+  <div class="cf mb3 row">
+    {% for color in site.data.colors %}
+      <div class="w-25 fl">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl" style="background-color: #{{ color.hex }}">
+          <div class="absolute top-1 left-4 f6 b white">{{ color.name }}</div>
+          <div class="absolute bottom-1 left-4 f6 white o-60">
+            <div>CMYK {{ color.cmyk }}</div>
+            <div>RGB {{ color.rgb }}</div>
+            <div>#{{ color.hex }}</div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #58595B">
-        <div class="absolute top-1 left-4 f6 b white">Grey</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 60 50 40 10</div>
-          <div>#58595B</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #FF9000">
-        <div class="absolute top-1 left-4 f6 b white">Orange</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 0 45 100 0</div>
-          <div>#FF9000</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 ml2 br1 tl" style="background-color: #778598">
-        <div class="absolute top-1 left-4 f6 b white">Blue/Grey</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 50 30 10 0</div>
-          <div>#778598</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="mt3">
-  <div class="cf mb3">
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mr2 br1 tl" style="background-color: #10A3DD">
-        <div class="absolute top-1 left-4 f6 b white">Sky Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 50 15 0 0</div>
-          <div>#10A3DD</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #0080C1">
-        <div class="absolute top-1 left-4 f6 b white">Light Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 90 40 0 0</div>
-          <div>#0080C1</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #233B85">
-        <div class="absolute top-1 left-4 f6 b white">Medium Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 100 70 0 0</div>
-          <div>#233B85</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 ml2 br1 tl" style="background-color: #052061">
-        <div class="absolute top-1 left-4 f6 b white">Dark Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 100 70 10 3</div>
-          <div>#052061</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="mt3">
-  <div class="cf mb3">
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mr2 br1 tl" style="background-color: #F1F1F2">
-        <div class="absolute top-1 left-4 f6 b black--90">Off White</div>
-        <div class="absolute bottom-1 left-4 f6 black--90 o-80">
-          <div>CMYK 0 0 0 8</div>
-          <div>#F1F1F2</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #D1D2D4">
-        <div class="absolute top-1 left-4 f6 b black--90">Light Grey</div>
-        <div class="absolute bottom-1 left-4 f6 black--90 o-80">
-          <div>CMYK 0 0 0 20</div>
-          <div>#D1D2D4</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #A6A8AB">
-        <div class="absolute top-1 left-4 f6 b white">Medium Grey</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 0 0 0 40</div>
-          <div>#A6A8AB</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 ml2 br1 tl" style="background-color: #7B9FC0">
-        <div class="absolute top-1 left-4 f6 b white">Light Blue/Gray</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 45 20 0 0</div>
-          <div>#7B9FC0</div>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
 <!--more-->
 
 <div class="mt5">
-  <h2 class="f5 sans text normal mt0 mb2 o-60">Product Colors</h2>
-  <div class="cf mb3">
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mr2 br1 tl" style="background-color: #0C5CA6">
-        <div class="absolute top-1 left-4 f6 b white">Blue</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 100 50 0 10</div>
-          <div>#0C5CA6</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #58595B">
-        <div class="absolute top-1 left-4 f6 b white">Grey</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 60 50 40 10</div>
-          <div>#58595B</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 mh2 br1 tl" style="background-color: #FF9000">
-        <div class="absolute top-1 left-4 f6 b white">Orange</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 0 45 100 0</div>
-          <div>#FF9000</div>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 fl">
-      <div class="relative h4 pa3 ml2 br1 tl" style="background-color: #778598">
-        <div class="absolute top-1 left-4 f6 b white">Blue/Grey</div>
-        <div class="absolute bottom-1 left-4 f6 white o-60">
-          <div>CMYK 50 30 10 0</div>
-          <div>#778598</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="mt5">
-  <h2 class="f5 sans text normal mt0 mb2 o-60">Product Colors</h2>
-  <div class="cf mb3">
+  <h2 class="f5 sans text normal mv0 o-60">Brand Colors</h2>
+  <div class="cf mb3 row">
     {% for color in site.data.colors %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 mr3 br1 tl" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 f6 b white">{{ color.name }}</div>
           <div class="absolute bottom-1 left-4 f6 white o-60">
-            <div>CMYK 0 45 100 0</div>
+            <div>CMYK {{ color.cmyk }}</div>
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
           </div>

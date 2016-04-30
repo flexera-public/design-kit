@@ -1,15 +1,59 @@
 - name: Blue
-  hex: 0C5CA6
+  hex: "0C5CA6"
   rgb: foo
+  cmyk: "0 45 100 0"
 
 - name: Grey
-  hex: 58595B
+  hex: "58595B"
   rgb: foo
+  cmyk: "60 50 40 10"
 
 - name: Orange
-  hex: FF9000
+  hex: "FF9000"
   rgb: foo
+  cmyk: 0 45 100 0
 
-- name: Orange
-  hex: 778598
+- name: Blue/Grey
+  hex: "778598"
   rgb: foo
+  cmyk: 50 30 10 0
+
+- name: Sky Blue
+  hex: "10A3DD"
+  rgb: foo
+  cmyk: 50 15 0 0
+
+- name: Light Blue
+  hex: "0080C1"
+  rgb: foo
+  cmyk: 90 40 0 0
+
+- name: Medium Blue
+  hex: "233B85"
+  rgb: foo
+  cmyk: 100 70 0 0
+
+- name: Dark Blue
+  hex: "052061"
+  rgb: foo
+  cmyk: 100 70 10 3
+
+- name: Off White
+  hex: "F1F1F2"
+  rgb: foo
+  cmyk: 0 0 0 8
+
+- name: Light Grey
+  hex: "D1D2D4"
+  rgb: foo
+  cmyk: 0 0 0 20
+
+- name: Medium Grey
+  hex: "A6A8AB"
+  rgb: foo
+  cmyk: 0 0 0 40
+
+- name: Light Blue/Gray
+  hex: "7B9FC0"
+  rgb: foo
+  cmyk: Light Blue/Gray
