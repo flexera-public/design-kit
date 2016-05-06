@@ -1,0 +1,18 @@
+# Product Colors
+# Buttons Group
+
+- name: Green Button
+  hex: "5FB000"
+  rgb: "95, 179, 0"
+
+- name: Blue Button
+  hex: "0871D4"
+  rgb: "7, 113, 212"
+
+- name: Red Button
+  hex: "C32525"
+  rgb: "195, 37, 37"
+
+- name: Grey Button
+  hex: "E7E7E7"
+  rgb: "226, 227, 229"

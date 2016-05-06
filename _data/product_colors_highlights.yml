@@ -1,0 +1,14 @@
+# Product Colors
+# Hightlights Group
+
+- name: Hover Highlight
+  hex: "FAFAFA"
+  rgb: "250, 250, 250"
+
+- name: Select Highlight
+  hex: "FAFAFA"
+  rgb: "250, 250, 250"
+
+- name: Inline Highlight
+  hex: "E2E5E9"
+  rgb: "226, 229, 233"

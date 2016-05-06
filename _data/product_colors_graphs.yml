@@ -1,0 +1,34 @@
+# Product Colors
+# Graphs Group
+
+- name: Viking
+  hex: "4FBBCD"
+  rgb: "79, 187, 205"
+
+- name: Royal Purple
+  hex: "7355A6"
+  rgb: "115, 85, 166"
+
+- name: Mulberry
+  hex: "C45887"
+  rgb: "196, 88, 135"
+
+- name: Buckthorn Orange
+  hex: "F7A626"
+  rgb: "247, 166, 38"
+
+- name: Celery
+  hex: "B4CB55"
+  rgb: "180, 203, 85"
+
+- name: Indian
+  hex: "D05A5A"
+  rgb: "208, 90, 90"
+
+- name: Silver Tree
+  hex: "5DD08B"
+  rgb: "93, 208, 139"
+
+- name: Sean
+  hex: "3C8CC7"
+  rgb: "60, 140, 199"

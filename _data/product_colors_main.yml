@@ -1,0 +1,22 @@
+# Product Colors
+# Brand Group
+
+- name: Cool Blue
+  hex: "0A83F6"
+  rgb: "10, 131, 246"
+
+- name: Lima Green
+  hex: "80C11A"
+  rgb: "128, 193, 26"
+
+- name: Fire Engine Red
+  hex: "C32525"
+  rgb: "195, 37, 37"
+
+- name: Royal Purple
+  hex: "7355A6"
+  rgb: "115, 85, 166"
+
+- name: Buckthorn Orange
+  hex: "F7A626"
+  rgb: "247, 166, 38"

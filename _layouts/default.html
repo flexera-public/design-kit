@@ -17,6 +17,13 @@
 
     {% include footer.html %}
 
+    <script src="{{ "/js/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/color-contrast.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $(function() {
+          console.log( "ready!" );
+      });
+    </script>
   </body>
 
 </html>

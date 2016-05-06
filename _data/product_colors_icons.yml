@@ -1,0 +1,26 @@
+# Product Colors
+# Icons Group
+
+- name: Grey Icon
+  hex: "57626C"
+  rgb: "87, 98, 108"
+
+- name: Grey Icon (Highlight)
+  hex: "A2AFBA"
+  rgb: "162, 175, 186"
+
+- name: Blue Icon
+  hex: "2390F7"
+  rgb: "35, 144, 247"
+
+- name: Blue Icon (Highlight)
+  hex: "54A9F9"
+  rgb: "84, 169, 249"
+
+- name: Green Icon
+  hex: "80C11A"
+  rgb: "128, 193, 26"
+
+- name: Sith Icon
+  hex: "30373C"
+  rgb: "48, 55, 60"

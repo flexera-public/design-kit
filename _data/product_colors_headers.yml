@@ -1,0 +1,14 @@
+# Product Colors
+# Headers Group
+
+- name: Header Flat
+  hex: "0069CC"
+  rgb: "0, 105, 204"
+
+- name: Header Gradient (Start)
+  hex: "076CCA"
+  rgb: "7, 108, 202"
+
+- name: Header Gradient (End)
+  hex: "065BAC"
+  rgb: "6, 91, 172"

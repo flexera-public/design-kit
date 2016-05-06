@@ -1,0 +1,14 @@
+# Product Colors
+# Section Group
+
+- name: Left Background (Sith)
+  hex: "353B41"
+  rgb: "53, 59, 65"
+
+- name: Left Background (Light)
+  hex: "DADEE3"
+  rgb: "218, 222, 227"
+
+- name: Body
+  hex: "F4F5F7"
+  rgb: "244, 245, 247"

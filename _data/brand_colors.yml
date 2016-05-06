@@ -1,59 +1,61 @@
+# Brand Colors
+
 - name: Blue
   hex: "0C5CA6"
-  rgb: foo
+  rgb: "11  93  166"
   cmyk: "0 45 100 0"
 
 - name: Grey
   hex: "58595B"
-  rgb: foo
+  rgb: "88  89  91"
   cmyk: "60 50 40 10"
 
 - name: Orange
   hex: "FF9000"
-  rgb: foo
+  rgb: "255  144  0"
   cmyk: 0 45 100 0
 
 - name: Blue/Grey
   hex: "778598"
-  rgb: foo
+  rgb: "119  133  152"
   cmyk: 50 30 10 0
 
 - name: Sky Blue
   hex: "10A3DD"
-  rgb: foo
+  rgb: "16  163  221"
   cmyk: 50 15 0 0
 
 - name: Light Blue
   hex: "0080C1"
-  rgb: foo
+  rgb: "0  128  193"
   cmyk: 90 40 0 0
 
 - name: Medium Blue
   hex: "233B85"
-  rgb: foo
+  rgb: "35  59  133"
   cmyk: 100 70 0 0
 
 - name: Dark Blue
   hex: "052061"
-  rgb: foo
+  rgb: "5  32  97"
   cmyk: 100 70 10 3
 
 - name: Off White
   hex: "F1F1F2"
-  rgb: foo
+  rgb: "241 241 242"
   cmyk: 0 0 0 8
 
 - name: Light Grey
   hex: "D1D2D4"
-  rgb: foo
+  rgb: "209 210 212"
   cmyk: 0 0 0 20
 
 - name: Medium Grey
   hex: "A6A8AB"
-  rgb: foo
+  rgb: "166 168 171"
   cmyk: 0 0 0 40
 
 - name: Light Blue/Gray
   hex: "7B9FC0"
-  rgb: foo
+  rgb: "124  159  192"
   cmyk: Light Blue/Gray

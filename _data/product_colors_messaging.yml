@@ -1,0 +1,10 @@
+# Product Colors
+# Text Group
+
+- name: Messaging Background
+  hex: "FFF7E5"
+  rgb: "255, 247, 229"
+
+- name: Messaging Text
+  hex: "69685D"
+  rgb: "105, 104, 93"
