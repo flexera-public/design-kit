@@ -73,3 +73,9 @@ h4, h5 {
 .f-small {
   font-size: 90%;
 }
+
+::selection {
+  color: #fff;
+  color: rgba(255,255,255,0.85);
+  background: #353B41;
+}
