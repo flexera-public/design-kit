@@ -92,6 +92,11 @@ weight: 1
     <div class="w-33 fl">
       <div class="relative ph4 pv5 mr2 bg-white br1 ba b--black-10 tc">
         <img width="90" src="/images/marks/ca-mark.svg">
+        <div class="absolute top-1 left-1 f6">
+          <div class="f-small b o-60">
+            Cloud Analytics
+          </div>
+        </div>
         <ul class="absolute bottom-1 left-1 ma0 f6">
           <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="/images/marks/ca-mark.svg">SVG</a></li>
         </ul>
@@ -100,6 +105,11 @@ weight: 1
     <div class="w-34 fl">
       <div class="relative ph4 pv5 mh2 bg-white br1 ba b--black-10 tc">
         <img width="90" src="/images/marks/cm-mark.svg">
+        <div class="absolute top-1 left-1 f6">
+          <div class="f-small b o-60">
+            Cloud Managment
+          </div>
+        </div>
         <ul class="absolute bottom-1 left-1 ma0 f6">
           <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="/images/marks/cm-mark.svg">SVG</a></li>
         </ul>
@@ -108,6 +118,11 @@ weight: 1
     <div class="w-33 fl">
       <div class="relative ph4 pv5 ml2 bg-white br1 ba b--black-10 tc">
         <img width="90" src="/images/marks/ss-mark.svg">
+        <div class="absolute top-1 left-1 f6">
+          <div class="f-small b o-60">
+            Self-Service
+          </div>
+        </div>
         <ul class="absolute bottom-1 left-1 ma0 f6">
           <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="/images/marks/ss-mark.svg">SVG</a></li>
         </ul>
@@ -117,11 +132,37 @@ weight: 1
   <div class="cf">
     <div class="w-33 fl">
       <div class="relative ph4 pv5 mr2 bg-white br1 ba b--black-10 tc">
-        <img width="90" src="/images/marks/platform-mark.svg">
+        <img width="90" src="{{ mark.path }}">
+        <div class="absolute top-1 left-1 f6">
+          <div class="f-small b o-60">
+          {{mark.name}}
+          </div>
+        </div>
         <ul class="absolute bottom-1 left-1 ma0 f6">
-          <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="/images/marks/platform-mark.svg">SVG</a></li>
+          <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="{{mark.path}}">SVG</a></li>
         </ul>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="mt5">
+  <h2 class="f5 sans text normal mv0 o-60">Product Marks Two</h2>
+  <div class="cf mb3 row">
+    {% for mark in site.data.product_marks %}
+      <div class="w-33 fl">
+        <div class="relative ph4 pv5 ml3 mt3 bg-white br1 ba b--black-10 tc">
+          <img width="90" src="/images/marks/platform-mark.svg">
+          <div class="absolute top-1 left-1 f6">
+            <div class="f-small b o-60">
+              Platform
+            </div>
+          </div>
+          <ul class="absolute bottom-1 left-1 ma0 f6">
+            <li><a class="pv1 ph2 f-small link white-70 hover-white bg-black-30 br2" download href="/images/marks/platform-mark.svg">SVG</a></li>
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>
