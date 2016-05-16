@@ -1,5 +1,10 @@
 # Product Marks
-# Mark logos
 
 - name: "Cloud Managment"
-  path: "images/marks/cm-mark.svg"
+  path: "/images/marks/cm-mark.svg"
+- name: "Cloud Analytics"
+  path: "/images/marks/ca-mark.svg"
+- name: "Self-Service"
+  path: "/images/marks/ss-mark.svg"
+- name: "Platform"
+  path: "/images/marks/platform-mark.svg"
