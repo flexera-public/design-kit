@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="37px" viewBox="0 0 52 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>pl-mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Application-Branding-Guide" transform="translate(-244.000000, -900.000000)">
+            <g id="pl-mark" transform="translate(244.000000, 900.000000)">
+                <path d="M45.7,16.9 L45.7,16 C45.7,7.5 38.6,0 30.1,0 C23.9,0 18.8,4.1 16.3,9.3 C15.1,8.4 13.6,7.8 11.9,7.8 C8,7.9 4.8,11 4.8,15 C4.8,15.7 4.9,16.5 5.1,17.1 C2,18.9 0,22.3 0,26.1 C0,31.8 4.3,36.9 10,37 L42.1,37 C47.8,37 52,32 52,26.4 C52,22.1 49.4,18.5 45.7,16.9 L45.7,16.9 Z" id="Shape" fill="#D05A5A"></path>
+                <g id="group" transform="translate(12.000000, 9.000000)">
+                    <g transform="translate(4.000000, 3.000000)" id="shape" fill="#FFFFFF">
+                        <path d="M4.42248985,9.13306149 L0.325378798,11.6330615 L10.6626894,17.9407442 L21,11.6330615 L16.9028889,9.13306149 L21,6.63306149 L10.6626894,0.325378798 L0.325378798,6.63306149 L4.42248985,9.13306149 Z"></path>
+                    </g>
+                    <g id="shape" fill="#D05A5A">
+                        <path d="M4.3253788,9.63306149 L4.3253788,9.63306149 L14.6626894,15.9407442 L25,9.63306149 L14.6626894,3.3253788 L4.3253788,9.63306149 Z M3.28362891,7.9257955 L3.28362891,7.9257955 L13.6209395,1.6181128 L14.6626894,0.982451558 L15.7044393,1.6181128 L26.0417499,7.9257955 L28.8396932,9.63306149 L26.0417499,11.3403275 L15.7044393,17.6480102 L14.6626894,18.2836714 L13.6209395,17.6480102 L3.28362891,11.3403275 L0.48568556,9.63306149 L3.28362891,7.9257955 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

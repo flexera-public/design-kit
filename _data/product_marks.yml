@@ -7,4 +7,6 @@
 - name: "Self-Service"
   path: "/images/marks/ss-mark.svg"
 - name: "Platform"
-  path: "/images/marks/platform-mark.svg"
+  path: "/images/marks/pl-mark.svg"
+- name: "Governance"
+  path: "/images/marks/gov-mark.svg"

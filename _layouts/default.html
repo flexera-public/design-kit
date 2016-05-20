@@ -21,6 +21,7 @@
     <script src="{{ "/js/color-contrast.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
       $(function() {
           console.log( "ready!" );
@@ -29,6 +30,10 @@
             icon: ''
           };
           anchors.add('.page-content h2, .page-content h3');
+          // Sticky-Kit
+          $("#pinned").stick_in_parent({
+            offset_top: 36
+          });
       });
     </script>
   </body>

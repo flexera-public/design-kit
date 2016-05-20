@@ -7,3 +7,8 @@ slug: modules
 ---
 
 <p class="measure">For improved cross-browser rendering, we use Normalize.css to correct small inconsistencies across browsers and devices.</p>
+
+
+```bash
+npm i designkit
+```
