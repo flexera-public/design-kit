@@ -11,8 +11,10 @@ weight: 9
 
 ## Example
 
-<p data-height="300" data-theme-id="23934" data-slug-hash="reERqm" data-default-tab="result" data-user="jmelgoza" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jmelgoza/pen/reERqm/">Designkit-States</a> by Jason Melgoza (<a href="http://codepen.io/jmelgoza">@jmelgoza</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="animate-fade animate-delay-3">
+  <p data-height="300" data-theme-id="23934" data-slug-hash="reERqm" data-default-tab="result" data-user="jmelgoza" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jmelgoza/pen/reERqm/">Designkit-States</a> by Jason Melgoza (<a href="http://codepen.io/jmelgoza">@jmelgoza</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
 
 ## Install
 

@@ -9,6 +9,13 @@ slug: modules
 weight: 3
 ---
 
+## Example
+
+<div class="animate-fade animate-delay-3">
+  <p data-height="300" data-theme-id="23934" data-slug-hash="eZqmGM" data-default-tab="result" data-user="jmelgoza" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jmelgoza/pen/eZqmGM/">Designkit-Links</a> by Jason Melgoza (<a href="http://codepen.io/jmelgoza">@jmelgoza</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
+
 ## Install
 
 ```bash
