@@ -9,6 +9,11 @@ slug: modules
 weight: 12
 ---
 
+## Example
+
+<p data-height="662" data-theme-id="23934" data-slug-hash="MyNgXd" data-default-tab="result" data-user="jmelgoza" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jmelgoza/pen/MyNgXd/">MyNgXd</a> by Jason Melgoza (<a href="http://codepen.io/jmelgoza">@jmelgoza</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ## Install
 
 ```bash
