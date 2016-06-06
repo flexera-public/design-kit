@@ -105,3 +105,12 @@ h4, h5 {
     border-radius: 3px;
   }
 }
+
+// Example
+
+.designkit-example iframe {
+  border: 1px solid #D1D6DC;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  width: 100%;
+}

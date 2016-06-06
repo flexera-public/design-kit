@@ -29,6 +29,15 @@ npm i designkit-spinners
 
 <!-- Spinning Disc -->
 <div class="spinner-disc"></div>
+
+<!-- Spinning Disc Options -->
+<div class="spinner-disc spinner-disc-md"></div>
+
+<div class="spinner-disc spinner-disc-sm"></div>
+
+<div class="spinner-disc spinner-disc-thick"></div>
+
+<div class="spinner-disc spinner-disc-thicker"></div>
 ```
 
 ## CSS
@@ -39,7 +48,6 @@ npm i designkit-spinners
 // Designkit-Spinners
 // --------------------------------------------------
 */
-/* Disc rotate keyframe animation */
 @-webkit-keyframes spinner-disc-rotate {
   0% {
     -webkit-transform: rotateZ(-360deg);
@@ -75,7 +83,6 @@ npm i designkit-spinners
   }
 }
 
-/* Dots opacity keyframe animation */
 @-webkit-keyframes spinner-dots-fade {
   0%,
   80%,
@@ -109,7 +116,6 @@ npm i designkit-spinners
   }
 }
 
-/* Disc base */
 .spinner-disc {
   display: block;
   width: 10px;
@@ -121,32 +127,44 @@ npm i designkit-spinners
   display: block;
   width: 20px;
   height: 20px;
-  border-radius: 100%;
-  border-top: 1px solid #000;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #000;
   content: '';
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: #000;
+  border-right-color: #ddd;
+  border-bottom-color: #ddd;
+  border-left-color: #000;
+  border-radius: 100%;
   opacity: .5;
   -webkit-animation: spinner-disc-rotate 0.6s linear infinite;
   -moz-animation: spinner-disc-rotate 0.6s linear infinite;
   animation: spinner-disc-rotate 0.6s linear infinite;
 }
 
-/* Disc size options */
 .spinner-disc.spinner-disc-sm:after {
   width: 10px;
   height: 10px;
 }
 
-/* Disc position (override to meet your design) */
+.spinner-disc.spinner-disc-md:after {
+  width: 16px;
+  height: 16px;
+}
+
+.spinner-disc.spinner-disc-thick:after {
+  border-width: 2px;
+}
+
+.spinner-disc.spinner-disc-thicker:after {
+  border-width: 3px;
+}
+
 .spinner-disc {
   position: absolute;
   top: calc(50% - 11px);
   left: calc(50% - 11px);
 }
 
-/* Dots base  */
 .spinner-dots,
 .spinner-dots:before,
 .spinner-dots:after {
@@ -163,9 +181,6 @@ npm i designkit-spinners
 }
 
 .spinner-dots {
-  /* Dots position */
-  /* Dots first dot */
-  /* Dots middle dot  */
   -webkit-animation-delay: -0.16s;
   -moz-animation-delay: -0.16s;
   animation-delay: -0.16s;
@@ -174,7 +189,6 @@ npm i designkit-spinners
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   transform: translateZ(0);
-  /* Dots last dot  */
 }
 
 .spinner-dots:before, .spinner-dots:after {
@@ -194,7 +208,6 @@ npm i designkit-spinners
   left: 24px;
 }
 
-/* Dots position (override to meet your design)  */
 .spinner-dots {
   position: absolute;
   top: calc(50% - 8px);
