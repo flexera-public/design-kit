@@ -5,15 +5,15 @@ description: "Sass module for css buttons."
 github: https://github.com/rightscale-design/designkit-buttons
 npm: https://www.npmjs.com/package/designkit-buttons
 example: http://rightscale-design.github.io/designkit-buttons/
+iframe: https://rawgit.com/rightscale-design/designkit-buttons/9fe8d92bb97971c512a58169bc26531a989b0c62/index.html
 slug: modules
 weight: 5
 ---
 
 ## Example
 
-<div class="animate-fade animate-delay-3">
-  <p data-height="300" data-theme-id="23934" data-slug-hash="QNewrg" data-default-tab="result" data-user="jmelgoza" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jmelgoza/pen/QNewrg/">Designkit-Buttons</a> by Jason Melgoza (<a href="http://codepen.io/jmelgoza">@jmelgoza</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="designkit-example animate-fade animate-delay-3">
+   <iframe src="{{ page.iframe }}" frameborder="0"></iframe>
 </div>
 
 ## Install
