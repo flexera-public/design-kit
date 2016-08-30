@@ -58,6 +58,5 @@ git subtree push --prefix dist origin gh-pages
 
 ## Maintained by
 
-- [Allan Corbett](https://github.com/allancorbett)
 - [Artur Janas](https://github.com/abtx)
 - [Jason Melgoza](https://github.com/jasonmelgoza)
