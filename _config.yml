@@ -14,7 +14,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 excerpt_separator: <!--more-->
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
