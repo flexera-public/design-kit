@@ -17,11 +17,46 @@ layout: default
   <div>
     <h1 class="page-heading">{{ page.title }}</h1>
     <p class="f3 ma0">{{ page.description }}</p>
-    <p class="f6 ma0"><a href="{{ page.npm }}">{{ page.npm }}</a></p>
-    <p class="f6 ma0"><a href="{{ page.github }}">{{ page.github }}</a></p>
-    <p class="f6 ma0"><a href="{{ page.example }}">{{ page.example }}</a></p>
+    <div class="cf mt3 o-50">
+      <div class="fl mr2">
+        <a class="dim link" href="{{ page.github }}">{% include assets/icon-github.html %}</a>
+      </div>
+      <div class="fl">
+        <a class="dim link" href="{{ page.npm }}">{% include assets/icon-npm.html %}</a>
+      </div>
+    </div>
     <div class="markdown-body">
-      {{ content }}
+
+    </div>
+    <div class="cf ba b--black-10 br1 mt5 shadow">
+      {% if page.example %}
+      <div class="relative pa3 pt4 bb b--black-10">
+        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>example</small></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eveniet architecto esse, qui. Fuga ipsam, alias, soluta aspernatur, corrupti molestiae, sed blanditiis atque impedit architecto necessitatibus qui adipisci! Nobis, impedit!
+      </div>
+      {% endif %}
+      {% if page.html %}
+      <div class="relative pa3 pt4 bb b--black-10">
+        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>html</small></span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eveniet architecto esse, qui. Fuga ipsam, alias, soluta aspernatur, corrupti molestiae, sed blanditiis atque impedit architecto necessitatibus qui adipisci! Nobis, impedit!
+      </div>
+      {% endif %}
+      {% if page.css %}
+      <div class="relative pa3 pt4">
+        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>css</small></span>
+        <iframe id="css"
+          name="css"
+          title="css"
+          width="100%"
+          height="300"
+          frameborder="0"
+          scrolling="yes"
+          marginheight="0"
+          marginwidth="0"
+          src="https://cdn.rawgit.com/rightscale-design/designkit-global/master/css/designkit-global.css">
+        </iframe>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
