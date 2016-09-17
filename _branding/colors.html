@@ -12,8 +12,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.brand_colors %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f-small o-60">
             <div>CMYK {{ color.cmyk }}</div>
             <div>RGB {{ color.rgb }}</div>
@@ -35,8 +38,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_main %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -51,8 +57,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_graphs %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -67,8 +76,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_buttons %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -83,8 +95,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_text %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -99,8 +114,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_section %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -115,8 +133,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_border %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -131,8 +152,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_icons %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -147,8 +171,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_highlights %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -163,8 +190,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_messaging %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
@@ -179,8 +209,11 @@ weight: 2
   <div class="cf mb3 row">
     {% for color in site.data.product_colors_headers %}
       <div class="w-25 fl">
-        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 color-contrast" style="background-color: #{{ color.hex }}">
+        <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
           <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+          <div class="absolute bottom-1 right-1 b o-80 copy-color">
+            <button class="clipboard child o-90" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+          </div>
           <div class="absolute bottom-1 left-4 f6 f-small o-60">
             <div>RGB {{ color.rgb }}</div>
             <div>#{{ color.hex }}</div>
