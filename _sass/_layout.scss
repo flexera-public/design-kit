@@ -120,10 +120,11 @@ h4, h5 {
 // Clipboard
 
 .copy-color .clipboard {
+  padding: 0;
+  color: currentColor;
+  cursor: pointer;
   background: none;
   border: none;
-  cursor: pointer;
-  color: currentColor;
   svg {
     width: 14px;
     g {

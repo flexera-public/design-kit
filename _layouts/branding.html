@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="pinned" class="fl w-20">
+<div id="pinned" class="fl w-20 dn db-ns">
   <ul class="list-style-none mv1 f6">
     {% assign branding = site.branding | sort:"weight" %}
     {% for post in branding %}
@@ -13,7 +13,7 @@ layout: default
   </ul>
 </div>
 
-<div class="fl w-80 animate-fade">
+<div class="fl w-100 w-80-ns animate-fade">
   <div>
     <h1 class="page-heading">{{ page.title }}</h1>
     <p class="f5 ma0">{{ page.description }}</p>

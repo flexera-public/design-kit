@@ -32,9 +32,11 @@ layout: default
       {% if page.example %}
       <div class="relative pa3 pt4 bb b--black-10">
         <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>example</small></span>
-        <button class="btn" data-clipboard-target="#foo">copy</button>
-        <input id="foo" value="hi world">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eveniet architecto esse, qui. Fuga ipsam, alias, soluta aspernatur, corrupti molestiae, sed blanditiis atque impedit architecto necessitatibus qui adipisci! Nobis, impedit!
+  {% highlight ruby linenos %}
+  def foo
+    puts 'foo'
+  end
+  {% endhighlight %}
       </div>
       {% endif %}
       {% if page.html %}
