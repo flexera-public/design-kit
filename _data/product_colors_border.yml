@@ -4,7 +4,9 @@
 - name: Grey Border
   hex: "D1D6DC"
   rgb: "209, 214, 220"
+  sass: "$grey-border"
 
 - name: Grey Border (Light)
   hex: "E2E5E9"
   rgb: "226, 229, 233"
+  sass: "$grey-border-light"

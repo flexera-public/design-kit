@@ -4,11 +4,14 @@
 - name: Left Background (Sith)
   hex: "353B41"
   rgb: "53, 59, 65"
+  sass: "$left-background-dark"
 
 - name: Left Background (Light)
   hex: "DADEE3"
   rgb: "218, 222, 227"
+  sass: "$left-background-light"
 
 - name: Body
   hex: "F4F5F7"
   rgb: "244, 245, 247"
+  sass: "$body"

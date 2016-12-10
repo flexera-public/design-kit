@@ -13,54 +13,24 @@ layout: default
   </ul>
 </div>
 
-<div class="fl w-80 animate-fade">
+<div class="fl w-100 w-80-ns animate-fade">
   <div>
     <h1 class="page-heading">{{ page.title }}</h1>
-    <p class="f3 ma0">{{ page.description }}</p>
+    <p class="f5 ma0">{{ page.description }}</p>
     <div class="cf mt3 o-50">
+      {% if page.github %}
       <div class="fl mr2">
         <a class="dim link" href="{{ page.github }}">{% include assets/icon-github.html %}</a>
       </div>
+      {% endif %}
+      {% if page.npm %}
       <div class="fl">
         <a class="dim link" href="{{ page.npm }}">{% include assets/icon-npm.html %}</a>
       </div>
+      {% endif %}
     </div>
     <div class="markdown-body">
-
-    </div>
-    <div class="cf ba b--black-10 br1 mt5 shadow">
-      {% if page.example %}
-      <div class="relative pa3 pt4 bb b--black-10">
-        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>example</small></span>
-  {% highlight ruby linenos %}
-  def foo
-    puts 'foo'
-  end
-  {% endhighlight %}
-      </div>
-      {% endif %}
-      {% if page.html %}
-      <div class="relative pa3 pt4 bb b--black-10">
-        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>html</small></span>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eveniet architecto esse, qui. Fuga ipsam, alias, soluta aspernatur, corrupti molestiae, sed blanditiis atque impedit architecto necessitatibus qui adipisci! Nobis, impedit!
-      </div>
-      {% endif %}
-      {% if page.css %}
-      <div class="relative pa3 pt4">
-        <span class="absolute top-0 left-0 pv1 ph2 f6 b gray o-30"><small>css</small></span>
-        <iframe id="css"
-          name="css"
-          title="css"
-          width="100%"
-          height="300"
-          frameborder="0"
-          scrolling="yes"
-          marginheight="0"
-          marginwidth="0"
-          src="https://cdn.rawgit.com/rightscale-design/designkit-global/master/css/designkit-global.css">
-        </iframe>
-      </div>
-      {% endif %}
+      {{ content }}
     </div>
   </div>
 </div>

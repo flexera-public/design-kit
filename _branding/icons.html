@@ -4,24 +4,23 @@ title: Icons
 description: Product and System icon sets
 slug: branding
 more: icons
-weight: 3
+weight: 4
 ---
 
 <div class="mt5">
   <h2 class="f5 sans text normal mv0 o-60">Icons</h2>
   <div class="cf mb3 row">
     {% for icon in site.data.product_icons %}
-    <div class="w-50 w-20-ns fl">
+    <div class="w-50 w-33-m w-20-ns fl">
       <a download href="{{ icon.path }}" class="db relative h4 ml3 mt3 br1 overflow-hidden bg-near-white tl f6 thumbnail-zoom">
         <div class="db">
           <div><img class="db w-20 mt4 center" src="{{ icon.path }}" alt="{{ icon.name }}"></div>
         </div>
         <div class="absolute w-100 bottom-1">
-          <div class="db w-100 tc">{{ icon.name }}</div>
+          <div class="db w-100 tc code gray f-small">{{ icon.name }}</div>
         </div>
       </a>
     </div>
     {% endfor %}
   </div>
-</div>
 </div>

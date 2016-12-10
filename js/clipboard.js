@@ -7,3 +7,9 @@ var clipboard = new Clipboard('.clipboard');
 //
 //     e.clearSelection();
 // });
+
+
+clipboard.on('success', function(e) {
+  console.info('Text:', e.text);
+  e.clearSelection();
+});

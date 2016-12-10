@@ -6,20 +6,17 @@ description: "Sass module for a global CSS reset based on Normalize."
 github: https://github.com/rightscale-design/designkit-global
 npm: https://www.npmjs.com/package/designkit-global
 
-html: http://rightscale-design.github.io/designkit-forms
-css: http://rightscale-design.github.io/designkit-forms
-
 slug: modules
 weight: 0
 ---
 
-## Install
+### Install
 
 ```bash
 npm i designkit-global
 ```
 
-## CSS
+### CSS
 
 ```css
 /*

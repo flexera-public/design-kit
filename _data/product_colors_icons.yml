@@ -4,23 +4,29 @@
 - name: Grey Icon
   hex: "57626C"
   rgb: "87, 98, 108"
+  sass: "$grey-icon"
 
 - name: Grey Icon (Highlight)
   hex: "A2AFBA"
   rgb: "162, 175, 186"
+  sass: "$grey-icon-highlight"
 
 - name: Blue Icon
   hex: "2390F7"
   rgb: "35, 144, 247"
+  sass: "$blue-icon"
 
 - name: Blue Icon (Highlight)
   hex: "54A9F9"
   rgb: "84, 169, 249"
+  sass: "$blue-icon-highlight"
 
 - name: Green Icon
   hex: "80C11A"
   rgb: "128, 193, 26"
+  sass: "$green-icon"
 
 - name: Sith Icon
   hex: "30373C"
   rgb: "48, 55, 60"
+  sass: "$sith-icon"
