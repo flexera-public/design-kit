@@ -1,0 +1,49 @@
+{
+   "type":[
+     {
+       "id": "01",
+       "group": "Headers",
+       "style": {
+         "name": "Titlebar",
+         "font-name": "Bariol",
+         "font-family": "bariol, Helvetica Neue, Helvetica, Arial, sans-serif",
+         "font-size": "24px",
+         "font-weight": "normal",
+         "line-height": "24px",
+         "color": "#57626c",
+         "sass-var": "$heading",
+         "pangram": "Relaxing in basins at the end of inlets terminates the endless tests from the box."
+       }
+     },
+     {
+       "id": "03",
+       "group": "Body",
+       "style": {
+         "name": "Body Copy",
+         "font-name": "Helvetica",
+         "font-family": "'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
+         "font-size": "13px",
+         "font-weight": "normal",
+         "line-height": 1.4,
+         "color": "#76899A",
+         "sass-var": "$text",
+         "pangram": "An Abyssinian fly playing a Celtic violin was annoyed by trashy flags on which were the Hebrew letter qoph."
+       }
+     },
+     {
+       "id": "03",
+       "group": "Links",
+       "style": {
+         "name": "Body Links",
+         "font-name": "Helvetica",
+         "font-family": "'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif",
+         "font-size": "13px",
+         "font-weight": "normal",
+         "line-height": 1.4,
+         "color": "#0A83F6",
+         "sass-var": "$links",
+         "pangram": "Junk MTV quiz graced by fox whelps."
+       }
+     }
+   ]
+}
