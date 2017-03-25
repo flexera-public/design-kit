@@ -9,7 +9,7 @@ weight: 4
 
 <div class="mt5">
   <h2 class="f5 sans text normal mv0 o-60">Icons</h2>
-  <div class="cf mb3 row">
+  <div class="cf mb4 row">
     {% for icon in site.data.product_icons %}
     <div class="w-50 w-33-m w-20-ns fl">
       <a download href="{{ icon.path }}" class="db relative h4 ml3 mt3 br1 overflow-hidden bg-near-white tl f6 thumbnail-zoom">
@@ -23,4 +23,11 @@ weight: 4
     </div>
     {% endfor %}
   </div>
+
+  <div class="cf mb4 ph3 row">
+    <div class="ba b--black-10 br2 bg-white pa3 center">
+      <p class="text-center f6 ma0 tc"><a class="link dim" download href="/sketch/boo.sketch"><img class="v-mid mr1" src="/images/assets/icon-sketch.svg" alt="Sketch"> <strong>Sketch File Download</strong></a></p>
+    </div>
+  </div>
+
 </div>
