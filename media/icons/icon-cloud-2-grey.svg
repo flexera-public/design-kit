@@ -1,0 +1,14 @@
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-cloud-2" transform="translate(-30.000000, -32.000000)" fill="#57626C">
+            <g transform="translate(30.000000, 32.000000)" id="Group">
+                <g>
+                    <path d="M7.3,0 C4.79,0 2.726,2.2 2.726,4.906 C2.726,5.069 2.732,5.231 2.749,5.394 C1.208,5.538 0,6.988 0,8.68 C0,10.47 1.354,12 3.02,12 L12.228,12 C14.313,12 16,10.13 16,7.894 C16,5.656 14.313,3.814 12.228,3.814 C12.07,3.814 11.913,3.814 11.76,3.831 C11.3,1.645 9.46,0 7.3,0" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

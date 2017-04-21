@@ -1,12 +1,12 @@
 # Product Marks
 
 - name: "Cloud Managment"
-  path: "/images/marks/cm-mark.svg"
+  path: "/media/marks/cm-mark.svg"
 - name: "Cloud Analytics"
-  path: "/images/marks/ca-mark.svg"
+  path: "/media/marks/ca-mark.svg"
 - name: "Self-Service"
-  path: "/images/marks/ss-mark.svg"
+  path: "/media/marks/ss-mark.svg"
 - name: "Platform"
-  path: "/images/marks/pl-mark.svg"
+  path: "/media/marks/pl-mark.svg"
 - name: "Governance"
-  path: "/images/marks/gov-mark.svg"
+  path: "/media/marks/gov-mark.svg"
