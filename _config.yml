@@ -10,7 +10,7 @@ title: RightScale Design Kit
 email: jason@rightscale.com
 description: An internal guide and toolkit for designing RightScale apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://design.rightscale.com" # the base hostname & protocol for your site
 excerpt_separator: <!--more-->
 
 # Build settings
