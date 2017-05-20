@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M13 0h-11c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-11l-3-3zm1 14h-12v-12h11l1 1v11zm-11-6h8v5h-8zm4-5h-3v3h7v-3h-4zm3 2h-3v-1h3v1zm2 7h1v1h-1z" fill="#57626C"></path></svg>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-save" transform="translate(-30.000000, -30.000000)" fill-rule="nonzero" fill="#57626C">
+            <g transform="translate(30.000000, 30.000000)" id="Shape">
+                <path d="M13,0 L2,0 C0.9,0 0,0.9 0,2 L0,14 C0,15.1 0.9,16 2,16 L14,16 C15.1,16 16,15.1 16,14 L16,3 L13,0 Z M14,14 L2,14 L2,2 L13,2 L14,3 L14,14 Z M3,8 L11,8 L11,13 L3,13 L3,8 Z M7,3 L4,3 L4,6 L11,6 L11,3 L7,3 Z M10,5 L7,5 L7,4 L10,4 L10,5 Z M12,12 L13,12 L13,13 L12,13 L12,12 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
