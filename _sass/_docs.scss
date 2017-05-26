@@ -128,7 +128,7 @@ audio, video { display: inline-block; }
  */
 audio:not([controls]) { display: none; height: 0; }
 /**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on media inside links in IE 10-.
  */
 img { border-style: none; }
 /**
@@ -284,11 +284,11 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 /*
 
-   IMAGES
-   Docs: http://tachyons.io/docs/elements/images/
+   media
+   Docs: http://tachyons.io/docs/elements/media/
 
 */
-/* Responsive images! */
+/* Responsive media! */
 img { max-width: 100%; }
 /*
 
@@ -1892,7 +1892,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hide-child .child { opacity: 0; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 .hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
-/* Can combine this with overflow-hidden to make background images grow on hover
+/* Can combine this with overflow-hidden to make background media grow on hover
  * even if you are using background-size: cover */
 .grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-out; transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }

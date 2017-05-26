@@ -1,13 +1,13 @@
 //************************************************************************//
-// Background-image property for adding multiple background images with
+// Background-image property for adding multiple background media with
 // gradients, or for stringing multiple gradients together.
 //************************************************************************//
 
-@mixin background-image($images...) {
-  $webkit-images: ();
-  $spec-images: ();
+@mixin background-image($media...) {
+  $webkit-media: ();
+  $spec-media: ();
 
-  @each $image in $images {
+  @each $image in $media {
     $webkit-image: ();
     $spec-image: ();
 
@@ -33,10 +33,10 @@
       }
     }
 
-    $webkit-images: append($webkit-images, $webkit-image, comma);
-    $spec-images:   append($spec-images,   $spec-image,   comma);
+    $webkit-media: append($webkit-media, $webkit-image, comma);
+    $spec-media:   append($spec-media,   $spec-image,   comma);
   }
 
-  background-image: $webkit-images;
-  background-image: $spec-images;
+  background-image: $webkit-media;
+  background-image: $spec-media;
 }
