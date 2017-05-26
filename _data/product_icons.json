@@ -1,5 +1,9 @@
 [
    {
+     "name": "Admin",
+     "path": "/media/icons/icon-admin.svg"
+   },
+   {
       "name": "Arrow - Right",
       "path": "/media/icons/icon-arrow-right.svg"
    },
@@ -16,12 +20,24 @@
       "path": "/media/icons/icon-arrow-down.svg"
    },
    {
+      "name": "Bell",
+      "path": "/media/icons/icon-bell.svg"
+   },
+   {
+      "name": "Bell - Off",
+      "path": "/media/icons/icon-bell-off.svg"
+   },
+   {
       "name": "Calendar",
       "path": "/media/icons/icon-calendar.svg"
    },
    {
       "name": "Caret",
       "path": "/media/icons/icon-caret.svg"
+   },
+   {
+      "name": "Clipboard",
+      "path": "/media/icons/icon-clipboard.svg"
    },
    {
       "name": "Close",
@@ -106,6 +122,10 @@
    {
       "name": "Attachment",
       "path": "/media/icons/icon-attachment.svg"
+   },
+   {
+      "name": "Attachment - 2",
+      "path": "/media/icons/icon-attachment-2.svg"
    },
    {
       "name": "Back",
@@ -218,10 +238,6 @@
    {
       "name": "Feedback",
       "path": "/media/icons/icon-feedback.svg"
-   },
-   {
-      "name": "Admin",
-      "path": "/media/icons/icon-admin.svg"
    },
    {
       "name": "Lock",
