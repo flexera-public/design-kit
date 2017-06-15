@@ -1,6 +1,6 @@
 # Design Kit v2.0.0
 
-A visual branding guide for RightScale products.
+A visual bits guide for RightScale products.
 
 ## Install
 
