@@ -9,6 +9,9 @@ slug: modules
 weight: 4
 ---
 
+<iframe frameborder="0" src="../cards.html">
+</iframe>
+
 ```bash
 npm i designkit-card
 ```
