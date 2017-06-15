@@ -4,8 +4,8 @@ layout: default
 
 <div id="pinned" class="fl w-20 dn db-ns">
   <ul class="list-style-none mv1 f6">
-    {% assign branding = site.branding | sort:"weight" %}
-    {% for post in branding %}
+    {% assign bits = site.bits | sort:"weight" %}
+    {% for post in bits %}
       <li class="pv1">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>

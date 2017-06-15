@@ -20,9 +20,9 @@ redcarpet:
 
 # Collections
 collections:
-  branding:
+  bits:
     output: true
-    permalink: /branding/:path/
+    permalink: /bits/:path/
   modules:
     output: true
     permalink: /modules/:path/
