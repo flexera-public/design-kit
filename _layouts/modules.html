@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<script>
+$.get( "{{ page.css-link }}", function( data ) {
+  $( "#css_contents" ).html( data );
+});
+var htmlcontents;
+$.get( "{{ page.html-link }}", function( data ) {
+  htmlcontents = data;
+  $( "#html_contents" ).html( htmlEncode(htmlcontents) );
+  $( "#frame_preview" ).attr( 'srcdoc', htmlcontents );
+});
+
+function htmlEncode(value){
+  return $('<div/>').text(value).html();
+}
+</script>
+
 <div id="pinned" class="fl w-20">
   <ul class="mv1 f6">
     {% assign modules = site.modules | sort:"weight" %}
@@ -30,7 +46,32 @@ layout: default
       {% endif %}
     </div>
     <div class="markdown-body">
-      {{ content }}
-    </div>
+      <!-- {{ content }} -->
+      <div class="language-bash highlighter-rouge">
+        <pre class="highlight">
+          <code>{{ page.bash }}</code>
+        </pre>
+      </div>
+      <h2 id="preview">Preview
+        <a class="anchorjs-link scroll" href="#preview" aria-label="Anchor link for: preview" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      </h2>
+      <iframe id='frame_preview' frameborder='0' height='200' width='600'>
+      </iframe>
+      <h2 id="markup">Markup
+        <a class="anchorjs-link scroll" href="#markup" aria-label="Anchor link for: markup" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      </h2>
+      <pre id="html_contents"></pre>
+      <!-- {% highlight html %}
+        {{ page.html }}
+      {% endhighlight %} -->
+      <h2 id="css">CSS
+        <a class="anchorjs-link scroll" href="#css" aria-label="Anchor link for: css" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      </h2>
+      <pre id="css_contents"></pre>
+      <!-- {% highlight css %} -->
+        <!-- {{ page.css }} -->
+
+      <!-- {% endhighlight %} -->
+    </div><!-- markdown-body -->
   </div>
 </div>
