@@ -1,6 +1,8 @@
+//
 // Designkit Color Contrast Tool
-
 // http://24ways.org/2010/calculating-color-contrast/
+//
+
 function isDark(color) {
   var match = /rgb\((\d+).*?(\d+).*?(\d+)\)/.exec(color);
   return (match[1] & 255) +
