@@ -1,12 +1,22 @@
-# Product Marks
-
-- name: "Cloud Managment"
-  path: "/media/marks/cm-mark.svg"
-- name: "Cloud Analytics"
-  path: "/media/marks/ca-mark.svg"
-- name: "Self-Service"
-  path: "/media/marks/ss-mark.svg"
-- name: "Platform"
-  path: "/media/marks/pl-mark.svg"
-- name: "Governance"
-  path: "/media/marks/gov-mark.svg"
+[
+  {
+    "name": "Cloud Managment",
+    "path": "/media/marks/cm-mark.svg"
+  },
+  {
+    "name": "Cloud Analytics",
+    "path": "/media/marks/ca-mark.svg"
+  },
+  {
+    "name": "Self-Service",
+    "path": "/media/marks/ss-mark.svg"
+  },
+  {
+    "name": "Platform",
+    "path": "/media/marks/pl-mark.svg"
+  },
+  {
+    "name": "Governance",
+    "path": "/media/marks/gov-mark.svg"
+  }
+]
