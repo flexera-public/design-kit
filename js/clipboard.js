@@ -1,3 +1,9 @@
+//
+// clipboard.js
+// Modern copy to clipboard. No Flash. Just 3kb gzipped.
+// https://github.com/zenorocha/clipboard.js/
+//
+
 var clipboard = new Clipboard('.clipboard');
 
 // clipboard.on('success', function(e) {
@@ -7,7 +13,6 @@ var clipboard = new Clipboard('.clipboard');
 //
 //     e.clearSelection();
 // });
-
 
 clipboard.on('success', function(e) {
   console.info('Text:', e.text);
