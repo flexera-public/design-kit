@@ -1,22 +1,27 @@
 [
   {
     "name": "Cloud Managment",
-    "path": "/media/marks/cm-mark.svg"
+    "svg": "/media/marks/cm-mark.svg",
+    "pdf": "/media/marks/cm-mark.pdf"
   },
   {
     "name": "Cloud Analytics",
-    "path": "/media/marks/ca-mark.svg"
+    "svg": "/media/marks/ca-mark.svg",
+    "pdf": "/media/marks/ca-mark.pdf"
   },
   {
     "name": "Self-Service",
-    "path": "/media/marks/ss-mark.svg"
+    "svg": "/media/marks/ss-mark.svg",
+    "pdf": "/media/marks/ss-mark.pdf"
   },
   {
     "name": "Platform",
-    "path": "/media/marks/pl-mark.svg"
+    "svg": "/media/marks/pl-mark.svg",
+    "pdf": "/media/marks/pl-mark.pdf"
   },
   {
     "name": "Governance",
-    "path": "/media/marks/gov-mark.svg"
+    "svg": "/media/marks/gov-mark.svg",
+    "pdf": "/media/marks/gov-mark.pdf"
   }
 ]
