@@ -3,6 +3,7 @@ layout: default
 ---
 
 <script>
+// Retrieve CSS and HTML for the module from Github
 $.get( "{{ page.css-link }}", function( data ) {
   $( "#css_contents" ).html( data );
 });
@@ -13,8 +14,29 @@ $.get( "{{ page.html-link }}", function( data ) {
   $( "#frame_preview" ).attr( 'srcdoc', htmlcontents );
 });
 
-function htmlEncode(value){
+// Resize iframe to content
+function resizeIframe (id) {
+    $(id).height( $(id).contents().find("body").height() );
+}
+
+// Method to render HTML in a readable way
+function htmlEncode(value) {
   return $('<div/>').text(value).html();
+}
+
+// Toggle element visibility
+function toggleVisibility(h_identifier, identifier) {
+  var element = $(identifier);
+  var header = $(h_identifier);
+  if (header.hasClass('collapsed')){
+    console.log('collapsed');
+    header.removeClass('collapsed');
+  }
+  else {
+    console.log('not collapsed');
+    header.addClass('collapsed');
+  }
+  element.toggle();
 }
 </script>
 
@@ -52,20 +74,17 @@ function htmlEncode(value){
           <code>{{ page.bash }}</code>
         </pre>
       </div>
-      <h2 id="preview">Preview
-        <a class="anchorjs-link scroll" href="#preview" aria-label="Anchor link for: preview" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      <h2 id="preview" class="collapsable" onclick="toggleVisibility('#preview', '#frame_preview')">Preview
       </h2>
-      <iframe id='frame_preview' frameborder='0' height='200' width='600'>
+      <iframe id='frame_preview' frameborder='0' style="width: 100%" onload="resizeIframe('#frame_preview')">
       </iframe>
-      <h2 id="markup">Markup
-        <a class="anchorjs-link scroll" href="#markup" aria-label="Anchor link for: markup" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      <h2 id="markup" class="collapsable" onclick="toggleVisibility('#markup', '#html_contents')">Markup
       </h2>
       <pre id="html_contents"></pre>
       <!-- {% highlight html %}
         {{ page.html }}
       {% endhighlight %} -->
-      <h2 id="css">CSS
-        <a class="anchorjs-link scroll" href="#css" aria-label="Anchor link for: css" data-anchorjs-icon="" style="padding-left: 0.375em;"></a>
+      <h2 id="css" class="collapsable" onclick="toggleVisibility('#css', '#css_contents')">CSS
       </h2>
       <pre id="css_contents"></pre>
       <!-- {% highlight css %} -->

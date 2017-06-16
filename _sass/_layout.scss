@@ -173,3 +173,20 @@ h4, h5 {
     }
   }
 }
+
+.collapsable {
+  cursor: pointer;
+  display: flex;
+  &:before {
+    background-image: url('../media/icons/icon-arrow-down.svg');
+    background-size: 14px auto;
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: auto 0;
+  }
+  &.collapsed:before {
+    background-image: url('../media/icons/icon-arrow-right.svg');
+    background-size: 14px auto;
+  }
+}
