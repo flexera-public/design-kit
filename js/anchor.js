@@ -5,7 +5,6 @@
 //
 
 $(function() {
-  console.log( "ready!" );
   anchors.options = {
     icon: '',
     class: 'scroll'

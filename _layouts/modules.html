@@ -3,59 +3,10 @@ layout: default
 ---
 
 <script>
-// Retrieve CSS and HTML for the module from Github
-var htmlcontents;
-var csscontents;
-
-$.get( "{{ page.css-link }}", function( data ) {
-  csscontents = data;
-  $( "#css_contents > code" ).html( csscontents ); // Set CSS code in DOM
-});
-
-$.get( "{{ page.html-link }}", function( data ) {
-  htmlcontents = data;
-  $( "#html_contents > code" ).html( htmlEncode(htmlcontents) );  // Set HTML code in DOM
-  htmlcontents = htmlcontents.replace(/\<head\>/g, "<head><style>" + csscontents + "</style>"); // Insert CSS link for preview
-  $( "#frame_preview" ).attr( 'srcdoc', htmlcontents );
-  setTimeout(waitToLoad, 500);
-});
-
-function waitToLoad(){
-  resizeIframe('#frame_preview');
-  hljs.initHighlighting(); // Initialize code highlight.js
-  // hljs.initHighlightingOnLoad(); // Initialize code highlight.js
-}
-
-// Resize iframe to content
-function resizeIframe (id) {
-    $(id).outerHeight( $(id).contents().find("html").outerHeight(true) + 20 );
-    $(id).outerWidth( $(id).contents().find("html").outerWidth(true) );
-}
-
-// Method to render HTML in a readable way
-function htmlEncode (value) {
-  return $('<div/>').text(value).html();
-}
-
-// Toggle element visibility
-function toggleVisibility(h_identifier, identifier) {
-  if (event.target.toString().indexOf("/#") > -1) // Don't expand for anchors
-    return false;
-  var element = $(identifier);
-  var header = $(h_identifier);
-  if (header.hasClass('collapsed')){
-    console.log('collapsed');
-    header.removeClass('collapsed');
-  }
-  else {
-    console.log('not collapsed');
-    header.addClass('collapsed');
-  }
-  element.toggle();
-}
-
-// hljs.initHighlightingOnLoad(); // Initialize code highlight.js
+  var htmllink = "{{ page.html-link }}";
+  var csslink = "{{ page.css-link }}";
 </script>
+<script src="{{ "/js/modules.js" | prepend: site.baseurl }}"></script>
 
 <div id="pinned" class="fl w-20">
   <ul class="mv1 f6">
@@ -85,38 +36,28 @@ function toggleVisibility(h_identifier, identifier) {
       {% endif %}
     </div>
     <div class="markdown-body">
-      <!-- {{ content }} -->
-      <!-- <div class="language-bash highlighter-rouge">
-        <pre class="highlight">
-          <code>{{ page.bash }}</code>
-        </pre>
-      </div> -->
-      <!-- {% highlight bash %}
-        {{ page.bash }}
-      {% endhighlight %} -->
+
       <pre><code class="bash">{{ page.bash }}</code></pre>
 
-      <h2 id="preview" class="collapsable" onclick="toggleVisibility('#preview', '#frame_preview')">Preview
+      <h2 id="preview" class="collapsable" onclick="toggleVisibility('#preview', '#frame_preview')">
+        Preview
       </h2>
-      <iframe id='frame_preview' frameborder='0' style="width: 100%">
-      </iframe>
-      <h2 id="markup" class="collapsable" onclick="toggleVisibility('#markup', '#html_contents')">Markup
-      </h2>
-      <pre id="html_contents"><code class="html"></code></pre>
-      <!-- <div class="language-html highlighter-rouge">
-        <pre id="html_contents" class="highlighter-rouge">
-          <code></code>
-        </pre>
-      </div> -->
-      <!-- {% highlight html %}
-      {% endhighlight %} -->
-      <h2 id="css" class="collapsable" onclick="toggleVisibility('#css', '#css_contents')">CSS
-      </h2>
-      <pre id="css_contents"><code class="css"></code></pre>
-      <!-- {% highlight css %} -->
-        <!-- {{ page.css }} -->
+      <iframe id='frame_preview' frameborder='0' style="width: 100%"></iframe>
 
-      <!-- {% endhighlight %} -->
+      <h2 id="markup" class="collapsable" onclick="toggleVisibility('#markup', '#html_contents')">
+        HTML
+      </h2>
+      <pre id="html_contents">
+        <code class="html"></code>
+      </pre>
+
+      <h2 id="css" class="collapsable" onclick="toggleVisibility('#css', '#css_contents')">
+        CSS
+      </h2>
+      <pre id="css_contents">
+        <code class="css"></code>
+      </pre>
+
     </div><!-- markdown-body -->
   </div>
 </div>
