@@ -177,16 +177,45 @@ h4, h5 {
 .collapsable {
   cursor: pointer;
   display: flex;
+  // &:before {
+  //   background-image: url('../media/icons/icon-arrow-down.svg');
+  //   background-size: 14px auto;
+  //   content: '';
+  //   width: 14px;
+  //   height: 14px;
+  //   margin: auto 0;
+  // }
+  // &.collapsed:before {
+  //   background-image: url('../media/icons/icon-arrow-right.svg');
+  //   background-size: 14px auto;
+  // }
+  // &:before {
+  //   background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
+  //   content: "";
+  //   height: 7px;
+  //   left: 1.2rem;
+  //   margin-top: -3.5px;
+  //   position: absolute;
+  //   top: 50%;
+  //   width: 12px;
+  //   // @include transition-bounce;
+  //   @include transform(rotate3d(0,0,1,-90deg));
+  //   @include transform-origin(center center);
+  // }
+  // &.collapsed:before {
+  //   @include transform(rotate3d(0,0,1,0deg));
+  // }
   &:before {
-    background-image: url('../media/icons/icon-arrow-down.svg');
+    background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
     background-size: 14px auto;
     content: '';
     width: 14px;
     height: 14px;
     margin: auto 0;
+    @include transform(rotate3d(0,0,1,0deg));
+    @include transform-origin(center center);
   }
   &.collapsed:before {
-    background-image: url('../media/icons/icon-arrow-right.svg');
-    background-size: 14px auto;
+    @include transform(rotate3d(0,0,1,-90deg));
   }
 }

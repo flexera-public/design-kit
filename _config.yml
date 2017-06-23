@@ -15,6 +15,7 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+highlighter: none
 redcarpet:
     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
