@@ -101,13 +101,13 @@ h4, h5 {
 
 .markdown-body {
   pre {
-    padding: 16px;
+    padding: 0 16px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
     background-color: #fff;
     border: 1px solid #D1D6DC;
-    shadow: 0 1px 2px rgba(black, 0.5);
+    box-shadow: 0 1px 2px rgba(black, 0.065);
     border-radius: 3px;
   }
 }
