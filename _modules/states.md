@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: States
 description: "Sass module for css states and labels."
 github: https://github.com/rightscale-design/designkit-state

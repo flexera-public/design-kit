@@ -5,6 +5,6 @@
 
 $(function() {
   $("#pinned").stick_in_parent({
-    offset_top: 115
+    offset_top: 117
   });
 });

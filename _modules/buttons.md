@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Buttons
 description: "Sass module for css buttons."
 github: https://github.com/rightscale-design/designkit-buttons

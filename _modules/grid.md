@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Grid
 description: "Sass module for a simple CSS grid."
 github: https://github.com/rightscale-design/designkit-grid

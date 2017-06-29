@@ -7,7 +7,6 @@ layout: default
     <li class="pv1">
       <a href="/patterns">Intro</a>
     </li>
-    {% assign patterns = site.patterns | sort:"weight" %}
     {% for pattern in site.patterns %}
       <li class="pv1">
         <a href="{{ pattern.url | prepend: site.baseurl }}">{{ pattern.title }}</a>
@@ -21,19 +20,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     <p class="f5 mt0 mb4 measure">{{ page.description }}</p>
 
-    <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
-      Problem
-    </h2>
-    <p class="f5 mt0 mb4">{{ page.problem }}</p>
+    {{ content }}
 
-    <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
-      Solution
-    </h2>
-    <p class="f5 mt0 mb4">{{ page.solution }}</p>
-
-    <div class="bt b--black-10 pt3 mt3">
-      <h3>Examples</h3>
-      {{ content }}
-    </div>
   </div>
 </div>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %} {{ page.title | escape }} - Design Kit {% else %}{{ site.title | escape }}{% endif %}</title>
-
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
+
+  <title>{% if page.title %} {{ page.title | escape }} - Design Kit {% else %}{{ site.title | escape }}{% endif %}</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -35,15 +35,16 @@
   <script src="{{ "/js/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/vendor/clipboard.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/list.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/anime.min.js" | prepend: site.baseurl }}"></script>
 
   <!-- Local scripts -->
+  <script src="{{ "/js/color-contrast.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/clipboard.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/list.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/anime.js" | prepend: site.baseurl }}"></script>
 </body>
 
 </html>

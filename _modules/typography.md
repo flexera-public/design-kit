@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title:  "Typography"
 description: "Sass module for typography at RightScale."
 github: https://github.com/rightscale-design/designkit-typography

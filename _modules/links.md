@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title:  "Links"
 description: "Sass module for CSS links at RightScale."
 github: https://github.com/rightscale-design/designkit-links

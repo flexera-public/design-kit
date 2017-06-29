@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Colors
 description: "Sass module for RightScale colors."
 github: https://github.com/rightscale-design/designkit-colors

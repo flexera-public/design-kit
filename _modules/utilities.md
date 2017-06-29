@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title:  "Utilities"
 description: "Sass module containing utility classes to help design apps."
 github: https://github.com/rightscale-design/designkit-utilities

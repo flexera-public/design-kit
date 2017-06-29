@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Animation
 description: "Sass module for css animation transitions."
 github: https://github.com/rightscale-design/designkit-animate

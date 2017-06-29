@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Icons
 description: "Sass module for icon assets used at RightScale."
 github: https://github.com/rightscale-design/designkit-icons

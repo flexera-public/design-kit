@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Card
 description: "Sass module for card CSS."
 github: https://github.com/rightscale-design/designkit-card

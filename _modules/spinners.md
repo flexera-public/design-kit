@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Spinners
 description: "Sass module for css only spinners."
 github: https://github.com/rightscale-design/designkit-spinners

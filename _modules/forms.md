@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Forms
 description: "Sass module for css forms at RightScale."
 github: https://github.com/rightscale-design/designkit-forms

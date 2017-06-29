@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Badge
 description: "Sass module for css badges."
 github: https://github.com/rightscale-design/designkit-badge

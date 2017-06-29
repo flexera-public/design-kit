@@ -1,5 +1,5 @@
 ---
-layout: modules
+layout: module-reader
 title: Highlight
 description: "Sass module for css highlights."
 github: https://github.com/rightscale-design/designkit-highlight

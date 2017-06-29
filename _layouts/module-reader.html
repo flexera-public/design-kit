@@ -1,0 +1,44 @@
+---
+layout: modules
+---
+
+<div class="fl w-100 w-80-ns animate-fade">
+
+    <div class="cf mt3 mb4 o-50">
+      {% if page.github %}
+      <div class="fl mr2">
+        <a class="dim link" href="{{ page.github }}">{% include assets/icon-github.html %}</a>
+      </div>
+      {% endif %}
+      {% if page.npm %}
+      <div class="fl">
+        <a class="dim link" href="{{ page.npm }}">{% include assets/icon-npm.html %}</a>
+      </div>
+      {% endif %}
+    </div>
+    <div class="w-100">
+
+      <pre><code class="bash">{{ page.bash }}</code></pre>
+
+      <h2 id="preview" class="collapsable" onclick="toggleVisibility('#preview', '#frame_preview')">
+        Preview
+      </h2>
+      <iframe id='frame_preview' frameborder='0' style="width: 100%"></iframe>
+
+      <h2 id="markup" class="collapsable" onclick="toggleVisibility('#markup', '#html_contents')">
+        HTML
+      </h2>
+      <pre id="html_contents">
+        <code class="html"></code>
+      </pre>
+
+      <h2 id="css" class="collapsable" onclick="toggleVisibility('#css', '#css_contents')">
+        CSS
+      </h2>
+      <pre id="css_contents">
+        <code class="css"></code>
+      </pre>
+
+    </div><!-- markdown-body -->
+
+</div>
