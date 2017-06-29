@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<script>
+  var htmllink = "{{ page.html-link }}";
+  var csslink = "{{ page.css-link }}";
+</script>
+<script src="{{ "/js/modules.js" | prepend: site.baseurl }}"></script>
+
 <div id="pinned" class="fl w-20">
   <ul class="mv1 f6">
     {% assign modules = site.modules | sort:"weight" %}
@@ -30,7 +36,28 @@ layout: default
       {% endif %}
     </div>
     <div class="markdown-body">
-      {{ content }}
-    </div>
+
+      <pre><code class="bash">{{ page.bash }}</code></pre>
+
+      <h2 id="preview" class="collapsable" onclick="toggleVisibility('#preview', '#frame_preview')">
+        Preview
+      </h2>
+      <iframe id='frame_preview' frameborder='0' style="width: 100%"></iframe>
+
+      <h2 id="markup" class="collapsable" onclick="toggleVisibility('#markup', '#html_contents')">
+        HTML
+      </h2>
+      <pre id="html_contents">
+        <code class="html"></code>
+      </pre>
+
+      <h2 id="css" class="collapsable" onclick="toggleVisibility('#css', '#css_contents')">
+        CSS
+      </h2>
+      <pre id="css_contents">
+        <code class="css"></code>
+      </pre>
+
+    </div><!-- markdown-body -->
   </div>
 </div>

@@ -173,3 +173,21 @@ h4, h5 {
     }
   }
 }
+
+.collapsable {
+  cursor: pointer;
+  display: flex;
+  &:before {
+    background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
+    background-size: 14px auto;
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: auto 6px;
+    @include transform(rotate3d(0,0,1,0deg));
+    @include transform-origin(center center);
+  }
+  &.collapsed:before {
+    @include transform(rotate3d(0,0,1,-90deg));
+  }
+}
