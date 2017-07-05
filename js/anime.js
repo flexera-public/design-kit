@@ -15,16 +15,3 @@ var lineDrawing = anime({
   direction: 'alternate',
   loop: false,
 });
-
-// rings art
-var rings = anime({
-  targets: '#dk-rings path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'linear',
-  opacity: {
-    value: [0, 0.7],
-    duration: 300
-  },
-  delay: function(el, i) { return i * 250 },
-  loop: false,
-});

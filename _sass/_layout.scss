@@ -162,14 +162,14 @@ h4, h5 {
   }
   .bg-art {
     position: absolute;
-    top: -30px;
-    right: 20px;
+    top: -9px;
+    right: 7px;
     padding: 0;
     margin: 0;
     .dk {
       position: absolute;
-      top: 121px;
-      right: 101px;
+      top: 103px;
+      right: 81px;
     }
   }
 }
@@ -190,17 +190,5 @@ h4, h5 {
   }
   &.collapsed:before {
     @include transform(rotate3d(0,0,1,-90deg));
-  }
-}
-
-// sidebar nav
-
-.sidebar-nav {
-  margin-left: -8px;
-  ul li {
-    a {
-      padding-left: 8px;
-      box-shadow: inset 2px 0 0 0 currentColor;
-    }
   }
 }
