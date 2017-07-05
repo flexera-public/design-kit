@@ -1,12 +1,12 @@
 body {
   padding-top: 51px;
   font-family: $helvetica;
-  color: #76899A;
+  color: #76899a;
 }
 
 h1, h2, h3,
 h4, h5 {
-  color: #57626C;
+  color: #57626c;
 }
 
 .wrapper {
@@ -17,8 +17,8 @@ h4, h5 {
 }
 
 .site-header {
-  background-color: #0069CC;
   min-height: 51px;
+  background-color: #0069cc;
 }
 
 .site-title {
@@ -29,37 +29,37 @@ h4, h5 {
 .site-nav {
   float: right;
   .page-link {
-    float: left;
     display: block;
+    float: left;
     height: 100%;
-    padding: 0.8rem 0.8rem 0.8rem;
+    padding: .8rem .8rem .8rem;
     color: #fff;
     &:hover {
-      background-color: rgba(#000, 0.1);
+      background-color: rgba(#000, .1);
     }
   }
 }
 
 .bits {
   .page-link-bits {
-    background-color: rgba(#000, 0.1);
+    background-color: rgba(#000, .1);
   }
   .typography-color {
-    height: 16px;
     width: 16px;
+    height: 16px;
     border-radius: 8px;
   }
 }
 
 .modules {
   .page-link-modules {
-    background-color: rgba(#000, 0.1);
+    background-color: rgba(#000, .1);
   }
 }
 
 .patterns {
   .page-link-patterns {
-    background-color: rgba(#000, 0.1);
+    background-color: rgba(#000, .1);
   }
 }
 
@@ -82,19 +82,19 @@ h4, h5 {
 
 ::selection {
   color: #fff;
-  color: rgba(255,255,255,0.85);
-  background: rgba(#353B41, 0.8);
+  color: rgba(255,255,255,.85);
+  background: rgba(#353b41, .8);
 }
 
 // github style anchors
 
 .anchorjs-link {
   display: inline-block;
-  background: url('../media/assets/icon-link.svg') no-repeat;
-  margin-left: 6px;
-  margin-bottom: -2px;
   width: 18px;
   height: 16px;
+  margin-bottom: -2px;
+  margin-left: 6px;
+  background: url('../media/assets/icon-link.svg') no-repeat;
 }
 
 // markdown body
@@ -106,19 +106,19 @@ h4, h5 {
     font-size: 85%;
     line-height: 1.45;
     background-color: #fff;
-    border: 1px solid #D1D6DC;
-    box-shadow: 0 1px 2px rgba(black, 0.065);
+    border: 1px solid #d1d6dc;
     border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(black, .065);
   }
 }
 
 // Example
 
 .designkit-example iframe {
-  border: 1px solid #D1D6DC;
-  border-radius: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
   width: 100%;
+  border: 1px solid #d1d6dc;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
 }
 
 
@@ -154,18 +154,18 @@ h4, h5 {
 
 .home {
   .home-module {
-    background-color: #353B41;
-    transition: all 0.5s cubic-bezier(0.715, -0.265, 0.245, 1.345);
+    background-color: #353b41;
+    transition: all .5s cubic-bezier(.715, -.265, .245, 1.345);
     &:hover {
       transform: scale(1.08);
     }
   }
   .bg-art {
     position: absolute;
-    margin: 0;
-    padding: 0;
     top: -30px;
     right: 20px;
+    padding: 0;
+    margin: 0;
     .dk {
       position: absolute;
       top: 121px;
@@ -175,19 +175,32 @@ h4, h5 {
 }
 
 .collapsable {
-  cursor: pointer;
   display: flex;
+  cursor: pointer;
   &:before {
-    background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
-    background-size: 14px auto;
-    content: '';
     width: 14px;
     height: 14px;
     margin: auto 6px;
+    content: '';
+    background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
+    background-size: 14px auto;
+
     @include transform(rotate3d(0,0,1,0deg));
     @include transform-origin(center center);
   }
   &.collapsed:before {
     @include transform(rotate3d(0,0,1,-90deg));
+  }
+}
+
+// sidebar nav
+
+.sidebar-nav {
+  margin-left: -8px;
+  ul li {
+    a {
+      padding-left: 8px;
+      box-shadow: inset 2px 0 0 0 currentColor;
+    }
   }
 }

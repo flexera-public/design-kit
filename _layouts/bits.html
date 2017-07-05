@@ -4,11 +4,13 @@ layout: default-bits
 
 <div id="pinned" class="fl w-20 dn db-ns">
   <ul class="list-style-none mv1 f6">
-    <li class="pv1"><a href="/bits">Intro</a></li>
+    <li class="pv1">
+      <a class="db" href="/bits">Intro</a>
+    </li>
     {% assign bits = site.bits | sort:"weight" %}
     {% for post in bits %}
       <li class="pv1">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="db" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>

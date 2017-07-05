@@ -4,11 +4,13 @@ layout: default-modules
 
 <div id="pinned" class="fl w-20">
   <ul class="mv1 f6">
-    <li class="pv1"><a href="/modules">Intro</a></li>
+    <li class="pv1">
+      <a class="db" href="/modules">Intro</a>
+    </li>
     {% assign modules = site.modules | sort:"weight" %}
     {% for post in modules %}
       <li class="pv1">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="db" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
