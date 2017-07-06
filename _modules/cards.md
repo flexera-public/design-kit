@@ -1,13 +1,41 @@
 ---
-layout: module-reader
+layout: module-markdown
 title: Card
 description: "Sass module for card CSS."
 github: https://github.com/rightscale-design/designkit-card
 npm: https://www.npmjs.com/package/designkit-card
-example: https://rightscale-design.github.io/designkit-card/
 slug: modules
 weight: 4
-css-link: https://cdn.rawgit.com/rightscale-design/designkit-card/master/css/designkit-card.css
-html-link: https://raw.githubusercontent.com/rightscale-design/designkit-card/master/index.html
-bash: npm i designkit-card
 ---
+
+# Basic Card
+
+## Install
+
+```bash
+npm install designkit-card --save
+```
+
+## HTML
+
+```html
+<div class="card">
+  <div class="card-content">
+    <div class="card-heading">
+      <h3 class="card-title">Card UI</h3>
+    </div>
+    <div class="card-body">
+      <div>
+        <!--Card Content-->
+      </div>
+    </div>
+    <div class="card-footer">
+      <div>Action bar</div>
+    </div>
+  </div>
+</div>
+```
+
+## Example
+
+<iframe style="width: 100%; height: 350px;" src="https://rawgit.com/rightscale-design/designkit-card/master/docs/basic.html"></iframe>
