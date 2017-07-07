@@ -7,6 +7,7 @@ source: https://github.com/rightscale-design/designkit-card
 npm: https://www.npmjs.com/package/designkit-card
 version: 1.0.1
 updated: 7/6/2017
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-card/master/dist/designkit-card.css
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/basic.html
 example-2: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/header.html
 install: "npm install designkit-card --save"
@@ -73,3 +74,10 @@ A card can include a optional header for a title area and a footer for UI action
 **Example**
 
 <iframe class="ba b--black-10 br2" style="width: 100%; height: 350px;" src="{{ page.example-2 }}"></iframe>
+
+
+## CSS
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>

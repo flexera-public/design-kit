@@ -15,10 +15,6 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-  <style media="screen">
-
-  </style>
-
 </head>
 
 <body {% if page.slug %} class="w-100 {{ page.slug }}"{% endif %}>
@@ -47,6 +43,10 @@
   <script src="{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/snippet.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript">
+    var csslink = "{{ page.css-link }}";
+  </script>
+  <script src="{{ "/js/modules.js" | prepend: site.baseurl }}"></script>
 
 </body>
 

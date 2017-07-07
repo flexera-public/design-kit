@@ -233,25 +233,6 @@ h4, h5 {
   }
 }
 
-.collapsable {
-  display: flex;
-  cursor: pointer;
-  &:before {
-    width: 14px;
-    height: 14px;
-    margin: auto 6px;
-    content: '';
-    background: url('../media/icons/icon-expand.svg') no-repeat center center transparent;
-    background-size: 14px auto;
-
-    @include transform(rotate3d(0,0,1,0deg));
-    @include transform-origin(center center);
-  }
-  &.collapsed:before {
-    @include transform(rotate3d(0,0,1,-90deg));
-  }
-}
-
 // Code Snippets
 .highlighter-rouge {
   position: relative;
@@ -272,5 +253,11 @@ h4, h5 {
     .btn img {
       opacity: .9;
     }
+  }
+}
+
+.snippet {
+  .snippet-css {
+    overflow: visible;
   }
 }
