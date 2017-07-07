@@ -1,13 +1,41 @@
 ---
-layout: module-reader
-title: States
-description: "Sass module for css states and labels."
-github: https://github.com/rightscale-design/designkit-state
+layout: module-doc
+title: State
+description: "Sass module for css states and labels"
+name: designkit-state
+source: https://github.com/rightscale-design/designkit-state
 npm: https://www.npmjs.com/package/designkit-state
-example: http://rightscale-design.github.io/designkit-state/
-slug: modules
-weight: 9
+version: 0.0.4
+updated: 5/20/2016
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-state/master/css/designkit-state.css
-html-link: https://raw.githubusercontent.com/rightscale-design/designkit-state/master/index.html
-bash: npm i designkit-state
+install: "npm install designkit-state --save"
+
+slug: modules
+weight: 10
 ---
+
+## Install
+
+```bash
+{{ page.install }}
+```
+
+## Examples
+
+### Basic Usage
+
+State indicators inform users of the current status of a particular item. Currently DK includes default, success and failed indicators.
+
+**HTML**
+
+```html
+<span class="state">Default</span>
+<span class="state state-success">Success</span>
+<span class="state state-failed">Failed</span>
+```
+
+## CSS
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>

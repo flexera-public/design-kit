@@ -1,13 +1,43 @@
 ---
-layout: module-reader
+layout: module-doc
 title: Forms
-description: "Sass module for css forms at RightScale."
-github: https://github.com/rightscale-design/designkit-forms
+description: "Sass module for forms used in RightScale apps"
+name: designkit-forms
+source: https://github.com/rightscale-design/designkit-forms
 npm: https://www.npmjs.com/package/designkit-forms
-example: http://rightscale-design.github.io/designkit-forms/
+version: 1.1.2
+updated: 4/27/2017
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/dist/designkit-forms.css
+install: "npm install designkit-forms --save"
+
 slug: modules
-weight: 6
-css-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/src/css/_designkit-forms.css
-html-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/index.html
-bash: npm i designkit-forms
+weight: 7
 ---
+
+## Install
+
+```bash
+{{ page.install }}
+```
+
+## Examples
+
+### Basic Usage
+
+Basic styled form controls.
+
+**HTML**
+
+```html
+<form>
+  <label for="name">Basic Form Label</label>
+  <input class="form-control" type="text" id="name" placeholder="Placeholder text...">
+  <p class="form-note">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</form>
+```
+
+## CSS
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>

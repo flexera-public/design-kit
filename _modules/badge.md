@@ -1,13 +1,39 @@
 ---
-layout: module-reader
+layout: module-doc
 title: Badge
-description: "Sass module for css badges."
-github: https://github.com/rightscale-design/designkit-badge
+description: "Sass module for badges used in RightScale apps"
+name: designkit-badge
+source: https://github.com/rightscale-design/designkit-badge
 npm: https://www.npmjs.com/package/designkit-badge
-example: http://rightscale-design.github.io/designkit-badge/
+version: 0.0.2
+updated: 4/11/2016
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-badge/master/css/designkit-badge.css
+install: "npm install designkit-badge --save"
+
 slug: modules
-weight: 7
-css-link: https://raw.githubusercontent.com/rightscale-design/designkit-badge/master/src/_designkit-badge.scss
-html-link: https://raw.githubusercontent.com/rightscale-design/designkit-badge/master/index.html
-bash: npm i designkit-badge
+weight: 11
 ---
+
+## Install
+
+```bash
+{{ page.install }}
+```
+
+## Examples
+
+### Basic Usage
+
+Badges are used as visual indicators for numeric values.
+
+**HTML**
+
+```html
+<span class="badge">6</span>
+```
+
+## CSS
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>
