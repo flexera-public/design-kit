@@ -1,6 +1,6 @@
 ---
 layout: module-doc
-title: highlight
+title: Highlight
 description: "Sass module for css highlights"
 name: designkit-highlight
 source: https://github.com/rightscale-design/designkit-highlight
