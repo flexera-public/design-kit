@@ -251,3 +251,26 @@ h4, h5 {
     @include transform(rotate3d(0,0,1,-90deg));
   }
 }
+
+// Code Snippets
+.highlighter-rouge {
+  position: relative;
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 2px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    img {
+      opacity: .5;
+      transition: opacity 250ms ease;
+    }
+  }
+  &:hover {
+    .btn img {
+      opacity: .9;
+    }
+  }
+}

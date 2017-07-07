@@ -15,6 +15,10 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
+  <style media="screen">
+
+  </style>
+
 </head>
 
 <body {% if page.slug %} class="w-100 {{ page.slug }}"{% endif %}>
@@ -36,10 +40,14 @@
   <script src="{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/vendor/clipboard.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/vendor/highlight.pack.js" | prepend: site.baseurl }}"></script>
 
   <!-- Local scripts -->
   <script src="{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/snippet.js" | prepend: site.baseurl }}"></script>
+
 </body>
 
 </html>
