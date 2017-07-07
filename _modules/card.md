@@ -13,7 +13,7 @@ example-2: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/h
 install: "npm install designkit-card --save"
 
 slug: modules
-weight: 4
+weight: 5
 ---
 
 ## Install

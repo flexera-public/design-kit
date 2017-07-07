@@ -44,14 +44,15 @@ Design Kit provides the following modules.
 - [Card](/modules/card)
 - [Buttons](/modules/buttons)
 - [Forms](/modules/forms)
-- [Dropdowns](/modules/dropdowns)
+<!-- - [Dropdowns](/modules/dropdowns) -->
 - [States](/modules/states)
 - [Badge](/modules/badge)
 - [Spinners](/modules/spinners)
+<!-- - [Tables](/modules/tables) -->
 
 ### Utility
 
-- [Layout](/modules/layout)
+<!-- - [Layout](/modules/layout) -->
 - [Grid](/modules/grid)
 - [Animation](/modules/animation)
 - [Utilities](/modules/utilities)

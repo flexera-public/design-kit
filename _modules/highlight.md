@@ -1,14 +1,39 @@
 ---
-layout: module-reader
-title: Highlight
-description: "Sass module for css highlights."
-github: https://github.com/rightscale-design/designkit-highlight
+layout: module-doc
+title: highlight
+description: "Sass module for css highlights"
+name: designkit-highlight
+source: https://github.com/rightscale-design/designkit-highlight
 npm: https://www.npmjs.com/package/designkit-highlight
-example: http://rightscale-design.github.io/designkit-highlight/
-iframe: https://rawgit.com/rightscale-design/designkit-highlight/fa82ae1343e36ad27d79ecc33aa027c95c99156a/index.html
-slug: modules
-weight: 8
+version: 0.0.3
+updated: 4/11/2016
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-highlight/master/css/designkit-highlight.css
-html-link: https://raw.githubusercontent.com/rightscale-design/designkit-highlight/master/index.html
-bash: npm i designkit-highlight
+install: "npm install designkit-highlight --save"
+
+slug: modules
+weight: 9
 ---
+
+## Install
+
+```bash
+{{ page.install }}
+```
+
+## Examples
+
+### Basic Usage
+
+DK highlights are used to single out a string of text.
+
+**HTML**
+
+```html
+<span class="inline-highlight">#123456</span>
+```
+
+## CSS
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>

@@ -28,18 +28,20 @@ layout: default-markdown
           <div class="flex flex-row w-50 pv1">
             <div class="flex w-25">Source</div>
             <div class="flex flex-auto">
-              <a class="dim link" href="{{ page.source }}">Github</a>
+              <a class="dim link" href="{{ page.source }}" target="_blank">Github</a>
             </div>
           </div>
           <div class="flex flex-row w-50 pv1">
             <div class="flex w-25">NPM</div>
             <div class="flex flex-auto">
-              <a class="dim link" href="{{ page.npm }}">{{ page.name }}</a>
+              <a class="dim link" href="{{ page.npm }}" target="_blank">{{ page.name }}</a>
             </div>
           </div>
           <div class="flex flex-row w-50 pv1">
             <div class="flex w-25">Version</div>
-            <div class="flex flex-auto">{{ page.version }}</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://github.com/rightscale-design/{{ page.name }}/releases" target="_blank">{{ page.version }}</a>
+            </div>
           </div>
           <div class="flex flex-row w-50 pv1">
             <div class="flex w-25">Updated</div>
