@@ -6,7 +6,7 @@ permalink: /modules/
 slug: modules
 ---
 
-Modules are CSS based UI elements that provide a basic structure for UI content. Each module includes various states and options depending on your needs.
+Modules are CSS based UI elements that provide a basic aesthetic structure for UI content. Each module includes various states and options depending on your needs.
 
 ---
 
