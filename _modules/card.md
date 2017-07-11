@@ -44,7 +44,7 @@ Cards are used to apply a container around a related grouping of information.
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 250px;" src="{{ page.example-1 }}"></iframe>
+<iframe style="height: 250px;" src="{{ page.example-1 }}"></iframe>
 
 
 ### Card Header & Footer
@@ -73,8 +73,7 @@ A card can include a optional header for a title area and a footer for UI action
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 350px;" src="{{ page.example-2 }}"></iframe>
-
+<iframe style="height: 350px;" src="{{ page.example-2 }}"></iframe>
 
 ## CSS
 

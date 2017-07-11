@@ -50,7 +50,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 194px;" src="{{ page.example-1 }}"></iframe>
+<iframe style="height: 194px;" src="{{ page.example-1 }}"></iframe>
 
 ### Optional Drop up
 
@@ -71,7 +71,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 190px;" src="{{ page.example-2 }}"></iframe>
+<iframe style="height: 190px;" src="{{ page.example-2 }}"></iframe>
 
 ### Optional Dividers
 
@@ -94,7 +94,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 250px;" src="{{ page.example-3 }}"></iframe>
+<iframe style="height: 250px;" src="{{ page.example-3 }}"></iframe>
 
 ### Optional Headers
 
@@ -120,7 +120,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 310px;" src="{{ page.example-4 }}"></iframe>
+<iframe style="height: 310px;" src="{{ page.example-4 }}"></iframe>
 
 ### Optional Menu Title
 
@@ -146,7 +146,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 242px;" src="{{ page.example-5 }}"></iframe>
+<iframe style="height: 242px;" src="{{ page.example-5 }}"></iframe>
 
 ### Optional Scroll
 
@@ -182,7 +182,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 300px;" src="{{ page.example-6 }}"></iframe>
+<iframe style="height: 300px;" src="{{ page.example-6 }}"></iframe>
 
 ### Select Menu
 
@@ -203,7 +203,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 220px;" src="{{ page.example-7 }}"></iframe>
+<iframe style="height: 220px;" src="{{ page.example-7 }}"></iframe>
 
 ### Filter Menu
 
@@ -238,7 +238,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 460px;" src="{{ page.example-8 }}"></iframe>
+<iframe style="height: 460px;" src="{{ page.example-8 }}"></iframe>
 
 ### Multiple Menu Options
 
@@ -280,7 +280,7 @@ weight: 8
 
 **Example**
 
-<iframe class="ba b--black-10 br2" style="width: 100%; height: 400px;" src="{{ page.example-9 }}"></iframe>
+<iframe style=" height: 400px;" src="{{ page.example-9 }}"></iframe>
 
 ## CSS
 

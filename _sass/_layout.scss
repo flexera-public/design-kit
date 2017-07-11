@@ -100,7 +100,7 @@ h4, h5 {
 // markdown body
 
 .markdown-body {
-  > *:first-child {
+   > *:first-child {
     margin-top: 0;
   }
 
@@ -136,6 +136,7 @@ h4, h5 {
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
+    color: #24292e;
     background-color: #f6f8fa;
     border-radius: 3px;
   }
@@ -171,9 +172,9 @@ h4, h5 {
   }
 }
 
-// Example
+// Example iframes
 
-.designkit-example iframe {
+.modules .page-content iframe {
   width: 100%;
   border: 1px solid #d1d6dc;
   border-radius: 2px;
@@ -197,24 +198,16 @@ h4, h5 {
   }
 }
 
-.highlight {
-  padding: 0;
-  margin: 0;
-  font-weight: normal;
-  line-height: 1.4;
-  color: #333;
-  background: #fff;
-  border: 0;
-  pre {
-    padding: 0;
-    margin: 0;
-  }
-}
-
 .home {
-  .home-module {
+  .home-cards {
+    a {
+      display: block;
+    }
+  }
+  .home-card {
+    color: black;
     background-color: #353b41;
-    transition: all .5s cubic-bezier(.715, -.265, .245, 1.345);
+    transition: all .4s cubic-bezier(.715, -.265, .245, 1.345);
     &:hover {
       transform: scale(1.08);
     }
