@@ -12,7 +12,7 @@ example-1: https://cdn.rawgit.com/rightscale-design/designkit-sets/master/docs/b
 install: "npm install designkit-sets --save"
 
 slug: modules
-weight: 13
+weight: 12
 ---
 
 ## Install
@@ -35,7 +35,7 @@ Sets can be used as a trigger. It's content is meant to show the name of a list 
 
 **Example**
 
-<iframe style="height: 350px;" src="{{ page.example-2 }}"></iframe>
+<iframe style="height: 100px;" src="{{ page.example-1 }}"></iframe>
 
 ## CSS
 
