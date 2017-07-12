@@ -35,7 +35,7 @@ Sets can be used as a trigger. It's content is meant to show the name of a list 
 
 **Example**
 
-<iframe style="height: 100px;" src="{{ page.example-1 }}"></iframe>
+<iframe style="height: 110px;" src="{{ page.example-1 }}"></iframe>
 
 ## CSS
 
