@@ -1,18 +1,18 @@
 ---
 layout: module-doc
 title: Sets
-description: "A basic content container module"
+description: "Sass module for a name and value container."
 name: designkit-sets
 source: https://github.com/rightscale-design/designkit-sets
 npm: https://www.npmjs.com/package/designkit-sets
-version: 1.0.1
-updated: 7/6/2017
+version: 1.0.0
+updated: 7/11/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-sets/master/dist/designkit-sets.css
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-sets/master/docs/basic.html
 install: "npm install designkit-sets --save"
 
 slug: modules
-weight: 5
+weight: 13
 ---
 
 ## Install
