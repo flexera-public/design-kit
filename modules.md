@@ -47,6 +47,7 @@ Design Kit provides the following modules.
 - [Dropdowns](/modules/dropdowns)
 - [States](/modules/states)
 - [Badge](/modules/badge)
+- [Sets](/modules/sets)
 - [Spinners](/modules/spinners)
 <!-- - [Tables](/modules/tables) -->
 

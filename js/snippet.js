@@ -1,10 +1,11 @@
 //
-// Snippet js
-// --------------
+// Snippet.js
+// Modern copy to clipboard. No Flash. Just 3kb gzipped.
+// https://github.com/zenorocha/clipboard.js/
 //
 
 // Add clipboard button trigger
-var snippets = document.querySelectorAll('.highlighter-rouge');
+var snippets = document.querySelectorAll('.markdown-body .highlighter-rouge');
 [].forEach.call(snippets, function(snippet) {
   snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn snippet-clipboard" data-clipboard-snippet><img src="/media/assets/icon-clipboard.svg"></button>');
 });
@@ -28,7 +29,7 @@ clipboardSnippets.on('error', function(e) {
 });
 
 // Tooltip events
-var btns = document.querySelectorAll('.btn');
+var btns = document.querySelectorAll('.markdown-body .highlighter-rouge .btn');
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener('mouseleave', clearTooltip);
   btns[i].addEventListener('blur', clearTooltip);
