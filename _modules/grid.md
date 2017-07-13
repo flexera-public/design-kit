@@ -7,7 +7,7 @@ source: https://github.com/rightscale-design/designkit-grid
 npm: https://www.npmjs.com/package/designkit-grid
 version: 0.0.3
 updated: 8/09/2016
-css-link: https://github.com/rightscale-design/designkit-grid/blob/master/css/designkit-grid.css
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-grid/master/css/designkit-grid.css
 install: "npm install designkit-grid --save"
 
 slug: modules
