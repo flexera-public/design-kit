@@ -202,8 +202,8 @@ h4, h5 {
 
 .home {
   .page-heading {
-    margin-bottom: 8px;;
-    font-size: 42px;
+    margin-bottom: 8px;
+    font-size: 42px;;
   }
   .home-cards {
     a {
@@ -211,11 +211,39 @@ h4, h5 {
     }
   }
   .home-card {
-    color: black;
-    background-color: #353b41;
+    padding: 3rem 0 3.5rem;
+    color: #0a83f6;
+    background: #fff;
+    border: 1px solid #d1d6dc;
+    border-radius: 2px;
+    box-shadow: 0 3px 10px 0 rgba(99,112,125,.13);
     transition: all .4s cubic-bezier(.715, -.265, .245, 1.345);
     &:hover {
       transform: scale(1.08);
+    }
+    .home-card-heading {
+      @extend .heading;
+    }
+    .home-card-sub {
+      @extend .text;
+    }
+    .home-card-icon {
+      position: relative;
+      img {
+        position: absolute;
+        &.dk-icon-bits {
+          position: absolute;
+          left: calc(50% - 31px);
+        }
+        &.dk-icon-modules {
+          position: absolute;
+          left: calc(50% - 31px);
+        }
+        &.dk-icon-patterns {
+          position: absolute;
+          left: calc(50% - 30px);
+        }
+      }
     }
   }
   .bg-art {
