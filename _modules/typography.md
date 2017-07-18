@@ -5,9 +5,9 @@ description: "Sass module for typography at RightScale"
 name: designkit-typography
 source: https://github.com/rightscale-design/designkit-typography
 npm: https://www.npmjs.com/package/designkit-typography
-version: 0.0.9
-updated: 3/07/2016
-css-link: https://raw.githubusercontent.com/rightscale-design/designkit-typography/master/css/designkit-typography.css
+version: 1.0.0
+updated: 7/17/2017
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-typography/master/dist/designkit-typography.css
 install: "npm install designkit-typography --save"
 
 slug: modules
