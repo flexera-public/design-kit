@@ -5,9 +5,14 @@ description: "Sass module for buttons used in RightScale apps"
 name: designkit-buttons
 source: https://github.com/rightscale-design/designkit-buttons
 npm: https://www.npmjs.com/package/designkit-buttons
-version: 1.0.1
-updated: 5/26/2017
+version: 1.0.2
+updated: 7/19/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-buttons/master/dist/designkit-buttons.css
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/default.html
+example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/primary.html
+example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/success.html
+example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/danger.html
+example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/sizes.html
 install: "npm install designkit-buttons --save"
 
 slug: modules
@@ -22,7 +27,7 @@ weight: 6
 
 ## Examples
 
-### Basic Usage
+### Default Button Skin
 
 Buttons are used as triggers for actions. They are used in forms, cards, dialog footers and as stand-alone action triggers.
 
@@ -31,12 +36,70 @@ Buttons are used as triggers for actions. They are used in forms, cards, dialog 
 ```html
 <button class="btn btn-default" type="button">Button</button>
 
-<a href="#" class="btn btn-default">Default Link</a>
-
-<button class="btn btn-default btn-sm" type="button">Small Button</button>
-
-<button class="btn btn-default btn-lg" type="button">Large Button</button>
+<a href="#" class="btn btn-default">Button Link</a>
 ```
+
+**Example**
+
+<iframe style="height: 105px;" src="{{ page.example-1 }}"></iframe>
+
+### Primary Skin
+
+**HTML**
+
+```html
+<button class="btn btn-primary" type="button">Button</button>
+
+<a href="#" class="btn btn-primary">Button Link</a>
+```
+
+**Example**
+
+<iframe style="height: 105px;" src="{{ page.example-2 }}"></iframe>
+
+### Success Skin
+
+**HTML**
+
+```html
+<button class="btn btn-success" type="button">Button</button>
+
+<a href="#" class="btn btn-success">Button Link</a>
+```
+
+**Example**
+
+<iframe style="height: 105px;" src="{{ page.example-3 }}"></iframe>
+
+### Danger Skin
+
+**HTML**
+
+```html
+<button class="btn btn-danger" type="button">Button</button>
+
+<a href="#" class="btn btn-danger">Button Link</a>
+```
+
+**Example**
+
+<iframe style="height: 105px;" src="{{ page.example-4 }}"></iframe>
+
+### Size Options
+
+**HTML**
+
+```html
+<button class="btn btn-sm btn-default" type="button">Button</button>
+
+<button class="btn btn-lg btn-default" type="button">Button</button>
+
+```
+
+**Example**
+
+<iframe style="height: 200px;" src="{{ page.example-5 }}"></iframe>
+
 
 ## CSS
 
