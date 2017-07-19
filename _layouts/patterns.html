@@ -39,8 +39,10 @@ layout: default-patterns
 
     {% if page.examples %}
       <div class="bt b--black-10 pt3 mt3">
-        <h2>Examples</h2>
-        <button id="toggle_annotations" onclick="toggleAnnotations();">Toggle Annotations</button>
+        <div class="example-header">
+          <h2>Examples</h2>
+          <button class="btn btn-default" id="toggle_annotations" onclick="toggleAnnotations();">Toggle Annotations</button>
+        </div>
         <div class="example-wrapper">
           {% for example in page.examples %}
             <div class="example">

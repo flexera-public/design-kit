@@ -1,13 +1,7 @@
-/* --------------------------------
-
-Modules - reusable parts of our design
-
--------------------------------- */
+---
+---
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  /*width: 90%;*/
   max-width: 1170px;
-  /*margin: 0 auto;*/
 }
 .cd-container:after {
   content: "";
@@ -399,8 +393,22 @@ Main components
 .example-wrapper {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -30px;
 }
 
 .example {
-  margin-right: 5rem;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 10px 30px;
+}
+
+.example-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  button {
+    height: 30px;
+    margin: auto 0;
+  }
 }
