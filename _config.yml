@@ -30,3 +30,4 @@ collections:
   patterns:
     output: true
     permalink: /patterns/:path/
+  pattern-details:

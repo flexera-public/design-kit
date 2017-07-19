@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-patterns
 ---
 
 <div class="fl w-20">
@@ -19,21 +19,57 @@ layout: default
 <div class="fl w-80">
   <div>
     <h1 class="page-heading">{{ page.title }}</h1>
-    <p class="f5 mt0 mb4 measure">{{ page.description }}</p>
+    {% if page.description %}
+    <p class="f5 mt0 mb4r">{{ page.description }}</p>
+    {% endif %}
 
-    <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
-      Problem
-    </h2>
-    <p class="f5 mt0 mb4">{{ page.problem }}</p>
+    {% if page.problem %}
+      <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
+        Problem
+      </h2>
+      <p class="f5 mt0 mb4">{{ page.problem }}</p>
+    {% endif %}
 
-    <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
-      Solution
-    </h2>
-    <p class="f5 mt0 mb4">{{ page.solution }}</p>
+    {% if page.solution %}
+      <h2 class="f5 sans text normal lh-title mt0 mb2 o-60">
+        Solution
+      </h2>
+      <p class="f5 mt0 mb4">{{ page.solution }}</p>
+    {% endif %}
 
-    <div class="bt b--black-10 pt3 mt3">
-      <h3>Examples</h3>
-      {{ content }}
-    </div>
+    {% if page.examples %}
+      <div class="bt b--black-10 pt3 mt3">
+        <div class="example-header">
+          <h2>Examples</h2>
+          <button class="btn btn-default" id="toggle_annotations" onclick="toggleAnnotations();">Toggle Annotations</button>
+        </div>
+        <div class="example-wrapper">
+          {% for example in page.examples %}
+            <div class="example">
+              <p><strong>{{ example.title }}</strong></p>
+              <p>{{ example.description }}</p>
+              <div class="cd-product cd-container">
+              	<div class="cd-product-wrapper">
+              		<img src="../../media/examples/{{ example.file }}" alt="image01" />
+                  <ul>
+                  {% for element in example.annotations %}
+              			<li class="cd-single-point" style="top: {{element.top}}; left: {{element.left}}">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>{{ element.title }}</h3>
+              					<p>{{ element.description }}</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  {% endfor %}
+              		</ul>
+                </div>
+              </div>
+            </div> <!-- example -->
+          {% endfor %}
+        </div> <!-- example-wrapper -->
+        {{ content }}
+      </div>
+    {% endif %} <!-- if page.examples -->
   </div>
 </div>
