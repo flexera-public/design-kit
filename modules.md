@@ -6,7 +6,7 @@ permalink: /modules/
 slug: modules
 ---
 
-Modules are CSS based UI elements that provide a basic structure for UI content. Each module includes various states and options depending on your needs.
+Modules are CSS based UI elements that provide a basic aesthetic structure for UI content. Each module includes various states and options depending on your needs.
 
 ---
 
@@ -47,11 +47,13 @@ Design Kit provides the following modules.
 - [Dropdowns](/modules/dropdowns)
 - [States](/modules/states)
 - [Badge](/modules/badge)
+- [Sets](/modules/sets)
 - [Spinners](/modules/spinners)
+<!-- - [Tables](/modules/tables) -->
 
 ### Utility
 
-- [Layout](/modules/layout)
+<!-- - [Layout](/modules/layout) -->
 - [Grid](/modules/grid)
 - [Animation](/modules/animation)
 - [Utilities](/modules/utilities)
