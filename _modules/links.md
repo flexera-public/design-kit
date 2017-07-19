@@ -5,9 +5,10 @@ description: "Sass module for links used in RightScale apps"
 name: designkit-links
 source: https://github.com/rightscale-design/designkit-links
 npm: https://www.npmjs.com/package/designkit-links
-version: 0.0.4
-updated: 4/13/2016
-css-link: https://raw.githubusercontent.com/rightscale-design/designkit-links/master/css/designkit-links.css
+version: 1.0.0
+updated: 7/18/2017
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-links/master/dist/designkit-links.css
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-links/master/docs/basic.html
 install: "npm install designkit-links --save"
 
 slug: modules
@@ -31,6 +32,10 @@ Basic link styles.
 ```html
 <a href="#">This is a link</a>
 ```
+
+**Example**
+
+<iframe style="height: 100px;" src="{{ page.example-1 }}"></iframe>
 
 ## CSS
 
