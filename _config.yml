@@ -31,3 +31,5 @@ collections:
     output: true
     permalink: /patterns/:path/
   pattern-details:
+
+exclude: [vendor]
