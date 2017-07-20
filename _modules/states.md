@@ -9,6 +9,9 @@ version: 0.0.4
 updated: 5/20/2016
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-state/master/css/designkit-state.css
 install: "npm install designkit-state --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 10
@@ -19,6 +22,13 @@ weight: 10
 ```bash
 {{ page.install }}
 ```
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 

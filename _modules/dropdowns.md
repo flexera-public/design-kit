@@ -18,6 +18,9 @@ example-7: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/master/do
 example-8: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/master/docs/filter.html
 example-9: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/master/docs/multi.html
 install: "npm install designkit-dropdown --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 8
@@ -28,6 +31,14 @@ weight: 8
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 

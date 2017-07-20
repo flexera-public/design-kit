@@ -9,6 +9,9 @@ version: 1.1.2
 updated: 4/27/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/dist/designkit-forms.css
 install: "npm install designkit-forms --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 7
@@ -19,6 +22,14 @@ weight: 7
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 

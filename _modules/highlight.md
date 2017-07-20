@@ -9,6 +9,9 @@ version: 0.0.3
 updated: 4/11/2016
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-highlight/master/css/designkit-highlight.css
 install: "npm install designkit-highlight --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 9
@@ -19,6 +22,14 @@ weight: 9
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 
