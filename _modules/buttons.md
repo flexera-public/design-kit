@@ -14,6 +14,9 @@ example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/doc
 example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/danger.html
 example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/sizes.html
 install: "npm install designkit-buttons --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 6
@@ -24,6 +27,14 @@ weight: 6
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 

@@ -11,6 +11,9 @@ css-link: https://raw.githubusercontent.com/rightscale-design/designkit-card/mas
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/basic.html
 example-2: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/header.html
 install: "npm install designkit-card --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 5
@@ -21,6 +24,14 @@ weight: 5
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 

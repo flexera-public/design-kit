@@ -14,17 +14,23 @@ Modules are CSS based UI elements that provide a basic aesthetic structure for U
 
 DK modules are broken-up into their own individual Github repos and can be installed using either [NPM](https://www.npmjs.com/) or Git. Each module contains basic ready-to-use [Scss](http://sass-lang.com/) and CSS to jump start your UI project.
 
-### Step 1: Install a DK module
+## Dependencies
+
+Currently [Bourbon](http://bourbon.io/) is used as our primary SASS mixin library and is required if you are to use any of the module source files.
+
+### Installation via NPM
 
 ```bash
 npm install --save designkit-global
 ```
 
-### Step 2: Import a DK module
+### Usage
 
 ```css
-@import '../node_modules/designkit-global/src/designkit-global';
+@import "../node_modules/designkit-global/src/scss/designkit-global";
 ```
+
+_For a deeper dive take a look at this [sample Gulp project](https://github.com/rightscale-design/designkit-gulp)._
 
 ---
 

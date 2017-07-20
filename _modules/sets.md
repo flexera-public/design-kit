@@ -10,6 +10,9 @@ updated: 7/11/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-sets/master/dist/designkit-sets.css
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-sets/master/docs/basic.html
 install: "npm install designkit-sets --save"
+dependencies:
+  - name: Colors
+    url: /modules/colors/
 
 slug: modules
 weight: 12
@@ -20,6 +23,14 @@ weight: 12
 ```bash
 {{ page.install }}
 ```
+
+## Dependencies
+
+<ul>
+  {% for item in page.dependencies %}
+    <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ul>
 
 ## Examples
 
