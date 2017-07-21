@@ -22,8 +22,8 @@ env:
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 deploy:
+  provider: pages
   skip_cleanup: true
-  provider: script
-  script: ./scripts/cideploy
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
-    branch: gh-pages # Deploy site to gh-pages branch
+    branch: master
