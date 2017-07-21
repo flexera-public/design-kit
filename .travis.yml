@@ -26,5 +26,8 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  project_name: design-kit
+  email: jasonmelgoza@rightscale.com
+  name: jasonmelgoza
   on:
     branch: master
