@@ -40,26 +40,26 @@ Design Kit provides the following modules.
 
 ### Global
 
-- [Global](/modules/global)
-- [Colors](/modules/colors)
-- [Typography](/modules/typography)
-- [Links](/modules/links)
+- [Global](/modules/global/)
+- [Colors](/modules/colors/)
+- [Typography](/modules/typography/)
+- [Links](/modules/links/)
 
 ### Base
 
-- [Card](/modules/card)
-- [Buttons](/modules/buttons)
-- [Forms](/modules/forms)
-- [Dropdowns](/modules/dropdowns)
-- [States](/modules/states)
-- [Badge](/modules/badge)
-- [Sets](/modules/sets)
-- [Spinners](/modules/spinners)
+- [Card](/modules/card/)
+- [Buttons](/modules/buttons/)
+- [Forms](/modules/forms/)
+- [Dropdowns](/modules/dropdowns/)
+- [States](/modules/states/)
+- [Badge](/modules/badge/)
+- [Sets](/modules/sets/)
+- [Spinners](/modules/spinners/)
 <!-- - [Tables](/modules/tables) -->
 
 ### Utility
 
 <!-- - [Layout](/modules/layout) -->
-- [Grid](/modules/grid)
-- [Animation](/modules/animation)
-- [Utilities](/modules/utilities)
+- [Grid](/modules/grid/)
+- [Animation](/modules/animation/)
+- [Utilities](/modules/utilities/)
