@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="250px" viewBox="0 0 800 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>scenario_builder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0069CC" offset="0%"></stop>
+            <stop stop-color="#065BAC" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-4.8%" y="-25.0%" width="109.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.114555027 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-3" cx="5" cy="28" r="2"></circle>
+        <filter x="-175.0%" y="-125.0%" width="450.0%" height="450.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258718297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="5" cy="2" r="2"></circle>
+        <filter x="-175.0%" y="-125.0%" width="450.0%" height="450.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258718297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="5" cy="28" r="2"></circle>
+        <filter x="-175.0%" y="-125.0%" width="450.0%" height="450.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258718297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" stop-opacity="0.624830163" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-10" cx="5" cy="2" r="2"></circle>
+        <filter x="-175.0%" y="-125.0%" width="450.0%" height="450.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258718297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Approved" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scenario_builder">
+            <g id="background" transform="translate(-0.500000, 0.000000)">
+                <g>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="800" height="280"></rect>
+                    <rect id="Rectangle-Copy" x="30" y="230" width="740" height="50"></rect>
+                </g>
+            </g>
+            <g id="stroke-background" transform="translate(4.500000, 41.000000)">
+                <g id="Group-2-Copy" transform="translate(493.000000, 23.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-Copy-12" opacity="0.175384964" x="8" y="0" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-15" x="17" y="0" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-14" opacity="0.175384964" x="60" y="7" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-17" x="30" y="7" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-21" opacity="0.191689312" x="11" y="14" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-20" x="0" y="7" width="24" height="3" rx="1.5"></rect>
+                </g>
+                <g id="Group-2-Copy-5" transform="translate(518.500000, 124.500000) scale(1, -1) translate(-518.500000, -124.500000) translate(480.000000, 116.000000)">
+                    <rect id="Rectangle-Copy-12" fill="#FFFFFF" opacity="0.175384964" x="0" y="7" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="9" y="7" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-14" fill="#FFFFFF" opacity="0.175384964" x="52" y="14" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="22" y="14" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-22" stroke="#FFFFFF" x="72.5" y="14.5" width="4" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-12" fill="#FFFFFF" opacity="0.175384964" x="20" y="0" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="29" y="0" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-14" fill="#FFFFFF" opacity="0.175384964" x="72" y="7" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="42" y="7" width="24" height="3" rx="1.5"></rect>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(274.000000, 28.000000) scale(1, -1) translate(-274.000000, -28.000000) translate(240.000000, 23.000000)">
+                    <rect id="Rectangle-Copy-12" fill="#FFFFFF" opacity="0.175384964" x="11" y="0" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="20" y="0" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-14" fill="#FFFFFF" opacity="0.175384964" x="63" y="7" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="33" y="7" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-22" stroke="#FFFFFF" x="0.5" y="0.5" width="4" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-19" fill="#FFFFFF" x="3" y="7" width="24" height="3" rx="1.5"></rect>
+                </g>
+                <g id="Group-2-Copy-3" transform="translate(249.000000, 120.000000)">
+                    <rect id="Rectangle-Copy-12" fill="#FFFFFF" opacity="0.175384964" x="0" y="0" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="9" y="0" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-22" stroke="#FFFFFF" x="42.5" y="0.5" width="4" height="2" rx="1"></rect>
+                    <rect id="Rectangle-Copy-14" fill="#FFFFFF" opacity="0.175384964" x="52" y="7" width="5" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-17" fill="#FFFFFF" x="22" y="7" width="24" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-18" fill="#FFFFFF" x="2" y="14" width="24" height="3" rx="1.5"></rect>
+                </g>
+                <g id="dots" opacity="0.414855072" stroke="#FFFFFF">
+                    <g id="Group-5" transform="translate(90.000000, 10.000000)">
+                        <rect id="Rectangle-Copy-22" x="0.5" y="30.5" width="4" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-23" x="80.5" y="0.5" width="4" height="2" rx="1"></rect>
+                    </g>
+                    <g id="Group-2" transform="translate(0.000000, 140.000000)">
+                        <rect id="Rectangle-Copy-29" x="0.5" y="30.5" width="4" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-28" x="80.5" y="0.5" width="4" height="2" rx="1"></rect>
+                    </g>
+                    <g id="Group-2-Copy-4" transform="translate(639.000000, 130.000000)">
+                        <rect id="Rectangle-Copy-29" x="0.5" y="30.5" width="4" height="2" rx="1"></rect>
+                        <rect id="Rectangle-Copy-28" x="80.5" y="0.5" width="4" height="2" rx="1"></rect>
+                    </g>
+                    <g id="Group-2-Copy-6" transform="translate(720.000000, 0.000000)">
+                        <rect id="Rectangle-Copy-29" x="0.5" y="30.5" width="4" height="2" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="sine" filter="url(#filter-2)" transform="translate(317.500000, 104.000000)" stroke-width="2">
+                <g>
+                    <path d="M0.667883832,11.6992188 C14.9276888,-3.71647135 28.913016,-3.71647135 42.6238654,11.6992188 C56.3347148,27.1149089 69.6506312,27.1149089 82.5716146,11.6992188" id="Path-3" stroke="#FFFFFF"></path>
+                    <path d="M82.5,11.7617645 C96.759805,-3.65392558 110.745132,-3.65392558 124.455982,11.7617645 C138.166831,27.1774546 151.482747,27.1774546 164.403731,11.7617645" id="Path-3-Copy" stroke="#0C8EF7" stroke-linecap="round" stroke-dasharray="2,4"></path>
+                </g>
+            </g>
+            <g id="connecting-ovals" transform="translate(334.500000, 76.000000)">
+                <g id="1">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M5,26.5 L5,9.45999908" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <g id="checked-circle">
+                        <circle id="Oval-2" stroke="#FFFFFF" cx="5" cy="4.5" r="4"></circle>
+                        <g id="checkbox_checked" transform="translate(3.000000, 3.000000)" stroke-linecap="round" stroke="#80C11A">
+                            <g id="plus-green">
+                                <g>
+                                    <path d="M2,0 L2,3" id="Line"></path>
+                                    <g id="Group" transform="translate(2.000000, 1.500000) rotate(90.000000) translate(-2.000000, -1.500000) translate(1.000000, 0.000000)">
+                                        <path d="M1,0 L1,3" id="Line-Copy"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="2" transform="translate(40.000000, 49.000000)">
+                    <path d="M5,20.5 L5,3.46000671" id="Line-Copy" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <g id="Oval-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="checked-circle" transform="translate(0.000000, 21.000000)">
+                        <circle id="Oval-2" stroke="#FFFFFF" cx="5" cy="4.5" r="4"></circle>
+                        <g id="checkbox_checked" transform="translate(2.000000, 2.000000)" stroke-linecap="round" stroke="#80C11A">
+                            <g id="plus-green" transform="translate(0.799988, 0.800003)">
+                                <g>
+                                    <path d="M2,0 L2,3" id="Line"></path>
+                                    <g id="Group" transform="translate(2.000000, 1.500000) rotate(90.000000) translate(-2.000000, -1.500000) translate(1.000000, 0.000000)">
+                                        <path d="M1,0 L1,3" id="Line-Copy"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="3" transform="translate(82.000000, 0.000000)">
+                    <g id="Oval-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <path d="M5,26.5 L5,9.46433115" id="Line-Copy-2" stroke="url(#linearGradient-9)" stroke-linecap="square"></path>
+                    <g id="checked-circle">
+                        <circle id="Oval-2" stroke="#FFFFFF" cx="5" cy="4.5" r="4"></circle>
+                        <g id="checkbox_checked" transform="translate(3.000000, 3.000000)" stroke-linecap="round" stroke="#80C11A">
+                            <g id="plus-green">
+                                <g>
+                                    <path d="M2,0 L2,3" id="Line"></path>
+                                    <g id="Group" transform="translate(2.000000, 1.500000) rotate(90.000000) translate(-2.000000, -1.500000) translate(1.000000, 0.000000)">
+                                        <path d="M1,0 L1,3" id="Line-Copy"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="4" transform="translate(122.500000, 49.000000)">
+                    <path d="M5,20.5 L5,3.46000671" id="Line-Copy-3" stroke="url(#linearGradient-9)" stroke-linecap="square"></path>
+                    <g id="Oval-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    </g>
+                    <g id="checked-circle" transform="translate(0.000000, 21.000000)">
+                        <circle id="Oval-2" stroke="#FFFFFF" cx="5" cy="4.5" r="4"></circle>
+                        <g id="checkbox_checked" transform="translate(3.000000, 2.000000)" stroke-linecap="round" stroke="#80C11A">
+                            <g id="plus-green" transform="translate(0.000000, 0.800003)">
+                                <g>
+                                    <path d="M2,0 L2,3" id="Line"></path>
+                                    <g id="Group" transform="translate(2.000000, 1.500000) rotate(90.000000) translate(-2.000000, -1.500000) translate(1.000000, 0.000000)">
+                                        <path d="M1,0 L1,3" id="Line-Copy"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
