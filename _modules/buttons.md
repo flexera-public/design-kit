@@ -5,10 +5,10 @@ description: "Sass module for buttons used in RightScale apps"
 name: designkit-buttons
 source: https://github.com/rightscale-design/designkit-buttons
 npm: https://www.npmjs.com/package/designkit-buttons
-version: 1.0.2
-updated: 7/19/2017
+version: 1.0.3
+updated: 7/24/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-buttons/master/dist/designkit-buttons.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/default.html
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/f3aec2dd31112525320db835888ce283194101ba/docs/default.html
 example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/primary.html
 example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/success.html
 example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/master/docs/danger.html
