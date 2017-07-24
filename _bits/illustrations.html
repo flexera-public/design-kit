@@ -1,0 +1,22 @@
+---
+layout: bits
+title: Illustrations
+description: Product Illustrations
+slug: bits
+more: illustrations
+weight: 5
+---
+
+<div class="mt5 relative">
+  <h2 class="f5 sans text normal mt0 mb2 o-60">Cloud Analytics - PageInfo modal illustrations</h2>
+  {% for illustration in site.data.product_illustrations %}
+  <div class="mb4 br1 tc">
+    <a download href="{{ illustration.path }}">
+      <div><img class="db w-100" src="{{ illustration.path }}" alt="{{ illustration.name }}"></div>
+      <div class="w-100 bottom-1">
+        <div class="db w-100 tc">{{ illustration.name }}</div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
