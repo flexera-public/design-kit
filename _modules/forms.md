@@ -7,6 +7,7 @@ source: https://github.com/rightscale-design/designkit-forms
 npm: https://www.npmjs.com/package/designkit-forms
 version: 1.1.2
 updated: 4/27/2017
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-forms/3160ad59809428b6d352b71c4564ffe8812c7005/index.html
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/dist/designkit-forms.css
 install: "npm install designkit-forms --save"
 dependencies:
@@ -46,6 +47,10 @@ Basic styled form controls.
   <p class="form-note">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </form>
 ```
+
+**Example**
+
+<iframe style="height: 722px;" src="{{ page.example-1 }}"></iframe>
 
 ## CSS
 
