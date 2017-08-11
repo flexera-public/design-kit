@@ -3,7 +3,7 @@
     "name": "Blue",
     "hex": "0C5CA6",
     "rgb": "11  93  166",
-    "cmyk": "0 45 100 0"
+    "cmyk": "100 50 0 10"
   },
   {
     "name": "Grey",
@@ -45,7 +45,7 @@
     "name": "Dark Blue",
     "hex": "052061",
     "rgb": "5  32  97",
-    "cmyk": "100 70 10 3"
+    "cmyk": "100 70 10 30"
   },
   {
     "name": "Off White",
@@ -69,6 +69,6 @@
     "name": "Light Blue/Gray",
     "hex": "7B9FC0",
     "rgb": "124  159  192",
-    "cmyk": "Light Blue/Gray"
+    "cmyk": "45 20 0 0"
   }
 ]
