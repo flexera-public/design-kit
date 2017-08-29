@@ -33,3 +33,5 @@ collections:
   pattern-details:
 
 exclude: [vendor]
+
+github: [metadata]
