@@ -5,14 +5,16 @@ description: "Sass module for buttons used in RightScale apps"
 name: designkit-buttons
 source: https://github.com/rightscale-design/designkit-buttons
 npm: https://www.npmjs.com/package/designkit-buttons
-version: 1.0.3
-updated: 7/19/2017
-css-link: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/dist/designkit-buttons.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/docs/default.html
-example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/docs/primary.html
-example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/docs/success.html
-example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/docs/danger.html
-example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.3/docs/sizes.html
+version: 1.0.5
+updated: 7/30/2017
+css-link: https://unpkg.com/designkit-buttons@1.0.5/dist/designkit-buttons.css
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/default.html
+example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/primary.html
+example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/success.html
+example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/danger.html
+example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/sizes.html
+example-6: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/button-groups.html
+
 install: "npm install designkit-buttons --save"
 
 dependencies:
@@ -111,6 +113,22 @@ Buttons are used as triggers for actions. They are used in forms, cards, dialog 
 **Example**
 
 <iframe style="height: 200px;" src="{{ page.example-5 }}"></iframe>
+
+### Button Groups
+
+**HTML**
+
+```html
+<div class="btn-group">
+  <button class="btn btn-default" type="button">Button One</button>
+  <button class="btn btn-default" type="button">Button Two</button>
+  <button class="btn btn-default" type="button">Button Three</button>
+</div>
+```
+
+**Example**
+
+<iframe style="height: 110px;" src="{{ page.example-6 }}"></iframe>
 
 ## CSS
 
