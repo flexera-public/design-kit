@@ -242,5 +242,9 @@
    {
       "name": "Lock",
       "path": "/media/icons/icon-lock.svg"
+   },
+   {
+      "name": "Project",
+      "path": "/media/icons/icon-project.svg"
    }
 ]
