@@ -5,9 +5,10 @@ description: "Sass module containing utility classes to help design apps"
 name: designkit-utilities
 source: https://github.com/rightscale-design/designkit-utilities
 npm: https://www.npmjs.com/package/designkit-utilities
-version: v0.0.7
-updated: 8/30/2016
+version: v1.0.0
+updated: 11/13/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-utilities/master/dist/designkit-utilities.css
+unpkq: https://unpkg.com/designkit-utilities@1.0.0/
 install: "npm install designkit-utilities --save"
 
 slug: modules
