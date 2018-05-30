@@ -28,7 +28,7 @@
   <title>{% if page.title %} {{ page.title | escape }} - Design Kit {% else %}{{ site.title | escape }}{% endif %}</title>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{site.url}}{{ "/css/main.css" | prepend: site.baseurl }}">
 
 </head>
 
@@ -47,21 +47,21 @@
   {% include footer.html %}
 
   <!-- Scripts -->
-  <script src="{{ "/js/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/clipboard.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/vendor/highlight.pack.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/clipboard.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/highlight.pack.js" | prepend: site.baseurl }}"></script>
 
   <!-- Local scripts -->
-  <script src="{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/js/snippet.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/snippet.js" | prepend: site.baseurl }}"></script>
   <script type="text/javascript">
     var csslink = "{{ page.css-link }}";
   </script>
-  <script src="{{ "/js/modules.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/modules.js" | prepend: site.baseurl }}"></script>
 
 </body>
 
