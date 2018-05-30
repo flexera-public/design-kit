@@ -5,11 +5,11 @@ layout: default
 <div class="fl w-20">
   <ul class="mv1 f6">
     <li class="pv1">
-      <a class="db" href="/patterns/">Intro</a>
+      <a class="db" href="{{site.url}}/patterns/">Intro</a>
     </li>
     {% for pattern in site.patterns %}
       <li class="pv1">
-        <a class="db" href="{{ pattern.url | prepend: site.baseurl }}">{{ pattern.title }}</a>
+        <a class="db" href="{{site.url}}{{ pattern.url | prepend: site.baseurl }}">{{ pattern.title }}</a>
       </li>
     {% endfor %}
   </ul>
