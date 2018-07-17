@@ -34,4 +34,5 @@ collections:
 
 exclude: [vendor]
 
-github: [metadata]
+
+repository: rightscale/design-kit
