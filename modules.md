@@ -14,10 +14,6 @@ Modules are CSS based UI elements that provide a basic aesthetic structure for U
 
 DK modules are broken-up into their own individual Github repos and can be installed using either [NPM](https://www.npmjs.com/) or Git. Each module contains basic ready-to-use [Scss](http://sass-lang.com/) and CSS to jump start your UI project.
 
-## Dependencies
-
-Currently [Bourbon](http://bourbon.io/) is used as our primary SASS mixin library and is required if you are to use any of the module source files.
-
 ### Installation via NPM
 
 ```bash
