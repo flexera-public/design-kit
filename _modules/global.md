@@ -5,8 +5,8 @@ description: "Sass module for a global CSS reset based on Normalize"
 name: designkit-global
 source: https://github.com/rightscale-design/designkit-global
 npm: https://www.npmjs.com/package/designkit-global
-version: 1.0.0
-updated: 6/12/2017
+version: 1.1.2
+updated: 2/23/2018
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-global/master/dist/designkit-global.css
 install: "npm install designkit-global --save"
 
