@@ -5,15 +5,15 @@ description: "Sass module for buttons used in RightScale apps"
 name: designkit-buttons
 source: https://github.com/rightscale-design/designkit-buttons
 npm: https://www.npmjs.com/package/designkit-buttons
-version: 1.0.5
+version: 1.1.1
 updated: 7/30/2017
-css-link: https://unpkg.com/designkit-buttons@1.0.5/dist/designkit-buttons.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/default.html
-example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/primary.html
-example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/success.html
-example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/danger.html
-example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/sizes.html
-example-6: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.0.5/docs/button-groups.html
+css-link: https://unpkg.com/designkit-buttons@1.1.1/dist/designkit-buttons.css
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/default.html
+example-2: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/primary.html
+example-3: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/success.html
+example-4: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/danger.html
+example-5: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/sizes.html
+example-6: https://cdn.rawgit.com/rightscale-design/designkit-buttons/v1.1.1/docs/button-groups.html
 
 install: "npm install designkit-buttons --save"
 

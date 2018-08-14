@@ -5,7 +5,7 @@ description: "Sass module for colors used in RightScale apps"
 name: designkit-colors
 source: https://github.com/rightscale-design/designkit-colors
 npm: https://www.npmjs.com/package/designkit-colors
-version: 1.0.0
+version: 1.1.0
 updated: 5/26/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-colors/master/dist/designkit-colors.css
 install: "npm install designkit-colors --save"

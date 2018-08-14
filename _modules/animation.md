@@ -5,8 +5,8 @@ description: "Sass module for css animation transitions"
 name: designkit-animate
 source: https://github.com/rightscale-design/designkit-animate
 npm: https://www.npmjs.com/package/designkit-animate
-version: 0.0.6
-updated: 2/10/2017
+version: 1.0.0
+updated: 2/12/2018
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-animate/master/dist/designkit-animate.css
 install: "npm install designkit-animate --save"
 

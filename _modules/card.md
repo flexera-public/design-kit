@@ -5,7 +5,7 @@ description: "A basic content container module"
 name: designkit-card
 source: https://github.com/rightscale-design/designkit-card
 npm: https://www.npmjs.com/package/designkit-card
-version: 1.0.1
+version: 1.1.1
 updated: 7/6/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-card/master/dist/designkit-card.css
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/basic.html

@@ -5,7 +5,7 @@ description: "Sass module for forms used in RightScale apps"
 name: designkit-forms
 source: https://github.com/rightscale-design/designkit-forms
 npm: https://www.npmjs.com/package/designkit-forms
-version: 1.1.2
+version: 1.2.3
 updated: 4/27/2017
 example-1: https://cdn.rawgit.com/rightscale-design/designkit-forms/3160ad59809428b6d352b71c4564ffe8812c7005/index.html
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-forms/master/dist/designkit-forms.css

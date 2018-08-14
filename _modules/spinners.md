@@ -5,7 +5,7 @@ description: "Sass module for css only spinners"
 name: designkit-spinners
 source: https://github.com/rightscale-design/designkit-spinners
 npm: https://www.npmjs.com/package/designkit-spinners
-version: 0.0.6
+version: 1.0.2
 updated: 5/31/2016
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-spinners/master/css/designkit-spinners.css
 install: "npm install designkit-spinners --save"

@@ -5,18 +5,18 @@ description: "A Sass module for dropdown menus in RightScale apps"
 name: designkit-dropdown
 source: https://github.com/rightscale-design/designkit-dropdown
 npm: https://www.npmjs.com/package/designkit-dropdown
-version: 1.1.3
+version: 1.1.5
 updated: 11/27/2017
-css-link: https://raw.githubusercontent.com/rightscale-design/designkit-dropdown/v1.1.3/dist/designkit-dropdown.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/basic.html
-example-2: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/drop-up.html
-example-3: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/dividers.html
-example-4: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/header.html
-example-5: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/title.html
-example-6: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/scroll.html
-example-7: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/select.html
-example-8: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/filter.html
-example-9: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.3/docs/multi.html
+css-link: https://raw.githubusercontent.com/rightscale-design/designkit-dropdown/v1.1.5/dist/designkit-dropdown.css
+example-1: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/basic.html
+example-2: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/drop-up.html
+example-3: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/dividers.html
+example-4: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/header.html
+example-5: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/title.html
+example-6: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/scroll.html
+example-7: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/select.html
+example-8: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/filter.html
+example-9: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/multi.html
 install: "npm install designkit-dropdown --save"
 dependencies:
   - name: Colors
