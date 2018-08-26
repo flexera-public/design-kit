@@ -1,4 +1,4 @@
-# Design Kit v2.0.0 [![Build Status](https://travis-ci.org/rightscale/design-kit.svg?branch=master)](https://travis-ci.org/rightscale/design-kit)
+# Design Kit v2.0.2 [![Build Status](https://travis-ci.org/rightscale/design-kit.svg?branch=master)](https://travis-ci.org/rightscale/design-kit)
 
 A visual branding guide for RightScale products.
 
