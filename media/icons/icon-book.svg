@@ -1,0 +1,12 @@
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-book" transform="translate(-30.000000, -30.000000)" fill="#57626C">
+            <g transform="translate(30.000000, 30.000000)" id="Shape">
+                <path d="M9.892,1.706 C8.372,2.51 8.01,3.01 8.01,3.01 C8.01,3.01 7.648,2.51 6.128,1.706 C4.608,0.903 3.766,0.882 2.825,0.94 L6.59,3.766 L9.41,3.766 L13.177,0.94 C12.227,0.882 11.412,0.903 9.892,1.706 Z M6.598,4.706 L9.42,4.706 L9.413,16 L6.59,16 L6.598,4.706 L6.598,4.706 Z M10.362,4.059 L10.362,15.352 L16,11.293 L16,0 L10.362,4.06 L10.362,4.059 Z M0,0 L5.656,4.06 L5.656,15.353 L0,11.293 L0,0 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

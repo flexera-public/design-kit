@@ -1,0 +1,20 @@
+current directory: /home/travis/build/rightscale/design-kit/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/travis/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20180908-4254-17amx7a.rb extconf.rb
+creating Makefile
+
+current directory: /home/travis/build/rightscale/design-kit/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/travis/build/rightscale/design-kit/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++ [enabled by default]
+linking shared-object fastfilereaderext.so
+
+current directory: /home/travis/build/rightscale/design-kit/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20180908-4254-c105rq

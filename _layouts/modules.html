@@ -1,0 +1,27 @@
+---
+layout: default-modules
+---
+
+<div id="pinned" class="fl w-20">
+  <ul class="mv1 f6">
+    <li class="pv1">
+      <a class="db" href="{{site.url}}/modules/">Intro</a>
+    </li>
+    {% assign modules = site.modules | sort:"weight" %}
+    {% for post in modules %}
+      <li class="pv1">
+        <a class="db" href="{{site.url}}{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="fl w-100 w-80-ns animate-fade">
+  <div>
+    <h1 class="page-heading">{{ page.title }}</h1>
+    <p class="f5 ma0 measure">{{ page.description }}</p>
+    <div class="markdown-body">
+      {{ content }}
+    </div>
+  </div>
+</div>

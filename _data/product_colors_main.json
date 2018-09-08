@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cool Blue",
+    "hex": "0A83F6",
+    "rgb": "10, 131, 246",
+    "sass": "$blue"
+  },
+  {
+    "name": "Lima Green",
+    "hex": "80C11A",
+    "rgb": "128, 193, 26",
+    "sass": "$green"
+  },
+  {
+    "name": "Fire Engine Red",
+    "hex": "C32525",
+    "rgb": "195, 37, 37",
+    "sass": "$red"
+  },
+  {
+    "name": "Royal Purple",
+    "hex": "7355A6",
+    "rgb": "115, 85, 166",
+    "sass": "$purple"
+  },
+  {
+    "name": "Buckthorn Orange",
+    "hex": "F7A626",
+    "rgb": "247, 166, 38",
+    "sass": "$orange"
+  }
+]

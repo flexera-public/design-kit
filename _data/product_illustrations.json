@@ -1,0 +1,27 @@
+  [
+    {
+      "name": "Instance Analyzer",
+      "path": "/media/illustrations/page_info_modal/instance_analyzer.svg"
+    },
+    {
+      "name": "Scenario Builder",
+      "path": "/media/illustrations/page_info_modal/scenario_builder.svg"
+    },
+    {
+      "name": "Billing Centers",
+      "path": "/media/illustrations/page_info_modal/billing_centers.svg"
+    },
+    {
+      "name": "Scheduled Reports",
+      "path": "/media/illustrations/page_info_modal/scheduled_reports.svg"
+    },
+    {
+      "name": "Budget Alerts",
+      "path": "/media/illustrations/page_info_modal/budget_alerts.svg"
+    },
+    {
+      "name": "Recommendations",
+      "path": "/media/illustrations/page_info_modal/recommendations.svg"
+    },
+
+  ]

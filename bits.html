@@ -1,0 +1,90 @@
+---
+layout: bits
+title: Bits
+description: Logos, brand colors and guidelines
+permalink: /bits/
+slug: bits
+---
+
+<div>
+
+  <div class="mt5">
+    <div class="relative">
+      <h2 class="f4 sans text normal tracked-tight mt0 mb3"><a href="{{site.url}}/bits/logos/">Logos</a></h2>
+      <div class="pa6 mb3 bg-black-80 br1 tc">
+        <img alt="RightScale Logo" width="400" src="/media/logos/main-logo.svg">
+      </div>
+    </div>
+    <div class="w-100 cf mt3 f6">
+      <a href="{{site.url}}/bits/logos/" class="link">More {{ post.more }} &rarr;</a>
+    </div>
+  </div>
+
+  <div class="mt5">
+    <h2 class="f4 sans text normal tracked-tight mv0"><a href="{{site.url}}/bits/colors/">Colors</a></h2>
+    <div class="cf mb2 row">
+      {% for color in site.data.brand_colors %}
+        <div class="w-100 w-25-ns w-50-m fn fl-ns">
+          <div class="relative h4 pa3 ml3 mt3 br1 tl f6 hide-child color-contrast" style="background-color: #{{ color.hex }}">
+            <div class="absolute top-1 left-4 b o-90">{{ color.name }}</div>
+            <div class="absolute top-1 right-1 b o-80 copy-color">
+              <button class="o-90 clipboard child" data-clipboard-text="{{ color.hex }}">{% include assets/icon-clipboard.html %}</button>
+            </div>
+            <div class="absolute bottom-1 left-4 code f6 o-60">
+              <div>CMYK {{ color.cmyk }}</div>
+              <div>RGB {{ color.rgb }}</div>
+              <div>#{{ color.hex }}</div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="w-100 cf mt3 f6">
+      <a href="{{site.url}}/bits/colors/" class="link">More {{ post.more }} &rarr;</a>
+    </div>
+  </div>
+
+  <div class="mt5">
+    <h2 class="f4 sans text normal tracked-tight mv0"><a href="{{site.url}}/bits/typography/">Typography</a></h2>
+    {% for type in site.data.product_typography.type limit: 1 %}
+      <div class="cf mt3">
+        <div class="w-70 ba b--black-20 br1 pa4">
+          <div class="mb1 f6 sans lh-title">
+            <strong>{{ type.style.name }}</strong>
+          </div>
+          <div class="mb1 f6 sans lh-copy">
+            {{ type.style.font-name }} <span class="o-50">/</span> {{ type.style.font-size }} <span class="o-50">/</span> {{ type.style.line-height }} <span class="ml1 v-mid dib typography-color" style="background-color: {{ type.style.color }}"></span> {{ type.style.color }}
+          </div>
+          <div class="mt3 measure">
+            <span style="font-family:{{ type.style.font-family }}; font-size:{{ type.style.font-size }}; font-weight:{{ type.style.font-weight }}; line-height:{{ type.style.line-height }}; color:{{ type.style.color }};">{{ type.style.pangram }}</span>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    <div class="w-100 cf mt3 f6">
+      <a href="{{site.url}}/bits/typography/" class="link">More {{ post.more }} &rarr;</a>
+    </div>
+  </div>
+
+  <div class="mt5">
+    <h2 class="f4 sans text normal tracked-tight mv0"><a href="{{site.url}}/bits/icons/">Icons</a></h2>
+    <div class="cf mb2 row">
+      {% for icon in site.data.product_icons limit:10 %}
+      <div class="w-50 w-33-m w-20-ns fl">
+        <a download href="{{ icon.path }}" class="db relative h4 ml3 mt3 br1 overflow-hidden bg-near-white tl f6 thumbnail-zoom">
+          <div class="db">
+            <div><img class="db w-20 mt4 center" src="{{ icon.path }}" alt="{{ icon.name }}"></div>
+          </div>
+          <div class="absolute w-100 bottom-1">
+            <div class="db w-100 tc code gray f-small name">{{ icon.name }}</div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="w-100 cf mt3 f6">
+      <a href="{{site.url}}/bits/icons/" class="link">More {{ post.more }} &rarr;</a>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,46 @@
+---
+layout: bits
+title: Typography
+description: Header and body font examples.
+slug: bits
+more: typography
+weight: 3
+---
+
+{% for type in site.data.product_typography.type limit: 1 %}
+  <div class="mt5">
+    <h2 class="f5 sans text normal mv0 o-60">{{ type.group }}</h2>
+    <div class="cf mt3">
+      <div class="w-70 ba b--black-20 br1 pa4">
+        <div class="mb1 f6 sans lh-title">
+          <strong>{{ type.style.name }}</strong>
+        </div>
+        <div class="mb1 f6 sans lh-copy">
+          {{ type.style.font-name }} <span class="o-50">/</span> {{ type.style.font-size }} <span class="o-50">/</span> {{ type.style.line-height }} <span class="ml1 v-mid dib typography-color" style="background-color: {{ type.style.color }}"></span> {{ type.style.color }}
+        </div>
+        <div class="mt3 measure">
+          <span style="font-family:{{ type.style.font-family }}; font-size:{{ type.style.font-size }}; font-weight:{{ type.style.font-weight }}; line-height:{{ type.style.line-height }}; color:{{ type.style.color }};">{{ type.style.pangram }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% for type in site.data.product_typography.type offset: 1 %}
+  <div class="mt5">
+    <h2 class="f5 sans text normal mv0 o-60">{{ type.group }}</h2>
+    <div class="cf mt3">
+      <div class="w-70 ba b--black-20 br1 pa4">
+        <div class="mb1 f6 sans lh-title">
+          <strong>{{ type.style.name }}</strong>
+        </div>
+        <div class="mb1 f6 sans lh-copy">
+          {{ type.style.font-name }} <span class="o-50">/</span> {{ type.style.font-size }} <span class="o-50">/</span> {{ type.style.line-height }} <span class="ml1 v-mid dib typography-color" style="background-color: {{ type.style.color }}"></span> {{ type.style.color }}
+        </div>
+        <div class="mt3 measure">
+          <span style="font-family:{{ type.style.font-family }}; font-size:{{ type.style.font-size }}; font-weight:{{ type.style.font-weight }}; line-height:{{ type.style.line-height }}; color:{{ type.style.color }};">{{ type.style.pangram }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

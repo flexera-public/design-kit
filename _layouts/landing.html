@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <title>{% if page.title %} {{ page.title | escape }} - Design Kit {% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{site.url}}{{ "/css/main.css" | prepend: site.baseurl }}">
+
+</head>
+
+<body {% if page.slug %} class="w-100 {{ page.slug }}"{% endif %}>
+
+  {% include header.html %}
+
+  <div class="page-content pv5">
+    <div class="ph3 ph4-ns wrapper">
+      <div class="cf">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  <!-- Scripts -->
+  <script src="{{site.url}}{{ "/js/vendor/jquery-2.2.3.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/anchor.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/scroll.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/list.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/vendor/anime.min.js" | prepend: site.baseurl }}"></script>
+
+  <!-- Local scripts -->
+  <script src="{{site.url}}{{ "/js/anchor.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/sticky-kit.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/list.js" | prepend: site.baseurl }}"></script>
+  <script src="{{site.url}}{{ "/js/anime.js" | prepend: site.baseurl }}"></script>
+</body>
+
+</html>

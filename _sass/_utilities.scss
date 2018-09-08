@@ -1,0 +1,48 @@
+/* Type */
+
+.sans {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.headline {
+  font-family: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.mono {
+  font-family: "Roboto Mono", "Source Code Pro", Menlo, Consolas, "Liberation Mono", monospace;
+}
+.sans-light {
+  font-weight: 700;
+}
+.sans-regular {
+  font-weight: 400;
+}
+.sans-medium {
+  font-weight: 500;
+}
+.sans-semibold {
+  font-weight: 600;
+}
+.sans-bold {
+  font-weight: 700;
+}
+.headline-light {
+  font-weight: 300;
+}
+.headline-regular {
+  font-weight: 400;
+}
+.headline-bold {
+  font-weight: 400;
+}
+
+.row {
+  margin-left: -1rem;
+}
+
+.thumbnail-zoom {
+  img {
+    transition: all 0.3s;
+  }
+  &:hover img {
+    transform: scale(1.4);
+  }
+}

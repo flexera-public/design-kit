@@ -1,0 +1,16 @@
+<header class="fixed top-0 w-100 z-5 site-header ">
+  <div class="ph3 ph4-ns wrapper">
+    <a class="site-title" href="{{site.url}}">
+      <img src="{{site.url}}/media/assets/rs-dk-logo.svg" alt="{{ site.title }}">
+    </a>
+    <nav class="site-nav dn db-ns">
+      <div>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link page-link-{{ my_page.slug }} f5" href="{{site.url}}{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,12 @@
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-policy-timer" transform="translate(-31.000000, -28.000000)" fill="#57626C" fill-rule="nonzero">
+            <g id="Group" transform="translate(30.000000, 28.000000)">
+                <path d="M15.32,7.1 C17.5416754,9.9691552 17.553944,13.9743016 15.3498877,16.8570137 C13.1458315,19.7397259 9.27755685,20.777897 5.92630987,19.3861223 C2.57506289,17.9943476 0.580316238,14.5212605 1.0668694,10.9252684 C1.55342257,7.32927631 4.39939612,4.51115944 8,4.06 L8,2 L10,2 L10,4.06 C11.46,4.24 12.8,4.82 13.9,5.68 L15.36,4.22 L16.78,5.64 L15.32,7.09 L15.32,7.1 Z M9,18 C12.3137085,18 15,15.3137085 15,12 C15,8.6862915 12.3137085,6 9,6 C5.6862915,6 3,8.6862915 3,12 C3,15.3137085 5.6862915,18 9,18 Z M6,0 L12,0 L12,2 L6,2 L6,0 Z M11.12,8.46 L12.54,9.88 L9,13.4 L7.59,12 L11.12,8.46 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

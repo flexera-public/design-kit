@@ -1,0 +1,310 @@
+[
+   {
+     "name": "Admin",
+     "path": "/media/icons/icon-admin.svg"
+   },
+   {
+      "name": "Arrow - Right",
+      "path": "/media/icons/icon-arrow-right.svg"
+   },
+   {
+      "name": "Arrow - Left",
+      "path": "/media/icons/icon-arrow-left.svg"
+   },
+   {
+      "name": "Arrow - Up",
+      "path": "/media/icons/icon-arrow-up.svg"
+   },
+   {
+      "name": "Arrow - Down",
+      "path": "/media/icons/icon-arrow-down.svg"
+   },
+   {
+      "name": "Bell",
+      "path": "/media/icons/icon-bell.svg"
+   },
+   {
+      "name": "Bell - Off",
+      "path": "/media/icons/icon-bell-off.svg"
+   },
+   {
+      "name": "Calendar",
+      "path": "/media/icons/icon-calendar.svg"
+   },
+   {
+      "name": "Caret",
+      "path": "/media/icons/icon-caret.svg"
+   },
+   {
+      "name": "Clipboard",
+      "path": "/media/icons/icon-clipboard.svg"
+   },
+   {
+      "name": "Close",
+      "path": "/media/icons/icon-close.svg"
+   },
+   {
+      "name": "Download",
+      "path": "/media/icons/icon-download.svg"
+   },
+   {
+      "name": "Expand",
+      "path": "/media/icons/icon-expand.svg"
+   },
+   {
+      "name": "Export",
+      "path": "/media/icons/icon-export.svg"
+   },
+   {
+      "name": "External",
+      "path": "/media/icons/icon-external.svg"
+   },
+   {
+      "name": "Info",
+      "path": "/media/icons/icon-info.svg"
+   },
+   {
+      "name": "Link",
+      "path": "/media/icons/icon-link.svg"
+   },
+   {
+      "name": "Markdown",
+      "path": "/media/icons/icon-markdown.svg"
+   },
+   {
+      "name": "Edit",
+      "path": "/media/icons/icon-edit.svg"
+   },
+   {
+      "name": "Plus Open",
+      "path": "/media/icons/icon-plus-open.svg"
+   },
+   {
+      "name": "Refresh",
+      "path": "/media/icons/icon-refresh.svg"
+   },
+   {
+      "name": "Search",
+      "path": "/media/icons/icon-search.svg"
+   },
+   {
+      "name": "Share",
+      "path": "/media/icons/icon-share.svg"
+   },
+   {
+      "name": "Trash",
+      "path": "/media/icons/icon-trash.svg"
+   },
+   {
+      "name": "Docs",
+      "path": "/media/icons/icon-docs.svg"
+   },
+   {
+      "name": "Check",
+      "path": "/media/icons/icon-check.svg"
+   },
+   {
+      "name": "Sort - Unsorted",
+      "path": "/media/icons/icon-sort-unsorted.svg"
+   },
+   {
+      "name": "Sort - Up",
+      "path": "/media/icons/icon-sort-up.svg"
+   },
+   {
+      "name": "Sort - Down",
+      "path": "/media/icons/icon-sort-down.svg"
+   },
+   {
+      "name": "API",
+      "path": "/media/icons/icon-api.svg"
+   },
+   {
+      "name": "Attachment",
+      "path": "/media/icons/icon-attachment.svg"
+   },
+   {
+      "name": "Attachment - 2",
+      "path": "/media/icons/icon-attachment-2.svg"
+   },
+   {
+      "name": "Back",
+      "path": "/media/icons/icon-back-button.svg"
+   },
+   {
+      "name": "Checkmark Circled",
+      "path": "/media/icons/icon-checkmark-circled.svg"
+   },
+   {
+      "name": "Cloud",
+      "path": "/media/icons/icon-cloud.svg"
+   },
+   {
+      "name": "Email",
+      "path": "/media/icons/icon-email.svg"
+   },
+   {
+      "name": "Phone",
+      "path": "/media/icons/icon-phone.svg"
+   },
+   {
+      "name": "Copy",
+      "path": "/media/icons/icon-copy.svg"
+   },
+   {
+      "name": "Error",
+      "path": "/media/icons/icon-error.svg"
+   },
+   {
+      "name": "Filter",
+      "path": "/media/icons/icon-filter.svg"
+   },
+   {
+      "name": "Hide",
+      "path": "/media/icons/icon-hide.svg"
+   },
+   {
+      "name": "Home",
+      "path": "/media/icons/icon-home.svg"
+   },
+   {
+      "name": "Help Info",
+      "path": "/media/icons/icon-info-help.svg"
+   },
+   {
+      "name": "Beta",
+      "path": "/media/icons/icon-beta.svg"
+   },
+   {
+      "name": "Save",
+      "path": "/media/icons/icon-save.svg"
+   },
+   {
+      "name": "Read Only",
+      "path": "/media/icons/icon-read-only.svg"
+   },
+   {
+      "name": "Secure",
+      "path": "/media/icons/icon-secure.svg"
+   },
+   {
+      "name": "Caret 2",
+      "path": "/media/icons/icon-caret-2.svg"
+   },
+   {
+      "name": "Log Out",
+      "path": "/media/icons/icon-logout.svg"
+   },
+   {
+      "name": "Gear",
+      "path": "/media/icons/icon-gear.svg"
+   },
+   {
+      "name": "Folder",
+      "path": "/media/icons/icon-folder.svg"
+   },
+   {
+      "name": "Key",
+      "path": "/media/icons/icon-key.svg"
+   },
+   {
+      "name": "Book",
+      "path": "/media/icons/icon-book.svg"
+   },
+   {
+      "name": "Brush",
+      "path": "/media/icons/icon-brush.svg"
+   },
+   {
+      "name": "Cloud 2",
+      "path": "/media/icons/icon-cloud-2.svg"
+   },
+   {
+      "name": "User",
+      "path": "/media/icons/icon-user.svg"
+   },
+   {
+      "name": "List View",
+      "path": "/media/icons/icon-list-view.svg"
+   },
+   {
+      "name": "Card View",
+      "path": "/media/icons/icon-card-view.svg"
+   },
+   {
+      "name": "Ticket",
+      "path": "/media/icons/icon-ticket.svg"
+   },
+   {
+      "name": "Feedback",
+      "path": "/media/icons/icon-feedback.svg"
+   },
+   {
+      "name": "Lock",
+      "path": "/media/icons/icon-lock.svg"
+   },
+   {
+      "name": "Project",
+      "path": "/media/icons/icon-project.svg"
+   },
+   {
+      "name": "Chevron",
+      "path": "/media/icons/icon-chevron.svg"
+   },
+   {
+      "name": "Alert",
+      "path": "/media/icons/icon-alert.svg"
+   },
+   {
+      "name": "Alert",
+      "path": "/media/icons/icon-link-2.svg"
+   },
+   {
+      "name": "Spinner",
+      "path": "/media/icons/icon-spinner.svg"
+   },
+   {
+      "name": "User 2",
+      "path": "/media/icons/icon-user-2.svg"
+   },
+   {
+      "name": "Template",
+      "path": "/media/icons/icon-template.svg"
+   },
+   {
+      "name": "Grid",
+      "path": "/media/icons/icon-grid.svg"
+   },
+   {
+      "name": "Timer",
+      "path": "/media/icons/icon-timer.svg"
+   },
+   {
+      "name": "Shield",
+      "path": "/media/icons/icon-shield.svg"
+   },
+   {
+      "name": "Date",
+      "path": "/media/icons/icon-date.svg"
+   },
+   {
+      "name": "Active Policy",
+      "path": "/media/icons/icon-active-policy.svg"
+   },
+   {
+      "name": "Template Policy",
+      "path": "/media/icons/icon-template-policy.svg"
+   },
+   {
+      "name": "Incidents Policy",
+      "path": "/media/icons/icon-incidents-policy.svg"
+   },
+   {
+      "name": "Dashboard Policy",
+      "path": "/media/icons/icon-dashboard-policy.svg"
+   },
+   {
+      "name": "Catalog Policy",
+      "path": "/media/icons/icon-catalog-policy.svg"
+   }
+]

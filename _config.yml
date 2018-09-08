@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Design Kit
+email: jason@rightscale.com
+description: An internal guide and toolkit for designing RightScale apps.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://design.rightscale.com" # the base hostname & protocol for your site
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+# Collections
+collections:
+  bits:
+    output: true
+    permalink: /bits/:path/
+  modules:
+    output: true
+    permalink: /modules/:path/
+  patterns:
+    output: true
+    permalink: /patterns/:path/
+  pattern-details:
+
+exclude: [vendor]
+
+
+repository: rightscale/design-kit

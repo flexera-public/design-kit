@@ -1,0 +1,12 @@
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-calendar" transform="translate(-32.000000, -31.000000)" fill-rule="nonzero" fill="#57626C">
+            <g transform="translate(32.000000, 31.000000)" id="Shape">
+                <path d="M13.75,1 L12,1 L12,2.272 C12,2.975 11.275,3.5 10.525,3.5 C9.775,3.5 9,2.975 9,2.272 L9,1 L5,1 L5,2.272 C5,2.975 4.25,3.5 3.5,3.5 C2.75,3.5 2,2.975 2,2.272 L2,1 L0.25,1 C0.112,1 0,1.113 0,1.25 L0,13.75 C0,13.887 0.113,14 0.25,14 L13.75,14 C13.887,14 14,13.887 14,13.75 L14,1.25 C14,1.113 13.887,1 13.75,1 Z M12.5,12.5 L1.5,12.5 L1.5,4.5 L12.5,4.5 L12.5,12.5 Z M10.5,3 C11.053,3 11.5,2.553 11.5,2 L11.5,1 C11.5,0.447 11.053,0 10.5,0 C9.947,0 9.5,0.447 9.5,1 L9.5,2 C9.5,2.553 9.947,3 10.5,3 Z M3.5,3 C4.053,3 4.5,2.553 4.5,2 L4.5,1 C4.5,0.447 4.053,0 3.5,0 C2.947,0 2.5,0.447 2.5,1 L2.5,2 C2.5,2.553 2.947,3 3.5,3 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

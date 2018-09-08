@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Viking",
+    "hex": "4FBBCD",
+    "rgb": "79, 187, 205",
+    "sass": "$viking"
+  },
+  {
+    "name": "Royal Purple",
+    "hex": "7355A6",
+    "rgb": "115, 85, 166",
+    "sass": "$royal-purple"
+  },
+  {
+    "name": "Mulberry",
+    "hex": "C45887",
+    "rgb": "196, 88, 135",
+    "sass": "$mulberry"
+  },
+  {
+    "name": "Buckthorn Orange",
+    "hex": "F7A626",
+    "rgb": "247, 166, 38",
+    "sass": "$buckthorn"
+  },
+  {
+    "name": "Celery",
+    "hex": "B4CB55",
+    "rgb": "180, 203, 85",
+    "sass": "$celery"
+  },
+  {
+    "name": "Indian",
+    "hex": "D05A5A",
+    "rgb": "208, 90, 90",
+    "sass": "$indian"
+  },
+  {
+    "name": "Silver Tree",
+    "hex": "5DD08B",
+    "rgb": "93, 208, 139",
+    "sass": "$silver-tree"
+  },
+  {
+    "name": "Sean",
+    "hex": "3C8CC7",
+    "rgb": "60, 140, 199",
+    "sass": "$sean"
+  }
+]

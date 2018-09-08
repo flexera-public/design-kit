@@ -1,0 +1,14 @@
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-card-view" transform="translate(-32.000000, -32.000000)" fill="#57626C">
+            <g transform="translate(32.000000, 32.000000)" id="Group">
+                <g>
+                    <path d="M4.87,12 L0.13,12 C0.06,12 0,11.94 0,11.87 L0,7.13 C0,7.06 0.06,7 0.13,7 L4.87,7 C4.94,7 5,7.06 5,7.13 L5,11.87 C5,11.94 4.94,12 4.87,12 L4.87,12 Z M11.87,12 L7.13,12 C7.06,12 7,11.94 7,11.87 L7,7.13 C7,7.06 7.06,7 7.13,7 L11.87,7 C11.94,7 12,7.06 12,7.13 L12,11.87 C12,11.94 11.94,12 11.87,12 L11.87,12 Z M11.87,5 L7.13,5 C7.06,5 7,4.94 7,4.87 L7,0.13 C7,0.06 7.06,0 7.13,0 L11.87,0 C11.94,0 12,0.06 12,0.13 L12,4.87 C12,4.94 11.94,5 11.87,5 Z M4.87,5 L0.13,5 C0.06,5 0,4.94 0,4.87 L0,0.13 C0,0.06 0.06,0 0.13,0 L4.87,0 C4.94,0 5,0.06 5,0.13 L5,4.87 C5,4.94 4.94,5 4.87,5 L4.87,5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

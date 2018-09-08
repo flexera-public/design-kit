@@ -1,0 +1,9 @@
+{
+  "name": "designkit-docs",
+  "version": "2.0.2",
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll server",
+    "deploy:staging": "npm run build && surge --project ./_site --domain hoc-flavor.surge.sh"
+  }
+}
