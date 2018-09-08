@@ -246,5 +246,65 @@
    {
       "name": "Project",
       "path": "/media/icons/icon-project.svg"
+   },
+   {
+      "name": "Chevron",
+      "path": "/media/icons/icon-chevron.svg"
+   },
+   {
+      "name": "Alert",
+      "path": "/media/icons/icon-alert.svg"
+   },
+   {
+      "name": "Alert",
+      "path": "/media/icons/icon-link-2.svg"
+   },
+   {
+      "name": "Spinner",
+      "path": "/media/icons/icon-spinner.svg"
+   },
+   {
+      "name": "User 2",
+      "path": "/media/icons/icon-user-2.svg"
+   },
+   {
+      "name": "Template",
+      "path": "/media/icons/icon-template.svg"
+   },
+   {
+      "name": "Grid",
+      "path": "/media/icons/icon-grid.svg"
+   },
+   {
+      "name": "Timer",
+      "path": "/media/icons/icon-timer.svg"
+   },
+   {
+      "name": "Shield",
+      "path": "/media/icons/icon-shield.svg"
+   },
+   {
+      "name": "Date",
+      "path": "/media/icons/icon-date.svg"
+   },
+   {
+      "name": "Active Policy",
+      "path": "/media/icons/icon-active-policy.svg"
+   },
+   {
+      "name": "Template Policy",
+      "path": "/media/icons/icon-template-policy.svg"
+   },
+   {
+      "name": "Incidents Policy",
+      "path": "/media/icons/icon-incidents-policy.svg"
+   },
+   {
+      "name": "Dashboard Policy",
+      "path": "/media/icons/icon-dashboard-policy.svg"
+   },
+   {
+      "name": "Catalog Policy",
+      "path": "/media/icons/icon-catalog-policy.svg"
    }
 ]

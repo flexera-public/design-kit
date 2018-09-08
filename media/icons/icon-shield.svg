@@ -1,0 +1,12 @@
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-policy-shield" transform="translate(-29.000000, -29.000000)" fill="#57626C" fill-rule="nonzero">
+            <g id="Group" transform="translate(29.000000, 29.000000)">
+                <path d="M18,4.75000541 C18,12.9616328 12.902475,17.5395514 9.6922875,18.8629815 C9.24921142,19.0456728 8.75075108,19.0456728 8.307675,18.8629815 C4.2935625,17.2080908 0,12.1157255 0,4.75000541 C-1.26163863e-06,4.03090509 0.436936216,3.38233408 1.1077125,3.1057651 L8.3077125,0.13701848 C8.75078858,-0.0456728267 9.24924892,-0.0456728267 9.692325,0.13701848 L16.892325,3.1057651 C17.5630866,3.3823456 18.0000076,4.03091409 18,4.75000541 Z M9,16.5623884 L9.002475,16.5636502 C12.5175375,14.8310525 15.4711125,10.7631646 15.5956125,5.14403231 L9,2.42447486 L9,16.5623884 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
